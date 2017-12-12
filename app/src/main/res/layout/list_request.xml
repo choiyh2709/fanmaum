@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/listrequest_layout"
+        android:layout_width="352dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/coupon_list02" >
+
+        <RelativeLayout
+            android:id="@+id/listrequest_layout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/listrequest_img01"
+                android:layout_width="126dp"
+                android:layout_height="99dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/coupon_list_img" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/listrequest_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/listrequest_layout01"
+            android:text="@string/request01"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/listrequest_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listrequest_tv01"
+            android:layout_marginLeft="11dp"
+            android:layout_toRightOf="@id/listrequest_layout01"
+            android:textColor="#555555"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/listrequest_img03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listrequest_tv02"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@id/listrequest_layout01"
+            android:background="@drawable/line_img_s" />
+
+        <ImageView
+            android:id="@+id/listrequest_img02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="22.5dp"
+            android:background="@drawable/heart_icon_off" />
+
+        <SeekBar
+            android:id="@+id/listrequest_seekbar"
+            android:layout_width="165dp"
+            android:layout_height="6dp"
+            android:layout_below="@id/listrequest_img03"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/listrequest_layout01"
+            android:maxHeight="6dp"
+            android:progress="90"
+            android:thumb="@null"
+            android:progressDrawable="@drawable/progress_horizontal_custom2" />
+
+        <TextView
+            android:id="@+id/listrequest_tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/listrequest_img03"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#555555"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <RelativeLayout
+            android:id="@+id/listrequest_hidelayout"
+            android:layout_width="235dp"
+            android:layout_height="75dp"
+            android:layout_toRightOf="@id/listrequest_layout01"
+            android:background="#00000000" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/listrequest_img"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/listrequest_layout"
+        android:background="#eceeee"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/coupon_bg"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/left08"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="@dimen/newfeed_width"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--계정 설정-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/setting00"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="39dp"
+                        android:layout_marginRight="39dp"
+                        android:background="@drawable/o1100_list">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:text="@string/setting00"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!--출석체크-->
+                <RelativeLayout
+                    android:id="@+id/layout_check_attend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/setting00"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="39dp"
+                        android:layout_marginRight="39dp"
+                        android:background="@drawable/o1100_list">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="16dp"
+                            android:text="@string/member_check"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <!--잠금화면 설정-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:id="@+id/setting_tv01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting01"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/setting_tv01"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/setting01_1"
+                            android:textColor="#7f7f7f"
+                            android:textSize="11dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!--????-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/setting02"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+                </RelativeLayout>
+
+                <!--기타 설정-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:id="@+id/setting_tv02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting03"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/setting_tv02"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/setting03_1"
+                            android:textColor="#7f7f7f"
+                            android:textSize="11dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--출석 확인-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting09"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--팬마음 소개 및 제휴 문의-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/setting04"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+                </RelativeLayout>
+                <!--서포트 제안하기-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:id="@+id/setting_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting04_2"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/setting_tv"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/setting04_1"
+                            android:textColor="#7f7f7f"
+                            android:textSize="11dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--공지사항-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/left06"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!--운영정책-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp">
+
+                        <TextView
+                            android:id="@+id/setting_tv03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/setting05"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:typeface="sans"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/setting_tv03"
+                            android:layout_marginTop="6dp"
+                            android:text="@string/setting05_1"
+                            android:textColor="#7f7f7f"
+                            android:textSize="11dp"
+                            android:typeface="sans"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--버전-->
+                <RelativeLayout
+                    android:id="@+id/setting_layout08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:id="@+id/setting_tv06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/setting07"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+
+                    <TextView
+                        android:id="@+id/setting_tv07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="21dp"
+                        android:text="@string/setting06"
+                        android:textColor="#8e8e8e"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+                </RelativeLayout>
+                <!--로그아웃-->
+                <RelativeLayout
+                    android:id="@+id/layout_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/profile06"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+
+
+                </RelativeLayout>
+                <!--탈퇴-->
+                <RelativeLayout
+                    android:id="@+id/layout_sign_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/o1100_list">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/signout"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:typeface="sans"/>
+
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="#ffffff"
+                    android:padding="0dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

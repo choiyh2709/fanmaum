@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/join_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/step1_layout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp" >
+
+                <ImageView
+                    android:id="@+id/step1_img01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list" />
+
+                <TextView
+                    android:id="@+id/step1_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/step1_img01"
+                    android:text="@string/email"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/step1_et01"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/textarea_m"
+                    android:hint="@string/blank01"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#aaaaaa"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/step1_tv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout01"
+                android:layout_marginLeft="131dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/account01"
+                android:textColor="#0085ec"
+                android:textSize="10dp"
+                android:typeface="sans"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:id="@+id/step1_layout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout01"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:id="@+id/step1_img02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list" />
+
+                <TextView
+                    android:id="@+id/step1_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/step1_img02"
+                    android:text="@string/pwd01"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/step1_et02"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/textarea_m"
+                    android:hint="@string/account05"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#aaaaaa"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/step1_tv03_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout02"
+                android:layout_marginLeft="131dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/account01"
+                android:textColor="#0085ec"
+                android:textSize="10dp"
+                android:typeface="sans"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:id="@+id/step1_layout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout02"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:id="@+id/step1_img03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list" />
+
+                <TextView
+                    android:id="@+id/step1_tv05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/step1_img03"
+                    android:text="@string/pwd02"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/step1_et03"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/textarea_m"
+                    android:hint="@string/account10"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textColorHint="#aaaaaa"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/step1_tv03_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout03"
+                android:layout_marginLeft="131dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/account01"
+                android:textColor="#0085ec"
+                android:textSize="10dp"
+                android:typeface="sans"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/step1_img04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout03"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:id="@+id/step1_layout04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_img04"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:id="@+id/step1_img05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list" />
+
+                <TextView
+                    android:id="@+id/step1_tv06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/step1_img05"
+                    android:text="@string/phone"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/step1_et04"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/textarea_m"
+                    android:hint="@string/blank14"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#000000"
+                    android:textColorHint="#aaaaaa"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/step1_layout05"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/step1_layout04"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:id="@+id/step1_tv07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/countryphone"
+                    android:textColor="#000000"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/step1_layout07"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout05"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" >
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/step1_img07"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_layout07"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/line" />
+
+            <TextView
+                android:id="@+id/step1_tv11"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_img07"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/step05"
+                android:textColor="#000000"
+                android:textSize="11dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/step1_btn03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/step1_tv11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_sub_btn01"
+                android:text="@string/next"
+                android:textColor="#e82b47"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

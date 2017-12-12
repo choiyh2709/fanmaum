@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eceeee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <Button
+            android:id="@+id/navi_back"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/navi_back"
+            android:clickable="true"
+            android:onClick="onBack"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/navi"
+        >
+
+        <LinearLayout
+            android:layout_width="@dimen/userPage_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#eceeee"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+
+            <!-- 연예인  정보-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dp"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/comment_layout01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp">
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/detail_profile"/>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/imageview_profile"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8.5dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.5dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView_starName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="애비메탈"
+                            android:textColor="#000000"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView_fanNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12.5dp"
+                            android:singleLine="true"
+                            android:text="@string/total_following"
+                            android:textColor="#bfbfbf"
+                            />
+
+                        <Button
+                            android:id="@+id/button_isBookmark"
+                            android:layout_width="86dp"
+                            android:layout_height="26.5dp"
+                            android:layout_marginTop="8.5dp"
+                            android:background="@drawable/d1100_bookmark_normal"
+                            android:text="@string/bookmark"
+                            android:textColor="#FF0000"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_project"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/radiobutton_project"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobutton_channel_infomation"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="@string/project"
+                    android:textColor="@color/red_button4"/>
+
+                <RadioButton
+                    android:id="@+id/radiobutton_post"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiobutton_channel_infomation"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="@string/newsfeedtitle"
+                    android:textColor="@color/red_button4"/>
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/radiobutton_collection"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/radiobutton_ranking"-->
+                <!--android:button="@null"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/collection"-->
+                <!--android:textColor="@color/red_button3"/>-->
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_sub_all"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/c1000_dropdown_box_normal"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/newsfeed_Newest"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/layout_list_grid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+
+                >
+
+
+                <ListView
+                    android:id="@+id/listView_project"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:divider="@null"
+                    android:dividerHeight="5dp"
+                    >
+                </ListView>
+
+
+                <ScrollView
+                    android:id="@+id/scroll_gridView_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+
+                    <specup.fanmind.common.Util.ExpandableHeightGridView
+                        android:id="@+id/gridView_post"
+                        android:layout_width="match_parent"
+                        android:layout_height="800dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:columnWidth="@dimen/gridview_item_width"
+                        android:fadingEdge="none"
+                        android:listSelector="#00000000"
+                        android:numColumns="2"
+                        android:scrollingCache="false"
+                        android:stretchMode="spacingWidthUniform"
+                        android:verticalSpacing="7.5dp"/>
+                </ScrollView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_alignBottom="@id/layout_scroll"
+        android:id="@+id/newsfeed_write"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_newsfeed"
+        android:visibility="gone"
+        />
+</RelativeLayout>
+

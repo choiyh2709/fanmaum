@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="#00FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:background="#00FFFFFF"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popup_background_1_top">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/alert_address_search_title"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_cancel"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popup_background_3_bottom"
+            android:orientation="vertical"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:id="@+id/textView_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/alert_address_search_ex1"
+                android:textColor="#FF0000"
+                />
+
+            <TextView
+                android:id="@+id/textView_content2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/alert_address_search_ex2"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="30.5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:background="@drawable/search_box">
+
+                    <EditText
+                        android:id="@+id/edittext_address_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@null"
+                        android:textColor="#000000"
+                        android:singleLine="true"
+                        android:paddingLeft="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/button_search_cancel"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_eraser"/>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/button_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_search"
+                    android:text="@string/search"
+                    android:textColor="@color/red_button"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--list-->
+        <LinearLayout
+            android:id="@+id/layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding ="20dp"
+            android:visibility="gone"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/a2110_top_left"
+                    android:gravity="center"
+                    android:text="@string/alert_zipcode"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:background="@drawable/a2110_top_right"
+                    android:gravity="center"
+                    android:text="@string/alert_address"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

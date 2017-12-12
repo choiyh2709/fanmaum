@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context="specup.fanmind.main.login.LoginActivity2"
+    >
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/member_register"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000000">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="#000000"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000000"
+                >
+
+                <EditText
+                    android:id="@+id/nick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/nick"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+
+                    android:textSize="@dimen/textview_defalt_string"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53.5dp"
+            android:layout_marginTop="6.67dp"
+            android:gravity="center"
+            android:text="@string/agree"
+            android:textColor="#000000"
+            android:textSize="@dimen/textview_defalt_string"/>
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_sub_btn03"
+            android:text="@string/sign"
+            android:textColor="@color/btn03"
+            android:textSize="@dimen/textview_defalt_string"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

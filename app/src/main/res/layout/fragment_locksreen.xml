@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coupon_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/setting01"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/o1100_list">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/lockscreen00"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/lockscreen_btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/swich_off" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/o1100_list"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/lockscreen01"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_layout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/o1100_list"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/lockscreen02"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/lockscreen_btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/swich_on" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_layout04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/o1000_list"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/lockscreen03"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lockscreen_layout05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/o1100_list"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/lockscreen04"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/lockscreen_btn03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/swich_on" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:padding="0dp" />
+
+</LinearLayout>

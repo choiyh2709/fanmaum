@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/schdetail_layout01"
+        android:background="@drawable/join_navigation">
+        
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="2013.10.07" android:typeface="sans"
+        android:textSize="18dp" android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:id="@+id/schdetail_tv01"/>    
+        
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:id="@+id/schdetail_layout02" android:layout_below="@id/schdetail_layout01"
+        android:background="@drawable/join_bg">
+    
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/schdetail_layout03">
+            
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="2013.10.07" android:layout_marginTop="15dp"
+        android:typeface="sans" android:layout_marginLeft="15dp"
+        android:textSize="11dp" android:textColor="#8e8e8e"
+        android:id="@+id/schdetail_tv02"/>
+            
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="2013.10.07" android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp" android:typeface="sans"
+        android:textColor="#000000"
+        android:textSize="18dp" android:layout_below="@id/schdetail_tv02"
+        android:id="@+id/schdetail_tv03"/>
+            
+        </RelativeLayout>
+        
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/schdetail_img01" android:layout_marginTop="16dp"
+            android:layout_below="@id/schdetail_layout03"
+            android:background="@drawable/line"/>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/schdetail_btn01" android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        android:layout_marginBottom="15dp" android:typeface="sans"
+        android:textSize="16dp" android:textColor="#e82b47"
+        android:background="@drawable/btn_detailmainbtn01"
+        android:text="@string/confirmation"/>
+        
+         <TextView android:layout_width="330dp" android:layout_height="fill_parent"
+        android:text="2013.10.07" android:typeface="sans"
+        android:layout_above="@id/schdetail_btn01" android:layout_marginBottom="15dp"
+        android:textSize="18dp" android:textColor="#000000"
+        android:layout_below="@id/schdetail_img01" android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/schdetail_tv04"/>
+    
+     </RelativeLayout>
+</RelativeLayout>

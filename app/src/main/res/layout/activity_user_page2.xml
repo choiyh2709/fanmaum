@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eceeee"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <Button
+            android:id="@+id/navi_back"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/navi_back"
+            android:clickable="true"
+            android:onClick="onBack"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eceeee"
+        >
+
+
+        <LinearLayout
+            android:layout_width="@dimen/userPage_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                >
+
+                <ImageView
+                    android:id="@+id/profile_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/e2100_background"
+                    android:scaleType="centerCrop"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#aa000000"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="103dp"
+                    android:layout_height="103dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/e2100_profile"/>
+
+                <ImageView
+                    android:id="@+id/profile_img01"
+                    android:layout_width="103dp"
+                    android:layout_height="103dp"
+                    android:layout_alignTop="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/nickName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_img01"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="waitting..."
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_sns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nickName"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/fan_twitter"
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:background="@drawable/a1100_4_sns_twitter"
+                        android:clickable="true"
+                        android:visibility="gone"
+                        />
+
+                    <ImageView
+                        android:id="@+id/fan_facebook"
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/a1100_4_sns_facebook"
+                        android:clickable="true"
+                        android:visibility="gone"
+                        />
+
+                    <ImageView
+                        android:id="@+id/fan_instagram"
+                        android:layout_width="29dp"
+                        android:layout_height="29dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/a1100_4_sns_instagram"
+                        android:clickable="true"
+                        android:visibility="gone"
+                        />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <!-- 팬수, 팬되기 ,내가 좋아하는 사람 , 대화 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+                <!--팬수-->
+                <LinearLayout
+                    android:id="@+id/layout_followers"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView_totalFollowers"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#FF0000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/total_following2"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+
+                <!--내가 좋아하는 사람-->
+                <LinearLayout
+                    android:id="@+id/layout_followingUser"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/total_followingUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#FF0000"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/following_user"
+                        android:textColor="#000000"/>
+
+                </LinearLayout>
+                <!--&lt;!&ndash;대화&ndash;&gt;-->
+                <!--<LinearLayout-->
+                <!--android:id="@+id/layout_chatting"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:clickable="true"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical"-->
+                <!--android:padding="10dp">-->
+
+                <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--/>-->
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/chatting"-->
+                <!--android:textColor="#000000"/>-->
+                <!--</LinearLayout>-->
+            </LinearLayout>
+
+
+            <!-- 나의 프로젝트 참여 현황 보기 -->
+            <Button
+                android:id="@+id/button_attended_project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/e2000_project_participation_btn"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="20dp"
+                android:text="@string/attended_project"
+                android:textColor="#000000"/>
+
+            <!--개설한 프로젝트 -->
+            <LinearLayout
+                android:id="@+id/layout_hostedProject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hosted_project"
+                    android:textColor="#e82b47"
+                    android:textSize="17sp"/>
+
+                <specup.fanmind.common.Util.HorizontalListView
+                    android:id="@+id/listView_hostedProject"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+
+            <!-- 관심 있는 프로젝트 -->
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_feededProject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/feeded_project"
+                    android:textColor="#FF0000"
+                    android:textSize="17sp"/>
+
+                <specup.fanmind.common.Util.HorizontalListView
+                    android:id="@+id/listView_feededProject"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--<ListView-->
+    <!--android:id="@+id/newsfeed_list"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:divider="@null"-->
+    <!--android:listSelector="#00000000"-->
+    <!--android:scrollbars="none"-->
+    <!--android:visibility="visible"></ListView>-->
+
+</LinearLayout>

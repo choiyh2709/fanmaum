@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7f7f7f">
+    
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/frag3_layout01">
+        
+         <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/support_extra"/>
+         
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn1"  
+        android:layout_weight="1"
+        android:id="@+id/frag3_btn01">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/newsfeed_tv01"  android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/frag3_tv01"/>
+     </RelativeLayout>
+     
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn2"  
+        android:layout_weight="1"
+        android:id="@+id/frag3_btn02">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/newsfeed_tv02"  android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/frag3_tv02"/>
+     </RelativeLayout>
+     
+    
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn3"  
+        android:layout_weight="1"
+        android:id="@+id/frag3_btn03">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/newsfeed_tv03"  android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/frag3_tv03"/>
+     </RelativeLayout>
+     
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/support_extra"/>
+      
+    </LinearLayout> 
+    
+    
+     <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+      android:layout_below="@id/frag3_layout01"
+      android:id="@+id/frag3_frame"/>
+     
+    
+    
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/btn_newsfeed"
+        android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp" android:layout_marginRight="5dp"
+        android:id="@+id/newsfeed_write"/>
+    
+</RelativeLayout>

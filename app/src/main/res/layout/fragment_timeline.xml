@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/timeline_img01"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp" />
+
+
+    <LinearLayout
+        android:id="@+id/timeline_layout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timeline_list_top_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout android:layout_width="340dp" android:layout_height="41dp">
+        <specup.fanmind.main.tab3.CustomHorizontalScrollView
+            android:id="@+id/timeline_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="41dp"
+            android:layout_centerInParent="true"
+            android:fadingEdge="none"
+            android:overScrollMode="never"
+            android:scrollbars="none" >
+            
+        <LinearLayout
+        android:id="@+id/timeline_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+          </LinearLayout>
+        </specup.fanmind.main.tab3.CustomHorizontalScrollView>
+        
+        <ImageButton
+        android:id="@+id/timeline_btn01"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/timeline_prev02"
+        android:background="#00000000" />
+        
+         <ImageButton
+        android:id="@+id/timeline_btn02"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+         android:src="@drawable/timeline_next02"
+        android:background="#00000000" />
+         
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/timeline_btn03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_timeline_btn"
+        android:visibility="gone" />
+
+     <FrameLayout
+        android:id="@+id/frame_timeline"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/timeline_layout01" />
+     
+</RelativeLayout>

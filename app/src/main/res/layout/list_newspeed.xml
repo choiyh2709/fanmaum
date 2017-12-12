@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/listnews_layout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/news_list_top" >
+
+            <!-- 이미지 레이아웃 -->
+
+            <RelativeLayout
+                android:id="@+id/listnews_layout02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/listnews_img"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/detail_profile" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/listnews_tv01"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="19dp"
+                android:layout_toRightOf="@id/listnews_layout02"
+                android:singleLine="true"
+                android:text="태연의 26번째 생일선물, 루이비통 신상빽"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/listnews_tv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listnews_tv01"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/listnews_layout02"
+                android:singleLine="true"
+                android:textColor="#787878"
+                android:textSize="14dp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/listnews_btn01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/r_more"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listnews_layout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listnews_layout01"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/news_img"
+            android:padding="0dp" >
+
+            <TextView
+                android:id="@+id/listnews_tv03"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:autoLink="web"
+               	android:linksClickable="false"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:text="@string/history01"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:typeface="sans" />
+
+            <specup.fanmind.common.Util.PagerCon
+                android:id="@+id/pager_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listnews_tv03"
+                android:layout_marginTop="15dp"
+                android:descendantFocusability="blocksDescendants" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="320dp" >
+                </android.support.v4.view.ViewPager>
+            </specup.fanmind.common.Util.PagerCon>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/pager_container" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/listnews_layout06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listnews_layout03"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/listnews_layout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_list_bottom1"
+                 >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp" >
+
+                    <ImageView
+                        android:id="@+id/listnews_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/history_like" />
+
+                    <TextView
+                        android:id="@+id/listnews_tv04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/listnews_like"
+                        android:text="10,324"
+                        android:textColor="#c4c4c4"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/listnews_layout05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_list_bottom2"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp" >
+
+                    <ImageView
+                        android:id="@+id/listnews_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/history_message" />
+
+                    <TextView
+                        android:id="@+id/listnews_tv05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/listnews_msg"
+                        android:text="10,324"
+                        android:textColor="#c4c4c4"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/listnews_hide"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/listnews_layout06"
+            android:background="#eceeee"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

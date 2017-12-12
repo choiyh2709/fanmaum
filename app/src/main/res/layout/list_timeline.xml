@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/listtime_layout01"
+        android:background="@drawable/timeline_top">
+        
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/character_image"
+            android:id="@+id/listtime_img"
+            android:layout_centerInParent="true"/>
+        
+        <ImageView android:layout_width="340dp" android:layout_height="180dp"
+            android:scaleType="centerCrop" android:layout_centerHorizontal="true"
+            android:id="@+id/listtime_img01"/>
+        
+        <ImageView android:layout_width="match_parent" android:layout_height="180dp"
+            android:scaleType="centerCrop" android:layout_centerHorizontal="true"
+            android:background="@drawable/timeline_list_img"
+            android:id="@+id/listtime_img02"/>
+    </RelativeLayout>
+    
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/listtime_layout02" android:layout_below="@id/listtime_layout01"
+            android:background="@drawable/timeline_list_bottom">
+        
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" android:textSize="15dp"
+                android:textColor="#000000" android:typeface="sans"
+                android:id="@+id/listtime_tv01" android:layout_marginTop="12dp"
+                android:text="8월 앨범"/>
+        
+    </RelativeLayout>
+    
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/listtime_layout03" android:layout_below="@id/listtime_layout01"
+            android:layout_toRightOf="@id/listtime_layout02"
+            android:background="@drawable/timeline_list_bottom2">
+            
+             <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" android:layout_alignParentRight="true"
+                android:layout_marginRight="19dp" android:visibility="gone"
+                android:background="@drawable/timeline_list_btn"/> 
+        
+    </RelativeLayout>
+    
+       <ImageView android:layout_width="fill_parent" android:layout_height="7dp"
+       android:background="#eceeee" android:visibility="gone"
+        android:id="@+id/listtime_img03" android:layout_below="@id/listtime_layout03"/>
+    
+
+</RelativeLayout>

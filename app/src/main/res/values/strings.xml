@@ -1,0 +1,1579 @@
+<resources>
+
+    <string name="inapplogin">Please sing in with your Google account</string>
+    <string name="korean">한국어</string>
+    <string name="buypoint13">(주)스펙업애드 | 대표이사: 김영곤</string>
+    <string name="buypoint14">TEL:070-4365-4386 | 사업자등록번호 : 105-87-57696</string>
+    <string name="buypoint15">서울특별시 강남구 역삼동 830-9 영광빌딩 4층</string>
+    <string name="notipush">팬마음</string>
+    <string name="china">中文</string>
+    <string name="bank01">기업은행</string>
+    <string name="bank02">국민은행</string>
+    <string name="bank03">우리은행</string>
+    <string name="bank04">신한은행</string>
+    <string name="bank05">하나은행</string>
+    <string name="bank06">농협</string>
+    <string name="bank07">우체국</string>
+    <string name="payaccount02">입금 대기</string>
+    <string name="payaccount03">{ID}님!\n 전용 가상계좌가 개설되었습니다.</string>
+    <string name="payaccount04">입금 완료 후 마음이 자동 적립됩니다!</string>
+    <string name="payaccount05">주문내역 보러가기</string>
+    <string name="buypointcomplete01">{ID}님!\n 마음을 구매해주셔서 감사합니다.</string>
+    <string name="buypointcomplete02">"최초의 연예인 서포트 앱"\n 팬마음과 함께 스타에게 가장 특별한 선물을 해보세요!</string>
+    <string name="buypointcomplete03">마음 구매내역 보러가기</string>
+    <string name="inapperror">An error occurred in the process of payment. Please contact Fanmaum to contact@fanmaum.com.</string>
+    <string name="theme01">점심 맛나게 먹었쯤?</string>
+    <string name="theme00">아이유</string>
+    <string name="theme02">뭐해요~~?</string>
+    <string name="theme03">듣고싶은 호칭을 입력</string>
+    <string name="pop00">메시지 형식 변경</string>
+    <string name="pop01">팬 마음 테마</string>
+    <string name="pop02">카카오톡 테마</string>
+    <string name="pop03">라인 테마</string>
+    <string name="pop04">페이스북 테마</string>
+    <string name="changephone"><![CDATA[※]]> 핸드폰 번호 변경을 위해 핸드폰 인증을 실시합니다.</string>
+    <string name="notok01"> These passwords do not match. Try again?</string>
+    <string name="starlist01">Select celebrity</string>
+    <string name="starlist02">Cannot find the celebrity</string>
+    <string name="notrecommend">Hearts will not be given when a new account is created with the same device. </string>
+    <string name="paysave">{POINT} hearts are purchased.</string>
+    <string name="find">Find</string>
+    <string name="app_name">Fanmaum</string>
+    <string name="companyname">Inquire</string>
+    <string name="fanclubcover">Make a suggestion</string>
+    <string name="start00">Start</string>
+    <string name="starthint">Search celebrities</string>
+    <string name="entryemail">Sign Up with Email</string>
+    <string name="email">Email</string>
+    <string name="pwd01">Password</string>
+    <string name="pwd02">Confirm</string>
+    <string name="phone">Phone number</string>
+    <string name="countryphone">-Please enter without country code</string>
+    <string name="nick">Nickname</string>
+    <string name="birth">Birth</string>
+    <string name="sex">Sex</string>
+    <string name="marry">Marriage</string>
+    <string name="celeb">Celeb</string>
+    <string name="country">Country</string>
+    <string name="recommend">Recommender</string>
+    <string name="recommendcomment">Enter nickname who recommended Fanmaum to you</string>
+    <string name="sign">Sign Up</string>
+    <string name="dailysave">{POINT} Hearts are saved</string>
+    <string name="starterm01">Inform date</string>
+    <string name="starterm02">Please tell when it was taken.</string>
+    <string name="starterm03">Inform</string>
+    <string name="starterm04">/</string>
+    <string name="starterm05"></string>
+    <string name="newsfeedtitle">Newsfeed</string>
+    <string name="upload">Upload</string>
+    <string name="lockscreenimage01"> Delete Image</string>
+    <string name="min">mins ago</string>
+    <string name="hour">hour ago</string>
+    <string name="schtitle">Title</string>
+    <string name="begin">Start</string>
+    <string name="end">End</string>
+    <string name="contents">Detail</string>
+    <string name="schsend">Please inform new schedule.</string>
+    <string name="starrequest01">Request for new celeb</string>
+    <string name="starrequest02">Ask for help</string>
+    <string name="starrequest03">Make a request</string>
+    <string name="lockscreendel01">Delete Image</string>
+    <string name="lockscreendel02">Select all</string>
+    <string name="lockscreenlock01">Lock screen</string>
+    <string name="lockscreenlock02">off</string>
+    <string name="lockscreenlock03">Lock screen settings</string>
+    <string name="locktime01">Sun</string>
+    <string name="locktime02">Mon</string>
+    <string name="locktime03">Tue</string>
+    <string name="locktime04">Wed</string>
+    <string name="locktime05">Thu</string>
+    <string name="locktime06">Fri</string>
+    <string name="locktime07">Sat</string>
+    <string name="locktime08">am</string>
+    <string name="locktime09">pm</string>
+    <string name="left_and_right">LeftRight</string>
+    <string name="mainsupport01">Live</string>
+    <string name="mainsupport02">Successful</string>
+    <string name="mainsupport03">History</string>
+    <string name="supportall00">See all Supports in progress</string>
+    <string name="supportall01">Newest</string>
+    <string name="supportall02">End Date</string>
+    <string name="supportall03">Name</string>
+    <string name="supportreadyall00">See all Supports to be delivered</string>
+    <string name="supportreadyall01">Delivery Date</string>
+    <string name="supportreadyall02">Most Raised</string>
+    <string name="supportreadyall03">Name</string>
+    <string name="historyall00">See all histories</string>
+    <string name="historyall01">Newest</string>
+    <string name="historyall02">Oldest</string>
+    <string name="historyall03">Name</string>
+    <string name="savemind">Save Hearts</string>
+    <string name="start01">Sign Up now and enjoy more!</string>
+    <string name="start02">Support your favorite Korean celebrity with Fanmaum!</string>
+    <string name="start03">Not now</string>
+    <string name="start04">Login</string>
+    <string name="report01">Are you sure you want to report this post?</string>
+    <string name="alram01">Turn on notifications</string>
+    <string name="alram02">Turn off notifications</string>
+    <string name="review01">Rate and review Fanmaum :D</string>
+    <string name="review02">Please rate us and write a review.\nYour feedback is always welcomed!</string>
+    <string name="review03">Give 5 stars</string>
+    <string name="notimage">Failed downloading image. Please try again.</string>
+    <string name="left01">Schedule</string>
+    <string name="left02">Video</string>
+    <string name="left03">Event</string>
+    <string name="left04">Request for new celeb</string>
+    <string name="left05">캐쉬아웃</string>
+    <string name="left06">Notice</string>
+    <string name="left07">Share Fanmaum</string>
+    <string name="left08">Settings</string>
+    <string name="left09">쿠폰함 바로가기</string>
+    <string name="left10">Save Hearts</string>
+    <string name="left11">적립내역</string>
+    <string name="left12">내 쿠폰</string>
+    <string name="lock02">Lock screen image</string>
+    <string name="lock03">You can set your favorite celeb’s photos as your Lock screen image.</string>
+    <string name="lock04">Go to Settings</string>
+    <string name="tab01">Support</string>
+    <string name="tab02">Timeline</string>
+    <string name="tab03">News Feed</string>
+    <string name="setting00">Account settings</string>
+    <string name="setting01">Lock screen settings</string>
+    <string name="setting01_1">Images, lock settings etc</string>
+    <string name="setting02">잠금대화 설정</string>
+    <string name="setting03">General settings</string>
+    <string name="setting03_1">Notification etc</string>
+    <string name="setting08">Thank you for your inquiry. We will be in touch with you shortly.</string>
+    <string name="setting04">Contact and inquiries</string>
+    <string name="setting05">Terms and conditions</string>
+    <string name="setting04_1">Fanclub presidents participation is more than welcome</string>
+    <string name="setting04_2">Supports suggestion</string>
+    <string name="setting05_1">Terms you agree to use Fanmaum</string>
+    <string name="setting06">Partnership</string>
+    <string name="setting07">Version</string>
+    <string name="setting09">Attendence</string>
+    <string name="account01">You can use this email.</string>
+    <string name="account02">This email is already registered. Try another.</string>
+    <string name="account03">You can use this nickname.</string>
+    <string name="account04">Someone already has that nickname. Try again.</string>
+    <string name="account05">Enter a combination of at least six numbers and letters.</string>
+    <string name="account06">These passwords are available to use.</string>
+    <string name="account07">These passwords do not match. Try another.</string>
+    <string name="account08">These passwords match.</string>
+    <string name="account09">Combination of at least six numbers and letters.</string>
+    <string name="account10">Enter again.</string>
+    <string name="account11">We cannot find your phone number. Please contact to <![CDATA[[]]>contact@fanmaum.com<![CDATA[]]]></string>
+    <string name="history01">Date : {DATE}</string>
+    <string name="lockscreen00">Fanmaum lock screen</string>
+    <string name="lockscreen01">Lock screen settings</string>
+    <string name="lockscreen02">Random image order</string>
+    <string name="lockscreen03">잠금 버튼 설정</string>
+    <string name="lockscreen04">Lock screen messages</string>
+    <string name="lockscreen05">No images to delete</string>
+    <string name="lock01">{MONTH}월 {DAY}일</string>
+    <!--  월, 일 영문으로는 다르게 표기되어야 함 -->
+
+    <string name="locksetting02">Profile image settings</string>
+    <string name="locksetting">My profile images</string>
+    <string name="profilesetting">Profile image settings</string>
+    <string name="locksetting01">Lock screen images</string>
+    <string name="welcome01">Welcome to Fanmaum</string>
+    <string name="welcome02">Are you ready to Support your favorite celebs? </string>
+    <string name="timelineupload01">Upload photos</string>
+    <!--  월, 일 영문으로는 다르게 표기되어야 함 -->
+    <string name="timelineupload02">I don’t know when it’s taken</string>
+    <string name="timelineupload03">Upload photos</string>
+    <string name="newsfeed_write">Exceeded 1000-character limits. </string>
+    <string name="newsfeed_writelength">{LENGTH}/1000</string>
+    <string name="update01">Fanmaum is updated!</string>
+    <string name="update02">Update Fanmaum from Google Play now!</string>
+    <string name="update03">Not now</string>
+    <string name="update04">Update</string>
+    <string name="timelineok">Thank you for your information.</string>
+    <string name="timelinealbum">Photos to be sorted</string>
+    <string name="exit01">Close Fanmaum</string>
+    <string name="exit02">Press Ok to close Fanmaum</string>
+    <string name="likenumber">{NUMBER} likes</string>
+    <string name="inputwindow">Write a comment...</string>
+    <!-- <string name="okreply">댓글을 작성하였습니다.</string>  지워주세요 -->
+    <string name="notokreply">This image is already deleted.</string>
+    <string name="requesthint">Who’s your favorite Korean Celeb?</string>
+    <string name="wherelive01">Country</string>
+    <string name="wherelive02">구/시/군</string>
+    <string name="server">현재 서버작업중입니다. 잠시 후 시도해주세요</string>
+    <string name="rightstar01">Favorites</string>
+    <string name="rightstar02">All</string>
+    <string name="rightstar03">Search result</string>
+    <string name="rightstar04">Added to favorites.</string>
+    <string name="rightstar05">Removed from favorites.</string>
+    <string name="firststar01">Request a new celeb</string>
+    <string name="notexceednick"> You nickname can contain up to 8 characters.</string>
+    <string name="startlist03">Enter the celeb name.</string>
+    <string name="overmind">This support is closed.</string>
+    <string name="timelineerror">Image download failed. Try again.</string>
+    <string name="newsfeeddel">This post has been deleted.</string>
+    <string name="newsfeeddel02">This post has already been deleted.</string>
+    <string name="timelinedel01">This image has already been deleted</string>
+    <string name="timelinedel02">This image has been deleted.</string>
+    <string name="supportdel01">This support is closed.</string>
+    <string name="eventdel01">This event has already been closed.</string>
+    <string name="notmorenews">No more notifications to read</string>
+    <string name="notoveryear">Pre-debut photos cannot be uploaded.</string>
+    <string name="notenoughmind">You can’t send hearts any more.</string>
+    <string name="profileok">Profile image updated.</string>
+    <string name="upload01">Upload photos</string>
+    <string name="upload02">Do you know when it’s taken?</string>
+    <string name="upload03">No photos chosen. Please try again.</string>
+    <string name="upload04">Photos uploaded</string>
+    <string name="upload05">Cannot upload photos larger than 2MB.</string>
+    <string name="upload06">Uploaded successfully.</string>
+    <string name="upload07">Edited successfully.</string>
+    <string name="notnickname">Cannot find your recommender. Please try again. </string>
+    <string name="startlist">최대 5명까지 선택 가능합니다.</string>
+    <string name="startlist02">{NUMBER}/5</string>
+    <string name="notdel">You should choose at least 1 celeb. </string>
+    <string name="rightstartlist1">한명만 선택 가능합니다.</string>
+    <string name="rightstartlist2">Please select one</string>
+    <string name="rightmenu01">연예인이 바뀌었습니다.</string>
+    <string name="nodatadel">Nothing to delete. Please try again.</string>
+    <string name="locktalk01">잠금화면 메세지</string>
+    <string name="locktalk02">메시지 형식 변경</string>
+    <string name="locktalk03">잠금 버튼 설정</string>
+    <string name="locktalk04">Lock screen image added.</string>
+    <string name="talk01">잠금화면 메시지</string>
+    <string name="talk02">메시지 형식 변경</string>
+    <string name="talk03">잠금 버튼 설정</string>
+    <string name="etc01">Notification alarm</string>
+    <string name="etc02">Fanmaum alarm</string>
+    <string name="etc03">Saving notification</string>
+    <string name="law01">Terms and conditions</string>
+    <string name="law02">Data Policy</string>
+    <string name="company01">Title</string>
+    <string name="company02">Company</string>
+    <string name="company03">Name</string>
+    <string name="company04">Contact</string>
+    <string name="company05">Details</string>
+    <string name="company06">Enter your inquiry</string>
+    <string name="company11">Please enter the title.</string>
+    <string name="company12">Please enter your company name.</string>
+    <string name="company13">Please enter your name.</string>
+    <string name="company14">Please enter your contact number.</string>
+    <string name="company15">Please enter details of your inquiry.</string>
+    <string name="company21">Please enter the name of celeb.</string>
+    <string name="company22">Please enter your fanclub name.</string>
+    <string name="profile01">E-mail : {EMAIL}</string>
+    <string name="profile02">Nickname : {NICKNAME}</string>
+    <string name="profile03">Change Password</string>
+    <string name="profile04">Find Password</string>
+    <string name="profile05">Change Phone Number</string>
+    <string name="profile06">Log Out</string>
+    <string name="changepwd01">Old password</string>
+    <string name="changepwd02">Combination of at least six numbers and letters</string>
+    <string name="changepwd03">New password</string>
+    <string name="changepwd03_1">Confirm password</string>
+    <string name="changepwd04">Combination of at least six numbers and letters.</string>
+    <string name="changepwd05">Confirm password</string>
+    <string name="changepwd06">Password change failed</string>
+    <string name="changepwd1">Please enter old password.</string>
+    <string name="changepwd2">Please enter new password.</string>
+    <string name="changepwd3">Please enter a combination of at least six numbers and letters.</string>
+    <string name="changepwd4">Enter a combination of at least six numbers and letters.</string>
+    <string name="changepwd5">Password changed</string>
+    <string name="changepwd6">Wrong password. Try again.</string>
+    <string name="changephone02">Phone number changed.</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmation">Ok</string>
+    <string name="next">Next</string>
+    <string name="findpwd01">Reset old password and temporary password will be sent to the registered email.</string>
+    <string name="findpwd02">Enter email address.</string>
+    <string name="logout">Are you sure you want to log out?</string>
+    <string name="logout02">Choose 1 celeb to log out.</string>
+    <string name="listsupport01">{ENTRY}hearts</string>
+    <string name="listsupport02">Keep up!</string>
+    <string name="listsupport03">have been raised!</string>
+    <string name="listsupport04">D - {DAY}</string>
+    <string name="listsupport10">{NUMBER}%</string>
+    <string name="notmind">You need more hearts.</string>
+    <!-- <string name="notlike">자신의 글은 좋아요를 할 수 없습니다.</string> -->
+    <string name="listsupport05">Great!</string>
+    <string name="listsupport06">hearts are raised!</string>
+    <string name="listsupport07">Successful</string>
+    <string name="listsupport08">Start date : {SDATE}  /  Closing date : {DDATE}</string>
+    <string name="listsupport09">Thanks for your support!</string>
+    <string name="endevent01">This event is</string>
+    <string name="endevent02">.</string>
+    <string name="event01">Event</string>
+    <string name="event02">Result</string>
+    <string name="event03">Participation</string>
+    <string name="event04">closed</string>
+    <string name="event05"> Deadline :</string>
+    <string name="event06">Send Hearts</string>
+    <string name="listsupportdetail01">Start date : {RDATE}     /    Closing date : {DDATE}</string>
+    <string name="listsupportdetail02">{PEOPLE}</string>
+    <string name="listsupportdetail03">Delivery date<font color="#ff0000">{DATE}</font></string>
+    <string name="listsupportdetail04">Participants</string>
+    <string name="listsupportdetail05">Yet to raise</string>
+    <string name="listsupportdetail06">Hearts entered</string>
+    <string name="listsupportdetail07">Raised</string>
+    <string name="supportdetail01">Enter hearts</string>
+    <string name="supportdetail02">Please send at least 100 hearts.</string>
+    <string name="listsupporthide">Delivery date</string>
+    <string name="daily">Daily attendance is checked!</string>
+    <string name="listevent01">이벤트 상품 {EVENT}</string>
+    <string name="listevent02">등록일 일자 {DATE}</string>
+    <string name="listevent03">이벤트 기간 {TERM}</string>
+    <string name="register">Change</string>
+    <string name="like01">Like</string>
+    <string name="like02">Unlike</string>
+    <string name="report"><u>Report</u></string>
+    <string name="report00">Report</string>
+    <string name="del"><u>Delete</u></string>
+    <string name="alram">Alarm</string>
+    <string name="reportok">Thanks for your report. </string>
+    <string name="delok">Comments deleted.</string>
+    <string name="alramoffok">Notification turned off</string>
+    <string name="alramonok">Notification turned on</string>
+    <string name="networkerror">Please try again.</string>
+    <string name="blank01">Please enter email.</string>
+    <string name="blank02">Please enter password</string>
+    <string name="blank03">Please confirm password.</string>
+    <string name="blank04">Please check your phone number.</string>
+    <string name="blank05">인증번호를 입력해주세요.</string>
+    <string name="blank06">Please enter nickname.</string>
+    <string name="blank07">Please enter year of birth.</string>
+    <string name="blank08">You should select at least 1 celeb.</string>
+    <string name="blank09">Please select your country.</string>
+    <string name="blank10">Please enter mobile number.</string>
+    <string name="blank11">Please confirm email.</string>
+    <string name="blank12">Please enter recommender.</string>
+    <string name="blank13"> Please select your country.</string>
+    <string name="blank14">Please enter mobile number.</string>
+    <string name="notok02">인증번호가 틀립니다. 확인 후 다시 시도하여 주세요.</string>
+    <string name="notok03">인증하신 번호와 현재의 전화번호가 다릅니다. 확인해주세요.</string>
+    <string name="notok04">Please enter a valid email address.</string>
+    <string name="notok05">인증번호를 확인하였습니다. 감사합니다.</string>
+    <string name="notok06">핸드폰번호 형식이 아닙니다. 확인 후 다시 시도하여 주세요.</string>
+    <string name="notok07"> Someone already has that nickname. Try again?</string>
+    <string name="notok08">Please enter nickname.</string>
+    <string name="againlogin">Password changed. Please log in again.</string>
+    <string name="login01">Logged in</string>
+    <string name="login02">Neither email doesn’t exist nor passwords don’t match.</string>
+    <string name="login03">Registered email is sent to your mobile phone.</string>
+    <string name="login04">This phone number is not registered.</string>
+    <string name="login05">Temporary password is sent to the registered email.</string>
+    <string name="login06">This email is not registered.</string>
+    <string name="login07">Please enter your phone number.</string>
+    <string name="findid01">enter without country code ex)01012345678</string>
+    <string name="findid02">Find ID</string>
+    <string name="findid03">Your Fanmaum ID is {ID}</string>
+    <string name="login08">Reset password and temporary password will be sent to the email registered.</string>
+    <string name="certi01">인증번호가 발송되었습니다.</string>
+    <string name="certi02">인증번호발송이 실패하였습니다. 잠시후 다시 시도해주세요.</string>
+    <string name="certi03">There is an existing account signed-up with this phone number.</string>
+    <string name="certi04">There is an existing account signed-up with this device.</string>
+    <string name="companyok">Thank you for your inquiry.</string>
+    <string name="request01">{NUMBER}.</string>
+    <string name="request03">{NUMBER}/{GOAL}</string>
+    <string name="request04">more likes needed.</string>
+    <string name="request05">Thank you for your request.</string>
+    <string name="request06">연예인에 투표하였습니다.</string>
+    <!-- <string name="request07">연예인 투표를 취소하였습니다.</string>  아예 삭제해주세요 -->
+    <string name="request08">Already made a request.</string>
+    <string name="request09">Thanks for your request.</string>
+    <string name="entry01">By touching Sigh up, you agree to our</string>
+    <string name="entry02"><u>Terms and conditions</u></string>
+    <string name="entry03">and that you have read our Data policy.</string>
+    <string name="term01">Fanmaum Terms and Policy</string>
+    <string name="term02">Terms</string>
+    <string name="term03">1. Purpose</string>
+    <string name="term04">Policy</string>
+    <string name="term05">Please try again.</string>
+    <string name="makeaccount01">Details</string>
+    <string name="makeaccount02">Additional details</string>
+    <string name="add">Add</string>
+    <string name="sch">{NUM} events</string>
+    <string name="step01">인증번호가 전송되지 않았나요?</string>
+    <string name="step02">3분이 지나도 인증번호가 도착하지 않는 경우,</string>
+    <string name="step03">인증번호 재발송을</string>
+    <string name="step04">눌러주세요.</string>
+    <string name="step05"><![CDATA[※]]>Your phone number will only be used for identification purposes, and will not be  provided to other users.</string>
+    <string name="step06">Year of birth</string>
+    <string name="step07">Country</string>
+    <string name="step08">구/시/군</string>
+    <string name="step09">Please select your country.</string>
+    <string name="step10">Enter recommender</string>
+    <string name="step11">Please select</string>
+    <string name="step12">번호를 입력해주세요.</string>
+    <string name="step13">인증번호를 입력해주세요.</string>
+    <string name="notice">{KIND} | {ID} | {TIME}</string>
+    <string name="notice2">{ID} | {TIME}</string>
+    <string name="choice01">You should select at least 1 image.</string>
+    <string name="choice02">Image deleted.</string>
+    <string name="choice03">Celeb changed</string>
+    <string name="choice04">내 연예인 추가</string>
+    <string name="choice05">Please select</string>
+    <string name="timeline00">Options</string>
+    <string name="timeline02">Turn on notifications</string>
+    <string name="timeline03">Turn off notifications</string>
+    <string name="timeline04">Report</string>
+    <string name="close01">Do you want to turn off lock screen?</string>
+    <string name="close02">You can turn on Lock screen from Fanmaum > Settings > Lock screen settings.</string>
+    <string name="close03">Turn off Lock screen</string>
+    <string name="newfeed00">Options</string>
+    <string name="newfeed01">Turn off notifications</string>
+    <string name="newfeed02">Turn on notifications</string>
+    <string name="newfeed03">Report this post?</string>
+    <string name="newfeed04">Edit post</string>
+    <string name="newfeed05">Delete</string>
+    <string name="newfeed06">Report</string>
+    <string name="mypoint_tv06">{PRICE}KRW</string>
+    <string name="newfeeddel"> Are you sure you want to delete this?</string>
+    <string name="replydel"> Are you sure you want to delete this?</string>
+    <string name="stardel01">내 연예인 삭제하기</string>
+    <string name="stardel02">해당 연예인을 내 목록에서 삭제하시면, 관련된 서비스를 이용하실 수 없습니다.\n정말 삭제하시겠습니까?</string>
+    <string name="imagedel01">Delete image</string>
+    <string name="imagedel02">Are you sure you want to delete this?</string>
+    <string name="imagebtn01">Select profile image</string>
+    <string name="imagebtn02">Do you want to use this image for your profile?</string>
+    <string name="image01">잠금화면에 추가하기</string>
+    <string name="image02">선택하신 이미지를 잠금화면으로 설정합니다. 추가하시겠습니까?</string>
+    <string name="failimage01">Passwords don’t match. Try again?</string>
+    <string name="failimage02">New passwords don’t match. Try again?</string>
+    <string name="fanclub01">Celeb name</string>
+    <string name="fanclub02">Fanclub</string>
+    <string name="timeline01">Photo archive: {MONTH}</string>
+    <!--  {MONTH} 부분을 영어로 표현해주세요. -->
+    <string name="schadd01">Thanks for your information.</string>
+    <string name="guest01">Guest</string>
+    <string name="guest02">0</string>
+    <string name="okdownload">Photo saved to this device.</string>
+    <string name="notification">Notifications</string>
+    <string name="notify01">KakaoTalk</string>
+    <string name="notify02">LINE</string>
+    <string name="notify03">KakaoStory</string>
+    <string name="notify04">Facebook</string>
+    <string name="likeok">Like</string>
+    <string name="likecancel">Unlike</string>
+    <string name="kakao01">돈 걱정 없이 우리 스타한테\n무료로 선물할 수 있는 앱이 생긴 거 알아?\n얼른 다운 받고 같이 하자 !\n\n추천인: {NICK}</string>
+    <string name="kakao02">팬마음에 스타 추천하고\n같이 팬질 하러 가자~!\n\n우리 스타를 팬마음에서 보려면\n여기를 꾸욱~\n\n추천인: {NICK}</string>
+    <string name="kakao03">최초의 연예인 무료 조공 앱 ! \n\n팬마음과 함께 내 스타에게 무료로 서포트 하자 ! \n\n추천인: {NICK}</string>
+    <string name="line01">돈 걱정 없이 우리 스타한테 무료로 선물할 수 있는 앱이 생긴 거 알아? 얼른 다운 받고 같이 하자 ! 추천인: {NICK}</string>
+    <string name="line02">팬마음에 스타 추천하고 같이 팬질 하러 가자~! 우리 스타를 팬마음에서 보려면 여기를 꾸욱~ 추천인: {NICK}</string>
+    <string name="line03">최초의 연예인 무료 조공 앱 ! 팬마음과 함께 내 스타에게 무료로 서포트 하자 ! 추천인: {NICK}</string>
+    <string name="line04">최초의 연예인 무료 조공 앱 ! 팬마음과 함께 내 스타에게 무료로 서포트 하자 ! 추천인: {NICK} [PROJECT]</string>
+    <string name="login_tv01">Email</string>
+    <string name="login_tv02">Password</string>
+    <string name="navi_tv01">Terms and conditions</string>
+    <string name="navi_tv02">Contact and inquiries</string>
+    <string name="navi_tv03"> Supports participation</string>
+    <string name="navi_tv04">Account settings</string>
+    <string name="navi_tv05">Precautions</string>
+    <string name="support_tv01">Send Hearts</string>
+    <string name="support_tv02">Hearts</string>
+    <string name="support_tv03">Still I have</string>
+    <string name="support_tv04">Send</string>
+    <string name="support_tv05">Supports in progress</string>
+    <string name="support_tv06">Supports to be delivered</string>
+    <string name="support_tv07">History</string>
+    <string name="support_tv08">I have</string>
+    <string name="timeline_tv01">Photos to be sorted</string>
+    <string name="timeline_tv02">월</string>
+    <string name="newsfeed_tv01">Newest</string>
+    <string name="newsfeed_tv02">Like</string>
+    <string name="newsfeed_tv03">My stories</string>
+    <string name="newsfeed_tv04">Write post</string>
+    <string name="newsfeed_tv05">What’s on your mind?</string>
+    <string name="right_tv01">Celebrity list</string>
+    <string name="right_tv02">Enter name</string>
+    <string name="mynews01">News</string>
+    <string name="mynews02">List</string>
+    <string name="mypoint_tv01">Hearts usable</string>
+    <string name="mypoint_tv02">Hearts sent</string>
+    <string name="mypoint_tv03">Hearts purchased</string>
+    <string name="mypoint_tv04">Heart history</string>
+    <string name="mypoint_tv08">{YEAR}.{MONTH}.{DAY}</string>
+    <string name="buypoint01">Purchase Hearts</string>
+    <string name="buypoint02">결제를 기다리고 있는 마음이 있어요!</string>
+    <string name="buyprice01">US $0.99</string>
+    <string name="buyprice02">US $2.49</string>
+    <string name="buyprice03">US $4.99</string>
+    <string name="buyprice04">US $9.99</string>
+    <string name="buyprice05">US $24.99</string>
+    <string name="buyprice06">US $49.99</string>
+    <string name="buyitem01">600</string>
+    <string name="buyitem02">1,500</string>
+    <string name="buyitem03">3,500</string>
+    <string name="buyitem04">7,000</string>
+    <string name="buyitem05">17,000</string>
+    <string name="buyitem06">35,000</string>
+    <string name="buypoint201">Purchase Hearts</string>
+    <string name="buypoint202">가상계좌</string>
+    <string name="buypoint203">휴대폰 결제</string>
+    <string name="buypoint204">신용카드</string>
+    <string name="buypoint205">In-app purchase</string>
+    <string name="daily1_title">팬마음 출석체크!</string>
+    <string name="daily1_content">앞으로 매일 매일 출석체크하고 마음 받아가세요! 
+ 연속으로 팬마음에 접속하시면 아주 특별한 혜택이 기다리고 있습니다.</string>
+    <string name="daily3_title">3일 연속 출석체크!</string>
+    <string name="daily3_content">대단해요! 3일 연속으로 출석체크하신 기념으로 10마음을 드릴게요!</string>
+    <string name="daily5_title">5일 연속 출석체크!</string>
+    <string name="daily5_content">5일 연속으로 출석체크 하시다니! 정말 팬마음을 매일 이용하시는군요!
+선물로 25마음을 드릴게요!</string>
+    <string name="daily10_title">10일 연속 출석체크!</string>
+    <string name="daily10_content">우와! 10일 연속으로 팬마음을 방문해주셨어요 ㅠㅠ.. 감사의 마음으로 50마음 드려용♡
+</string>
+    <string name="daily13_title">13일 연속 출석체크!</string>
+    <string name="daily13_content">출석 딱지가 벌써 절반이나 찼어요! 기념으로 30마음 드리구 앞으로도 힘내세요!
+</string>
+    <string name="daily15_title">15일 연속 출석체크!</string>
+    <string name="daily15_content">15일을 하루도 빠짐 없이 방문하시다니! 팬마음을 아껴주셔서 감사해요.
+선물로 100마음 드릴 테니 서포트에 마음을 표현해주세요!
+</string>
+    <string name="daily20_title">20일 연속 출석체크!</string>
+    <string name="daily20_content">20일을 매일 방문해주신 기념으로 200마음 투척♡ 
+이제 출석 딱지를 모두 채우기까지 5일 남았어요! 힘내세요!!
+</string>
+    <string name="daily23_title">23일 연속 출석체크!</string>
+    <string name="daily23_content">대단해요! 이제 딱 이틀만 더 팬마음에 접속하시면 400마음을 받을 수 있어요!
+</string>
+    <string name="daily25_title">당신은 출석왕!</string>
+    <string name="daily25_content">25일을 매일 매일 팬마음에 방문해주셔서 감사해요!ㅠㅠ..
+계속해서 팬마음 이용해주실 거죠? 
+400마음을 선물로 드릴게요!</string>
+    <string name="termcontent02">"1. General
+
+    Fanmaum Co. Ltd which provides service on www.fanmaum.com, values the personal information provided by members for use of our service, and we set and strictly follow the privacy policy.
+
+    The company’s privacy policy follows related laws and the privacy policy established by the Korean Ministry of Information and Communication, and we will do our best to protect personal information so member will not experience any loss from leak of personal information.
+
+
+
+
+    2. The collecting purpose and use purpose of personal information
+
+    The reason of collecting personal information and the use purpose of personal information is to provide optimum service to the member, and we are collecting personal information needed in order to do so. The personal information provided by the member are used to provide useful information to the members or to provide answer to various opinions requested by members.
+
+
+
+
+    3. The range of collecting and collecting method of personal information
+
+    1. Collecting range
+
+    1) The company collects the personal information that has been agreed on by the members and it is through legal and fair procedure. For this, we included a step when member can press “Agree” button, so when the “Agree” button is pressed, it is assumed that the member has agreed on the collecting of personal information.
+
+    2) Personal information that is collected by the company
+
+      a. Information received at time of member registration : User’s name, email address, password, nickname
+
+      b. Information received at the time of funding participation : Address, phone number
+
+    2. Collecting method : Member registration and information change through website, inquiry mail, phone call, etc.
+
+
+
+
+
+
+
+    4. Use and provision of personal information
+
+    1. The company may use the collected personal information for following purpose
+
+    1) Website member management : Identification/identity check for membership service use, etc., prevention of members’ illegal use and prevention of unauthorized use, confirmation of intention to register, limitation of registration and number of registration, delivery of announcement, processing of consultation, etc.
+
+    2) Use for survey and event
+
+    3) Providing contents and customized service, service purchase and fee payment, financial transaction identity verification and financial service, delivery service following product order
+
+    4) New service (contents) development and specialization, finding out frequency of access, statistics on members’ service use
+
+    2. The personal information provided by member cannot be used for purpose other than the ones already notified or specified by the company and cannot be provided to a third party. However, there will be exception for following cases.
+
+    1) In case there is a request from investigative agency, following procedure and method set by law, for investigation purpose
+
+    2) In case there is a special regulation under Korea’s financial real name transaction and confidentiality related laws, credit information’s use and protection related laws, electronic communication fundamental law, electronic communication business law, local tax law, Consumer Protection Act, Korean Bank law, Criminal Protection Act, etc.
+
+    3) Based the regulations of Korean law, statistics purpose, academic study, market research, etc
+
+    3. In case consent from a member is needed, the following has to be stated or announced beforehand, and a member has right to refuse and also withdraw consent at any time.
+
+    1) Identity of person in charge of personal information management (Affiliation, name and phone number)
+
+    2) Collection purpose and use purpose of personal information
+
+    3) Personal information that is collected
+
+    4) Possession period and use period of personal information that is collected
+
+    5) Matter related to providing information for a third party
+
+    6) Member’s right to withdraw consent, and right to request viewing/correction of  error regarding their information and ways to exercise the right
+
+    7) Other regulations set by other laws related to Korean telecommunication network promotion
+
+    4. In case inaccurate personal information such as email causes inconvenience in the service quality, the website administrator can delete or revise that information.
+
+    5. The personal information that member willingly provides can be collected and used by a third party and the member is responsible.
+
+    6. Also checking personal information to perform tasks is limited to the person in charge of the task (personal information handler) who has authority to access.
+
+
+
+
+    5. Disclosure to Third Parties
+
+    1. The company does not disclose your private personal information without the user’s explicit consent except in the limited circumstances stipulated under section 4 and in the following instances.
+
+    1) The user has previously agreed to disclosure of private personal information to a third party.
+
+    2) When it is reasonably necessary to comply with a law, regulation, legal process, or governmental request.
+
+    3) When necessary to process transactions.
+
+    2. In the event that disclosure of private personal information is required outside of the above mentioned instances, the company should receive consent from the user and provide the information to a third party for the purpose outlined below in order to provide for the proper implementation of transaction between users
+
+    1) Disclosure of private personal information to a third party
+
+    2) Receiver : Project creator
+
+    3) Information Provided : Name, ID, mobile phone number, email address, phone number
+
+    4) Usage : Delivery of reward
+
+    5) Holding Time : 1 month from time of delivery
+
+
+
+
+    6. The Rights and Exert of the user regarding individual information
+
+    1. The company always respects each individual right to all information.
+
+    2. Users have the rights to track the information such as record of visit history, e-signature by his ID as well as error correcting and withdraw a motion, and the company needs to take steps after checking the user’s personal information.
+
+    3. When the user asks the company to correct the errors, the company does not have rights to use user’s individual information, and should deliver the announcement of the usage.
+
+    4. When the user may want to browse or modify the individual information, users have the rights to access to the ‘profile settings’ to browse or modify the information after login at any time.
+
+
+
+
+    7. Possession and use period of personal information
+
+    In principle after the purpose of personal information collection and use purpose have been fulfilled (membership cancellation and email service cancellation)
+
+    1. Reason for storing information by the company’s internal Regulations
+
+    1) email address
+
+      a. Reason for storing : To prevent abuse by rogue members and unauthorized use, and to prevent crossing of service use
+
+      b. Storing period : 1 year
+
+    2. Reason for storing information by related laws
+
+    1) Website visit records
+
+      a. Reason for storing : Korean communication confidentiality law
+
+      b. Storing period : 3 months
+
+    2) Records related to identity verification
+
+      a. Reason for storing : Korean laws related to telecommunication network use promotion and information protection
+
+      b. Storing period : 6 months
+
+    3) Records related to disply/advertisement
+
+      a. Reason for storing : Korean laws related to protecting comsumers in electronic transaction, etc.
+
+      b. Storing period : 6 months
+
+    4) Records related to contract or withdrawal of subscription
+
+      a. Reason for storing : Korean laws related to protecting consumers in electronic transaction, etc.
+
+      b. Storing period : 5 years
+
+    5) Records related to paying bill and provision of commodities, etc.
+
+      a. Reason for storing : Korean laws related to protecting consumers in electronic transaction, etc.
+
+      b. Storing period : 5 years
+
+    6)　Records related to processing consumer complaint or dispute
+
+      a. Reason for storing : Korean laws related to protecting consumers in electronic transaction, etc.
+
+      b. Storing period : 3 years
+
+
+
+
+    8. Technical and administrative measures for personal information protection
+
+    1. The company will do their best to seek technical and administrative measures in order to prevent personal information from leaking.
+
+    2. In regards to handling user’s personal information, the company is doing best to guarantee stability by preventing loss, theft, leak, falsification or damage. To do so, the company is seeking technical measures by using security device with password, computer virus prevention device using vaccine program, and encrypted algorithm, etc., and access restriction device with Firewall and other technical device needed to secure stability by using security device that can safely transfer personal information within the network.
+
+    3. The company limits the employees who can access personal information to a minimum number, is conducting continuous training for following this policy and protecting personal information. Also the company is doing their best by changing the administrator’s password for personal information access changed regularly to prevent illegal leak of information.
+
+
+
+
+    9. Personal information management duty and announcement of person in charge
+
+    The company has assigned a personal information management personnel who is in charge of receiving opinions and processing complaints. Person in charge of personal information management is as following
+
+    [Person in charge of personal information management]
+
+    Name : Kim Sunpyo
+
+    Phone : +82-70-4365-4386
+
+    E-MAIL : contact@fanmaum.com
+    "</string>
+    <string name="termcontent01">"Article 1 General Rules
+
+    Section 1 [Purpose]
+
+    The purpose of these terms of use is to define the company and user’s rights, responsibilities, and the user’s service use procedure in regards to using internet related service (the “Service”) by internet website, www.fanmaum.com (“Site”), operated by Fanmaum Co. (“Company”).
+
+
+
+
+    Section 2 [Definition]
+
+    1. Service : The various service provided by the [Company] which can be used by the user regardless of what kind of device is used (including various wire-wireless devices such as PC, TV, portable device).
+
+    2. Site : Refers to www.fanmaum.com, the website operated by the [Company.]
+
+    3. Project Creator : [Member] who opens a support project through the service provided by the Company.
+
+    4. Member : Individual or corporate customer who connects to the site, enter into service contract according to these terms, and use the service provided by the Company.
+
+    5. Supporter : [Member] who supports Project Creator by choosing a Project which is open through service provided by the Company and support amount.
+
+    6. Project : The service opened in the space provided by the Company in order to receive contribution from other members.
+
+    7. Heart : Specific points that "Supporter" uses to participate in projects, and 1 Heart is worth KRW 1.
+
+    8. Reward : Goods or Benefits promised by the Project Creator to be provided to the Supporter after completion of the project.
+
+    9. Besides what has been specified in each rule above, the definition of words used in these terms will follow the transaction customs and related laws.
+
+
+
+
+    Section 3 [Display of terms and revision]
+
+    1. [Company] will display the contents of terms on the first screen of website so the user can easily check. (It will be posted on the website.)
+
+    2. [Company] can revise the terms within the range which does not violate the law related to financial investment business, laws related to consumer protection in electronic transactions, laws regarding regulation of terms, laws regarding door-to-door sales, and consumer protection laws.
+
+    3. In case the Company revises terms, the revision will be made, effective date will be determined, then they will be posted on the website on a designated date, at least 7 days before the effective date. Also, for existing members, besides the announcement on the website, they will be notified via the email that they entered at registration as well.
+
+    4. When the Company makes revision in terms and notify the users following rule 3 above, if the user does not express intention to disagree within 7 days after the effective date, it will be assumed that he/she agreed to the revised terms.
+
+    5. In case a Member does not agree to the revised Terms, he/she may apply for cancellation of Membership to the Company.
+
+
+
+
+    Section 4 [The nature and purpose of Service]
+
+    1. The Service provided by the company is online platform that helps the trade/transaction between Members to happen smoothly and the company does not lend money to or borrow money from the Member.
+
+    2. The responsibility related to the transaction made between Members, shall be taken by the Members themselves. However, the documents needed in order to resolve the problems that occurred between the Members, can be provided within the range permitted by related laws.
+
+
+
+
+
+
+
+    Article 2 Membership registration, etc.
+
+    Section 5 [Membership Registration]
+
+    1. Service contract is entered into when a person who desires to become a Member (Membership Applicant), agrees to Terms, applies for membership, and the Company approves.
+
+    2. When [Membership Applicant] reads Terms and privacy policy of the Company, and takes action such as pressing [Agree] button or checking next to [OK,] it will be assumed that he/she has agreed to the Terms.
+
+    3. A person who did not register with his/her real name cannot claim the rights as a Member. The account made through someone else’s name will be deleted and he/she may be punished according to related laws.
+
+    4. It is principle rule that one Member has only one account and if a Member has more than one account, his/her account(s) will be deleted, membership cancelled, or he/she may be banned from applying for Membership again. Also, the Member who has more than one account cannot claim any rights to those other accounts.
+
+
+
+
+    Section 6 [The Approval and Limitation of Application to Use Service]
+
+    1. As long as there is no special reason not to, the Company will approve the Membership Applicant’s application. However, in following cases, it may be denied or even after it is approved, the Company may cancel the Membership at any time.
+
+    1)　When someone applies for Membership with a name that is not his/her real name, or by using someone else’s personal information
+
+    2) When the Membership Applicant has lost eligibility to apply for Membership following these Terms before, but the Company will give an exception if he/she has been given approval for re-applying for the Membership
+
+    3) When the User entered false information or did not enter the information requested by the Company
+
+    4) When the User applied for Membership with intention to harm the public peace, order, and traditional customs.
+
+    5) When he/she intends to use the Service for ill purposes
+
+    6) When he/she threatens the order within electronic transactions by disrupting someone else from using the Service, or stealing someone else’s information
+
+    7) When a User who is in the competitive position with the Service applies
+
+    8) When the approval is impossible due to attributable reasons or in case he/she applied violating other specified various terms
+
+    9) When a child under age of 14 applied without legal guardian’s (parents, etc.) consent
+
+    2. The Company may limit or postpone the application’s approval in following cases
+
+    1) When there is no room in the Company’s service related system
+
+    2) When there’s technical problem in providing service
+
+    3) When the applicant is underage
+
+    4) When it is acknowledged that there is a reason that comes close to the other cases above
+
+    3. The Company may divide Members into different levels and according those levels, usage time, usage numbers, and service content, etc. may differ.
+
+
+
+
+    Section 7 [Duty to protect personal information]
+
+    The Company shall try best to protect Member’s personal information according to related laws such as information network law. About the protection and use of personal information, related laws and the Company’s personal information handling regulations will apply. However, for websites outside the Company’s official website, the Company’s personal information handling regulations do not apply.
+
+
+
+
+    Section 8 [Member’s account and password management]
+
+    1. The responsibility of managing Member’s account and password belongs to the Member him/herself, and he/she shall not let a third party use it.
+
+    2. The Member may not change the account given by the Company, and may not have more than one account. In case he/she desires to change the account for unavoidable reasons, he/she will need to cancel the membership and register again.
+
+    3. In following cases, the Company may request change of account to the Member, and in this case, the Member has to cancel Membership and register again.
+
+    1) In case that the User’s account is registered with phone number or identification number, etc. so the invasion of privacy is worried
+
+    2) In case the User’s account causes repulsion from others or it is against traditional customs
+
+    4. The Company may limit an account’s use, when there’s risk of personal information to leak or if the account has possibility of getting mistaken as an account that belongs to the Company or Company’s administrator.
+
+    5. In case a Member finds out his/her account and/or password has been used by someone else, the Member shall notify the Company and follow their instructions.
+
+    6. In case of Clause 5 above, if the Member does not notify the Company or has notified the Company but did not follow the instructions, the Company is not responsible for any loss.
+
+    7. The account of Service provided by the Company may be linked to account on a different site operated by the Company under the Member’s agreement.
+
+    8. Parts regarding other member information management or change shall follow what is decided by directions for different services.
+
+
+
+
+    Section 9 [Changing member information]
+
+    1. Member may view or modify his/her personal information through personal information management screen. However, he/she cannot modify real name, account, and date of birth, which are needed for service management.
+
+    2. When any of information entered at the time of registration changes, the Member shall notify the company of the change of information by updating the information online or sending an email, etc.
+
+    3. The Company is not responsible for any loss occurred from not notifying the Company of change of information from 2).
+
+
+
+
+    Section 10 [Leaving the site, etc.]
+
+    1. Member may leave and request cancellation of use contract at any time through cancellation menu within the Site, and the Company has to process it immediately according to the related laws.
+
+    2. When a Member leaves site and cancels use contract – except in case the Company keeps Member information according to related laws and personal information handling regulations – all of member’s information is deleted upon cancellation.
+
+
+
+
+
+
+
+    Article 3 Duty and responsibility
+
+    Section 11 [Company’s duty]
+
+    1. The Company does not take any action that is not allowed by these Terms or any action against traditional customs and will do best to provide continuous and stable service.
+
+    2. The company will make a security system to protect personal information protection so the Member can use Service safely, and follow personal information handling regulations.
+
+    3. In case there is an error in electronic transaction, the Company shall produce and keep a record that this can be checked.
+
+    4. In providing electronic financial transaction service, the user’s personal information, bank account information, account information, and contents of electronic financial transaction shall not be provided, leaked, or used by third party, without following related laws, or acquiring the user’s agreement.
+
+    5. The Company will process immediately if the opinion or complaint from Member recognized as reasonable. However, when it’s impossible to process it immediately, the reason and the processing period will be notified.
+
+    6. The Company does not send email with commercial purpose unless the Member has agreed to receive it.
+
+    7. When there is membership cancellation request, the Company will process the request immediately after member verification.
+
+
+
+
+    Section 12 [Company’s responsibility]
+
+    1. In case an accident occurs when the Company is the issuer of verification tool or user/management and forging or falsifying information happens, the user’s loss in the process of transaction or transaction order will be compensated by the Company.
+
+    2. While the previous rule is still valid, in the following cases, the Company is not responsible for loss compensation for the User.
+
+    1) In case the Company is not the issuing agent of verification method, and the loss occurred to the User from an accident from forging or falsification of the verification method.
+
+    2) In case the User authorize a third party to lend/transfer or use the verification method, provide it as a collateral purpose, or the User giveaway, expose, or neglect the verification method even though he/she knew or could find out that the third party could use it for electronic financial transaction without authority.
+
+    3) In case loss occurred to corporation (Small businesses stated in the Section 2, Clause 2 of [Standard Small and Medium Business Law,] are exceptions) user, in which the Company has done enough duty of care which is reasonably requested such as setting up a security procedure to prevent accidents, and thoroughly complying with them.
+
+    4) In case the service cannot be used because of problem in public communication line which is not the Company’s area of management.
+
+    5) In other cases with problem in communication service in which there is no reason for fault for the Company.
+
+    3. Even though there was a transaction request from the User, the processing was impossible or delayed because of blackout, fire, communication line problem, and other uncontrollable reasons but the reason why it was impossible or delayed was notified by the Company(the cases in which the financial institution or payment method issuing agent/telemarketing business has notified the User are included), the Company is not obligated to the User.
+
+    4. The Company shall notify the User of suspension schedule and suspension reason beforehand through company’s website in case the providing of service is temporarily suspended because of reasons such as need for repair, inspection, or replacement of communication facilities such as computers, have occurred.
+
+
+
+
+    Section 13 [Duty of Member]
+
+    1. Members shall not do the following.
+
+    1)Entering false information at the time of membership registration or when updating information
+
+    2) Using other member’s account, password, etc.
+
+    3) Selling the account to someone else
+
+    4) Pretending to be the Company’s operating staff, employee, or related personnel
+
+    Changing the company’s client program without being given special authority from the Company, hack the company’s server, or change the part or whole of the website or posted information
+
+    5) Harm service or disrupt on purpose
+
+    6) Using the information acquired through this service for other purposes besides using the service, such as processing, selling, duplicating, transmitting, distributing, using the information for publishing or broadcasting, or providing it to the third party
+
+    7) Sending, uploading, emailing information, sentences, shapes, sound, or videos that violate public order and traditional customs
+
+    8) Sending, uploading, emailing contents that could violate someone else’s honor or privacy because it is insulting or it is personal information
+
+    9) Harassing or threatening other member, or continuously giving pain or inconvenience to specific user
+
+    10) Collecting or saving other member’s personal information without the company’s approval
+
+    11) Any action that is objectively considered to be associated with crime
+
+    12) Any action that disrupts company’s tasks or that damages the reputation of the company
+
+    13) Providing the right to use service or other position from the use contract by handing over, giving away, or providing as collateral without expression of consent from the Company
+
+    14) Any action that violates the various rules or use conditions given by the company including these Terms
+
+    15) Any action that violates other laws
+
+    2. Member shall follow related laws, these Terms, other various rules made by the Company, service use instruction, announcements and others that are notified by the Company
+
+    3. Member cannot have sales activities by suing the Service without approval from the Company beforehand. Any transaction which occurred between members or through a third party service is unrelated with the Company and the Company has no responsibility regarding it.
+
+    4. In case a Member has caused loss to the Company by violating rule 3 above, the Member shall compensate for that loss to the Company.
+
+
+
+
+    Section 14 [Notice for Members]
+
+    1. When the Company makes a notice to the Member, they can use email address or message within the Service unless there is a separate rule about it in these Terms.
+
+    2. In case a Member expressly refused receiving of emails, the Company may send an email in case they need to fulfill the responsibility stated in the related laws or these Terms.
+
+    3. In case there is a notice for all the Members, the Company may change from the rule 1 by posting the notice on the bulletin board of website for over 7 days.
+
+
+
+
+
+
+
+    Article 4 The use of the service
+
+    Section 15 [Provision and change of Service]
+
+    1. The Company may provide fan crowdfunding service to Members. At this time, in regards to the design of service, laws related to capital market and financial investment business shall be followed.
+
+    2. The Company provides all services such as contents provided by the Company and events in progress to the Member. However, there may be level difference in service according to the level of Members stated in the Article 6 Rule 3.
+
+    3. When there is a service change, the Company shall notify the Member of the service which will be changed and the provision date through the methods specified in the Article 14.
+
+
+
+
+    Section 16 [Management of uploaded/posted material]
+
+    1. The Company shall try to prevent the material uploaded/posted by Member from falsification, damage, and deletion
+
+    2. The Company may reject registering, or delete, move, or change the material that includes the following contents
+
+    1) Content that severely insults or damages reputation of another Member or a third party
+
+    2) Content that violates public order and traditional custom or which includes link through which someone can connect to such site
+
+    3) Explicit content is uploaded/posted or link to site with explicit contents has been added
+
+    4) Content that encourages piracy or hacking
+
+    5) When an advertisement with commercial purpose over when the posting is a spam
+
+    6)　Content that is objectively considered to be associated with crime
+
+    7)　Content that violates the copyright or other rights of the Company, other Member, or a third party
+
+    8) Content that does not suit the characteristic of the board that User desires to register on
+
+    9) When commercial software or a crack file has been uploaded/posted
+
+    10) When the purpose of uploading is not met by uploading same content several times
+
+    11) Content that violates other company’s various rules or related laws
+
+    3. The Company may set detailed use regulations for separate services, and Members shall upload contents (forwarding between members included) according to these regulations.
+
+    4. The Company may delete the content registered by a Member when it is different from the direction of service.
+
+
+
+
+    Section 17 [Where the right of uploaded/posted content belongs]
+
+    1. The copyright and intellectual property right of all the uploaded/posted content by the Company belongs to the Company
+
+    2. The copyright of contents that are uploaded/posted by a Member within service screen belongs to the Member who uploaded/posted it
+
+    3. About the content that the Member has the copyright, the company may use them (It includes providing Meta data to external website that is operated by other company that is affiliated with the Company) and regardless of whether it is for commercial purpose or not, it can be used freely within the website operated by the Company. In case the Member agrees to the Terms, it will be considered that intellectual property rights, etc. need for the uses stated above has been given to the Company and it is valid even after the Member cancels the membership.
+
+    4. In case the Company desires to use the contents uploaded/posted by a Member besides the ways stated in the rule 3 above, they shall get Member’s agreement beforehand through methods such as phone call, fax, electronic mail, etc.
+
+
+
+
+    Section 18 [Posting Advertisement]
+
+    1. The Company may up load on website or send the contents related to operating the service via email, message, SMS, etc. However, when sending email, message, SMS, etc., the Company shall check if members have agreed to receiving email, message, SMS, etc., and only send to members who have agreed.
+
+    2. The user using the ad posted within the service or communicating or having transaction through engaging in the advertiser’s promotion activity, etc., is completely a matter between the user and the advertiser. Even if a problem occurs between them, the user and advertiser themselves shall resolve it, and the Company does not take any responsibility related to it.
+
+
+
+
+    Section 19 [Service use time]
+
+    1. The Company starts service at the point the Member’s use contract has been approved. However, for some services, the service begins on the specified date.
+
+    2. The Company may divide the service into certain ranges, and may specify the time it may be used depending on the range. In this case, this information will be announced to the members.
+
+    3. This service is provided 24 hours a day, 365 days a year. However, when there is task or technical problem, or technical backup and site’s improvement is needed, the service may be suspended momentarily. In this case, the Company will announce it beforehand or afterward.
+
+
+
+
+    Section 20 [Service use limit or cancellation of Membership]
+
+    In the following cases, the Company may limit or suspend Member’s service use or cancel his/her membership.
+
+    1. When Member disrupts the Company’s operation of service on purpose or by mistake
+
+    2. When Member violated the Member’s duty defined in the Section 13.
+
+    3. When a member has more than one account
+
+    4. When it’s inevitable due to regular checkup of communication facilities or system, or maintenance related reasons such as expansion and replacement, repair and checkup, failure, etc.
+
+    5. When the communication service has been interrupted by the key telecommunications service provider set by Telecommunications Business Act
+
+    6. When using the service is interrupted by state of national emergency, service facility problem, or service use overload
+
+    7. When an account or nickname that violates traditional customs has been used
+
+    8. When there is correction request from related administrative office or public institution
+
+    9. When the service has not been used for over 3 months
+
+    10. When using the board as file archive by uploading data without index file, etc.
+
+    11. When content or data mentioned in the section 16, clause 2, has been uploaded or registered
+
+    12. When someone else’s payment information has been stolen and used or a transaction happens through dishonest method
+
+    Section 21 [Application of a project]
+
+    1. Member who wishes to create a project may apply to do so by following the form and procedure provided by the Company. At this time, the creator may enter a contract separate from the Company regarding the opening of a project.
+
+    2. The submitted project will be evaluated to see if it is in accord with the following criteria and operation direction set by the Company and only the approved projects are posted on the website.
+
+    1) Whether the regulation and procedure for opening a project has been followed
+
+    2) Whether the project opening form has been filled out
+
+    3) whether the files requested have been provided
+
+    4) Whether it violates related laws, public order, or traditional customs
+
+    5) Whether there is a purpose to damage someone else’s reputation or give disadvantage to someone else
+
+    6) whether it suits various project evaluation criteria set by the Company
+
+    7) Whether other requests necessary for opening a project has been met
+
+    3. There shall be no false information, omission of entry, or spelling error in the contents of project that Member applied to be opened, and the Member is responsible for any disadvantage that occurs from not following this term.
+
+    4. All the rights and responsibilities for project contents and files made and provided by Member, belong to the Member and when it is considered that the contents of project that Member registered fit any of the following, it may be deleted without notice beforehand and the Company does not take any responsibility regarding it. Also depending on the case, the Company may request to the Member who registered the project for explanation.
+
+    1) When is confirmed that the member information or project information provided by the Member was false
+
+    2) When it is about invading a third party’s intellectual property rights or other rights
+
+    3) When contents not approved by the Company beforehand, has been posted
+
+    4) When a Member posts contents that are explicit, harassing, cursing, damaging reputation, or illegally revealing personal information, or links a website related to such purpose
+
+    5) When a Member revised or manipulated project information illegally
+
+    6) When it is considered that related laws have been violated
+
+    5. Project approved to be registered can be posted on the website or service related website even after the application accepting period is over.
+
+
+
+
+    Section 22[Revision of Project]
+
+    1. Before the project is approved by the project, the revision can only made after requesting the revision to the Company and within the range that is approved by the Company.
+
+    2. After the project is approved, part of project page cannot be changed, cancelled, or deleted any more. In case the project applicant Member revises, changes, or deletes the part which is not allowed to be revised, Member who sponsored the project can take legal action such as filing for a claim for the damage/loss, and the Company is not responsible for any disadvantage caused by this.
+
+
+
+
+    Section 23 [Project Cancellation]
+
+    1. Before the project is approved, the project may be cancelled freely, and it may be cancelled by making a request to the Company. However, the fee used until the point of cancellation shall be paid to the Company.
+
+    2. After the project has been approved, the application to open project cannot be freely cancelled by the opener before the deadline of the project.
+
+    3. The project cannot be cancelled after the project ends as a success.
+
+    4. The revision of project will be notified through update, and Member can check it at any time.
+
+
+
+
+    Section 24 [Payment Method]
+
+    Member may make payment within the website through methods set by the Company (credit card, real time account transfer, virtual account, etc.) and for accurate and secure payment processing, customer’s information is provided to a pay gate company in accordance with related laws.
+
+
+
+
+    Section 25 [Cancellation and refund of payment]
+
+    1. Payment cancellation and refund regulations shall follow related laws such as law related to protection of consumer in electronic transaction, etc.
+
+    2. According to nature of different services, the Company may set cancellation and refund regulations following separate terms or use conditions, and in this case, cancellation and refund regulations of separate terms and use conditions will be applied first.
+
+    3. For other cancellation and refund related matter not specified in these Terms or use instruction of website, it will follow what has been set in the consumer loss compensation regulations.
+
+
+
+
+    Section 26 [Cancellation and refund fee]
+
+    1. In case of cancellation just from simple change of mind, the fee that occurs in processing refunds shall be paid by the Member.
+
+    2. Cancellation and refund fees will be processed differently depending on the payment method, and the way of charging for cancellation and refund fee will be following separated payment cancellation and refund regulations.
+
+
+
+
+    Section 27 [Success of Sponsoring]
+
+    1. For project’s final contribution amount, cancellation and revision application before the contributing period deadline can be reflected.
+
+    2. In case the project’s contribution collection has failed, the project opener cannot claim any right for the funds raised until that point, and according to the procedure previously notified, the Company will cancel all of contribution amounts paid by the sponsors/contributors.
+
+
+
+
+    Section 28 [Spending contributions]
+
+    The Company spends the whole contribution amount that has been raised on behalf of Creator, and it is rule that the raised funds not to be deposited to individual Creator.
+
+
+
+
+    Section 29 [Use of contributions]
+
+    The project opener shall use the funds received from the success of project for only execution and completion of promised project, and for expenses related to fulfillment and shipping of promised goods, and he/she will be completely responsible for any disadvantage occurred from not fulfilling them.
+
+
+
+
+    Section 30 [Provision of rewards]
+
+    1. The project opener has responsibility to fulfill the promise between a Member and another Member, or Member and a third party, and providing sponsor goods option, and the said Member is responsible for disadvantage that occurred from not fulfilling them.
+
+    2. The project opener shall post the content about the goods which will be provided, quantity, provision schedule on the website for the contributors, and when goods cost collection is successful, he/she is responsible to fulfill them. If the opener does not fulfill what has been promised, it has been differently or partially fulfilled from the content posted on purpose, or when defective goods are provided, contribution amount will be withdrawn by the Company and said member is responsible for claim for loss compensation by the contributor/sponsor.
+
+    3. The project opener has duty to honestly reply and respond to inquiries about the project, and goods that will be provided to the contributor/sponsor.
+
+
+
+
+    Section 31 [Fees]
+
+    1. Member’s website registration, and creating and sponsoring a project through service, is free.
+
+    2. In case the Company wants to charge fee for service use for other services, the standard of assessment and other details on the website 7 days before it is enforced.
+
+
+
+
+
+
+
+    Article 5 Others
+
+    Section 32 [Limit of Responsibility]
+
+    1. In case the Company limits or suspends service, or cancels membership because of reasons stated in the Section 16, Clause 2, and Section 20, Clause 1, the Company does not have responsibility to compensate for Member’s loss from it.
+
+    2. The Company is not responsible for loss occurred from the Member poorly filling out personal information or did not fulfill the revision responsibility stated in Section 8, Clause 2.
+
+    3. The honesty, accuracy, and reliability of the information, data, facts, etc., that member posted on the website, are not guaranteed by the Company. Whether to make use of the posted material or not, depends on each Member’s responsibility and judgment, and the Company is not responsible at all for the results.
+
+    4. The Company does not have responsibility to be involved in the dispute that occurred from the service between the members or between Member and a third party. The Company does not take responsibility for the loss of Member or a third party caused intentionally or negligently by a Member related using the Service.
+
+
+
+
+    Section 33 [Loss Compensation]
+
+    In case a loss occurs to the Company because of the user violating the duties from these Terms, the user has to compensate for the Company’s loss.
+
+
+
+
+    Section 34 [Applicable Law and the Competent Court]
+
+    1. The Company and Member shall make necessary efforts to amicably resolve dispute that occurred in regards to the Service.
+
+    2. In case a lawsuit is filed due to the dispute despite the previous clause, it shall be resolved at the court that has jurisdiction where the Company is located.
+
+    3. The dispute between the Company and Member will be handled in accordance with Korean laws.
+
+
+
+
+
+
+
+    Additional Clause
+
+    These Terms of Use are effective starting on April 30, 2016.
+    \n"</string>
+    <string name="alert">alert</string>
+    <string name="alert_replay">replay please</string>
+    <string name="goToEvent">Go to Event page</string>
+    <string name="goToSupport">Go to Support page</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_login2">Login</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="error_invalid_password">This password is too short</string>
+
+    <string name="or">OR</string>
+
+
+    <string name="agree">By clicking the button below, you agree with <b>Terms to use</b></string>
+    <string name="nickNameShort">The Nick field must be at least 2 characters in length.</string>
+    <string name="facebook_app_id">857872690951419</string>
+    <string name="fanmaum_ranking">Fanmaum Ranking</string>
+    <string name="start_project">Create a Project</string>
+
+    <string name="sort_type">Sort by</string>
+    <string name="all">All</string>
+    <string name="support">Support</string>
+    <string name="make_goods">굿즈 제작</string>
+    <string name="popular">Popular</string>
+    <string name="new_sort">Latest</string>
+    <string name="deadline">Almost Over</string>
+    <string name="top_members">Most Participants</string>
+    <string name="no_email">Failed to login.\n(Valid Email address is needed.\nPlease provice a valid email address.</string>
+    <string name="pwd01_1">Password (Optional)</string>
+    <string name="pwd02_1">Confirm Password (Optional)</string>
+    <string name="connection_error">Cannot connect to server. Please check your network.</string>
+    <string name="project_type">Ongoing Projects</string>
+    <string name="project_hot">Hottest Support Projects Right Now</string>
+    <string name="how_this_project">Recommended Projects</string>
+    <string name="project_recommand">We recommend you these projects!</string>
+    <string name="project_new">New Projects</string>
+    <string name="project_detail">Ongoing Projects</string>
+    <string name="project_time">Collection Term\n{SDATE} ~ {DDATE}</string>
+    <string name="project_delivery_time">Expected Date of Execution\n{DATE}</string>
+    <string name="project_like">Show Interest</string>
+    <string name="project_ongoing">Ongoing Projects</string>
+    <string name="project_ongoing2">Ongoing</string>
+    <string name="project_closed">Closed</string>
+    <string name="maum_value">Hearts collected\n{VALUE} Hearts</string>
+    <string name="joinFan_value">Fans\n{VALUE}</string>
+    <string name="joinFan">Fans</string>
+    <string name="deadline_value">Left\n{VALUE} Days</string>
+    <string name="delivery_imfomation">Shipping Information</string>
+    <string name="delivery_rule">Change/Refund Policy</string>
+    <string name="following">Follow</string>
+    <string name="total_following">{TOTAL}</string>
+    <string name="together">Collaborating with</string>
+    <string name="sns_sharing_10maum">Share this Project on SNS and get <font color="#ff0000">10 Hearts</font>for FREE.</string>
+    <string name="how_is_this_project">How about a project like this?</string>
+    <string name="sns_aleady_update">Already shared!</string>
+    <string name="international_delivery">Overseas Shipping Fee</string>
+    <string name="default_delivery">Base Charge</string>
+    <string name="jeju_delivery">Remote Islands, Mountain Ranges, and Jeju Island</string>
+    <string name="over_cost_delivery">Purchase more than {TOTAL}</string>
+    <string name="ems_total">Quantity</string>
+    <string name="ems_delivery_cost">EMS Shipping Fee</string>
+    <string name="kg">{INT}KG</string>
+    <string name="delivery_rule_description2">All Benefits are unable to change or refund. </string>
+    <string name="delivery_rule_description">Change/Refund Policy is set by the Creator. Please contact directly to the creator for any inquiries.</string>
+    <string name="sold_out">SOLD OUT</string>
+    <string name="goods_amount">{NOW} fans Participated</string>
+    <string name="title_benefit">Term-based Benefit</string>
+    <string name="title_goods">Benefit Composition</string>
+
+
+    <string name="change_phoneNume">Change Phone number</string>
+    <string name="connect_sns">Link with SNS Account</string>
+    <string name="connect_completed">Successfully Linked</string>
+    <string name="modification_completed">Modified</string>
+    <string name="recommend_user">Enter Recommender</string>
+    <string name="recommend_content">{NICK}! Do you have anyone who recommended Fanmaum to you?\nEnter Recommender’s Nickname and get 100 Hearts for FREE!</string>
+    <string name="no_recommend">I don’t have one</string>
+    <string name="registration">Enter</string>
+    <string name="no_data">No information</string>
+    <string name="attend_1">참여 순</string>
+    <string name="attend_2">누적 순</string>
+    <string name="maum_num">{VALUE} Hearts</string>
+    <string name="sns_share">Share this Project with your friends!</string>
+    <string name="clipboard_insert">Saved in Clipboard</string>
+    <string name="comment">Comment</string>
+    <string name="comment_share">Share with friend</string>
+    <string name="my_comment">My comments</string>
+    <string name="like_list">{수} likes </string>
+    <string name="comment_reply">Reply</string>
+    <string name="comment_reply_all">See {수} comments</string>
+    <string name="unlike_fail">Failed to cancel Like</string>
+    <string name="like_fail">Failed to Like</string>
+    <string name="comment_reply_title">Reply</string>
+    <string name="liker">People Like </string>
+    <string name="total_following2">Follower</string>
+    <string name="following_user">Following List</string>
+    <string name="chatting">Chat</string>
+    <string name="request_update">정보를 업데이트해주세요</string>
+    <string name="attended_project">See My Participation Status</string>
+    <string name="hosted_project">Projects Created</string>
+    <string name="feeded_project">Interested Projects</string>
+    <string name="ready">준비중입니다.</string>
+    <string name="bookmark_channel"><![CDATA[I follow <font color="#ff0000">{VALUE} </font> channels]]></string>
+
+    <string name="bookmark">Follow</string>
+    <string name="bookmark_off">Unfollow</string>
+    <string name="review_detail">See Review</string>
+    <string name="review_title">View Review</string>
+    <string name="review_project_type">Project Type\n{TYPE}</string>
+    <string name="project_payment1">Choose Benefits</string>
+    <string name="project_payment2">Participate</string>
+    <string name="title_goods2">Benefit Composition</string>
+    <string name="total">Total</string>
+    <string name="goods_total">Quantity</string>
+    <string name="goods_delivery_address">Shipping Info</string>
+    <string name="goods_delivery_cost">Additional Charge</string>
+    <string name="alert_address_search_title">Search Address</string>
+    <string name="alert_address_search_ex1">Enter Street name or Postal code</string>
+    <string name="alert_address_search_ex2">Ex) Samseong dong25</string>
+    <string name="alert_zipcode">Postal code</string>
+    <string name="alert_address">Address</string>
+    <string name="search">Search</string>
+    <string name="new_address">Street Name</string>
+    <string name="old_address">Street Number</string>
+    <string name="project">Support</string>
+    <string name="popular2">Popular</string>
+    <string name="newsfeed_all">All</string>
+    <string name="newsfeed_favorites">Favorites</string>
+    <string name="newsfeed_popularity">Popular</string>
+    <string name="newsfeed_Newest">Latest</string>
+    <string name="newsfeed_dead_line">Almost over</string>
+    <string name="newsfeed_max_member">Most participants</string>
+    <string name="newsfeed_top_cost">Highest Amount</string>
+    <string name="project_cost">Amount</string>
+    <string name="project_state">Status</string>
+    <string name="project_delivery">Shipping</string>
+    <string name="project_delivery_hint">Select Shipping Info</string>
+    <string name="product_term_text">Announcement will be released if there is any change to the Benefit Composition.</string>
+    <string name="product_add_delivery_cose">Enter additional charge.</string>
+    <string name="please_select_goods"> Please select heart-related benefit to receive</string>
+    <string name="not_enough_title">You have not enough Hearts.</string>
+    <string name="not_enough_content">You have not enough Hearts.\nDo you want to purchase more Hearts now?</string>
+    <string name="not_enough_comform">Yes</string>
+    <string name="confirm_goods">Please confirm your heart-related benefit.</string>
+    <string name="goods_total_value">Total Hearts to Buy</string>
+    <string name="attend_imformation">Participants Info</string>
+    <string name="delivery_value">Shipping Fee</string>
+    <string name="sum_maum">Total Hearts Required</string>
+    <string name="goods_total_value_text">{value}</string>
+    <string name="name">Name</string>
+    <string name="phonenumber">Phone</string>
+    <string name="etc">Note</string>
+    <string name="input_name">Please enter your name.</string>
+    <string name="input_address">Please enter the rest of your physical address.</string>
+    <string name="input_etc">Please leave a note</string>
+    <string name="input_address_search">Search for address</string>
+    <string name="input_payment_title">Payment Method</string>
+    <string name="input_payment_charge">Payment Charge</string>
+    <string name="input_payment_next">Participate</string>
+    <string name="maum">Hearts</string>
+    <string name="my_maum">Hearts Owned</string>
+    <string name="my_maum2">Hearts Owned</string>
+    <string name="goods_maum">Hearts Required</string>
+    <string name="used_maum">Hearts to use</string>
+    <string name="allin">Use All</string>
+    <string name="final_payment">Total Payment Amount</string>
+    <string name="please_input_data">Please Enter</string>
+    <string name="completed_payment">Congratulations</string>
+    <string name="completed_payment_message">Congratulations!\n\nThank you for your participation!\n{HOST_NAME} will continually update news\nabout the project!</string>
+    <string name="recommend_sns">Share this project with your friends!</string>
+    <string name="input_zipcode">Please enter your postal code.</string>
+    <string name="input_etc1">Please leave a note.</string>
+    <string name="input_etc2">Please leave a note.</string>
+    <string name="project_ranking">Project Ranking</string>
+    <string name="user_ranking">User Ranking</string>
+    <string name="search_nickname">닉네임 검색을 통해 순위를 확인하세요</string>
+    <string name="liker2">{NICKNAME}’s follower</string>
+    <string name="qna"><![CDATA[Q&A]]></string>
+    <string name="cancel2">[Cancel]</string>
+    <string name="change">[Change]</string>
+    <string name="change_delivery_info">Change Shipping Info</string>
+    <string name="completed_change">Successfully changed</string>
+    <string name="payment_cancel">Cancel</string>
+    <string name="payment_cancel_content">Refund will be processed in 5 days once you cancel your order.\nDo you want to cancel?</string>
+    <string name="payment_cancel_ok">Cancel</string>
+    <string name="free_support">Voluntary Support</string>
+    <string name="free_support_comment">From 100 Hearts</string>
+    <string name="free_support2">Participate</string>
+    <string name="post">Post</string>
+    <string name="collection">Collection</string>
+    <string name="remainded_maum">Remaining Hearts</string>
+    <string name="join_comment"><![CDATA[I have read and agree to the <font color="#ff0000">Terms</font><br>including the policy regarding the provision of private information, <br>payment cancelation, and refund.]]> </string>
+    <string name="all_project">All Support</string>
+    <string name="my_project">My participation status</string>
+    <string name="sort_recommend">Like</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="all_view">All</string>
+    <string name="login">Login</string>
+    <string name="member_register">Sign Up</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_incorrect_password">Wrong Passwords</string>
+    <string name="error_field_required">Please enter email.</string>
+    <string name="sort_comment">Comments</string>
+    <string name="sort_like">Likes</string>
+    <string name="deadline2">End</string>
+    <string name="ongoing_events">Ongoing Events</string>
+    <string name="maum_value2"><![CDATA[Hearts collected<br><big><big>{VALUE}</big></big> Hearts]]></string>
+    <string name="percent2"><![CDATA[<big><big>{NUMBER}</big></big>%]]></string>
+    <string name="joinFan_value2"><![CDATA[Fans<br><big><big>{VALUE}</big></big> ]]></string>
+    <string name="deadline_value2"><![CDATA[Left<br><big><big>{VALUE}</big></big> days]]></string>
+
+    <string name="interest_success">Start showing interest.</string>
+    <string name="interest_cancel">Cancel showing interest</string>
+    <string name="secret">It’s private comment.</string>
+    <string name="secret_name">Private Comment</string>
+    <string name="attends_nickname">Recommender [ {nickname} ]</string>
+    <string name="channel_plus">Find more channels</string>
+    <string name="channel_bookmark_title">Follow Channels</string>
+    <string name="channel_name_search">Search</string>
+    <string name="channel_bookmark_sub_title">Follow your favorite channels.</string>
+    <string name="select_star">Select a celeb before writing a post.</string>
+    <string name="bookmark_one">You need to follow at least one celeb. </string>
+    <string name="share_success">Successfully shared </string>
+    <string name="share_fail">Failed to share</string>
+    <string name="sns_please_connect"> Please link Fanmaum account with your SNS account before you share a project.</string>
+    <string name="view_project">View Project</string>
+    <string name="go_project">See Project</string>
+    <string name="before_review">There is no review for this project yet.</string>
+    <string name="share">Share</string>
+    <string name="result_view">Result</string>
+    <string name="event_result">Event Result</string>
+    <string name="my_maum3"><![CDATA[<font color="#ff0000">{MAUM}</font>]]>Hearts Owned</string>
+    <string name="charge_maum">Charge Heart</string>
+    <string name="signout">Delete Account</string>
+    <string name="signout_message">Are you sure you want to delete your account?</string>
+    <string name="project_result">Closed\nProject</string>
+    <string name="project_result2">Closed Project</string>
+    <string name="reply_all">All Comment</string>
+    <string name="reply_my">My Comment</string>
+    <string name="before_review2">Please wait for the event result.</string>
+    <string name="back_page">Go to previous page</string>
+
+    <string name="facebook_sign_up_">Sign up with Facebook</string>
+    <string name="facebook_sign_in">Login with Facebook</string>
+    <string name="naver_sign_up_">Sign up with Naver</string>
+    <string name="naver_sign_in">Login with Naver</string>
+    <string name="twitter_sign_up_">Sign up with Twitter</string>
+    <string name="twitter_sign_in">Login with Twitter</string>
+
+    <string name="point_min">Please check the minimum amount of hearts you can send</string>
+
+    <string name="request_add_star">Request for new celeb</string>
+    <string name="share_fanmaum">Share</string>
+    <string name="my_page">My Page</string>
+    <string name="request_permission">User authorization is required.\nPlease vest an [authority].</string>
+    <string name="member_check">Attendance check</string>
+    <string name="project_join">Participate</string>
+    <string name="over_cost_delivery_value">KRW {PRICE} added for additional item</string>
+    <string name="share_facebook">Share on facebook</string>
+    <string name="share_twitter">Share on twitter</string>
+    <string name="sns_sharing_total">Shares </string>
+    <string name="attended_project_title">My Participation Status</string>
+    <string name="conenect_facebook">Link with facebook Account</string>
+    <string name="conenect_twitter">Link with twitter Account</string>
+    <string name="conenect_naver">Link with naver Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="my_celeb">My Star Info</string>
+    <string name="my_info">My Info</string>
+    <string name="profile_setting">Profile Setting</string>
+    <string name="no_support"><![CDATA[We have no Support Project for celeb!<br><font color="#e62844">Create a support project first<br>and start supporting celeb</font>!]]></string>
+    <string name="no_support_btn">서포트 개설하기</string>
+
+</resources>

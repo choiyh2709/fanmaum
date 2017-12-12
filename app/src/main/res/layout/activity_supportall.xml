@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bar"
+        android:id="@+id/navi">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="14dp"
+            android:id="@+id/navi_back" android:onClick="onBack"
+            android:background="@drawable/btn_back"/>
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" android:clickable="true" android:onClick="onBack"
+        android:text="@string/supportall00" android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/navi_back"
+        android:textSize="18dp" android:textColor="#ffffff" android:typeface="sans"
+        android:id="@+id/navi_tv01"/>
+    </RelativeLayout>
+    
+    
+     <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+         android:orientation="horizontal"
+        android:id="@+id/frag1_layout01">
+         
+          <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/support_extra"/>
+          
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn1"  
+        android:layout_weight="1" android:onClick="onClick"
+        android:id="@+id/supportingall_btn01">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/supportall01"
+        android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/supportingall_tv01"/>
+     </RelativeLayout>
+     
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn2"  
+        android:layout_weight="1" android:onClick="onClick"
+        android:id="@+id/supportingall_btn02">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:text="@string/supportall02" android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/supportingall_tv02"/>
+     </RelativeLayout>
+     
+    
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/support_list_btn3"  
+        android:layout_weight="1" android:onClick="onClick"
+        android:id="@+id/supportingall_btn03">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/supportall03" 
+         android:layout_centerInParent="true"
+        android:textSize="13dp" android:typeface="sans"
+        android:id="@+id/supportingall_tv03"/>
+     </RelativeLayout>
+     
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/support_extra"/>
+     
+    </LinearLayout> 
+     
+    <ListView
+        android:id="@+id/supportingall_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />
+
+</LinearLayout>

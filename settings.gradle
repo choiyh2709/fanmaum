@@ -1,0 +1,2 @@
+include ':app', ':sdk', ':photoSelector', ':universal-image-loader-1.9.3-with-sources', ':android-gif-drawable-master'
+project(':android-gif-drawable-master').projectDir = new File('app/libs/android-gif-drawable-master')

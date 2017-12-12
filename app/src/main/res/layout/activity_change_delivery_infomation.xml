@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                tools:context="specup.fanmind.main.tab0.ProjectPayment">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/change_delivery_info"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="@dimen/delibery_width"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:paddingLeft="10dp">
+
+
+        <!-- =================참여자 정보 ===================-->
+        <LinearLayout
+            android:id="@+id/user_imformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:text="@string/attend_imformation"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+
+            <!-- 이름 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a2100_top2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/name"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/attends_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/a2100_blank2"
+                    android:hint="@string/input_name"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#c0c0c0"/>
+
+            </RelativeLayout>
+
+            <!-- 휴대폰 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a2100_middle2">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/phonenumber"
+                    android:textColor="#000000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/phone"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/attends_phone1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a2100_blank3"
+                        android:gravity="center"
+                        android:hint="000"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:textColorHint="#c0c0c0"/>
+
+                    <EditText
+                        android:id="@+id/attends_phone2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/a2100_blank3"
+                        android:gravity="center"
+                        android:hint="0000"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:textColorHint="#c0c0c0"/>
+
+                    <EditText
+                        android:id="@+id/attends_phone3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/a2100_blank3"
+                        android:gravity="center"
+                        android:hint="0000"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:textColorHint="#c0c0c0"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- 이메일 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a2100_middle2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/email"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/attends_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/a2100_blank2"
+                    android:hint="@string/error_field_required"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#c0c0c0"/>
+
+            </RelativeLayout>
+
+            <!-- 주소 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a2100_middle3">
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/alert_address"
+                    android:textColor="#000000"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@id/address"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+                    <!-- 우편번호 -->
+                    <LinearLayout
+                        android:id="@+id/layout_zipcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/alert_zipcode"
+                            android:textColor="#000000"/>
+
+                        <EditText
+                            android:id="@+id/edittext_zipcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/a2100_blank2"
+                            android:hint="@string/input_zipcode"
+                            android:paddingLeft="10dp"
+                            android:textColor="#000000"
+                            android:textColorHint="#c0c0c0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/button_attends_address_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:background="@drawable/btn_address_searchl"
+                        android:paddingLeft="10dp"
+                        android:text="@string/input_address_search"
+                        android:textColor="@color/red_button"/>
+
+                    <EditText
+                        android:id="@+id/textView_attends_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/a2100_blank2"
+                        android:enabled="false"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000000"/>
+
+                    <EditText
+                        android:id="@+id/edittext_attends_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/a2100_blank2"
+                        android:hint="@string/input_address"
+                        android:paddingLeft="10dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#c0c0c0"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+            <!-- 비고 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/a2100_middle4"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/etc"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/attends_etc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/a2100_blank4"
+                    android:gravity="top"
+                    android:hint="@string/input_etc1"
+                    android:textColor="#000000"
+                    android:textColorHint="#c0c0c0"
+                    />
+
+            </LinearLayout>
+            <!-- 비고 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a2100_middle4"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/etc"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/attends_etc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/a2100_blank4"
+                    android:gravity="top"
+                    android:hint="@string/input_etc2"
+                    android:textColor="#000000"
+                    android:textColorHint="#c0c0c0"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/delibery_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_address_searchl"
+        android:onClick="onbuy"
+        android:text="@string/completed_change"
+        android:textColor="@color/red_button"/>
+
+
+</RelativeLayout>

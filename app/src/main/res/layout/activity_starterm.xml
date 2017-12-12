@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="false"
+     android:id="@+id/starterm_layout00"
+    android:focusableInTouchMode="false"
+    android:layout_height="match_parent" android:onClick="onClose" >
+
+
+   <RelativeLayout android:layout_width="fill_parent" android:layout_height="237.5dp"
+       android:layout_alignParentBottom="true" android:background="@drawable/data_content"
+       android:onClick="onClick"
+       android:id="@+id/starterm_layout01">
+       
+       <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+           android:text="@string/starterm03" android:textSize="16dp"
+           android:textColor="#e82b47" android:typeface="sans"
+           android:layout_alignParentBottom="true" android:layout_marginBottom="15dp"
+           android:layout_centerHorizontal="true" 
+           android:background="@drawable/btn_detailmainbtn01"
+           android:onClick="onSend"
+           android:id="@+id/starterm_btn01"/>
+       
+       <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+           android:layout_marginBottom="32dp" android:layout_centerHorizontal="true"
+           android:id="@+id/starterm_layout02" android:layout_above="@id/starterm_btn01">
+           
+           <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/starterm_layout03"
+               android:background="@drawable/data_year">
+               
+               <ImageButton android:layout_width="95dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/starterm_btn02"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_up"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv01" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#1e1e1e"
+                   android:typeface="sans"
+                   android:text="2014"/>
+               
+                  <ImageButton android:layout_width="95dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/starterm_btn03"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_down"/>
+               
+           </RelativeLayout>
+           
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv02" 
+                   android:textSize="25dp" android:textColor="#1e1e1e"
+                   android:layout_marginLeft="20dp"
+                   android:layout_centerVertical="true"
+                   android:typeface="sans" android:layout_toRightOf="@id/starterm_layout03"
+                   android:text="@string/starterm04"/>
+           
+             
+              <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/starterm_layout04" android:layout_toRightOf="@id/starterm_tv02"
+               android:layout_marginLeft="38dp" android:background="@drawable/data_month">
+               
+               <ImageButton android:layout_width="65dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/starterm_btn04"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_up"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv03" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#1e1e1e"
+                   android:typeface="sans"
+                   android:text="7"/>
+               
+                  <ImageButton android:layout_width="65dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/starterm_btn05"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_down"/>
+               
+           </RelativeLayout>
+           
+              <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv04" 
+                   android:textSize="25dp" android:textColor="#1e1e1e"
+                   android:layout_marginLeft="20dp"
+                   android:layout_centerVertical="true"
+                   android:typeface="sans" android:layout_toRightOf="@id/starterm_layout04"
+                   android:text="@string/starterm05"/>
+       </RelativeLayout>
+   </RelativeLayout>
+   
+   <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+       android:layout_above="@id/starterm_layout01" android:background="@drawable/data_middle"
+         android:onClick="onClick"
+       android:id="@+id/starterm_layout05">
+       
+         		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv05" 
+                   android:textSize="16dp" android:textColor="#1e1e1e"
+                   android:layout_marginLeft="10dp"
+                   android:layout_centerVertical="true"
+                   android:typeface="sans" 
+                   android:text="@string/starterm02"/>
+       
+     </RelativeLayout>
+   
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+       android:layout_above="@id/starterm_layout05" android:background="@drawable/data_navigation"
+         android:onClick="onClick"
+       android:id="@+id/starterm_layout06">
+         		
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/starterm_tv06" 
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:layout_centerInParent="true"
+                   android:typeface="sans" 
+                   android:text="@string/starterm01"/>
+        
+     </RelativeLayout>
+
+    <Button android:layout_width="match_parent" android:layout_height="match_parent" 
+        android:visibility="gone" android:background="#00000000"
+        android:id="@+id/starterm_btn06"/>
+        
+        
+</RelativeLayout>

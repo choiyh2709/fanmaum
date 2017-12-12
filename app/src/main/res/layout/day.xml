@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+	<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:id="@+id/day_cell_ll_background">
+    
+	    <ImageView android:layout_width="fill_parent" android:layout_height="1dp"
+	        android:background="#c3c3c3" android:id="@+id/under_img"
+	        android:layout_alignParentBottom="true"/>
+	    
+	  <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:visibility="gone"
+	    android:id="@+id/day_cell">
+	      
+	       <ImageView android:layout_width="fill_parent" android:layout_height="1dp"
+	        android:background="#ff0000"
+	        android:layout_alignParentBottom="true"/>
+	       
+	        <ImageView android:layout_width="fill_parent" android:layout_height="1dp"
+	        android:background="#ff0000"/>
+	        
+	         <ImageView android:layout_width="1dp" android:layout_height="fill_parent"
+	        android:background="#ff0000"/>
+	      
+	    <ImageView android:layout_width="1dp" android:layout_height="fill_parent"
+	        android:background="#ff0000" android:layout_alignParentRight="true"/>
+	    
+	    </RelativeLayout>
+	    
+	    
+	    
+	<!-- 날짜 -->
+	<TextView
+		android:id="@+id/day_cell_tv_day"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="1dp"
+		android:layout_marginTop="1dp"
+		android:text="222"
+		android:textSize="13dp"/>
+	
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    android:visibility="gone"  android:id="@+id/day_layout"
+		    android:layout_below="@id/day_cell_tv_day">
+	    
+		    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:id="@+id/day_img" android:layout_marginLeft="1dp"
+		        android:layout_centerVertical="true"
+		        android:background="@drawable/calendar_icon"/>
+		    
+		    <TextView
+				android:id="@+id/day_tv"
+				android:layout_width="wrap_content"
+				android:layout_toRightOf="@id/day_img"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="1dp"
+				android:layout_centerVertical="true"
+				android:text="@string/welcome01"
+				android:textSize="9dp"/>
+		</RelativeLayout>
+	
+	</RelativeLayout>
+</RelativeLayout>

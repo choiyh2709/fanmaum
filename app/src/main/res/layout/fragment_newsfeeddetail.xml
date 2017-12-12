@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eceeee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/newsfeeddetail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:clickable="true"
+            android:text="@string/newsfeedtitle"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+        <ImageView
+            android:id="@+id/imageView_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/c1100_menu"
+            android:onClick="onSetting"/>
+
+
+    </RelativeLayout>
+
+    <include
+        android:layout_centerHorizontal="true"
+        android:id="@+id/include"
+        layout="@layout/layout_input"
+        android:layout_width="@dimen/newfeed_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+    <ListView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/newsfeeddetail_list"
+        android:layout_width="@dimen/newfeed_width"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/include"
+        android:layout_below="@id/newsfeeddetail_layout"
+        android:divider="@null"
+        android:listSelector="#00000000"
+        android:scrollbars="none"/>
+
+
+</RelativeLayout>

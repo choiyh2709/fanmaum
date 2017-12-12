@@ -1,0 +1,1535 @@
+<resources>
+
+    <string name="korean">한국어</string>
+    <string name="buypoint13">(주)스펙업애드 | 대표이사: 김영곤</string>
+    <string name="buypoint14">TEL:070-4365-4386 | 사업자등록번호 : 105-87-57696</string>
+    <string name="buypoint15">서울특별시 강남구 역삼동 830-9 영광빌딩 4층</string>
+    <string name="notipush">팬마음</string>
+    <string name="china">中文</string>
+    <string name="bank01">기업은행</string>
+    <string name="bank02">국민은행</string>
+    <string name="bank03">우리은행</string>
+    <string name="bank04">신한은행</string>
+    <string name="bank05">하나은행</string>
+    <string name="bank06">농협</string>
+    <string name="bank07">우체국</string>
+    <string name="payaccount02">입금 대기</string>
+    <string name="payaccount03">{ID}님!\n 전용 가상계좌가 개설되었습니다.</string>
+    <string name="payaccount04">입금 완료 후 마음이 자동 적립됩니다!</string>
+    <string name="payaccount05">주문내역 보러가기</string>
+    <string name="buypointcomplete01">{ID}님!\n 마음을 구매해주셔서 감사합니다.</string>
+    <string name="buypointcomplete02">"최초의 연예인 서포트 앱"\n 팬마음과 함께 스타에게 가장 특별한 선물을 해보세요!</string>
+    <string name="buypointcomplete03">마음 구매내역 보러가기</string>
+    <string name="notrecommend">相同手机重复加入时，不给予推荐人积分</string>
+    <string name="inapplogin">请登录</string>
+    <string name="inapperror">结算有误，请向contact@fanmaum.com咨询</string>
+    <string name="starlist01">选择明星</string>
+    <string name="starlist02">没有该明星</string>
+    <string name="paysave">{POINT}已购买爱心积分</string>
+    <string name="mypoint_tv08">{YEAR}年 {MONTH}月 {DAY}日</string>
+    <string name="companyname">合作咨询</string>
+    <string name="fanclubcover">粉丝团参与咨询</string>
+    <string name="app_name">粉丝爱</string>
+    <string name="facebookapp_id">1483959088551747</string>
+    <string name="left_and_right">LeftRight</string>
+    <string name="mainsupport01">进行中</string>
+    <string name="mainsupport02">即将传达</string>
+    <string name="mainsupport03">活动后记</string>
+    <string name="supportall00">查看进行中的应援活动</string>
+    <string name="supportall01">最新上线</string>
+    <string name="supportall02">即将结束</string>
+    <string name="supportall03">排名序</string>
+    <string name="supportreadyall00">查看预计传达的应援活动</string>
+    <string name="supportreadyall01">传达日期序</string>
+    <string name="supportreadyall02">总额序</string>
+    <string name="supportreadyall03">排名序</string>
+    <string name="mynews01">我的消息</string>
+    <string name="mynews02">全部提醒</string>
+    <string name="locktime01">日</string>
+    <string name="locktime02">一</string>
+    <string name="locktime03">二</string>
+    <string name="locktime04">三</string>
+    <string name="locktime05">四</string>
+    <string name="locktime06">五</string>
+    <string name="locktime07">六</string>
+    <string name="locktime08">上午</string>
+    <string name="locktime09">下午</string>
+    <string name="historyall00">查看全部后记</string>
+    <string name="historyall01">按最新</string>
+    <string name="historyall02">按时间</string>
+    <string name="historyall03">按排名</string>
+    <string name="savemind">累积爱心积分</string>
+    <string name="start01"> 如果你想享受100倍的礼遇?</string>
+    <string name="start02">现在加入粉丝爱 \n来出示你的关心!</string>
+    <string name="start03">下回</string>
+    <string name="start04">登陆</string>
+    <string name="theme01">점심 맛나게 먹었쯤?</string>
+    <string name="theme00">아이유</string>
+    <string name="theme02">뭐해요~~?</string>
+    <string name="theme03">듣고싶은 호칭을 입력</string>
+    <string name="report01"> 虚假事件将得到举报\n被举报后可能有相应的惩罚 </string>
+    <string name="alram01">该消息通知已关闭. 同意提醒吗?</string>
+    <string name="alram02">该消息通知已打开. 关掉提醒吗?</string>
+    <string name="review01">请给粉丝爱评分!</string>
+    <string name="review02"> 请给粉丝爱评分跟评价，将会提高粉丝爱的服务 </string>
+    <string name="review03"> 评分 </string>
+    <string name="pop00">메시지 형식 변경</string>
+    <string name="pop01">팬 마음 테마</string>
+    <string name="pop02">카카오톡 테마</string>
+    <string name="pop03">라인 테마</string>
+    <string name="pop04">페이스북 테마</string>
+    <string name="notimage">无法下载该图片</string>
+    <string name="left01">日程 </string>
+    <string name="left02">视频</string>
+    <string name="left03">活动</string>
+    <string name="left04"> 要求添加明星 </string>
+    <string name="left05">캐쉬아웃</string>
+    <string name="left06">公告事项</string>
+    <string name="left07">分享粉丝爱</string>
+    <string name="left08">设置</string>
+    <string name="left09">쿠폰함 바로가기</string>
+    <string name="left10"> 累积爱心积分 </string>
+    <string name="left11">적립내역</string>
+    <string name="left12">내 쿠폰</string>
+    <string name="lock02">设置明星图片为锁屏屏幕!</string>
+    <string name="lock03">设置明星图片为锁屏屏幕 </string>
+    <string name="lock04"> 设置</string>
+    <string name="tab01">应援活动</string>
+    <string name="tab02">时光相册</string>
+    <string name="tab03">动态消息</string>
+    <string name="setting00">账号设置</string>
+    <string name="setting01">锁屏设置</string>
+    <string name="setting01_1">图像，解锁设置</string>
+    <string name="setting02">锁屏对话设置</string>
+    <string name="setting03">其他设置</string>
+    <string name="setting03_1">提醒等设置</string>
+    <string name="setting08"> 已收到您的咨询，确认后将尽快回复</string>
+    <string name="setting04"> 粉丝爱介绍及合作咨询 </string>
+    <string name="setting05">运营政策</string>
+    <string name="setting04_1"> 期待更多粉丝主页运营者的参与</string>
+    <string name="setting04_2">应援建议</string>
+    <string name="setting05_1">保证服务质量及维护使用者权益的运营政策</string>
+    <string name="setting06">合作咨询</string>
+    <string name="setting07">前景</string>
+    <string name="setting09">每日签到</string>
+    <string name="account01">可以使用的邮箱地址</string>
+    <string name="account02">已加入的邮箱地址</string>
+    <string name="account03">可以使用的用户名</string>
+    <string name="account04">使用中的用户名</string>
+    <string name="account05">英文 /数字 组合6位以上</string>
+    <string name="account06">可用密码</string>
+    <string name="account07">密码不一致</string>
+    <string name="account08">密码匹配</string>
+    <string name="account09"> 英文 /数字 组合6位以上</string>
+    <string name="account10">请再输入</string>
+    <string name="account11">无法确认手机号，请与contact@fanmaum.com联系</string>
+    <string name="history01">应援日期 : {DATE}</string>
+    <string name="lockscreen00">粉丝爱锁屏屏幕</string>
+    <string name="lockscreen01">锁屏图像设置</string>
+    <string name="lockscreen02">图像任意排序</string>
+    <string name="lockscreen03">잠금 버튼 설정</string>
+    <string name="lockscreen04">锁屏信息</string>
+    <string name="lockscreen05">没有可删除的图像</string>
+    <string name="lock01">{MONTH}月 {DAY}日</string>
+    <string name="locksetting02">头像设置</string>
+    <string name="locksetting">头像</string>
+    <string name="profilesetting">头像设置</string>
+    <string name="locksetting01">锁屏图像</string>
+    <string name="welcome01">欢迎~!</string>
+    <string name="welcome02"> 准备与粉丝爱一同送礼吗?</string>
+    <string name="timelineupload01">{YEAR}年 {MONTH}月 上传图片</string>
+    <string name="timelineupload02">不确定是什么时候的照片</string>
+    <string name="timelineupload03">上传到未分类相册</string>
+    <string name="newsfeed_write"> 超过限制字数，最多可写1000字</string>
+    <string name="newsfeed_writelength">{LENGTH}/1000</string>
+    <string name="update01">粉丝爱已更新~!</string>
+    <string name="update02">请在谷歌应用下载中更新粉丝爱!</string>
+    <string name="update03">下回</string>
+    <string name="update04">更新</string>
+    <string name="timelineok">已收到日期举报，非常感谢</string>
+    <string name="timelinealbum">未分类相册</string>
+    <string name="exit01"> 关闭粉丝爱 </string>
+    <string name="exit02">退出粉丝爱?</string>
+    <string name="likenumber">{NUMBER} 人喜欢</string>
+    <string name="inputwindow">写评论...</string>
+    <string name="okreply">已评论</string>
+    <string name="notokreply">已删除的图像</string>
+    <string name="requesthint">请输入明星姓名</string>
+    <string name="wherelive01">市/区</string>
+    <string name="wherelive02">구/시/군</string>
+    <string name="server">服务器正在运行中. 请稍后再试</string>
+    <string name="rightstar01">收藏夹</string>
+    <string name="rightstar02">查看全部</string>
+    <string name="rightstar03">搜索结果</string>
+    <string name="rightstar04">已添加到收藏夹</string>
+    <string name="rightstar05"> 删除收藏</string>
+    <string name="firststar01"></string>
+    <string name="notexceednick">用户名不可超过8位</string>
+    <string name="startlist03">请输入明星姓名</string>
+    <string name="overmind"> 已完成积分累积</string>
+    <string name="timelineerror">无法下载图片，请稍后再试</string>
+    <string name="newsfeeddel">内容已删除</string>
+    <string name="newsfeeddel02">已删除的内容</string>
+    <string name="timelinedel01">已删除的图像</string>
+    <string name="timelinedel02">图像已删除</string>
+    <string name="supportdel01">已结束的应援活动</string>
+    <string name="eventdel01">已结束的活动</string>
+    <string name="notmorenews">查看更多信息</string>
+    <string name="notoveryear">无法上传出道以前图像</string>
+    <string name="notenoughmind">无法再提供积分</string>
+    <string name="profileok">已设置图像</string>
+    <string name="upload01">上传照片</string>
+    <string name="upload02"> 是否了解图片的活动时间？</string>
+    <string name="upload03"> 没有选择的照片，请确认</string>
+    <string name="upload04">图像已上传，谢谢</string>
+    <string name="upload05"> 图像大小不得超过2MB</string>
+    <string name="upload06">内容已登陆，谢谢</string>
+    <string name="upload07">内容以修改，谢谢</string>
+    <string name="notnickname"> 推荐人不存在，请再次确认</string>
+    <string name="startlist">最多可选5人</string>
+    <string name="startlist02">{NUMBER}/5</string>
+    <string name="notdel">至少选择一个明星</string>
+    <string name="rightstartlist1">只可选择一人</string>
+    <string name="rightstartlist2">选择后请按确认</string>
+    <string name="rightmenu01">已更换明星</string>
+    <string name="nodatadel">没有可删除的内容，请确认</string>
+    <string name="locktalk01">锁屏屏幕信息</string>
+    <string name="locktalk02"> 文字形式变更</string>
+    <string name="locktalk03">锁定按钮设置</string>
+    <string name="locktalk04">该图像已添加到锁屏</string>
+    <string name="talk01">锁屏信息</string>
+    <string name="talk02">文字形式变更</string>
+    <string name="talk03">锁屏按钮设置</string>
+    <string name="etc01">消息提醒</string>
+    <string name="etc02">粉丝爱提醒</string>
+    <string name="etc03">累积提醒</string>
+    <string name="law01"> 服务条款</string>
+    <string name="law02"> 隐私政策 </string>
+    <string name="company01"> 题目</string>
+    <string name="company02"> 公司姓名</string>
+    <string name="company03"> 负责人</string>
+    <string name="company04">联系方式</string>
+    <string name="company05"> 内容</string>
+    <string name="company06"> 请输入咨询事项</string>
+    <string name="company11">请输入题目</string>
+    <string name="company12">请输入公司名</string>
+    <string name="company13">请输入负责人</string>
+    <string name="company14">请留下联系方式</string>
+    <string name="company15">请输入内容</string>
+    <string name="company21">请输入明星姓名</string>
+    <string name="company22">请输入粉丝团姓名</string>
+    <string name="profile01">E-mail : {EMAIL}</string>
+    <string name="profile02">用户名 : {NICKNAME}</string>
+    <string name="profile03">更改密码</string>
+    <string name="profile04">寻找密码</string>
+    <string name="profile05">更改手机号</string>
+    <string name="profile06">退出</string>
+    <string name="changepwd01">使用的密码</string>
+    <string name="changepwd02">密码(英/数字组合6位以上)</string>
+    <string name="changepwd03">新密码</string>
+    <string name="changepwd03_1">确认新密码</string>
+    <string name="changepwd04">新密码(英/数字组合6位以上)</string>
+    <string name="changepwd05">确认密码</string>
+    <string name="changepwd06">更改密码失败</string>
+    <string name="changepwd1">请输入使用中的密码</string>
+    <string name="changepwd2">请输入新密码</string>
+    <string name="changepwd3">请输入6位以上的密码</string>
+    <string name="changepwd4">请输入英、数字组合的密码</string>
+    <string name="changepwd5">成功更改密码</string>
+    <string name="changepwd6">密码错误，请确认</string>
+    <string name="changephone"><![CDATA[※]]> 为了变更手机号实行手机认证</string>
+    <string name="changephone02">手机号已更改，谢谢</string>
+    <string name="cancel">取消</string>
+    <string name="confirmation">确认</string>
+    <string name="next">下一步</string>
+    <string name="findpwd01"> 密码初始化，将给您邮箱发送临时密码</string>
+    <string name="findpwd02">请输入邮箱地址</string>
+    <string name="logout">确认退出吗?</string>
+    <string name="logout02"> 选择一位明星可退出登录</string>
+    <string name="listsupport01">{ENTRY}</string>
+    <string name="listsupport02"> 目前为止，累积</string>
+    <string name="listsupport03"> 爱心 </string>
+    <string name="listsupport04">D - {DAY}</string>
+    <string name="listsupport10">{NUMBER}%</string>
+    <string name="notmind">我的积分不足</string>
+    <!-- <string name="notlike">不可赞自己写的内容</string> -->
+    <string name="listsupport05"> 完成目标，累积</string>
+    <string name="listsupport06"> 爱心 </string>
+    <string name="listsupport07">预计传达</string>
+    <string name="listsupport08">开始日期 : {SDATE} / 结束日期 : {DDATE}</string>
+    <string name="listsupport09">积分已传达，谢谢</string>
+    <string name="endevent01">活动 </string>
+    <string name="endevent02">了</string>
+    <string name="event01">活动</string>
+    <string name="event02">结果</string>
+    <string name="event03">进行中</string>
+    <string name="event04">结束</string>
+    <string name="event05">活动结束日期 :</string>
+    <string name="event06">募集爱心</string>
+    <string name="listsupportdetail01">开始日期 : {RDATE} / 结束日期 : {DDATE}</string>
+    <string name="listsupportdetail02">{PEOPLE}人</string>
+    <string name="listsupportdetail03">预计传达日 <font color="#ff0000">{DATE}</font></string>
+    <string name="listsupportdetail04">参与粉丝数量</string>
+    <string name="listsupportdetail05">需要的积分</string>
+    <string name="listsupportdetail06">我收集的爱心</string>
+    <string name="listsupportdetail07">募捐进程</string>
+    <string name="supportdetail01">>请输入要传达的爱心</string>
+    <string name="supportdetail02">传达积分至少100起</string>
+    <string name="listsupporthide">传达预计日</string>
+    <string name="daily">已完成点名</string>
+    <string name="listevent01">活动产品 {EVENT}</string>
+    <string name="listevent02">登录日期 {DATE}</string>
+    <string name="listevent03">活动期间 {TERM}</string>
+    <string name="register">登录</string>
+    <string name="like01">赞</string>
+    <string name="like02">取消赞</string>
+    <string name="report"><u>举报</u></string>
+    <string name="report00">举报</string>
+    <string name="del"><u>删除</u></string>
+    <string name="alram">闹钟</string>
+    <string name="reportok">已收到举报，谢谢</string>
+    <string name="delok">评论已删除</string>
+    <string name="alramoffok">提请已取消，谢谢</string>
+    <string name="alramonok">已开启提醒，谢谢</string>
+    <string name="networkerror">对不起，请稍后再试</string>
+    <string name="blank01">请输入邮箱地址</string>
+    <string name="blank02">请输入密码</string>
+    <string name="blank03">请输入密码</string>
+    <string name="blank04">请确认手机号</string>
+    <string name="blank05">请输入认证号</string>
+    <string name="blank06">请输入用户名</string>
+    <string name="blank07">请使用出生年月</string>
+    <string name="blank08">至少选择一名明星</string>
+    <string name="blank09">请选择居住区</string>
+    <string name="blank10">请输入手机号</string>
+    <string name="blank11">请确认邮箱地址</string>
+    <string name="blank12">请输入推荐人</string>
+    <string name="blank13">请输入居住地</string>
+    <string name="blank14">请输入手机号码</string>
+    <string name="notok01">密码不一致,确认后请重新输入</string>
+    <string name="notok02">认证号错误,确认后请重新输入</string>
+    <string name="notok03">认证号与使用的手机号不一致,请确认</string>
+    <string name="notok04">邮箱形式错误,请确认</string>
+    <string name="notok05">认证已确认,谢谢</string>
+    <string name="notok06">手机号码形式错误,确认后请重新输入</string>
+    <string name="notok07">已使用的用户名,请重新输入</string>
+    <string name="notok08">请输入昵称</string>
+    <string name="againlogin">密码已变更,请重新输入</string>
+    <string name="login01">已登陆</string>
+    <string name="login02">用户名不存在或密码不一致</string>
+    <string name="login03">用户名已发送至您的手机</string>
+    <string name="login04">未加入的手机号</string>
+    <string name="login05">临时密码已发送至您的邮箱</string>
+    <string name="login06">未加入的邮箱</string>
+    <string name="login07">请输入手机号</string>
+    <string name="login08"> 密码初始化时向您的邮箱发送临时密码</string>
+    <string name="certi01">已发送认证号</string>
+    <string name="certi02"> 认证号发送失败,请稍后再试</string>
+    <string name="certi03">存在使用此手机号的用户</string>
+    <string name="certi04">存在使用本机的用户</string>
+    <string name="companyok">已收到合作伙伴咨询,谢谢</string>
+    <string name="request01">{NUMBER}以上</string>
+    <string name="request03">{NUMBER}/{GOAL}</string>
+    <string name="request04"> 人的爱心</string>
+    <string name="request05"> 已添加新明星,管理者确认后将适用</string>
+    <string name="request06">已投票</string>
+    <string name="request07">取消投票</string>
+    <string name="request08">已邀请的明星</string>
+    <string name="request09">已完成明星邀请</string>
+    <string name="entry01">加入同事</string>
+    <string name="entry02"><u> 使用条约 </u></string>
+    <string name="entry03">已同意相关条约</string>
+    <string name="term01">粉丝爱使用条约</string>
+    <string name="term02">使用条约</string>
+    <string name="term03">第一章(目的)</string>
+    <string name="term04">隐私政策</string>
+    <string name="term05">无法提交的日期,请再次确认</string>
+    <string name="makeaccount01">基本信息输入</string>
+    <string name="makeaccount02">其他信息输入</string>
+    <string name="add">添加</string>
+    <string name="sch">日程{NUM}个</string>
+    <string name="step01">没有收到认证号吗?</string>
+    <string name="step02">3分钟后还没有收到认证号</string>
+    <string name="step03">认证号再次发送</string>
+    <string name="step04">请按</string>
+    <string name="step05"><![CDATA[※]]>认证的手机号只用于本人确认及防止不正当使用，不向其他使用者公开</string>
+    <string name="step06">出生年月</string>
+    <string name="step07">시/도</string>
+    <string name="step08">구/시/군</string>
+    <string name="step09">请选择项目</string>
+    <string name="step10">推荐人用户名输入</string>
+    <string name="step11">请选择</string>
+    <string name="step12">请输入号码</string>
+    <string name="step13">请输入认证号</string>
+    <string name="notice">{KIND} | {ID} | {TIME}</string>
+    <string name="choice01">至少选择一张图片</string>
+    <string name="choice02">已删除选择的图片</string>
+    <string name="choice03">已更改选择的明星</string>
+    <string name="choice04">添加明星</string>
+    <string name="choice05">请选择一位明星</string>
+    <string name="timeline00">评论设置</string>
+    <string name="timeline02">提醒这张图片</string>
+    <string name="timeline03">关掉图片提醒</string>
+    <string name="timeline04">举报该内容</string>
+    <string name="close01">关掉锁屏屏幕吗?</string>
+    <string name="close02">粉丝爱锁屏> 设置 >可在锁屏屏幕再次设置</string>
+    <string name="close03">关掉锁屏</string>
+    <string name="newfeed00">帖子设置</string>
+    <string name="newfeed01">关掉提醒</string>
+    <string name="newfeed02">打开提醒</string>
+    <string name="newfeed03">举报</string>
+    <string name="newfeed04">修改帖子</string>
+    <string name="newfeed05">删除</string>
+    <string name="newfeed06">举报帖子</string>
+    <string name="newfeeddel"> 如果删除帖子,相关评论也随之删除</string>
+    <string name="replydel">删除评论吗?</string>
+    <string name="stardel01">删除我的明星</string>
+    <string name="stardel02"> 删除该明星时不可使用相关服务,确认删除吗?</string>
+    <string name="imagedel01">删除图像</string>
+    <string name="imagedel02">删除选择的图像吗</string>
+    <string name="imagebtn01">选择头像</string>
+    <string name="imagebtn02">设置该图片为头像吗?</string>
+    <string name="image01">添加锁屏屏幕</string>
+    <string name="image02"> 设置已选择的图片为锁屏屏幕,需要再添加吗?</string>
+    <string name="failimage01">密码不一致.\n确认后请重新试</string>
+    <string name="failimage02">新密码不一致.\n确认后请重新试</string>
+    <string name="fanclub01">明星姓名</string>
+    <string name="fanclub02">粉丝团名字</string>
+    <string name="timeline01">{MONTH}月 相册</string>
+    <string name="schadd01">非常感谢提供日程</string>
+    <string name="guest01">非会员</string>
+    <string name="guest02">0</string>
+    <string name="okdownload">图片已保存到相册</string>
+    <string name="notification">通告</string>
+    <string name="notify01">KAKAOTALK</string>
+    <string name="notify02">LINE</string>
+    <string name="notify03">KAKAO空间 </string>
+    <string name="notify04">脸书</string>
+    <string name="likeok">已点赞</string>
+    <string name="likecancel">已取消赞</string>
+    <string name="kakao01"> 不用担心钱的问题 \n 知道有免费提供明星礼物的软件吗?\n 快点下载软件一起做应援吧 !\n\n推荐人: {NICK}</string>
+    <string name="kakao02"> 向粉丝爱推荐明星 \n 一起做粉丝 吧~!\n\n 要在粉丝爱看到我们的明星的话 \n 点击这里 ~\n\n 推荐人: {NICK}</string>
+    <string name="kakao03"> 首个明星朝贡软件! \n\n与粉丝爱一起免费支持明星! \n\n推荐人: {NICK}</string>
+    <string name="line01"> 免费给我们的明星赠礼 推荐人: {NICK}</string>
+    <string name="line02"> 向粉丝爱推荐明星，一起做粉丝吧~! 要在粉丝爱看到我们的明星的话 点击这里 ~ 推荐人: {NICK}</string>
+    <string name="line03"> 首个明星朝贡软件! 与粉丝爱一起免费支持明星! 推荐人: {NICK}</string>
+    <string name="login_tv01">输入用户名</string>
+    <string name="login_tv02">输入密码</string>
+    <string name="navi_tv01">使用条款及个人信息</string>
+    <string name="navi_tv02">广告合作咨询</string>
+    <string name="navi_tv03">参与应援活动</string>
+    <string name="navi_tv04">账户设置</string>
+    <string name="navi_tv05">注意事项</string>
+    <string name="support_tv01">送出爱心积分</string>
+    <string name="support_tv02">爱心剩余</string>
+    <string name="support_tv03">持有爱心积分</string>
+    <string name="support_tv04">送出爱心</string>
+    <string name="support_tv05">应援活动进行中</string>
+    <string name="support_tv06">应援即将传达</string>
+    <string name="support_tv07">应援后记</string>
+    <string name="support_tv08">爱心积分</string>
+    <string name="timeline_tv01">未分类相册</string>
+    <string name="timeline_tv02">月</string>
+    <string name="newsfeed_tv01">最新序</string>
+    <string name="newsfeed_tv02">赞序</string>
+    <string name="newsfeed_tv03">我写的文章</string>
+    <string name="newsfeed_tv04">写文章</string>
+    <string name="newsfeed_tv05">请输入内容</string>
+    <string name="right_tv01">我的明星列表</string>
+    <string name="right_tv02">输入明星姓名</string>
+    <string name="mypoint_tv01">可应援的爱心积分</string>
+    <string name="mypoint_tv02">爱心积分使用明细</string>
+    <string name="mypoint_tv03">爱心购买记录</string>
+    <string name="mypoint_tv04">爱心明细</string>
+    <string name="start00">开始</string>
+    <string name="starthint">搜索明星</string>
+    <string name="entryemail">通过电子邮件加入会员</string>
+    <string name="findid01">请勿输入国家区号及‘-’ ex)01012345678</string>
+    <string name="findid02">查找用户名</string>
+    <string name="findid03">粉丝爱账号是{ID}</string>
+    <string name="find">查找</string>
+    <string name="email">邮件</string>
+    <string name="pwd01">密码</string>
+    <string name="pwd02">密码确认</string>
+    <string name="phone">手机认证</string>
+    <string name="countryphone">-请输入手机号码（国家区号除外）</string>
+    <string name="nick">用户名</string>
+    <string name="birth">出生年月</string>
+    <string name="sex">性别</string>
+    <string name="marry">结婚</string>
+    <string name="celeb">明星</string>
+    <string name="country">地址</string>
+    <string name="recommend">推荐用户名</string>
+    <string name="recommendcomment">请输入推荐粉丝爱的会员用户名</string>
+    <string name="sign">加入</string>
+    <string name="dailysave">{POINT}累积</string>
+    <string name="min">分钟前</string>
+    <string name="hour">小时前</string>
+    <string name="starterm01">提供日期</string>
+    <string name="starterm02">设置该图片的日期</string>
+    <string name="starterm03">举报</string>
+    <string name="starterm04">年</string>
+    <string name="starterm05">月</string>
+    <string name="newsfeedtitle">&#160;&#160;&#160;新报</string>
+    <string name="upload">上传</string>
+    <string name="lockscreenimage01">删除图片</string>
+    <string name="schtitle">题目</string>
+    <string name="begin">开始</string>
+    <string name="end">终止</string>
+    <string name="contents">内容</string>
+    <string name="schsend">提供日期，请单击此处</string>
+    <string name="starrequest01">邀请我的明星</string>
+    <string name="starrequest02">得到朋友的帮助</string>
+    <string name="starrequest03">邀请我的明星</string>
+    <string name="lockscreendel01">删除</string>
+    <string name="lockscreendel02">选择全部</string>
+    <string name="lockscreenlock01">锁屏屏幕</string>
+    <string name="lockscreenlock02">关闭</string>
+    <string name="lockscreenlock03">锁屏屏幕图片设置</string>
+    <string name="buypoint01">购买爱心</string>
+    <string name="buypoint02">有等待被购买的爱心哦!</string>
+    <string name="buyprice01">¥6</string>
+    <string name="buyprice02">¥15</string>
+    <string name="buyprice03">¥35</string>
+    <string name="buyprice04">¥65</string>
+    <string name="buyprice05">¥156</string>
+    <string name="buyprice06">¥315</string>
+    <string name="buyitem01">600</string>
+    <string name="buyitem02">1,500</string>
+    <string name="buyitem03">3,500</string>
+    <string name="buyitem04">7,000</string>
+    <string name="buyitem05">17,000</string>
+    <string name="buyitem06">35,000</string>
+    <string name="buypoint201">购买爱心</string>
+    <string name="buypoint202">临时账户</string>
+    <string name="buypoint203">手机支付</string>
+    <string name="buypoint204">信用卡</string>
+    <string name="buypoint205">软件内支付</string>
+    <string name="daily1_title">粉丝爱签到!</string>
+    <string name="daily1_content">每日签到领爱心积分，连续使用给特别的优惠哦！</string>
+    <string name="daily3_title">3日连续签到!</string>
+    <string name="daily3_content">好棒! 作为连续三日签到的礼物送10爱心!</string>
+    <string name="daily5_title">5日连续签到!</string>
+    <string name="daily5_content">竟然连续五日签到！果然经常使用粉丝爱！送25爱心作为礼物！</string>
+    <string name="daily10_title">10日连续签到!</string>
+    <string name="daily10_content">哇塞! 连续10日访问了粉丝爱，好感动♡送50爱心作为礼物</string>
+    <string name="daily13_title">13日连续签到!</string>
+    <string name="daily13_content">已满出席一半了! 送30爱心作为礼物，继续加油哦</string>
+    <string name="daily15_title">15日连续签到!</string>
+    <string name="daily15_content"> 竟然连续15日访问了粉丝爱、真心感谢您的厚爱！送100爱心作为礼物，可以参与应援活动咯！</string>
+    <string name="daily20_title">20日连续签到!</string>
+    <string name="daily20_content">送200积分，作为20日以来每日签到的礼物，仅剩5日满签到哦，加油！
+</string>
+    <string name="daily23_title">23日连续签到!</string>
+    <string name="daily23_content">棒棒哒! 再坚持两天可获得400爱心♡</string>
+    <string name="daily25_title">你是签到王!</string>
+    <string name="daily25_content">非常感谢25日以来每日签到~ 好感动♡ ..会继续使用粉丝爱吧？送400积分作为礼物哦！</string>
+    <string name="termcontent01">"  一．总则
+
+    提供www.fanmaum.com服务的Fanmaum Co. Ltd(以下简称”公司”)认为会员为使用服务而提供的个人信息非常重要,因此制定了《隐私权政策》并且严格遵守。公司的《隐私权政策》遵守相关法律法规及韩国的通信情报部制定的《隐私权政策》，尽全力保护会员避免因个人信息泄露而造成损失。
+
+    会员可随时阅读并确认本政策，《隐私权政策》可能会依据相关法律法规及政府方针，为了提供更好的服务而修改。
+
+
+
+
+    二．个人信息的收集目的及使用目的
+
+    公司收集会员个人信息的理由及使用目的，是为了通过公司运营的网站（www.fanmaum.com）提供最佳的服务，因此收集个人信息。会员提供的个人信息是用于为会员提供有用的情报或回答会员的各种疑问。
+
+
+
+
+    三．个人信息的收集范围及收集方法
+
+    1. 收集范围
+
+    1) 公司收集通过合法公正的程序和用户的同意的个人信息。因此网站设有对《隐私权政策》及《服务条款》的内容进行同意的【同意】按键，阅读后若点击了【同意】按键则表示同意公司收集会员的个人信息。
+
+    2) 公司收集的个人信息项目
+
+      a. 会员加入时收集的信息 : 电子邮件、密码、昵称
+
+      b. 参加众筹时收集的信息 : 名字, 邮箱地址, 地址, 电话号码
+
+    2. 收集方法：通过网页注册及变更会员、咨询邮件、电话咨询等。
+
+
+
+
+    四. 个人信息的使用和提供
+
+    1. 公司收集个人信息用于以下目的。
+
+    1) 网页会员管理：根据会员制服务的使用，本人确认、个人识别、防止不良会员的不良使用及不法使用，加入目的的确认、加入及加入次数的限制，转达通知事项和咨询解答等；
+
+    2) 问卷调查及活动；
+
+    3)提供资讯及会员定制型服务，购买服务及付款，金融交易本人认证及金融服务，根据服务订单的派送服务；
+
+    4) 新服务（资讯、内容）的开发和特化，活动等广告性质的转达，根据统计学特征提供服务及刊载广告，掌握网站提交频度，会员使用服务相关统计。
+
+    2. 会员提供的个人信息在未获得会员本人同意的情况下，公司不得用于除已通知或明示的目的范围以外，也不得向第3者提供。但，以下情况除外。
+
+    1) 搜查机关提出依据法律规定的程序和方法以搜查为目的的要求的情况；
+
+    2) 韩国的《金融实名交易及密码保障相关法律》、《信用情报使用及保护相关法律》、《电气通信基本法》、《电气通信事业法》、《地方税法》、《消费者保护法》、《刑事诉讼法》等法律法规有特别规定的情况；
+
+    3) 依据韩国法律的规定用于统计目的、学术研究、市场调查等以无法确定特定个人的形式提供个人信息的情况；
+
+    3. 即使是需获得会员同意的情况公司也需提前通知或明示以下内容。对此会员有拒绝的权利，或者随时可取消同意。
+
+    1) 个人信息管理负责人的身份信息（所属、姓名及电话号码）
+
+    2) 个人信息的收集目的及使用目的
+
+    3) 收集的个人信息项目
+
+    4) 收集的个人信息的保留时间及使用时间
+
+    5) 给提供第3者个人信息的相关事项
+
+    6) 会员的同意取消权和对自身信息的阅读•修正错误要求及处理方法
+
+    7) 其他韩国《促进情报通信网使用的相关法律》等相关法律法规规定的事项
+
+    4. 若因电子邮件等虚假个人信息的原因妨碍服务质量的情况，网页运营者有权删除或修正相关信息。
+
+    5. 会员在网络上自发性地提供给第3者个人情报收集及使用的情况，责任全部由会员承担。
+
+    6. 另，为了业务的顺利进行而确认个人信息的情况只有业务担当者（个人信息负责人）有权利。
+
+
+
+
+    五．向第3者提供个人信息
+
+    1. 公司在「4. 个人信息的使用和提供」所规定的范围内使用会员们的个人信息,在未取得会员事先同意的情况下,不会在超出规定的范围内使用或者原则上不会将用户的个人信息提供给第3者.但,以下情况除外.
+
+    1) 用户们事先公开或同意向第3这提供信息的情况
+
+    2) 依据法律法规,以搜查、调查为目的，根据法律法规规定的程序和方法搜查机关及监督当局要求的情况
+
+    3) 为了金钱清算而需要的情况
+
+    2. 之外需要向第3者提供个人信息的情况需通过得到用户的同意等合法的程序才能向第3者提供个人信息。为了用户的交易能正常进行，公司有权在通过得到用户的同意等合法程序后向第3者提供以下个人信息。
+
+    1)　向第3者提供个人信息
+
+    2) 获得信息的对象 : 项目发起人
+
+    3) 分享条目 : 名字，ID，手机号码，邮件地址，电话号码
+
+    4) 对方的使用目的 : 用于派送回报
+
+    5) 保留及使用时间 : 派送结束后1个月
+
+
+
+
+    六．会员对于个人信息的权利及使用方法
+
+    1. 公司最大限度尊重会员对于个人信息的权利。
+
+    2. 会员可通过访问、电子署名或会员ID等对公司收集的本人的个人信息进行阅读、修正错误以及取消收集同意，公司通过本人确认后需立即执行会员的相关要求。
+
+    3. 会员申请修正错误信息的情况，公司在信息得到修正期间不得使用相对应的个人信息，若公司直接修正则需在修正后通知相应会员。
+
+    4. 会员通过会员ID对个人信息进行阅读及修改的情况，使用注册的ID和密码登录，打开客服中心的个人信息管理菜单，随时可以阅读、确认及修改本人的个人信息。
+
+
+
+
+    七．个人信息的保留和使用时间
+
+    原则上达到收集和使用个人信息的目的后(会员注销及解除电子邮件服务)需销毁相关个人信息。但，包括以下内容时公司和相关法律法规明确规定的时间内信息保留。
+
+    1. 根据公司内部方针的信息保留事由
+
+    1) 电子邮件
+
+      a. 保留理由：防止不良会员的不正当使用和不法使用及服务混乱
+
+      b. 保留时间：1年
+
+    2. 依据相关法律法规的信息保留事由
+
+    1) 网站访问记录
+
+      a. 保留根据：韩国《通信秘密保护法》
+
+      b. 保留时间：3个月
+
+    2) 本人确认相关记录
+
+      a. 保留根据：韩国《促进情报通信网使用的相关法律》
+
+      b. 保留时间：6个月
+
+    3) 显示/广告相关记录
+
+      a. 保留根据：韩国《电子交易等消费者保护法》
+
+      b. 保留时间： 6个月
+
+    4) 合约或撤销合约相关记录
+
+      a. 保留根据： 韩国《电子交易等消费者保护法》
+
+      b. 保留时间： 5年
+
+    5) 结算或回报提供相关记录
+
+      a. 保留根据： 韩国《电子交易等消费者保护法》
+
+      b. 保留时间： 5年
+
+    6) 消费者的不满或纷争处理相关记录
+
+      a. 保留根据： 韩国《电子交易等消费者保护法》
+
+      b. 保留时间： 5年
+
+
+
+
+    八．个人信息保护相关技术管理对策
+
+    1. 公司为保护个人信息不泄露而尽全力寻求技术•管理对策。
+
+    2. 公司尽全力确保安全性保护用户的个人信息不发生丢失、失窃、泄露、伪造或毁损。因此努力构建及加强使用密码等的保安装置、使用杀毒软件的电脑防病毒装置、使用加密算法等在网络环境里安全地传送个人信息的保安装置、防入侵装置等控制接近装置、其他为确保安全性而必需的技术装置等技术对策。
+
+    3. 公司尽可能限制可查看个人信息的职员，遵守本政策及持续进行个人信息保护教育。另，可查看个人信息的运营者密码定期更换，尽全力阻止违法的信息泄露。
+
+
+
+
+    九一．个人信息管理义务及负责人公告
+
+    公司指定负责个人信息相关意见收集及处理意见的个人信息管理负责人。个人信息管理负责人相关信息如下。
+
+    [个人信息管理负责人]
+
+    姓名：Li Jixuan
+
+    电话: 070-4365-4386
+
+    电子邮件 : contact@fanmaum.com
+
+"</string>
+    <string name="termcontent02">"第一章 总则
+
+    第1条【目的】
+
+    本协议旨在规定在使用Fanmaum Co.司(以下简称“公司”)运营的网站www.fanmaum.com提供的等互联网相关服务（以下简称“服务”）时，关于公司与用户的权利及义务、责任，会员使用服务步骤的有关事项。
+
+
+
+
+    第2条【定义】
+
+    1. 服务是指由“公司”提供的与接收终端形式(包括电脑,电视,携带终端等各种有线无线装置)无关,用户们可以使用的各种服务。
+
+    2. 网站”是指公司运营的网站(www.fanmaum.com)
+
+    3. 发起人是指通过“公司”提供的服务发起资金支持项目或者投资项目的“会员”。
+
+    4. 会员是指使用公司的服务，根据本协议与公司签订使用合同并使用公司提供的服务的个人或法人。
+
+    5. 支持者是指通过“公司”提供的服务决定要支持的“项目”和支持金额，对发起人进行支持的“会员”。
+
+    6. 项目是指会员为了获得其他会员的资金支持或投资而在公司提供的平台开设的服务。
+
+    7.爱心:公司规定的正规募资的金额单位,1爱心等于1元韩币的价值
+
+    8. 回报是指在“项目”达到成功后，发起人承诺于支持者的礼物。
+
+    9. 在本服务协议未经定义的用语，均遵守交易惯例或相关法律法规。
+
+
+
+
+    第3条 【条款的明示和修改】
+
+     粉丝爱 有权于任何时间暂时或永久修改或终止本服务（或其任何部分），且无论通知与否。您同意对于本服务所作的任何修改、暂停或终止， 粉丝爱 对您和任何第三人均无需承担任何责任。
+
+
+
+
+    第4条 【服务的性质与目的】
+
+    1. “公司”提供的服务是为了帮助“会员”与“会员”相互间的交易能够顺利进行而提供的网上平台，“公司”不会向“会员”提供借款或接受借款。
+
+    2. 与“会员”之间成立的交易相关的责任由作为交易当事人的会员自己承担。但是，“公司”可以在法律允许范围内向会员提供解决会员之间发生的问题所需要的相关文件。
+
+
+
+
+
+
+
+    第二章 会员注册等
+
+    第5条 【会员注册】
+
+    1. 想要成为“会员”的人（下称“申请加入者”）在本网站注册成为“会员”即视作同意协议内容，注册申请若通过“公司”审核 ，即成功注册为“会员”。
+
+    2. “申请加入者”在仔细阅读本《服务条款》和公司的《隐私权政策》后点击“同意”按键或者选择“确认”等情况下表示同意本条款。
+
+    3. 匿名，假名等不用实名注册的用户无法作为会员进行统一管理。借用他人的名义注册会员的用户将删除账号，并且根据相关法律法规给予一定的处罚。
+
+    4. 我们的原则是一个“会员”只能拥有一个账号，对于拥有一个以上账号的“会员”，我们有权利删除账号或对该“会员”采取注销及禁止再注册措施。 而且拥有一个以上账号的“会员”，不能对一个以上的其他账号实行任何权利。
+
+
+
+
+    第6条 【使用申请的通过与限制】
+
+    1. “公司”对于申请加入者的申请在没有特殊原因的情况下，一般通过申请。但是，在包括但不限于下列行为时，公司将不予通过或者即使通过了也可以要求其注销。
+
+    1) 非实名或借他人名义申请的情况；
+
+    2) 依据本条款，申请者之前有丧失会员资格的情况，但，公司同意“会员”再加入的情况除外；
+
+    3) 填写虚假信息，或未填写公司所要求的内容的情况；
+
+    4) 为了妨碍社会的安定、秩序和公序良俗而申请加入的情况；
+
+    5) 为了不正当的用途而使用本服务的情况；
+
+    6) 妨碍他人使用服务或者盗用他人信息等威胁电子商务秩序的情况；
+
+    7) 违反条款或者公司的各项规定下申请的情况；
+
+    8) 与本服务处于竞争关系的用户申请的情况；
+
+    9) 由于用户的责任事由而无法通过或违反其他规定时申请的情况；
+
+    2. “公司”在包括但不限于以下行为时，对于使用申请可以进行限制或者保留。
+
+    1) 与“公司”的服务相关的设备没有足够空间的情况；
+
+    2) 提供的服务存在技术问题的情况；
+
+    3) 其他承认包含于上述各项所称述的事由的情况。
+
+    3. 公司将使用本服务的会员进行等级划分。按使用时间、使用次数、服务内容等细分项目进行等级划分。
+
+
+
+
+    第7条 【个人隐私保护义务】
+
+    “公司” 依据《信息通信网法》等相关法令努力保护“会员”的个人信息。个人信息的保护和使用，依据相关法律及公司的《隐私权政策》。但是，除公司的正式网站以外所链接的网站上，公司的《隐私权政策》不适用。
+
+
+
+
+    第8条 【“会员”的账号及密码管理】
+
+    1. “会员”的账号和密码的管理责任在于“会员”本人，第三方不得使用。
+
+    2. “会员”不得变更“公司”提供的账号，不得拥有多个账号。因不得已的原因需要进行账号变更时，需注销“会员”后再注册。
+
+    3. “公司”在“会员”账号出现下列情况时，有权要求“会员”变更账号。这种情况下，会员必须先注销账号再重新注册。
+
+    1) 账号使用了用户的电话号码或者身份证号码等有可能侵害私生活的情况；
+
+    2) 带给他人厌恶感或违反公序良俗的情况。
+
+    4. “公司”对于“会员”账号有可能泄露个人信息，或有可能被误认为是“公司”或者“公司”的运营者的情况，有权限制该账号的使用。
+
+    5. “会员”在得知账号及密码被盗用或被第三方使用的情况下，必须立即通知公司并在公司的引导下行动。
+
+    6. 符合第5项条款的“会员”，未通知公司或者通知了公司却未按照“公司”的引导行动而产生的损失，公司不承担任何责任。
+
+    7. “公司”提供的服务账号在会员本人的同意下可与“公司”经营的其他网站的账号连用。
+
+    8. 会员个人信息管理、变更等其他相关事项，依据服务中的相关规定。
+
+
+
+
+    第9条 【会员信息的变更】
+
+    1. “会员”通过个人信息管理画面，可随时浏览及修改本人的个人信息。但是，服务管理所必需的姓名、账号、出生日期等不可修改。
+
+    2. “会员”在变更注册申请当时登记的事项时，须在线修改或者通过电子邮件等其他方法告知“公司”变更的事项。
+
+    3. 第2项所陈述的会员变更事项却未告知公司的情况下所产生的损失，公司不承担任何责任。
+
+
+
+
+    第10条 【账号注销等】
+
+    1. “会员”可随时通过网站内“我的注销菜单”注销及解除使用合同，公司必须立即根据相关法律法规进行处理。
+
+    2. “会员”在注销及解除使用合同的情况，依据相关法律及《隐私权政策》，“公司”保留“会员”信息的情况除外，公司须在解除的同时立即删除会员的所有数据。
+
+
+
+
+
+
+
+    第3章 义务与责任
+
+    第11条 【公司的义务】
+
+    1. “公司”不会进行相关法律法规和本条款禁止的或者违反公序良俗的行为，并且会尽一切努力提供持续、稳定的服务。
+
+    2. “公司”为了“会员”能安心地使用服务，为保护“会员”的个人信息而建构了安全系统，明示了《隐私权政策》并严格遵守。
+
+    3. “公司”为了解决用户在进行电子交易中遇到的问题时，需生成或保存可以确认问题的记录。
+
+    4. “公司”提供电子金融交易服务时取得的用户个人信息、用户银行账户、用户账号和电子金融交易的内容或者资料，相关法律、法规或法院、政府机关要求除外，未得用户的同意不得向第三方提供、泄露。
+
+    5. “公司”觉得使用服务的会员提出的意见或不满事项合理时，将承认并立即进行处理。但，无法立即处理的情况下，会通知会员无法立即处理的理由和所需的时间。
+
+    6. “公司”不会向未选择收信同意的“会员”发送以营利为目的的广告邮件。
+
+    7. 在“会员”提交注销申请的情况下，公司在进行本人确认后将立即处理。
+
+
+
+
+    第12条 【公司的责任】
+
+    1. 因仿造或伪造认证手段而发生的事故（但，由公司发行或管理认证手段的情况除外），在签合同过程或者交易指示的电子传送或处理过程中发生的事故对用户造成损失的情况下,公司不承担任何责任。
+
+    2. 不仅限于以上条款，对于下列各种情况对用户造成损失时，“公司”不承担任何责任。
+
+    1) 非公司发行的认证手段，因伪造或仿造认证手段而发生事故对用户造成损失的情况；
+
+    2) ‘用户’ 向第三方用户转让/租赁,委任或以担保为目的提供认证手段, 在知道第三方用户可能在无权限的情况下使用“用户”的认证手段进行电子金融交易却放任不管或泄露用户本人的认证手段的情况;
+
+    3) 用户是法人 (《中小企业基本法》第2条第2项所规定的小企业除外)的情况, 为防止发生事故对其造成损失, “公司”会履行建立并严格遵守安全程序等合理要求的义务;
+
+    4)不属于“公司”的管理领域而是由公众通信线路的障碍引起服务无法使用的情况;
+
+    5) 其他不归咎于“公司”的通信服务等障碍引起的无法使用服务的情况;
+
+    3. “公司”即使受到来自用户的交易指示, 但因自然灾害、责任不在公司的停电、火灾、通信障碍等其他不可抗力引起推迟或无法处理，并且通知了用户推迟或无法处理的理由的情况，用户的损失，公司不承担任何责任。
+
+    4. 公司电脑等通信设备的检查、维修、更换等引起提供的服务将暂时中断的情况，公司会在官网上提前通知用户中断的日程及理由。
+
+
+
+
+    第13条 【“会员”的义务】
+
+    1. “会员”不得进行包括但不限于以下的行为。
+
+    1) 申请会员或变更会员信息时登记虚假信息的行为；
+
+    2) 盗用其他会员的账号、密码等行为；
+
+    3) 与他人进行“账号”交易的行为；
+
+    4) 冒充“公司”的运营团队、职员及相关负责人的行为；
+
+    5) 未得到“公司”赋予的特别权利而更改公司的客户端软件，或对公司的服务器进行黑客攻击，任意更改网站信息，或变更部分或者全部已上传信息的行为；
+
+    6) 危害或故意妨碍服务的行为；
+
+    7) 通过本服务获得的信息在事前未得到公司许可的情况下，用于服务使用以外的目的，任意加工、销售、复制、传送、发布、出版及播放等，或者向第三方提供的行为；
+
+    8)传送、发布、通过电子邮件等媒介或其他方法向他人传播违反公共秩序及公序良俗的包含低俗、淫秽内容的信息、文章、图片、音频、视频等的行为；
+
+    9) 传送、发布、通过电子邮件等媒介或者其他方法向他人传播侮辱或有可能侵害他人名誉或隐私权内容的行为；
+
+    10) 骚扰或威胁其他会员，给特定用户造成持续困扰或不便的行为；
+
+    11) 未得公司批准，收集或储存其他会员的个人信息的行为；
+
+    12) 被判定犯罪的行为；
+
+    13) 妨碍“公司”业务及损失“公司”名誉的行为
+
+    14) 没有“公司”明确的同意，向他人转让、赠予、抵押或担保服务的使用权限和其他使用合同上的权利的行为；
+
+    15) 违反包括本条款在内的公司制定的其他各类规定及使用条件的行为；
+
+    16) 其他法律法规禁止的行为。
+
+    2. “会员”必须遵守相关法律法规、本条款及“公司”制定的各种其他规定、服务使用合同和公告等由公司通知的事项。
+
+    3. “会员”在未得到“公司”批准的情况下，禁止利用服务进行营利活动。“会员”与“会员”，或者“会员”与第三方之间以服务为媒介进行的交易，与“公司”无关，对此公司不承担任何责任。
+
+    4. “会员”在违反第3项时，对“公司”造成损失的情况“会员”须对公司进行赔偿。
+
+
+
+
+    第14条 【对会员的通知】
+
+    1. 对于未收订于本条款的规定，“公司”有权在服务范围内通过电子邮件地址、站内信等方式通知会员。
+
+    2. 会员已公开拒绝接受邮件的情况下，依据相关法律法规或为履行本条款规定的通知义务等情况所需时，“公司”有权向“会员”发送电子邮件。
+
+    3. 需对全体会员进行通知的情况，公司有权在公司的公告栏上公告7天以上，来取代第1项陈述的通知方式。
+
+
+
+
+
+
+
+    第4章 服务的使用
+
+    第15条 【服务的提供及变更】
+
+    1. "公司"会为“会员”提供众筹服务。这时关于服务的内容，遵照《资本市场和金融投资业相关法律》等相关法律法规。
+
+    2. “公司”会为“会员”提供所有公司能提供的服务，包括内容和进行的活动等。但，依据第6条第3项服务会根据会员的等级进行差别化提供。
+
+    3. “公司”在变更服务时，要通过第14条所规定的方法通知会员变更的服务内容。
+
+
+
+
+    第16条【发布内容的管理】
+
+    1. “公司”尽力保护“会员”发表的内容及资料不被更改、损坏、删除。
+
+    2. 若“会员”的发布内容出现包括但不限于以下内容时，“公司”有权拒绝发布或直接删除、移动和变更。
+
+    1) 侮辱或诽谤其他“会员”或他人，损失他人名誉的；
+
+    2) 违反公共秩序和公序良俗，以及含有链接到发布有此类内容的网页链接的；
+
+    3) 散布淫秽、色情等内容，以及含有链接到发布有此类内容的网页链接的；
+
+    4) 包含违法复制、黑客行为的；
+
+    5)　以营利为目的的广告及垃圾内容；
+
+    6) 违法犯罪的；
+
+    7) 侵害“公司”，其他“会员”、他人的著作权及其他权利的；
+
+    8) 不符合网站版块规定的；
+
+    9) 上传商用软件或破解文件的；
+
+    10) 重复上传相同内容，不符合发布目的的；
+
+    11) 其他违反公司各类规定及相关法律法规的。
+
+    3. “公司”有权制定并执行与个别服务的发布内容相关的详细方针，“会员”须按照方针发布内容（包括会员间的转发）。
+
+    4. “公司”有权删除“会员”发布的与公司服务方向不符的内容。
+
+
+
+
+    第17条 【关于发布内容的所有权】
+
+    1. 由“公司”撰写的发布内容著作权及知识产权归“公司”所有。
+
+    2. “会员”发布在服务页面上的内容，所有权归“会员”所有。
+
+    3. 对于“会员”拥有所有权的发布内容，“公司”拥有可以免费的、永久有效的、不可撤销的、非独家的、可转授权的、在全球范围内对所发布内容进行使用、复制、修改等创造衍生性著作的权利，或可以将前述部分或全部内容加以传播展示或放入任何现在已知和未来开发出的任何形式的媒介（包括向与“公司”联盟的其他“公司”无偿提供数据）中。“会员”同意本条款，则公司同时也拥有知识产权，即使“会员”注销后依然有效。
+
+    4. “公司”若想将“会员”拥有所有权的文章以营利为目的使用在第3项所规定的以外的地方的情况，需通过电话、传真、电子邮件等方法事前得到“会员”的同意。
+
+
+
+
+    第18条 【广告刊登】
+
+    1. “公司”有权在服务页面、主页刊登或通过邮件、站内信、SMS等发送与服务的运营有关的内容。但，“公司”在给“会员”发送邮件、站内信、SMS等情况时需事前确认会员是否同意收信。只能对同意收信的会员进行发送。
+
+    2. 用户在使用服务页面上刊登的广告或者通服务参与广告主的促销活动等进行交流或交易，则全部责任在于用户和广告主。万一，用户与广告主之间发生问题，用户需和广告主直接解决，与此相关的，公司不承担任何责任。
+
+
+
+
+    第19条 【服务使用时间】
+
+    1. 公司在通过会员的使用申请同时开始提供服务。但，部分服务在指定日提供。
+
+    2. 公司有权将服务分类，根据各个类别制定使用可能时间。当出现这种情况时公司有义务通知会员。
+
+    3. 本服务一天24小时，全年无休。但，因公司的业务或技术上的障碍或技术性的维修以及网站的更新等原因，服务有可能一时中断。出现这种情况时，公司有义务提前通知会员。
+
+
+
+
+    第20条 【限制服务使用或终止及注销“会员”】
+
+    “公司”遇到包括但不限于以下内容时，有权限制或终止“会员”的服务使用以及注销“会员”账号。
+
+    1) “会员”故意妨碍或因会员的过失妨碍“公司”服务运营的情况；
+
+    2) “会员”违反第13条规定的“会员”的义务的情况；
+
+    3) 一位会员拥有多个账号的情况；
+
+    4) 公司电脑等通信设备或系统的定期检查、维修、更换、障碍等引起不得已的情况；
+
+    5) 《电气通信事业法》规定的基干通信事业者中断电子通信服务的情况；
+
+    6) 国家紧急状态、服务设备障碍、服务瘫痪等引起无法使用服务的情况；
+
+    7) 使用妨害公序良俗的不文明账号或昵称的情况；
+
+    8) 相关行政官厅或公共机关要求更正的情况；
+
+    9) 3个月以上未使用服务的情况；
+
+    10) 在布告栏上没有索引，只上传了资料等将布告栏作为文件资料室占用的情况；
+
+    11) 发布或记载第15条第2项所规定的内容或资料的情况；
+
+    12) 盗用他人的付款信息或进行不正当交易行为的情况。
+
+
+
+
+    第21条 【项目的申请】
+
+    1. 想要开设项目的“会员”需按照“公司”提供的样式和程序申请项目。这时发起人可与公司缔结与项目相关的合同。
+
+    2. 递交申请的项目由“公司”审核是否符合公司规定的以下基准和运营方向，通过审核的项目将在网站上发起。
+
+    1)　是否遵守“公司”关于项目发起的规定和程序；
+
+    2) 是否按照“公司”提供的项目发起样式申请；
+
+    3) 是否递交“公司”要求的项目相关的文件（照片、视频、音频等）；
+
+    4) 是否违反相关法律法规、公共秩序或公序良俗；
+
+    5) 是否以损失他人名誉或利益为目的；
+
+    6) 是否符合公司规定的所有项目审核条件；
+
+    7) 其他是否递交了为发起项目所需的要求。
+
+    3. “会员”在申请登记的项目中，不允许出现包含虚假内容、错误内容或者内容有遗漏的情况，“会员”因不遵守此规定而造生的损失,“会员”承担所有责任。
+
+    4. “会员”制作及提供的项目内容及文件的所有权和责任归“会员”所有，若“公司” 判定“会员”登记的项目内容包含以下内容则有权在未通知会员的情况下删除项目，对此公司不承担任何责任。此外,有权根据个案登记，要求发起项目的“会员”进行解释。
+
+    1)　“会员”提供的会员信息或项目信息造假的情况；
+
+    2) 内容侵害了第3者知识产权或其他权利的情况；
+
+    3) 发布未得到“公司”批准的内容的情况；
+
+    4) “会员”在“公司”网站上发布色情、诽谤、谩骂、损失名誉以及无端公开个人信息等内容，以及含有链接到发布有此类内容的网页链接的情况；
+
+    5) 会员违法更改项目信息或造假的情况；
+
+    6) 其他被判定为违反相关法律法规的情况。
+
+    5. 通过审核的项目在项目时间结束后，仍可发布于网站或者服务相关网站。
+
+
+
+
+    第22条 【项目的修改】
+
+    1. 在“公司”通过项目申请前，向“公司”申请需修改的事项后，只可在公司规定的范围内进行修改。
+
+    2. 项目申请通过后项目页面的一部分内容不得再进行修改、取消或删除。禁止修改的事项，若申请项目的“会员”任意修改、更改或删除相关内容的情况，支持此项目的会员可提出要求赔偿等法律措施，由此引起的损失“公司”不承担任何责任。
+
+
+
+
+    第23条 【项目的取消】
+
+    1. 在公司通过项目申请前申请人可随意取消项目，取消需通过向“公司”递交申请进行。但，“会员”需向“公司”支付至项目取消为止产生的费用。
+
+    2. 从项目通过申请开始至项目结束为止的时间内，发起人不可随意取消项目。
+
+    3. 项目成功结束后不可取消。
+
+    4. 项目修改的内容通过更新进行通知，会员可随时确认。
+
+
+
+
+    第24条 【付款渠道】
+
+    会员可通过公司规定的方法（支付宝，财付通，银联）在网站内付款，为了正确安全地进行付款，根据相关法律会员信息将提供给相关代理付款机构（银行、信用卡公司等）。
+
+
+
+
+    第25条【取消付款及退款】
+
+    1. 取消付款及退款，遵守《电子交易等消费者保护相关法律》。
+
+    2. 取消应援，遵守《电子交易等消费者保护相关法律》及《同法施行令》，只在项目的截止期限内，超过截止时间则无法取消应援
+
+    3. 根据个别服务的类型，公司有权根据本条款和使用条件制定取消及退款的相关规定，这种情况需先遵守个别条款及使用条件所规定的取消及退款规定。
+
+    4. 其他本条款及网站的使用说明未规定的取消及退款相关事项则遵守《消费者损失赔偿规定》。
+
+
+
+
+    第26条 【取消及退款手续费】
+
+    1. 只因会员个人的原因取消付款的情况，产生的手续费由会员自己承担。
+
+    2. 取消及退款手续费根据付款渠道的不同而不等，取消及退款手续费支付方式遵照相关的取消付款及退款规定。
+
+
+
+
+    第27条 【支持的成功】
+
+    1. 项目的最终支持总额在支持截止日之前可能因取消及变更申请而改变。
+
+    2. 支持型众筹失败的情况，对于项目进行期间筹集的资金，项目发起人没有任何权利，公司根据之前公告的程序将获得的支持金额一一退还。
+
+
+
+
+    第28条【支付总额的转交】
+
+    募集的金额根据项目发起人的要求支出，但是不会像项目发起人个人转交募资的金额以这个为准则。
+
+
+
+
+    第29条【支付的总金额的使用】
+
+    项目发起人必须将项目筹c总额用于承诺的项目实施与完成、回报的执行与发送等用途的经费，不得用于其他用途。对于未履行承诺时产生的损失，发起人须承担所有责任。
+
+
+
+
+
+
+
+    第30条 【回报的提供】
+
+    1. 项目发起人有义务履行因项目而产生的“会员”与其他“会员”，“会员”与第3者之间的约定，回报提供等相关义务，未履行此义务时发生的损失全部由项目发起人承担。
+
+    2. 项目发起人发起项目时需在网站上公开为支持者提供的回报的相关内容、数量和发送时间，并且有义务在项目成功时根据公布的内容履行回报派送义务。未履行此义务，故意与公布的内容不同或只履行一部分义务的情况，以及派送存在瑕疵的回报的情况，受害会员收回支持金额以及支持者要求损失赔偿等所有法律责任全部由项目发起人承担。
+
+    3. 项目发起人有义务为支持者诚实地解答项目及为支持者提供的回报相关的疑问。
+
+
+
+
+    第31条【手续费】
+
+    1. “会员”注册网站、通过服务发起项目及支持项目都免费.
+
+    2. 其他根据使用服务，“公司”要求另算手续费的情况，手续费收取标准及其他详细内容在执行日7天前公告在网站上。
+
+
+
+
+
+
+
+    第5章 其他
+
+    第32条 【责任限制】
+
+    1. “公司”因第17条第2项，第21条第1项规定的原因而造成服务提供的限制或终止或注销“会员”的情况，所造成的“会员”的损失，“公司”不承担任何责任。
+
+    2. “会员”登记的电子邮件等个人信息为虚假信息或者未履行第9条第2项规定的个人信息变更义务造成的损失，“公司”不承担任何责任。
+
+    3. “公司”不担保会员登录在网站上的信息、资料、事实等的真实性、正确性、信赖性。对于是否使用会员所登记的信息责任全在于会员本身，若因此造成不好的结果公司不承担任何责任。
+
+    4. 公司没有义务介入“会员”与“会员”之间和“会员”与第3者之间以服务为媒介发生的纷争。对于与使用服务相关，“会员”故意或因会员本身的过失造成的“会员”或者第3者的损失，公司不承担任何责任。但，若包含相关法律法规除外另外规定的事项时则根据规定进行。
+
+
+
+
+    第33条【损失赔偿】
+
+    用户因违法本条款的义务而对公司造成损失的情况，用户需对公司进行赔偿。
+
+
+
+
+    第34条【准据法和管辖法院】
+
+    1. “公司”会尽全力圆满解决“公司”与“会员”之间因服务产生的纷争。
+
+    2. 若上述第1项的情况下仍无法解决而提出诉讼的情况，则将递交公司所在管辖地区的法院进行解决。
+
+    3. 公司与用户之间产生的纷争依据大韩民国法律进行解决。
+
+
+
+
+
+
+
+    附则
+
+    本条款于2016年4月30日开始生效。
+    "</string>
+    <string name="alert_replay">请再重试一次</string>
+    <string name="goToEvent">进入官方活动页面</string>
+    <string name="goToSupport">进入应援活动页面</string>
+
+
+    <string name="agree">点击 <b>使用条款</b>同意</string>
+    <string name="nickNameShort">The Nick field must be at least 2 characters in length.</string>
+    <string name="facebook_app_id">857872690951419</string>
+    <string name="fanmaum_ranking">粉丝爱排名</string>
+    <string name="start_project">开启活动</string>
+
+    <string name="sort_type">정렬 기준</string>
+    <string name="all">查看全部</string>
+    <string name="support">应援</string>
+    <string name="make_goods">制作周边</string>
+    <string name="popular">人气序</string>
+    <string name="new_sort">最新序</string>
+    <string name="deadline">截止临近</string>
+    <string name="top_members">最多参与者</string>
+    <string name="no_email">登陆失败.\n(需要填写邮箱地址.\n페이스북 로그인 화면에서 이메일 주소를 꼭 제공해주세요</string>在facebook的登陆界面请一定填写邮箱地址
+    <string name="pwd01_1">密码 (선택 사항)</string>
+    <string name="pwd02_1">确认密码 (선택 사항)</string>
+    <string name="connection_error">无法正常链接到服务器. 请确定网络环境是否链接.</string>
+    <string name="project_type">活动分类</string>
+    <string name="project_hot">HOT应援</string>
+    <string name="how_this_project">这种活动如何?</string>
+    <string name="project_recommand">粉丝爱推荐的方案</string>
+    <string name="project_new">新登陆的活动</string>
+    <string name="project_detail">活动进行中</string>
+    <string name="project_time">参与时间\n{SDATE} ~ {DDATE}</string>
+    <string name="project_delivery_time">快递日期\n{DATE}</string>
+    <string name="project_like">关注</string>
+    <string name="project_ongoing">活动进行中</string>
+    <string name="maum_value">持有爱心\n{VALUE} 爱心</string>
+    <string name="joinFan_value">参与的粉丝\n{VALUE} 名</string>
+    <string name="joinFan">参与的粉丝</string>
+    <string name="deadline_value">截止日期\n{VALUE} 日</string>
+    <string name="delivery_imfomation">快递详情</string>
+    <string name="delivery_rule">交换/退款 规定</string>
+    <string name="following">加入粉丝</string>
+    <string name="total_following">{TOTAL}</string>
+    <string name="together">一起参与的人</string>
+    <string name="sns_sharing_10maum">把本次活动在SNS上共享<font color="#ff0000">并领取</font>10爱心</string>
+    <string name="how_is_this_project">这种活动如何?</string>
+    <string name="sns_aleady_update">已经共享.</string>
+    <string name="international_delivery">海外快递费</string>
+    <string name="default_delivery">基本快递费</string>
+    <string name="jeju_delivery">偏远区域</string>
+    <string name="over_cost_delivery">{TOTAL}购买多少个以上时</string>
+    <string name="ems_total">数量</string>
+    <string name="ems_delivery_cost">EMS 快递费</string>
+    <string name="kg">{INT}KG</string>
+    <string name="delivery_rule_description2">所有的商品，不可退货、退款及取消。</string>
+    <string name="delivery_rule_description">退货/退款 规定是由活动的发起者制定的，如有疑问请1:1与活动发起者交流</string>
+    <string name="sold_out">SOLD OUT</string>
+    <string name="goods_amount">{NOW}名 参与</string>
+    <string name="title_benefit">时间 附赠</string>
+    <string name="title_goods">附赠 构成</string>
+
+
+    <string name="change_phoneNume">修改电话号码</string>
+    <string name="connect_sns">SNS 共享</string>
+    <string name="connect_completed">共享完成.</string>
+    <string name="modification_completed">修改完毕</string>
+    <string name="recommend_user">填写推荐人</string>
+    <string name="recommend_content">请在下方输入推荐人{NICK} \ 请输入推荐人姓名并领取100爱心。</string>
+    <string name="no_recommend">无推荐人</string>
+    <string name="registration">输入</string>
+    <string name="no_data">没有相关信息</string>
+    <string name="attend_1">参与者排序</string>
+    <string name="attend_2"></string>
+    <string name="maum_num">{VALUE}爱心</string>
+    <string name="sns_share">请把活动分享给更多的朋友!</string>
+    <string name="clipboard_insert">临时保存完毕</string>
+    <string name="comment">评论</string>
+    <string name="comment_share">与朋友共享</string>
+    <string name="my_comment">查看我的评论</string>
+    <string name="like_list">{수}由多少人喜欢.</string>
+    <string name="comment_reply">回复</string>
+    <string name="comment_reply_all">{수}查看回复</string>
+    <string name="unlike_fail">取消关注失败</string>
+    <string name="like_fail">取消关注失败</string>
+    <string name="comment_reply_title">回复</string>
+    <string name="liker">喜欢的人</string>
+    <string name="total_following2">粉丝数</string>
+    <string name="following_user">我喜欢的人</string>
+    <string name="chatting">对话</string>
+    <string name="request_update">请更新资料</string>
+    <string name="attended_project">查看我的活动详情</string>
+    <string name="hosted_project">发布的活动</string>
+    <string name="feeded_project">我收藏的活动</string>
+    <string name="ready">准备中.</string>
+    <string name="bookmark_channel"><![CDATA[<font color="#ff0000">{VALUE}个收藏</font>部落]]></string>
+    <string name="channel_plus">查看部落</string>
+    <string name="channel_bookmark_title">查找喜欢的部落</string>
+    <string name="channel_name_search">请查找部落名称</string>
+    <string name="channel_bookmark_sub_title">请收藏部落以便于更快知道新消息</string>
+    <string name="bookmark">收藏</string>
+    <string name="bookmark_off">取消</string>
+    <string name="review_detail">后记查看</string>
+    <string name="review_title">后记详情</string>
+    <string name="review_project_type">活动种类\n{TYPE}</string>
+    <string name="project_payment1">挑选礼品及附赠</string>
+    <string name="project_payment2">支付</string>
+    <string name="title_goods2">构成礼品</string>
+    <string name="total">总计</string>
+    <string name="goods_total">购买数量</string>
+    <string name="goods_delivery_address">快递详情</string>
+    <string name="goods_delivery_cost">追加快递费</string>
+    <string name="alert_address_search_title">查看地址</string>
+    <string name="alert_address_search_ex1">请输入详细地址</string>
+    <string name="alert_address_search_ex2">列)方庄刘家窑洞天小区3幢3单元501号</string>
+    <string name="alert_zipcode">邮编号码</string>
+    <string name="alert_address">地址</string>
+    <string name="search">搜索</string>
+    <string name="new_address">街道</string>
+    <string name="old_address"></string>
+    <string name="project">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;应援活动</string>
+    <string name="popular2">人气</string>
+    <string name="newsfeed_all">全部偶像</string>
+    <string name="newsfeed_favorites">我收藏的偶像</string>
+    <string name="newsfeed_popularity">人气序</string>
+    <string name="newsfeed_Newest">最新序</string>
+    <string name="newsfeed_dead_line">临近截止</string>
+    <string name="newsfeed_max_member">最多参与者</string>
+    <string name="newsfeed_top_cost">最高金额</string>
+    <string name="project_cost">支付金额</string>
+    <string name="project_state">支付状态</string>
+    <string name="project_delivery">快递详情</string>
+    <string name="project_delivery_hint">请选择快递详情</string>
+    <string name="product_term_text">附赠构成有可能修改，事后公布。</string>
+    <string name="product_add_delivery_cose">请输入追加快递费</string>
+    <string name="please_select_goods">请选择礼品.</string>
+    <string name="not_enough_title">持有爱心不足</string>
+    <string name="not_enough_content">现持有爱心不足\n现在去给爱心充电？</string>
+    <string name="not_enough_comform">前去购买</string>
+    <string name="confirm_goods">请确定礼物及附赠.</string>
+    <string name="goods_total_value">总商品价格</string>
+    <string name="attend_imformation">参与者详情</string>
+    <string name="delivery_value">快递费</string>
+    <string name="sum_maum">总需要爱心</string>
+    <string name="goods_total_value_text">{value}개</string>
+    <string name="name">昵称</string>
+    <string name="phonenumber">手机</string>
+    <string name="etc">备注</string>
+    <string name="input_name">请输入昵称.</string>
+    <string name="input_address">请输入剩余详细地址.</string>
+    <string name="input_etc">输入礼品及快递信息</string>
+    <string name="input_address_search">도로명,건물명,지번주소 검색</string>
+    <string name="input_payment_title">支付方式</string>
+    <string name="input_payment_charge">支付手续费</string>
+    <string name="input_payment_next">购买</string>
+    <string name="maum">爱心</string>
+    <string name="my_maum">持有爱心</string>
+    <string name="my_maum2">持有的爱心</string>
+    <string name="goods_maum">需要爱心</string>
+    <string name="used_maum">爱心使用</string>
+    <string name="allin">全部使用</string>
+    <string name="final_payment">支付总额</string>
+    <string name="please_input_data">请输入</string>
+    <string name="completed_payment">支付成功</string>
+    <string name="completed_payment_message">感谢您参与本次活动!\n\n{HOST_NAME}会为您 持续提供\n공지해주실 거에요!</string>
+    <string name="recommend_sns">请把活动分享给朋友让更多的朋友一起参与！</string>
+    <string name="input_zipcode">请输入邮编地址</string>
+    <string name="input_etc1">给活动发起人留言</string>
+    <string name="input_etc2">请输入想跟快递师傅特别嘱咐的事情</string>
+    <string name="project_ranking">活动排名</string>
+    <string name="user_ranking">粉丝排名</string>
+    <string name="search_nickname">请输入昵称查看详细排名</string>
+    <string name="liker2">喜欢{NICKNAME}的粉丝</string>
+    <string name="qna"><![CDATA[Q&A]]></string>
+    <string name="cancel2">[取消]</string>
+    <string name="change">[修改]</string>
+    <string name="change_delivery_info">修改快递信息</string>
+    <string name="completed_change">修改完成</string>
+    <string name="payment_cancel">取消支付</string>
+    <string name="payment_cancel_content">取消支付以后会在5个工作日之内进行退款\n确定取消？</string>
+    <string name="payment_cancel_ok">确定取消</string>
+    <string name="free_support">自由应援</string>
+    <string name="free_support_comment">100爱心起</string>
+    <string name="free_support2">应援</string>
+    <string name="post"></string>
+    <string name="collection">컬렉션</string>
+    <string name="remainded_maum">使用后剩余爱心</string>
+    <string name="join_comment"><![CDATA[请确定以上支付及快递信息<br>进行支付并同意<font color="#ff0000">使用条款</font> 及 <font color="#ff0000">提供给第三方支付公司</font>提供情报.  ]]> </string>
+    <string name="all_project">查看所有活动</string>
+    <string name="my_project">我的参与现状</string>
+    <string name="sort_recommend">推荐序</string>
+
+
+    <string name="title_home">首页</string>
+    <string name="all_view">查看所有</string>
+    <string name="login">登陆</string>
+    <string name="member_register">注册会员</string>
+    <string name="error_invalid_email">您输入的邮箱有误请重新输入</string>
+    <string name="error_incorrect_password">账号或密码错误</string>
+    <string name="error_field_required">请输入邮箱.</string>
+    <string name="or">或者</string>
+    <string name="sort_comment">评论序</string>
+    <string name="sort_like">收藏序</string>
+    <string name="deadline2">截止</string>
+    <string name="ongoing_events">进行中的活动</string>
+    <string name="maum_value2"><![CDATA[已持有爱心<br><big><big>{VALUE}</big></big> 爱心]]></string>
+    <string name="percent2"><![CDATA[<big><big>{NUMBER}</big></big>%]]></string>
+    <string name="joinFan_value2"><![CDATA[参与的粉丝<br><big><big>{VALUE}</big></big> 名]]></string>
+    <string name="deadline_value2"><![CDATA[截止到<br><big><big>{VALUE}</big></big> 日]]></string>
+
+    <string name="interest_success">关注</string>
+    <string name="interest_cancel">取消关注</string>
+    <string name="secret">私密评论</string>
+    <string name="secret_name">私密评论</string>
+    <string name="attends_nickname">推荐人[ {nickname} ]</string>
+    <string name="select_star">选择偶像后请留言</string>
+    <string name="bookmark_one">最少关注一名偶像</string>
+    <string name="share_success">分享完成</string>
+    <string name="share_fail">分享失败</string>
+    <string name="sns_please_connect">与SNS账号绑定才能进行分享</string>
+    <string name="view_project">查看活动</string>
+    <string name="go_project">参与活动</string>
+    <string name="before_review">后记还没有制作</string>
+    <string name="share">分享</string>
+    <string name="result_view">查看结果</string>
+    <string name="event_result">活动结果</string>
+    <string name="my_maum3"><![CDATA[<font color="#ff0000">{MAUM}</font>]]>持有爱心</string>
+    <string name="charge_maum">充值爱心</string>
+    <string name="signout">推出</string>
+    <string name="signout_message">确定退出？</string>
+    <string name="project_result">结束的\n活动</string>
+    <string name="project_result2">活动以结束</string>
+    <string name="reply_all">查看全部评论</string>
+    <string name="reply_my">查看我的评论</string>
+    <string name="before_review2">活动结果还没有公布</string>
+    <string name="back_page">上一页</string>
+
+    <string name="facebook_sign_up_">在facebook注册</string>
+    <string name="facebook_sign_in">facebook登录</string>
+    <string name="naver_sign_up_">naver上注册会员</string>
+    <string name="naver_sign_in">naver登录</string>
+    <string name="twitter_sign_up_">Twitter上注册会员</string>
+    <string name="twitter_sign_in">Twitter登录</string>
+
+    <string name="point_min">少于最少爱心数</string>
+
+    <string name="request_add_star">申请添加</string>
+    <string name="share_fanmaum">分享粉丝爱</string>
+    <string name="my_page">个人主页</string>
+    <string name="request_permission">以上权限是安卓系统需要注册同意权限，\n请用户放心点击[允许]</string>
+    <string name="member_check">每日签到</string>
+    <string name="project_join">活动参与</string>
+    <string name="over_cost_delivery_value">{PRICE}元追加费用</string>
+    <string name="share_facebook">分享facebook</string>
+    <string name="share_twitter">分享twitter</string>
+    <string name="sns_sharing_total">分享次数 </string>
+    <string name="attended_project_title">自己参与现状</string>
+
+    <string name="conenect_facebook">facebook 共享</string>
+    <string name="conenect_twitter">twitter 共享</string>
+    <string name="conenect_naver">naver 共享</string>
+
+    <string name="my_celeb">查看我的偶像</string>
+    <string name="my_info">查看我的信息</string>
+    <string name="profile_setting">个人设定</string>
+    <string name="no_support"><![CDATA[目前没有[celeb]的应援活动！<br><font color="#e62844">第一时间发起活动]<br>，就支持[</font>你喜欢的偶像吧!]]></string>
+</resources>

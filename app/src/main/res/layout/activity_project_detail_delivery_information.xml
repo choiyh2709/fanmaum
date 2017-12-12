@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7f7f7"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/delivery_imfomation"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/supportingdetail_layout08"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a1100_5_delivery_background_top"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/delivery_imfomation"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <!-- 기본 배송비 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a1110_3_delivery_background_middle"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="3"
+
+                    android:text="@string/default_delivery"/>
+
+                <TextView
+                    android:id="@+id/textView_default_delivery_value"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="2"
+                    android:text="@string/mypoint_tv06"
+                    android:gravity="right"
+
+                    />
+            </LinearLayout>
+            <!-- 도서산간지역 배송비 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a1110_3_delivery_background_middle"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/jeju_delivery"/>
+
+                <TextView
+                    android:id="@+id/textView_jeju_delivery_value"
+                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/mypoint_tv06"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+            <!-- 4개 이상 구매시 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/a1110_4_delivery_background_bottom"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/textView_over_cost_delivery"
+                    android:layout_width="0dp"
+                                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/over_cost_delivery"/>
+
+                <TextView
+                    android:id="@+id/textView_over_cost_delivery_value"
+                    android:layout_width="0dp"
+                                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/over_cost_delivery_value"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+
+            <!--해외 배송비-->
+            <LinearLayout
+                android:id="@+id/layout_international"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/a1100_5_delivery_background_top"
+                    android:gravity="center_vertical"
+                    android:text="@string/international_delivery"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_international"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/a1110_5_delivery_btn_select"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="26.5dp"
+                        android:background="@drawable/a1110_6_table_top"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/ems_total"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:text="@string/ems_delivery_cost"/>
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/listView_delivery_cost"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:divider="#f1f1f1"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--배송 관련 문구-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/delivery_rule_description"
+                android:textColor="#000000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

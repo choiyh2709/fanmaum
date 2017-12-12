@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<RelativeLayout
+	            android:id="@+id/login_layout"
+	            android:layout_width="match_parent"
+	            android:layout_height="45dp"
+	            android:background="@drawable/navigation_bar"
+	            >
+
+	            <ImageView
+	                android:id="@+id/backKey"
+	                android:layout_width="32.5dp"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentLeft="true"
+	                android:background="@drawable/a1100_1_top_back_normal"
+	                android:onClick="onBack"/>
+
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_toRightOf="@id/backKey"
+	                android:gravity="center"
+	                android:onClick="onBack"
+	                android:text="@string/navi_tv02"
+	                android:textColor="#ffffff"
+	                android:textSize="@dimen/textview_titilebar_height"
+	                android:typeface="sans"/>
+
+
+	        </RelativeLayout>
+
+
+
+    <ScrollView android:layout_width="340dp" android:layout_height="match_parent"
+        android:scrollbars="none" android:fadingEdge="none">
+    	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    	    android:background="@drawable/company_image">
+   		 <RelativeLayout android:layout_width="fill_parent" android:layout_height="601dp">
+	    <Button android:layout_width="325dp" android:layout_height="52dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_alignParentBottom="true" android:layout_marginBottom="14dp"
+	        android:text="@string/companyname" android:textColor="#e82b47"
+	         android:id="@+id/companycover_btn01"
+	        android:background="@drawable/btn_fan_btn"/>
+	    </RelativeLayout>
+	    </RelativeLayout>
+     </ScrollView>
+
+</LinearLayout>

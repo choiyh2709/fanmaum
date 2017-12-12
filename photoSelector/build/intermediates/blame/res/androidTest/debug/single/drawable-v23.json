@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    }
+]

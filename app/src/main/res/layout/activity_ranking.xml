@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/fanmaum_ranking"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+    <RadioGroup
+        android:layout_width="@dimen/newfeed_width"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/radiobutton_projectRanking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_ranking"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/project_ranking"
+            android:textColor="@color/red_button3"/>
+
+        <RadioButton
+            android:id="@+id/radiobutton_userRanking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/radiobutton_ranking"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/user_ranking"
+            android:textColor="@color/red_button3"/>
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="#00000000"></ListView>
+
+
+</LinearLayout>

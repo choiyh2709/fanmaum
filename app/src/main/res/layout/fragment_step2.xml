@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="@drawable/join_bg">
+    
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	        android:orientation="vertical">
+	        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:id="@+id/step2_layout01"
+	            android:layout_marginTop="25dp">
+	            
+	            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img01" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	            
+	            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/nick" android:layout_toRightOf="@id/step2_img01"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv02"/>
+	            
+	                 <EditText android:layout_width="220dp" android:layout_height="wrap_content"
+	                android:background="@drawable/textarea_m"
+	                android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+	                android:paddingLeft="10dp" android:paddingRight="10dp"
+	                android:typeface="sans" android:textSize="11dp"
+	                android:textColor="#333333" android:textColorHint="#aaaaaa"
+	                android:hint="@string/blank06"
+	                android:singleLine="true" android:maxLength="10"
+	                android:id="@+id/step2_et01"/>
+	                 
+	        </RelativeLayout>
+	        
+	        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/account03" android:visibility="invisible"
+	                android:layout_below="@id/step2_layout01"
+	                android:layout_marginLeft="131dp"
+	                android:typeface="sans" android:layout_marginTop="3dp"
+	                android:textSize="10dp" android:textColor="#0085ec"
+	                android:id="@+id/step2_tv03"/>
+	   
+	          <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	                android:layout_marginTop="20dp"
+	                android:id="@+id/step2_layout02" android:layout_below="@id/step2_layout01">
+	                 
+	              <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img02" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	            
+	            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/birth" android:layout_toRightOf="@id/step2_img02"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv04"/>
+	            
+		       <RelativeLayout android:layout_width="220dp" android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"    android:layout_marginRight="16dp"
+		            android:background="@drawable/textarea_m"
+		           android:id="@+id/step2_btn01">
+		           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:text="1987" android:layout_centerVertical="true" android:layout_marginLeft="10dp"
+	            android:textColor="#aaaaaa" android:textSize="13dp" android:typeface="sans"
+	            android:id="@+id/step2_tv04_01"/>
+		           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		               android:background="@drawable/join_down" android:layout_alignParentRight="true"/>
+		       </RelativeLayout>
+	        </RelativeLayout>
+	        
+	           <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+	              android:layout_below="@id/step2_layout02" android:layout_marginTop="20dp"
+	              android:background="@drawable/line" android:id="@+id/step2_img03"/>
+	           
+	           
+	             
+	       <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	             android:layout_marginTop="20dp"
+	             android:id="@+id/step2_layout03" android:layout_below="@id/step2_img03">
+	           
+	           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img04" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	           
+	           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/sex" android:layout_toRightOf="@id/step2_img04"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv05"/>
+	           
+	            
+	       <Button android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	           android:layout_marginLeft="124dp"
+	           android:background="@drawable/swich_woman"
+	           android:id="@+id/step2_btn02"/>
+	        </RelativeLayout>
+	        
+	         
+	        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	             android:layout_marginTop="15dp"
+	             android:id="@+id/step2_layout04" android:layout_below="@id/step2_layout03">
+	       
+	            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img05" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	           
+	           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/marry" android:layout_toRightOf="@id/step2_img05"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv06"/>
+	           
+	              <Button android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	           android:layout_marginLeft="124dp"
+	           android:background="@drawable/swich_married"
+	           android:id="@+id/step2_btn03"/>
+	              
+	        </RelativeLayout>
+	              
+	        
+	         <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+	              android:layout_below="@id/step2_layout04" android:layout_marginTop="20dp"
+	              android:background="@drawable/line" android:id="@+id/step2_img06"/>
+	         
+	         
+	
+	       <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	           android:layout_marginTop="20dp"
+	           android:id="@+id/step2_layout05" android:layout_below="@id/step2_img06">
+	              
+	           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img07" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	                       
+	             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/celeb" android:layout_toRightOf="@id/step2_img07"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv07"/>
+	            
+	             
+	               <RelativeLayout android:layout_width="220dp" android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"    android:layout_marginRight="16dp"
+		           android:background="@drawable/textarea_m"
+		           android:id="@+id/step2_btn04">
+		           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:text="@string/step11" android:layout_centerVertical="true" android:layout_marginLeft="10dp"
+	            android:textColor="#aaaaaa" android:textSize="13dp" android:typeface="sans"
+	            android:id="@+id/step2_tv07_01"/>
+		           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		               android:background="@drawable/join_down" android:layout_alignParentRight="true"/>
+		       </RelativeLayout>
+	        </RelativeLayout>
+	        
+	                
+  	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	           android:layout_marginTop="20dp"
+	           android:id="@+id/step2_layout06" android:layout_below="@id/step2_layout05">	       
+
+  	      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img08" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	                       
+	             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/country" android:layout_toRightOf="@id/step2_img08"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv08"/>
+	             
+	       
+	                  <RelativeLayout android:layout_width="220dp" android:layout_height="wrap_content"
+		           android:layout_alignParentRight="true"    android:layout_marginRight="16dp"
+		           android:background="@drawable/textarea_m"
+		           android:id="@+id/step2_btn05">
+		           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:layout_centerVertical="true" android:layout_marginLeft="10dp"
+	            android:textColor="#aaaaaa" android:textSize="13dp" android:typeface="sans"
+	            android:text="@string/step11"
+	            android:id="@+id/step2_tv08_01"/>
+		           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		               android:background="@drawable/join_down" android:layout_alignParentRight="true"/>
+		       </RelativeLayout>
+	        </RelativeLayout>
+	        
+	    
+	       
+	       <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	           android:id="@+id/step2_layout07" android:layout_below="@id/step2_layout06">
+	           
+	              <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:id="@+id/step2_img09" android:layout_marginLeft="16dp"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/bl_list"/>
+	            
+	            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	                android:text="@string/recommend" android:layout_toRightOf="@id/step2_img09"
+	                android:layout_centerVertical="true"       android:textSize="13dp"
+	                android:textColor="#000000" android:typeface="sans"
+	                android:layout_marginLeft="2dp"
+	                android:id="@+id/step2_tv09"/>
+	            
+	                 <EditText android:layout_width="220dp" android:layout_height="wrap_content"
+	                android:background="@drawable/textarea_m"
+	                android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+	                android:paddingLeft="10dp" android:paddingRight="10dp"
+	                android:typeface="sans" android:textSize="11dp"
+	                android:textColor="#333333" android:textColorHint="#aaaaaa"
+	                android:hint="@string/blank12"
+	                android:singleLine="true"
+	                android:id="@+id/step2_et02"/>
+	            
+	        </RelativeLayout>
+	        
+	       
+	         <RelativeLayout
+                android:id="@+id/step2_layout08"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/step2_layout07"
+                 android:layout_marginTop="2dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:id="@+id/step1_tv07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:text="@string/recommendcomment"
+                    android:textColor="#000000"
+                    android:textSize="11dp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+            
+	       
+	       
+	        
+	        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+	              android:layout_below="@id/step2_layout08" android:layout_marginTop="20dp"
+	              android:background="@drawable/line" android:id="@+id/step2_img10"/>
+	        
+	          
+	        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:layout_below="@id/step2_img10" android:layout_marginTop="20dp"
+	            android:typeface="sans" android:background="@drawable/btn_sub_btn01"
+	            android:layout_centerHorizontal="true" android:textColor="#e82b47"
+	            android:textSize="16dp"
+	            android:text="@string/sign" android:id="@+id/step2_btn06"/>    
+	        
+	    </RelativeLayout>
+	</ScrollView>
+
+</LinearLayout>

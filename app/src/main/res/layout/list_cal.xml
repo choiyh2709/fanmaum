@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cal_layout"
+    android:layout_height="match_parent" >
+   
+    <RelativeLayout 
+        android:layout_width="51dp" android:layout_height="85dp">
+        
+       
+    
+    <ImageView android:layout_width="fill_parent" android:layout_height="1px"
+         android:background="#a8a8a8"/>
+    
+    <ImageView android:layout_width="1px" android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#a8a8a8"/>
+    
+    <ImageView android:layout_width="fill_parent" android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/listcal_lmg01"
+        android:background="#a8a8a8"/>
+    
+    <ImageView android:layout_width="1px" android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#a8a8a8"/>
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="12px" android:layout_marginLeft="11px"
+        android:id="@+id/listcal_tv01" android:text="5"/>
+   
+    <RelativeLayout android:layout_width="100px" android:layout_height="28px"
+         android:layout_centerHorizontal="true"
+        android:layout_below="@id/listcal_tv01" android:layout_marginTop="10px"
+        android:id="@+id/listcal_layout01">
+        <TextView android:layout_width="100px" android:layout_height="28px"
+            android:layout_marginLeft="3px" android:layout_marginRight="3px"
+            android:textSize="25px" android:textColor="#ffffff" android:layout_centerVertical="true"
+            android:id="@+id/listcal_tv02" />
+    </RelativeLayout>
+    
+        <RelativeLayout android:layout_width="100px" android:layout_height="28px"
+            android:layout_centerHorizontal="true"
+        android:layout_below="@id/listcal_layout01" android:layout_marginTop="4px"
+        android:id="@+id/listcal_layout02">
+        <TextView android:layout_width="100px" android:layout_height="28px"
+            android:layout_marginLeft="3px" android:layout_marginRight="3px"
+            android:textSize="25px" android:textColor="#ffffff" android:layout_centerVertical="true"
+            android:id="@+id/listcal_tv03" />
+    </RelativeLayout>
+    
+            <RelativeLayout android:layout_width="100px" android:layout_height="28px"
+                 android:layout_centerHorizontal="true"
+        android:layout_below="@id/listcal_layout02" android:layout_marginTop="4px"
+        android:id="@+id/listcal_layout03">
+        <TextView android:layout_width="100px" android:layout_height="28px"
+            android:layout_marginLeft="3px" android:layout_marginRight="3px"
+            android:textSize="25px" android:textColor="#ffffff" android:layout_centerVertical="true"
+            android:id="@+id/listcal_tv04" />
+    </RelativeLayout>
+   </RelativeLayout>
+   	
+      <RelativeLayout 
+        android:id="@+id/listcal_layout" android:visibility="gone"
+        android:layout_width="103px" android:layout_height="170px">
+        
+    <ImageView android:layout_width="fill_parent" android:layout_height="3px"
+         android:background="#ff0000"/>
+    
+    <ImageView android:layout_width="3px" android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#ff0000"/>
+    
+    <ImageView android:layout_width="fill_parent" android:layout_height="3px"
+        android:layout_alignParentBottom="true"
+        android:background="#ff0000"/>
+    
+    <ImageView android:layout_width="3px" android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ff0000"/>
+    </RelativeLayout>
+      
+</RelativeLayout>

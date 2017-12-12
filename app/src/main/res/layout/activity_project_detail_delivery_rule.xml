@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7f7f7"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/delivery_rule"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="340dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:background="#ffffff"
+        >
+
+        <LinearLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <!-- 교환,환불  관련 문구-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/delivery_rule_description2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <!--교환.환불 1 문구-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/delivery_rule_description"
+                android:textColor="#000000"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

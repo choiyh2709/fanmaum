@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:background="@drawable/detail02_basic" >
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv01"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="태연의 26번째 생일!"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/deliverydetail_tv01"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/listsupport08"
+                    android:textColor="#787878"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+                
+                <ImageView android:layout_width="wrap_content" android:layout_height="20dp"
+                    android:layout_below="@id/deliverydetail_tv02"/>
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout02"
+                android:layout_width="fill_parent"
+                 android:padding="0dip" 
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deliverydetail_layout01"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/detail02_basic" >
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv03"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:text="소원여러분 우리 태연느님"
+                    android:textColor="#000000"
+                    android:autoLink="web"
+                    android:lineSpacingExtra="5dp"
+                    android:textSize="13dp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/deliverydetail_imageLayout"
+                    android:layout_width="330dp"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/deliverydetail_tv03"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout03"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:padding="0dip" 
+                android:layout_below="@id/deliverydetail_layout02"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/detail02_basic" >
+
+                <SeekBar
+                    android:id="@+id/deliverydetail_seekbar"
+                    android:layout_width="276dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:maxHeight="6dp"
+                    android:progress="90"
+                    android:thumb="@null"
+                    android:progressDrawable="@drawable/progress_horizontal_custom" />
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv04_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    android:text="%"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="7dp"
+                    android:layout_toLeftOf="@id/deliverydetail_tv04_01"
+                    android:text="42"
+                    android:textColor="#e82b47"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout04"
+                android:layout_width="fill_parent"
+                android:layout_height="42dp"
+                android:padding="0dip" 
+                android:layout_below="@id/deliverydetail_layout03"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/detail02_basic" >
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/listsupport05"
+                    android:textColor="#000000"
+                    android:textSize="10dp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/deliverydetail_tv05"
+                    android:text="320,000"
+                    android:textColor="#e82b47"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/deliverydetail_tv07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/deliverydetail_tv06"
+                    android:text="@string/listsupport06"
+                    android:textColor="#000000"
+                    android:textSize="10dp"
+                    android:typeface="sans" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/deliverydetail_layout05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deliverydetail_layout04"
+                android:layout_centerHorizontal="true" >
+
+                <RelativeLayout
+                    android:id="@+id/deliverydetail_small01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="119dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/detail_btn01" >
+
+                    <TextView
+                        android:id="@+id/deliverydetail_tv09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/listsupportdetail02"
+                        android:textColor="#e82b47"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/deliverydetail_tv10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/deliverydetail_tv09"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/listsupportdetail04"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/deliverydetail_small02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="119dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/detail_btn02" >
+
+                    <TextView
+                        android:id="@+id/deliverydetail_tv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="@string/listsupport10"
+                        android:textColor="#e82b47"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/deliverydetail_tv12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/deliverydetail_tv11"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="3dp"
+                        android:text="@string/listsupportdetail07"
+                        android:textColor="#000000"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout06"
+                android:layout_width="fill_parent"
+                android:padding="0dip" 
+                android:layout_height="67dp"
+                android:layout_below="@id/deliverydetail_layout05"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/detail02_basic" >
+
+                 <TextView
+                        android:id="@+id/deliverydetail_tv13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/listsupportdetail03"
+                        android:textColor="#000000"
+                        android:textSize="16dp"
+                        android:typeface="sans" />
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/deliverydetail_layout07"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deliverydetail_layout06"
+                android:layout_centerHorizontal="true"
+                android:padding="0dip" 
+                android:background="@drawable/detail02_basic" >
+
+                
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            	    android:layout_alignParentRight="true" android:background="@drawable/r_more"
+            	    android:layout_marginRight="15dp" android:layout_marginTop="5dp"
+            	    android:onClick="onMore"
+            	    android:id="@+id/deliverydetail_btn22"/>
+               
+                <TextView
+                    android:id="@+id/deliverydetail_tv22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/navi_tv05"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:typeface="sans" />
+                
+                  <TextView android:layout_width="330dp" android:layout_height="wrap_content"
+				   android:textSize="14dp" android:layout_below="@id/deliverydetail_tv22"
+				   android:textColor="#000000" android:typeface="sans"
+				   android:singleLine="true" android:layout_centerHorizontal="true"
+				   android:layout_marginRight="2dp" android:layout_marginTop="5dp"
+				   android:text="주의사항"  
+				   android:id="@+id/deliverydetail_tv22_01"/>
+               
+                <ImageView android:layout_width="wrap_content" android:layout_height="7dp"
+                   android:layout_below="@id/deliverydetail_tv22_01"
+				   android:id="@+id/deliverydetail_warningimg"/>
+                
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/deliverydetail_layout08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deliverydetail_layout07"
+                android:layout_centerHorizontal="true" >
+
+                <Button
+                    android:id="@+id/deliverydetail_btn03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onLike"
+                    android:layout_weight="1"
+                    android:background="@drawable/detail_btn06" />
+
+                <Button
+                    android:id="@+id/deliverydetail_btn04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onReply"
+                   android:layout_weight="1"
+                    android:background="@drawable/detail_btn04" />
+            </LinearLayout>
+            
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="46dp"
+			     android:layout_below="@id/deliverydetail_layout08" android:layout_centerHorizontal="true"
+			         android:background="@drawable/detail02_basic" android:padding="0dip"
+			         android:id="@+id/deliverydetail_layout09">
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/likenumber"  android:textSize="14dp" android:layout_marginLeft="15dp"
+		        android:textColor="#000000" android:typeface="sans" android:layout_centerVertical="true"
+		        android:id="@+id/deliverydetail_tv23"/>
+         </RelativeLayout>
+         
+        </RelativeLayout>
+    </RelativeLayout>

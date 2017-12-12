@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="specup.fanmind.MainActivity"
+    tools:showIn="@layout/activity_main_app_bar_main">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout3"
+        android:background="#e0e0e0" />
+
+
+    <RelativeLayout
+        android:id="@+id/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/banner_img"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:onClick="onBannerClose"
+            android:src="@drawable/banner_close" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_horizontal">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/button_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_min_footer_item2"
+                android:button="@null" />
+
+
+            <RadioButton
+                android:id="@+id/button_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_min_footer_item3"
+                android:button="@null"/>
+
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

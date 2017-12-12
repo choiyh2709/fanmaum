@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+          <RelativeLayout 
+              android:layout_width="fill_parent" android:layout_height="wrap_content">
+              <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:id="@+id/historydetail_layout01" android:padding="0dp"
+                   android:background="@drawable/detail02_basic">
+                  
+                <RelativeLayout   android:id="@+id/historydetail_layout02"  android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp" >
+
+                <ImageView
+                    android:id="@+id/historydetail_img" android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/profile_basic01"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:background="@drawable/detail_profile" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/historydetail_tv01" android:layout_width="255dp"
+                android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+                android:layout_marginTop="29dp" android:layout_toRightOf="@id/historydetail_layout02"
+                android:singleLine="true" android:text="태연의 26번째 생일선물, 루이비통 신상빽"
+                android:textColor="#000000" android:textSize="16dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/historydetail_tv02" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_below="@id/historydetail_tv01"
+                android:layout_marginLeft="5dp" android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/historydetail_layout02" android:singleLine="true"
+                android:text="@string/history01" android:textColor="#787878"
+                android:textSize="14dp" android:typeface="sans" />
+            
+            <ImageView android:layout_width="wrap_content" android:layout_height="20dp"
+                android:layout_below="@id/historydetail_tv02"/>
+              </RelativeLayout>
+              
+              
+              <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+			         android:layout_below="@id/historydetail_layout01" android:layout_centerHorizontal="true"
+			         android:background="@drawable/detail02_basic" android:padding="0dip"
+			         android:id="@+id/historydetail_layout03">
+
+              <TextView android:layout_width="330dp" android:layout_height="wrap_content"
+		        android:text="소원여러분 우리 태연느님" android:layout_marginTop="15dp"
+		        android:layout_centerHorizontal="true" android:textSize="13dp"
+		        android:autoLink="web"
+		        android:lineSpacingExtra="5dp"
+		        android:textColor="#000000"  android:typeface="sans" android:id="@+id/historydetail_tv03"/>
+                  
+                  
+             <LinearLayout android:layout_width="330dp" android:layout_height="200dp"
+		         android:orientation="vertical" android:layout_marginTop="15dp"
+		         android:layout_marginBottom="10dp"
+		         android:gravity="center_horizontal"
+		         android:layout_centerHorizontal="true"
+		         android:layout_below="@id/historydetail_tv03"
+		         android:id="@+id/historydetail_imageLayout">
+		     </LinearLayout>
+               
+               
+               <ImageView android:layout_width="wrap_content" android:layout_height="10dp"
+                   android:layout_below="@id/historydetail_tv03"/>
+       </RelativeLayout>
+       
+         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+         android:layout_below="@id/historydetail_layout03" android:layout_centerHorizontal="true"
+         android:id="@+id/supportingdetail_layout08">
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/historydetail_btn01" android:onClick="onLike"
+                android:layout_weight="1"
+                android:background="@drawable/detail_btn06"/>
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/historydetail_btn02"
+                android:onClick="onReply" android:layout_weight="1"
+                android:background="@drawable/detail_btn04"/>
+         </LinearLayout>
+         
+         
+             <RelativeLayout android:layout_width="fill_parent" android:layout_height="46dp"
+			     android:layout_below="@id/supportingdetail_layout08" android:layout_centerHorizontal="true"
+			         android:background="@drawable/detail02_basic" android:padding="0dip"
+			         android:id="@+id/historydetail_layout09">
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/likenumber"  android:textSize="14dp" android:layout_marginLeft="15dp"
+		        android:textColor="#000000" android:typeface="sans" android:layout_centerVertical="true"
+		        android:id="@+id/historydetail_tv05"/>
+         </RelativeLayout>
+         
+    </RelativeLayout>
+    
+       
+    
+</RelativeLayout>

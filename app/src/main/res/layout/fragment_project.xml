@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceeee">
+
+    <ScrollView
+        android:id="@+id/project_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@null">
+
+                <RadioButton
+                    android:id="@+id/btn_ongoing"
+                    android:text="@string/mainsupport01"
+                    android:button="@null"
+                    android:paddingLeft="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/radiobutton_item"
+                    android:checked="true"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_min_footer_item4" />
+
+                <RadioButton
+                    android:id="@+id/btn_closed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/deadline2"
+                    android:paddingRight="5dp"
+                    android:textColor="@color/radiobutton_item"
+                    android:textAlignment="center"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@+id/top_left"
+                    android:background="@drawable/btn_min_footer_item5" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/project_newArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/noSupportText"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/no_support"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_add_support"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_no_support"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/start_project"
+                    android:textSize="14dp"
+                    />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="@dimen/userPage_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@null"
+                android:divider="@null"
+                android:dividerHeight="10dp" />
+
+            <Button
+                android:id="@+id/btn_all_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_project"
+                android:textColor="#000000"
+                android:textAlignment="textStart"
+                android:paddingTop="12dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_all_support"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

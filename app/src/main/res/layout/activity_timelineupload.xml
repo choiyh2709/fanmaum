@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/coupon_bg">
+    
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/timelineupload_layout01"
+        android:background="@drawable/join_navigation">
+           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="18dp" android:textColor="#000000"
+            android:layout_centerInParent="true" android:typeface="sans"
+            android:id="@+id/timelineupload_tv01"
+            android:text="@string/timelineupload01"/>
+    </RelativeLayout>
+     
+    
+     <RelativeLayout android:layout_width="match_parent" android:layout_height="80dp"
+          android:padding="0dp"  android:id="@+id/timelineupload_layout02"
+          android:layout_alignParentBottom="true"
+        android:background="@drawable/detail02_basic">
+       <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+           android:layout_centerInParent="true" android:text="@string/upload"
+           android:onClick="onUpload"    android:textColor="#e82b47"
+          android:background="@drawable/btn_detailmainbtn01"/> 
+       
+    </RelativeLayout>
+    
+    
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="45dp"
+          android:padding="0dp"  android:id="@+id/timelineupload_layout03"
+          android:layout_above="@id/timelineupload_layout02"
+        android:background="@drawable/detail02_basic">
+        
+       <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+           android:button="@drawable/checkbox_timelineupload"
+           android:layout_centerVertical="true" android:id="@+id/timelineupload_check"
+           android:layout_marginLeft="15dp"/>
+       
+       
+           <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="16dp" android:textColor="#000000"
+           	android:layout_toRightOf="@id/timelineupload_check"
+           	android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true" android:typeface="sans"
+            android:text="@string/timelineupload02"/>
+    </RelativeLayout>
+    
+  
+    
+   
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:padding="0dp" android:layout_above="@id/timelineupload_layout03"
+        android:layout_below="@id/timelineupload_layout01"
+        android:background="@drawable/detail02_basic">
+           
+        <GridView
+        android:id="@+id/timelineupload_grid"
+        android:layout_width="340dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="106dp"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:numColumns="3"
+        android:scrollingCache="false"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="7.5dp" >
+    </GridView>
+    </RelativeLayout>
+        
+        
+    
+    
+</RelativeLayout>

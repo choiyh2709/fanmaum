@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/locktalk_tv01"
+            android:text="@string/locktalk01"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher"
+            android:layout_alignParentRight="true" android:layout_marginRight="5dp"
+            android:id="@+id/locktalk_btn01"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/locktalk_btn02">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/locktalk_tv02"
+            android:text="@string/locktalk02"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/locktalk_btn03">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/locktalk_tv03"
+            android:text="@string/locktalk03"/>
+    </RelativeLayout>
+
+</LinearLayout>

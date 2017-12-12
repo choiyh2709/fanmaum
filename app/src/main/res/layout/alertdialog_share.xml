@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+              android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="400dp"
+        android:layout_height="50.5dp"
+        android:background="@drawable/a1100_5_delivery_background_top"
+        android:gravity="center"
+        android:text="@string/sns_share"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_background_2_bottom"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button_share_kakao"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/btn_share_kakao"
+                />
+
+            <Button
+                android:id="@+id/button_share_twitter"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_share_twitter"
+                />
+
+            <Button
+                android:id="@+id/button_share_facebook"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_share_facebook"
+                />
+
+            <Button
+                android:id="@+id/button_share_url"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/btn_share_url"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

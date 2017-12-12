@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_info"
+        android:clickable="true"
+        android:id="@+id/nav_top">
+
+        <RelativeLayout
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/left_tv01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="3dp"
+                android:clickable="false"
+                android:gravity="bottom"
+                android:text="Test"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/left_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/left_tv01"
+                android:layout_marginLeft="100dp"
+                android:clickable="false"
+                android:text="내 정보 보기"
+                android:textColor="#848484"
+                android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:id="@+id/left_profile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/l_top_profile" />
+
+                <Button
+                    android:id="@+id/left_btn01"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/l_top_set" />
+
+            </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/icon_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/left_info_arrow_on" />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/newArea"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    <TextView
+        android:text="@string/my_project"
+        android:id="@+id/my_profile0"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_profile"/>
+
+    <TextView
+        android:id="@+id/my_profile1"
+        android:text="@string/my_page"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_profile"/>
+
+    <TextView
+        android:id="@+id/my_profile2"
+        android:text="@string/profile_setting"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_profile"/>
+
+    <TextView
+        android:id="@+id/my_profile3"
+        android:text="@string/profile06"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_profile_4"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/freeMaumCharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/left10"
+                android:textColor="#e62844"
+                android:textSize="14dp"
+                android:background="@drawable/left_save_heart"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/myPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:clickable="true"
+        android:background="@drawable/left_hearts_owned">
+
+        <TextView
+            android:id="@+id/left_own"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/support_tv03"
+            android:textColor="#e62844"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/left_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/icon_like"
+            android:text="18487"
+            android:textColor="#e62844"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/icon_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/icon_like" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical">
+
+       <RelativeLayout
+            android:id="@+id/left_layout01"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/left_ranking_normal"
+           android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:text="@string/fanmaum_ranking"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/left_layout06"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/left_notice_normal"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/left_layout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_event_normal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="45dp"
+                android:text="@string/event01"
+                android:textColor="#000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/left_layout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_add_normal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="45dp"
+                android:text="@string/request_add_star"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/left_layout04"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/left_share"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/share_fanmaum"
+                    android:textColor="#000000" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/left_layout05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_setting">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="45dp"
+                    android:text="@string/left08"
+                    android:textColor="#000000" />
+
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+
+            >
+
+            <Button
+                android:id="@+id/button_projectStart"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_project_start"
+                android:text="@string/start_project"
+                android:textColor="@color/red_button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bar" >
+
+        <Button
+            android:id="@+id/navi_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/btn_back"
+            android:onClick="onBack" />
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/navi_back"
+            android:clickable="true"
+            android:onClick="onBack"
+            android:text="@string/profile04"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@id/navi"
+        android:id="@+id/findpwd_tv01"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/findpwd01"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/findpwd_et01"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/findpwd_tv01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textarea_l"
+        android:hint="@string/findpwd02"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textColorHint="#aaaaaa"
+        android:textSize="11dp"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/findpwd_img01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/findpwd_et01"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line" />
+
+    <Button
+        android:id="@+id/findpwd_btn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/findpwd_img01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_sub_btn01"
+        android:text="@string/next"
+        android:textColor="#e82b47"
+        android:textSize="16dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/findpwd_btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/findpwd_btn02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_sub_btn02"
+        android:text="@string/cancel"
+        android:textColor="#7f7f7f"
+        android:textSize="16dp"
+        android:typeface="sans" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bottom_bar">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/a1200_8_background_bottom">
+
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:onClick="onUpload"
+            android:background="@drawable/btn_comment_sent"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_secret"
+            android:layout_width="22.3dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/button_send"
+            android:background="@drawable/btn_comment_secret"
+            android:button="@null"/>
+
+        <EditText
+            android:id="@+id/input_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/checkbox_secret"
+            android:background="@drawable/a1200_8_background_bottom"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            />
+    </RelativeLayout>
+</RelativeLayout>

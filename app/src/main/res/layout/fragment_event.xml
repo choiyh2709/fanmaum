@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eceeee"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/left03"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+    <ListView
+
+        android:id="@+id/event_list"
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/navi"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:dividerHeight="10dp"
+        android:horizontalSpacing="4dp"
+        android:listSelector="@null"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:verticalSpacing="3dp"
+        android:visibility="visible"
+
+        />
+
+</RelativeLayout>

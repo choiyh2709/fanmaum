@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f7f7f7"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/review_title"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            />
+
+        <ImageView
+            android:id="@+id/imageView_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/a1100_2_top_right_alarm_normal"
+            android:onClick="onNotice"/>
+
+        <ImageView
+            android:id="@+id/imageView_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/imageView_notice"
+            android:background="@drawable/a1100_top_share"
+            android:onClick="onShare"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:background="#ffffff"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/supportingdetail_layout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                >
+
+                <TextView
+                    android:id="@+id/textView_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:lines="2"
+                    android:text="waiting!"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView_slogun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_title"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_slogun"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iamge_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="212.5dp"
+                        android:layout_marginTop="24.5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iamge_main_front"
+                        android:layout_width="match_parent"
+                        android:layout_height="212.5dp"
+                        android:layout_marginTop="24.5dp"
+                        android:background="@drawable/main_image_background_opacity"
+                        />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!--관심갖기 버튼-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/a2100_middle4"
+                >
+
+                <LinearLayout
+                    android:layout_width="126dp"
+                    android:layout_height="36dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/a1100_project_like_back"
+                    android:gravity="center">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_like"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:button="@drawable/btn_like2"
+                        android:gravity="center"
+                        android:text="@string/project_like"
+                        android:textColor="#ff0000"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/checkbox_blank"
+                    android:layout_width="126dp"
+                    android:layout_height="36dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/supportingdetail_layout00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#f9f9f9"
+                android:paddingTop="10dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:layout_width="65.5dp"
+                        android:layout_height="65.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:background="@drawable/a1100_4_profile_normal"
+                        />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/imageView_profile"
+                        android:layout_width="65.5dp"
+                        android:layout_height="65.5dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:padding="1dp"
+                        />
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_toEndOf="@+id/imageView_profile"
+                                    android:layout_toRightOf="@+id/imageView_profile"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView_hostNickName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:textColor="#000000"
+                            android:textSize="16dp"
+                            />
+
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView_hostNickName"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView_projectTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/project_time"
+                                android:textColor="#000000"
+                                android:textSize="13dp"
+                                />
+
+                            <TextView
+                                android:id="@+id/textView_projectDelivery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:textColor="#000000"
+                                android:textSize="13sp"
+                                />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/supportingdetail_layout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f9f9f9"
+                android:gravity="center"
+                android:padding="0dip">
+
+                <TextView
+                    android:id="@+id/supportingdetail_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:text="92"
+                    android:textColor="#e82b47"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+
+
+                <TextView
+                    android:id="@+id/supportingdetail_tv04_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/supportingdetail_tv04"
+                    android:text="%"
+                    android:textColor="#e82b47"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+
+                <SeekBar
+                    android:id="@+id/supportingdetail_seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_below="@id/supportingdetail_tv04"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:layout_marginTop="4dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/progress_horizontal_custom"
+                    android:thumb="@null"
+                    />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/projectImformationValues"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f9f9f9"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView_maumValue"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e0e0e0"/>
+
+                <TextView
+                    android:id="@+id/textView_joinFanValue"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#e0e0e0"/>
+
+                <TextView
+                    android:id="@+id/textView_deadlineValue"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"/>
+
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view"
+                android:layout_width="fill_parent"
+                android:layout_height="206.5dp"
+                android:visibility="gone"
+
+                />
+
+            <WebView
+                android:id="@+id/webView_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </WebView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/a1100_5_line"
+                />
+
+
+            <!--preview-->
+            <LinearLayout
+                android:id="@+id/layout_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="100.5dp"
+                    android:layout_height="26dp"
+                    android:layout_marginTop="18.5dp"
+                    android:background="@drawable/a1100_6_preview"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="206dp"
+                    android:layout_marginTop="9.5dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="41.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="15.5dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <specup.fanmind.common.Util.HorizontalListView
+                        android:id="@+id/hList_previewImageList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_left"/>
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_right"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--기간 특전-->
+            <LinearLayout
+                android:id="@+id/layout_benefit"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_benefit"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager_benefit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="11.1dp"
+
+                    />
+
+                <specup.fanmind.common.Util.CirclePageIndicator
+                    android:id="@+id/indicator1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <!--상품 구성-->
+            <LinearLayout
+                android:id="@+id/layout_goods"
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_goods"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager_goods"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="11.1dp"
+
+                    />
+
+                <specup.fanmind.common.Util.CirclePageIndicator
+                    android:id="@+id/indicator2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <!--배송 정보-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="340dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/a1100_5_delivery_background_top"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="@string/delivery_imfomation"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_delivery_background"
+                    android:gravity="left|center_vertical"
+                    android:onClick="onClickDeliveryImformation"
+                    android:paddingLeft="50dp"
+                    android:text="@string/delivery_imfomation"
+                    android:textColor="#6a798b"
+                    android:textSize="16sp"
+                    />
+
+                <Button
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_delivery_rule_background"
+                    android:gravity="left|center_vertical"
+                    android:onClick="onClickDeliveryRule"
+                    android:paddingLeft="50dp"
+                    android:text="@string/delivery_rule"
+                    android:textColor="#6a798b"
+                    android:textSize="16sp"
+                    />
+
+
+            </LinearLayout>
+
+            <!--팬 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.5dp"
+                android:orientation="horizontal"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="31dp"
+                    android:background="@drawable/a1100_1_box_top"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_hostNickName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_marginTop="40dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/textView_total_followers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/total_following"
+                        android:textColor="#000000"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/fan_twitter"
+                            android:layout_width="29dp"
+                            android:layout_height="29dp"
+                            android:background="@drawable/a1100_4_sns_twitter"
+                            android:clickable="true"
+                            android:visibility="gone"
+                            />
+
+                        <ImageView
+                            android:id="@+id/fan_facebook"
+                            android:layout_width="29dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="25dp"
+                            android:background="@drawable/a1100_4_sns_facebook"
+                            android:clickable="true"
+                            android:visibility="gone"
+                            />
+
+                        <ImageView
+                            android:id="@+id/fan_instagram"
+                            android:layout_width="29dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="25dp"
+                            android:background="@drawable/a1100_4_sns_instagram"
+                            android:clickable="true"
+                            android:visibility="gone"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_following"
+                        android:layout_width="wrap_content"
+                        android:layout_height="21dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/image_following"
+                            android:layout_width="24.5dp"
+                            android:layout_height="21dp"
+                            android:background="@drawable/a1100_5_like_normal2"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/following"
+                            android:textColor="#000000"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/imageView_profile2"
+                    android:layout_width="61dp"
+                    android:layout_height="61dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <!--함께하는 사람들-->
+
+            <LinearLayout
+                android:id="@+id/layout_together"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/a1100_2_box_bottom"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/together"
+                    android:textColor="#FF0000"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15.5dp"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <specup.fanmind.common.Util.HorizontalListView
+                        android:id="@+id/hList_togetherImage"
+                        android:layout_width="310dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/hList_togetherImage"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_left"/>
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/hList_togetherImage"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_right"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <!--참여한 팬-->
+
+            <LinearLayout
+                android:id="@+id/layout_joinFan"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/a1100_8_box_fan"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/joinFan"
+                    android:textColor="#000000"
+                    android:textSize="20sp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15.5dp"
+                    android:orientation="horizontal"
+                    >
+
+
+                    <specup.fanmind.common.Util.HorizontalListView
+                        android:id="@+id/hList_joinFanImage"
+                        android:layout_width="310dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/hList_joinFanImage"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_left"/>
+
+                    <Button
+                        android:layout_width="6dp"
+                        android:layout_height="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/hList_joinFanImage"
+                        android:background="@drawable/a1100_8_preview_image_slide_btn_right"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--sns 공유하기-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/snsSharing10maum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"/>
+
+                <Button
+                    android:id="@+id/button_login_facebook"
+                    android:layout_width="340dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_facebook"
+                    android:text="페이스북 공유하기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/textview_defalt_string"
+                    />
+
+                <Button
+                    android:id="@+id/button_twitter"
+                    android:layout_width="340dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="6.67dp"
+                    android:background="@drawable/btn_twitter"
+                    android:text="트위터 공유하기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/textview_defalt_string"
+                    />
+
+                <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sns_sharing_total"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:id="@+id/snsSharingTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="0"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/a1100_5_line"
+                    />
+
+            </LinearLayout>
+
+            <!--이런프로젝트 어때요-->
+
+            <LinearLayout
+                android:id="@+id/layout_recommendProject"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="9dp"
+                android:background="#f7f7f7"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/how_is_this_project"
+                    android:textColor="#000000"
+                    android:textSize="16.7sp"/>
+
+                <specup.fanmind.common.Util.HorizontalListView
+                    android:id="@+id/hList_recommendProject"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="11.1dp"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f7f7f7"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/supportingdetail_layout08"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/project_like"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:button="@drawable/btn_project_like"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+
+            <LinearLayout
+                android:id="@+id/project_like_blank"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_comment"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/a1100_7_bottom_chat"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/textView_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                ></TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_qna"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/a1100_bottom_q_a"/>
+
+        <Button
+            android:id="@+id/button_project_join"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/a1000_0_top_background"
+            android:text="@string/view_project"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@id/supportingdetail_layout08"
+        android:background="@drawable/shadow"
+        android:orientation="horizontal">
+    </LinearLayout>
+</RelativeLayout>

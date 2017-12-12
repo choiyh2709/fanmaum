@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pop_layoutbasic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/pop_layout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pop_top">
+
+            <TextView
+                android:id="@+id/pop_tv01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/start01"
+                android:textColor="#e62844"
+                android:textSize="16dp"
+                android:typeface="sans"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pop_layout01"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/pop_content">
+
+
+            <TextView
+                android:id="@+id/pop_tv02"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/login08"
+                android:textColor="#000000"
+
+                android:textSize="11dp"
+                android:typeface="sans"/>
+
+            <EditText
+                android:id="@+id/findpw_et01"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pop_tv02"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/login_textarea"
+                android:hint="@string/findpwd02"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#aaaaaa"
+                android:textSize="15dp"
+                android:typeface="sans"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content"
+            android:layout_centerHorizontal="true"
+            >
+
+            <RelativeLayout
+                android:id="@+id/pop_layout03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pop_bt01">
+
+                <TextView
+                    android:id="@+id/pop_tv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="11dp"
+                    android:textColor="#e62844"
+                    android:textSize="15dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/pop_layout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toRightOf="@id/pop_layout03"
+                android:background="@drawable/pop_bt02">
+
+                <TextView
+                    android:id="@+id/pop_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="11dp"
+                    android:textColor="#e62844"
+                    android:textSize="15dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/layout_relative"></ScrollView>
+</RelativeLayout>

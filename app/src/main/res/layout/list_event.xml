@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cal_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="match_parent"
+android:background="#eceeee"
+        >
+
+        <ImageView
+            android:id="@+id/listevent_img03"
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="#eceeee"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/listevent_img03">
+
+            <RelativeLayout
+                android:id="@+id/listevent_layout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/event_list_top">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/home_viewpager_height"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageView
+                        android:id="@+id/listevent_img01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        />
+
+                    <ImageView
+                        android:id="@+id/listevent_img02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/event_list_finish"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/listevent_layout02"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/listevent_layout01"
+                android:background="@drawable/event_list_middle">
+
+                <TextView
+                    android:id="@+id/listevent_tv01"
+                    android:layout_width="1460dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="태연의 26번째 생일선물, 루이비통 신상빽"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="1dp"
+                android:id="@+id/listevent_layout03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listevent_layout02"
+                android:background="@drawable/event_list_bottom">
+
+                <TextView
+                    android:id="@+id/listevent_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/event01"
+                    android:textColor="#000000"
+                    android:textSize="11dp"
+                    android:typeface="sans"/>
+
+                <TextView
+                    android:id="@+id/listevent_tv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toRightOf="@id/listevent_tv02"
+                    android:textColor="#e82b47"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+
+                <TextView
+                    android:id="@+id/listevent_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/listsupport07"
+                    android:textColor="#e82b47"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

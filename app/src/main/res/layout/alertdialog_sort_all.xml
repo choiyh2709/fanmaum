@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50.5dp"
+        android:background="@drawable/a1000_popup_top"
+        android:gravity="center"
+        android:text="@string/sort_type"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/all"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="42.5dp"
+            android:background="@drawable/a1000_popup_middle"
+            android:text="@string/all"
+            android:textColor="@color/spinner_item"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/support"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="42.5dp"
+            android:background="@drawable/a1000_popup_middle"
+            android:text="@string/support"
+            android:textColor="@color/spinner_item"
+            android:gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/makeGoods"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="42.5dp"
+            android:background="@drawable/a1000_popup_middle"
+            android:text="@string/make_goods"
+            android:textColor="@color/spinner_item"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/a1000_popup_bottom"
+            />
+    </RadioGroup>
+</LinearLayout>

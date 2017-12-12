@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="338.5dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a1100_5_delivery_background_top"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_benefit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#000000"
+                android:textSize="16.7sp" />
+
+            <TextView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="20.5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/a1100_3_benefit_finish"
+                android:gravity="center"
+                android:text="@string/event04"
+                android:textColor="#FF0000"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:textColor="#a5a5a5"
+            android:id="@+id/textView_benefit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a1100_2_benefit_background_bottom_normal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_benefit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15.3sp" />
+
+        <TextView
+            android:id="@+id/textView_benefit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#a5a5a5"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

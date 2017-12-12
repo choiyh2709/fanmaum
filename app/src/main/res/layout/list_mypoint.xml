@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="43.5dp"
+        android:layout_centerHorizontal="true">
+        
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="27dp"
+            android:id="@+id/listmypoint_img"
+            android:background="@drawable/g1100_bl"/>
+            
+        <TextView android:layout_width="200dp" android:layout_height="wrap_content"
+            android:text="123123123123" android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/listmypoint_img"
+            android:textColor="#000000" android:textSize="13dp"
+            android:typeface="sans" android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/listmypoint_tv01"/>
+        
+        
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="123123" android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:textColor="#000000" android:textSize="13dp"
+            android:layout_centerVertical="true"
+            android:typeface="sans" android:singleLine="true"
+            android:id="@+id/listmypoint_tv02"/>
+          
+          <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:background="@drawable/line"/>
+    </RelativeLayout>
+    
+
+</RelativeLayout>

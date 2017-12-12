@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="350dp"
+              android:layout_height="wrap_content"
+              android:background="#ffffff"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0"
+            />
+        <!--우편번호 -->
+        <TextView
+            android:id="@+id/textView_zipcode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#a2a2a2"
+            android:textSize="16sp"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            >
+            <!--도로명 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/a2110_address1"
+                    android:gravity="center"
+                    android:text="@string/new_address"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <TextView
+                    android:id="@+id/textView_new_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="#a2a2a2"
+                    />
+            </LinearLayout>
+            <!--지번 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/a2110_address2"
+                    android:gravity="center"
+                    android:text="@string/old_address"
+                    android:textColor="#a2a2a2"
+
+                    />
+
+                <TextView
+
+                    android:id="@+id/textView_old_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="#a2a2a2"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e0e0e0"
+        />
+</LinearLayout>
+
+

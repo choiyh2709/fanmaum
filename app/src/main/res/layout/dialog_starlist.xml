@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="300dp"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pop_top">
+
+        <TextView
+            android:id="@+id/starlist_tv02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:text="4/5"
+            android:textColor="#ffffff"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/starlist_tv01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="연예인 선택"
+            android:textColor="#e62844"
+            android:textSize="15dp"
+            android:typeface="sans"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/starlist_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pop_contentbg">
+
+
+       <!-- <Button
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/button_starlist_et"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/pop_btn_search"
+            android:onClick="onSearch"/>-->
+
+        <EditText
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:id="@+id/starlist_et"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/pop_searchbar"
+            android:hint="@string/starthint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="20dp"
+            android:paddingRight="40dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pop_contentbg">
+
+        <TextView
+            android:id="@+id/starlist_listtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="해당 연예인이 없습니다."
+            android:textColor="#999999"
+            android:textSize="17dp"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/starlist_list02"
+            android:layout_width="wrap_content"
+            android:layout_height="258.5dp"
+            android:layout_centerHorizontal="true"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:visibility="gone">
+        </ListView>
+
+        <ListView
+            android:id="@+id/starlist_list01"
+            android:layout_width="wrap_content"
+            android:layout_height="258.5dp"
+            android:layout_centerHorizontal="true"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none">
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/starlist_btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_bt01"
+            android:onClick="onClick">
+
+            <TextView
+                android:id="@+id/starlist_tv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="@string/cancel"
+                android:textColor="#e62844"
+                android:typeface="sans"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/starlist_btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pop_bt02"
+            android:onClick="onClick">
+
+            <TextView
+                android:id="@+id/starlist_tv04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="@string/confirmation"
+                android:textColor="#e62844"
+                android:typeface="sans"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

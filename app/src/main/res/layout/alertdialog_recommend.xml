@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical"
+    >
+
+    <TextView
+
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50.5dp"
+        android:background="@drawable/a1000_popup_top"
+        android:gravity="center"
+        android:text="@string/recommend_user"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recommend_content"
+            />
+
+        <EditText
+            android:id="@+id/recommendUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_sub_btn03"
+                android:text="@string/no_recommend"
+                android:textColor="@color/red_button"
+                />
+
+            <Button
+                android:id="@+id/button_registration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_sub_btn03_1"
+                android:text="@string/registration"
+                android:textColor="@color/red_button2"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

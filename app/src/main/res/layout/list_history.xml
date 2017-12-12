@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:clickable="true"
+        android:layout_marginTop="8dp" android:id="@+id/listhistory_layout"
+        android:layout_marginBottom="8dp" 
+        android:background="@drawable/timeline_box">
+        
+       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="8월" android:layout_centerInParent="true"
+        android:textSize="16dp" android:textColor="#ffffff" android:typeface="sans"
+        android:id="@+id/listhistory_tv"/>
+     </RelativeLayout>
+     
+     <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp"
+        android:layout_centerHorizontal="true" android:clickable="true"
+        android:layout_marginTop="8dp" 
+        android:background="#00000000">
+   
+     </RelativeLayout>
+     
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/listhistory_layout">
+
+        <RelativeLayout
+            android:id="@+id/history_layout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/news_list_top" >
+
+            <!-- 이미지 레이아웃 -->
+
+            <RelativeLayout
+                android:id="@+id/history_layout02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/history_img"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/detail_profile" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/history_tv01"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="19dp"
+                android:layout_toRightOf="@id/history_layout02"
+                android:singleLine="true"
+                android:text="태연의 26번째 생일선물, 루이비통 신상빽"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/history_tv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history_tv01"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/history_layout02"
+                android:singleLine="true"
+                android:text="@string/history01"
+                android:textColor="#787878"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/history_layout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history_layout01"
+            android:layout_centerHorizontal="true"
+            android:padding="0dip"
+            android:background="@drawable/news_img" >
+
+            <specup.fanmind.utils.PagerCon
+                android:id="@+id/pager_container"
+                android:layout_width="fill_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="320dp" >
+                </android.support.v4.view.ViewPager>
+            </specup.fanmind.utils.PagerCon>
+
+            <TextView
+                android:id="@+id/history_tv03"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pager_container"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginTop="15dp"
+                android:text="@string/history01"
+                android:textColor="#000000"
+                android:lineSpacingExtra="5dp"
+                android:autoLink="web"
+                android:linksClickable="false"
+                android:textSize="13dp"
+                android:typeface="sans" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/history_tv03" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/history_layout06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history_layout03"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/history_layout04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_list_bottom1" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                     android:layout_marginTop="12dp">
+
+                    <ImageView
+                        android:id="@+id/history_like"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/history_like" />
+
+                    <TextView
+                        android:id="@+id/history_tv04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/history_like"
+                        android:text="10,324"
+                        android:textColor="#c4c4c4"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/history_layout05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/news_list_bottom2" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp">
+
+                    <ImageView
+                        android:id="@+id/history_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/history_message" />
+
+                    <TextView
+                        android:id="@+id/history_tv05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/history_msg"
+                        android:text="10,324"
+                        android:textColor="#c4c4c4"
+                        android:textSize="14dp"
+                        android:typeface="sans" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        
+        
+        <Button android:layout_width="wrap_content" android:layout_height="50dp"
+       android:visibility="visible" android:background="@drawable/history_all"
+       android:layout_centerHorizontal="true" 
+       android:id="@+id/history_btn" android:layout_below="@id/history_layout06"/>
+        
+        
+        <ImageView
+            android:id="@+id/history_hide"
+            android:layout_width="fill_parent"
+            android:layout_height="7dp"
+            android:layout_below="@id/history_btn"
+            android:background="#eceeee"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    
+    
+</RelativeLayout>

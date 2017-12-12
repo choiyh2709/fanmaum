@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <screenName name="specup.fanmind.TabMainActivity">Main</screenName>
+
+    <!-- 서포트 -->
+    <screenName name="specup.fanmind.main.tab2.SupportIngFragment">Support ING</screenName>
+    <screenName name="specup.fanmind.main.tab2.SupportIngDetailActivity">Support ING Detail</screenName>
+    <screenName name="specup.fanmind.main.tab1.SupportIngAllActivity">Support ING All</screenName>
+    <screenName name="specup.fanmind.main.tab2.SupportDeliveryFragment">Support Delivery</screenName>
+    <screenName name="specup.fanmind.main.tab2.SupportDeliveryDetailActivity">Support Delivery Detail</screenName>
+    <screenName name="specup.fanmind.main.tab2.SupportDeliveryAllActivity">Support Delivery All</screenName>
+    <screenName name="specup.fanmind.main.tab2.HistoryFragment">Support History</screenName>
+    <screenName name="specup.fanmind.main.tab2.HistoryDetailActivity">Support History Detail</screenName>
+    <screenName name="specup.fanmind.main.tab2.HistoryAllActivity">Support History All</screenName>
+
+    <!-- 타임라인 -->
+    <screenName name="specup.fanmind.main.tab3.TimeLineYearFragment">TimeLine</screenName>
+    <screenName name="specup.fanmind.main.tab3.TimeLineMonthActivity">TimeLine Month</screenName>
+    <screenName name="specup.fanmind.main.tab3.TimeLineDayActivity">TimeLine Day</screenName>
+    <screenName name="specup.fanmind.main.tab3.UploadPhotoActivity">TimeLine Write</screenName>
+
+    <!-- 뉴스피드 -->
+    <screenName name="specup.fanmind.main.tab4.NewsFeedFragment">NewsFeed</screenName>
+    <screenName name="specup.fanmind.main.tab4.NewsFeedDetailActivity">NewsFeed Detail</screenName>
+    <screenName name="specup.fanmind.main.tab4.NewsFeedWriteActivity">NewsFeed Write</screenName>
+    <screenName name="specup.fanmind.main.tab4.NewsFeedWriteInsertActivity">NewsFeed Write Insert</screenName>
+
+    <!-- 잠금화면 -->
+    <screenName name="specup.fanmind.lockscreen.LockScreenActivity2">Mobile LockScreen</screenName>
+
+    <!-- 공지사항 -->
+    <screenName name="specup.fanmind.left.NoticeActivity">Notice</screenName>
+
+    <!-- 친구초대하기 -->
+    <screenName name="specup.fanmind.left.NotifyFanMindActivity">Invite Friend Menu</screenName>
+
+    <!-- 연예인 요청하기 -->
+    <screenName name="specup.fanmind.left.RequestMyFanActivity">Request Star</screenName>
+
+    <!-- 이벤트 -->
+    <screenName name="specup.fanmind.left.EventActivity">Event</screenName>
+    <screenName name="specup.fanmind.left.EventDetailActivity">Event Detail</screenName>
+
+    <!-- 스케쥴 -->
+    <screenName name="specup.fanmind.left.ScheduelFragment">Scheduel</screenName>
+
+    <!-- 동영상 -->
+    <screenName name="specup.fanmind.left.MovieActivity">Movie</screenName>
+
+    <!-- 마음적립하기 페이지 -->
+    <screenName name="specup.fanmind.left.BuyPointActivity">BuyPoint</screenName>
+
+    <!-- 마음구매하기 페이지 -->
+    <screenName name="specup.fanmind.left.BuyPointActivity2">BuyPoint2</screenName>
+
+    <!-- 결제를 기다리고있는 마음 -->
+    <screenName name="specup.fanmind.left.PayAccountCheckActivity">Pay Account Check</screenName>
+  	
+  	<!-- 결제 호출 -->
+    <screenName name="specup.fanmind.left.WebViewActivity">Pay Account</screenName>
+    <screenName name="specup.fanmind.left.WebViewActivity">Pay Mobile</screenName>
+    <screenName name="specup.fanmind.left.WebViewActivity">Pay Card</screenName>
+    
+    
+    <!-- The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-58144636-1</string>
+
+</resources>

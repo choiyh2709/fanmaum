@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialNumberPicker">
+        <attr name="npMinValue" format="integer" />
+        <attr name="npMaxValue" format="integer" />
+        <attr name="npDefaultValue" format="integer" />
+        <attr name="npTextSize" format="dimension" />
+        <attr name="npTextColor" format="color" />
+        <attr name="npSeparatorColor" format="color" />
+        <attr name="npBackgroundColor" format="color" />
+        <attr name="npFocusValue" format="boolean" />
+        <attr name="npWrapValue" format="boolean" />
+    </declare-styleable>
+</resources>

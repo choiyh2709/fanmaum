@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cal_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="0dip">
+
+        <RelativeLayout
+            android:id="@+id/comment_layout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp">
+
+            <ImageView
+                android:id="@+id/listcomment_profile"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/detail_profile"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.5dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/comment_layout01"
+            android:descendantFocusability="blocksDescendants"
+            >
+
+            <TextView
+                android:id="@+id/listcomment_tv01"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="애비메탈"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/listcomment_tv02"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listcomment_tv01"
+                android:layout_marginTop="0.5dp"
+                android:autoLink="web"
+                android:text="중복이어서~ 미안하다~!"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/listcomment_tv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listcomment_tv02"
+                android:text="3시간전"
+                android:textColor="#888888"
+                android:textSize="11dp"
+                android:typeface="sans"/>
+
+            <RelativeLayout
+                android:id="@+id/listcomment_layout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listcomment_tv02"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/listcomment_tv03">
+
+                <TextView
+                    android:id="@+id/listcomment_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="좋아요"
+                    android:textColor="#ed232b"
+                    android:textSize="11dp"
+                    android:typeface="sans"/>
+
+                <ImageView
+                    android:id="@+id/listcomment_img02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/listcomment_tv04"
+                    android:background="@drawable/detail_like"/>
+
+                <TextView
+                    android:id="@+id/listcomment_tv05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toRightOf="@id/listcomment_img02"
+                    android:text="13"
+                    android:textColor="#ed232b"
+                    android:textSize="11dp"
+                    android:typeface="sans"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/listcomment_img03"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@id/listcomment_layout01"/>
+
+            <TextView
+                android:id="@+id/listcomment_tv06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:text="@string/report"
+                android:textColor="#888888"
+                android:textSize="12dp"
+                android:typeface="sans"/>
+
+            <TextView
+                android:id="@+id/listcomment_tv07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp"
+                android:text="@string/del"
+                android:textColor="#888888"
+                android:textSize="12dp"
+                android:typeface="sans"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

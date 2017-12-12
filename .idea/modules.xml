@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3.2.1fanmain.iml" filepath="$PROJECT_DIR$/3.2.1fanmain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/libs/android-gif-drawable-master/android-gif-drawable-master.iml" filepath="$PROJECT_DIR$/app/libs/android-gif-drawable-master/android-gif-drawable-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoSelector/photoSelector.iml" filepath="$PROJECT_DIR$/photoSelector/photoSelector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universal-image-loader-1.9.3-with-sources/universal-image-loader-1.9.3-with-sources.iml" filepath="$PROJECT_DIR$/universal-image-loader-1.9.3-with-sources/universal-image-loader-1.9.3-with-sources.iml" />
+    </modules>
+  </component>
+</project>

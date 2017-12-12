@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bar" >
+
+        <Button
+            android:id="@+id/navi_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/btn_back"
+            android:onClick="onBack" />
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/navi_back"
+            android:clickable="true"
+            android:onClick="onBack"
+            android:text="@string/profile05"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/changephone_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/changephone"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:typeface="sans" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/changephone_img01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/bl_list" />
+
+        <TextView
+            android:id="@+id/changephone_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/changephone_img01"
+            android:text="휴대폰인증"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/changephone_btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btn_small"
+            android:text="인증번호 발송"
+            android:textColor="#e82b47"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/changephone_et01"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/changephone_btn01"
+            android:background="@drawable/textarea_s"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#aaaaaa"
+            android:textSize="11dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/changephone_btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btn_small"
+            android:text="인증확인"
+            android:textColor="#e82b47"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/changephone_et02"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/changephone_btn02"
+            android:background="@drawable/textarea_s"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#aaaaaa"
+            android:textSize="11dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@+id/step1_img02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/bl_list" />
+
+        <TextView
+            android:id="@+id/changephone_tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/step1_img02"
+            android:text="@string/step01"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/changephone_tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/step02"
+            android:textColor="#000000"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/changephone_tv05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/changephone_tv04"
+            android:clickable="true"
+            android:text="@string/step03"
+            android:textColor="#000000"
+            android:textSize="11dp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/changephone_tv06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/changephone_tv05"
+            android:text="@string/step04"
+            android:textColor="#000000"
+            android:textSize="11dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:id="@+id/changephone_tv07"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/step05"
+        android:textColor="#000000"
+        android:textSize="11dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/changephone_btn03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_sub_btn01"
+        android:text="@string/register"
+        android:textColor="#e82b47"
+        android:textSize="16dp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/changephone_btn04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_sub_btn02"
+        android:text="@string/cancel"
+        android:textColor="#7f7f7f"
+        android:textSize="16dp"
+        android:typeface="sans" />
+
+</LinearLayout>

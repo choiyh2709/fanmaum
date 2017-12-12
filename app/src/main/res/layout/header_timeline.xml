@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:clickable="true"
+        android:layout_marginTop="8dp" android:id="@+id/layout01"
+        android:background="@drawable/timeline_box">
+       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="8월" android:layout_centerInParent="true"
+        android:textSize="16dp" android:textColor="#ffffff" android:typeface="sans"
+        android:id="@+id/supportingdetail_tv01"/>
+     </RelativeLayout>
+     
+     <RelativeLayout android:layout_width="match_parent" android:layout_height="30dp"
+        android:layout_centerHorizontal="true" android:clickable="true"
+        android:layout_marginTop="8dp" 
+        android:background="#00000000">
+   
+     </RelativeLayout>
+     
+    
+</RelativeLayout>

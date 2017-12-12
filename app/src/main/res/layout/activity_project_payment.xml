@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                tools:context="specup.fanmind.main.tab0.ProjectPayment">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar">
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/project_payment1"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="@dimen/newfeed_width"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- 상단 1,2,3 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.1dp"
+                android:background="@drawable/a2000_stage_background"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#FF0000"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/a2000_stage_arrow_active"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#c0c0c0"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/a2000_stage_arrow_normal"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="#c0c0c0"/>
+
+            </LinearLayout>
+
+            <!--마음 보내기-->
+            <LinearLayout
+                android:id="@+id/layout_freeSend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/support_tv01"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="11.1dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a1100_5_delivery_background_top"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/textView_benefit1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/free_support"
+                                android:textColor="#000000"
+                                android:textSize="18sp"/>
+
+
+                            <!--<CheckBox-->
+                            <!--android:id="@+id/checkbox_free_maum"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_alignParentRight="true"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:layout_margin="5dp"-->
+                            <!--android:background="@drawable/btn_goods_detail_select"-->
+                            <!--android:button="@null"-->
+                            <!--android:checked="false"-->
+                            <!--android:gravity="center"-->
+                            <!--/>-->
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:id="@+id/tv_min_hearts"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/free_support_comment"
+                            android:textColor="#FF0000"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/a1100_2_benefit_background_bottom_normal"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            >
+
+                            <EditText
+                                android:id="@+id/edittext_free_maum"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/payment_free_maum"
+                                android:gravity="right|center_vertical"
+                                android:inputType="number"
+                                android:paddingRight="5dp"
+                                android:textColor="#000000"
+                                android:textSize="14sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="@string/maum"
+                                android:textColor="#000000"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView_exchange_money"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:text="@string/mypoint_tv06"
+                            android:textColor="#000000"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--상품 구성-->
+            <LinearLayout
+                android:id="@+id/layout_goods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_goods2"
+                    android:textColor="#000000"
+                    android:textSize="16.7sp"/>
+
+                <specup.fanmind.common.Util.AdapterLinearLayout
+                    android:id="@+id/goodsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    />
+
+
+            </LinearLayout>
+
+            <!--기간 특전-->
+            <LinearLayout
+                android:id="@+id/layout_benefit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/title_benefit"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager_benefit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+
+                    />
+
+                <specup.fanmind.common.Util.CirclePageIndicator
+                    android:id="@+id/indicator1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/a2000_bottom_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- 보유마음 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/my_maum"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView_myMaum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/a2000_bottom_total"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="@string/maum_num"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!--필요마음-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/goods_maum"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView_sumCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/a2000_bottom_total"
+                android:gravity="right|center_vertical"
+                android:paddingRight="20dp"
+                android:text="@string/maum_num"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/btn_payment_next"
+            android:onClick="onNext"
+            android:text="@string/next"
+            android:textColor="@color/red_button"/>
+    </LinearLayout>
+</RelativeLayout>

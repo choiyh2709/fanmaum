@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/payaccount_check" >
+
+        <ImageButton
+            android:id="@+id/listpayaccount_btn01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="26dp"
+            android:layout_marginTop="27dp"
+            android:background="#00000000"
+            android:src="@drawable/ready_close" />
+
+        <TextView
+            android:id="@+id/listpayaccount_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/payaccount02"
+            android:textColor="#e82b47"
+            android:textSize="25dp"
+            android:typeface="sans"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout01"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="74.5dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout02"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_below="@id/listpayaccount_layout01"
+            android:layout_marginLeft="95dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000원"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout03"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_below="@id/listpayaccount_layout02"
+            android:layout_marginLeft="95dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000원"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout04"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_below="@id/listpayaccount_layout03"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="21.5dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000원"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout05"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_below="@id/listpayaccount_layout04"
+            android:layout_marginLeft="95dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000원"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/listpayaccount_layout06"
+            android:layout_width="wrap_content"
+            android:layout_height="22.5dp"
+            android:layout_below="@id/listpayaccount_layout05"
+            android:layout_marginLeft="95dp" >
+
+            <TextView
+                android:id="@+id/listpayaccount_tv07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="5000원"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

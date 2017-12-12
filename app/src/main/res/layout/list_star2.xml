@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="#eceeee"
+    >
+
+    <LinearLayout
+        android:layout_width="56dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/layout_background"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/a1000_7_custom_menu_circle_normal"
+                />
+        </RelativeLayout>
+
+        <specup.fanmind.common.Util.MarqueeTextView
+            android:id="@+id/starName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

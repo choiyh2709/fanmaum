@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/pop_layout01" 
+               android:background="@drawable/pop_top">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="15dp"
+            android:typeface="sans"
+            android:textSize="19dp" android:textColor="#e62844" android:id="@+id/pop_tv01"
+            android:text="@string/pop00"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@id/pop_layout01" android:background="@drawable/pop_list_btn01"
+        android:id="@+id/pop_layout02">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="15dp"
+            android:typeface="sans"
+            android:textSize="15dp" android:textColor="#000000" android:id="@+id/pop_tv02"
+            android:text="@string/pop01"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@id/pop_layout02" android:background="@drawable/pop_list_btn01"
+        android:id="@+id/pop_layout03">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="15dp"
+            android:typeface="sans"
+            android:textSize="15dp" android:textColor="#000000" android:id="@+id/pop_tv03"
+            android:text="@string/pop02"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@id/pop_layout03" android:background="@drawable/pop_list_btn01"
+        android:id="@+id/pop_layout04">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="15dp"
+            android:typeface="sans"
+            android:textSize="15dp" android:textColor="#000000" android:id="@+id/pop_tv04"
+            android:text="@string/pop03"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@id/pop_layout04" android:background="@drawable/pop_list_btn02"
+        android:id="@+id/pop_layout05">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp" android:layout_marginTop="14dp"
+            android:typeface="sans" 
+            android:textSize="15dp" android:textColor="#000000" android:id="@+id/pop_tv05"
+            android:text="@string/pop04"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/navigation_bar" >
+
+        <Button
+            android:id="@+id/navi_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/btn_back"
+            android:onClick="onBack" />
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/navi_back"
+            android:clickable="true"
+            android:onClick="onBack"
+            android:text="@string/payaccount"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+    
+    
+     <ListView
+        android:id="@+id/payaccount_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@null"
+        android:layout_below="@id/navi"
+        android:listSelector="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+    
+
+</RelativeLayout>

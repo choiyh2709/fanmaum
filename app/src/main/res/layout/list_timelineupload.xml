@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/listtimelineupload_layout01"
+        android:layout_width="105dp"
+        android:layout_height="178.5dp" >
+
+        <ImageView
+            android:id="@+id/listtimelineupload_image01"
+            android:layout_width="105dp"
+            android:layout_height="178.5dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+              android:id="@+id/listtimelineupload_image02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:background="@drawable/image_delete" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,315 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/userPage_width"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_slogun"
+                android:layout_centerHorizontal="true"
+                android:background="#eceeee">
+
+    <RelativeLayout
+        android:id="@+id/layout_clickable"
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/a1000_8_support_card_view_big_photo_box_normal">
+
+
+            <ImageView
+                android:id="@+id/iamge_main"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:scaleType="fitXY"
+                />
+
+            <ImageView
+                android:id="@+id/iamge_main_front"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+
+                android:background="@drawable/a1000_8_support_card_view_big_photo_opacity_normal"/>
+
+        </RelativeLayout>
+
+        <!--프로필 정보 외.-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/layout_image"
+            android:layout_gravity="center"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/a1100_4_profile_normal"/>
+
+            <ImageView
+                android:id="@+id/imageView_profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:padding="1dp"/>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toEndOf="@+id/imageView_profile"
+                            android:layout_toRightOf="@+id/imageView_profile">
+
+                <TextView
+                    android:id="@+id/textView_projectTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/textView_hostNickName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView_projectTitle"
+                    android:text="@string/ready"
+                    android:textColor="#FFFFFF"/>
+
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_below="@+id/textView_projectTitle"-->
+                <!--android:text="@string/ready"-->
+                <!--android:textColor="#FFFFFF"/>-->
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/seekbar_projectDetail"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/layout_image"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/styled_progress"
+            android:secondaryProgress="100"
+            android:thumb="@null"/>
+
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/seekbar_projectDetail"
+            android:background="@drawable/a1000_support_card_view_all"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--모인마음-->
+            <TextView
+                android:id="@+id/textview_Heart_now"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/maum_value"
+                android:textColor="#000000"/>
+
+            <!--% -->
+            <TextView
+                android:id="@+id/textview_percent"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/listsupport10"
+                android:textColor="#FF0000"/>
+
+            <!--참여한팬-->
+            <TextView
+                android:id="@+id/textview_Total_attends"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/joinFan_value"
+                android:textColor="#000000"/>
+
+
+            <!--마감까지-->
+            <TextView
+                android:id="@+id/textView_deadline_value"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/deadline_value"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--숨은 페이지-->
+    <LinearLayout
+        android:id="@+id/layout_payment"
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_clickable"
+        android:background="@drawable/a1000_support_card_view_all"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <!--결제금액-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/e2200_payment"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/project_cost"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_used_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ready"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/textview_payment_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="0000.00.00 00:00:00"
+                    android:textColor="#000000"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <!--결제상태-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/e2200_payment"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/project_state"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_isPaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ready"
+                    android:textColor="#000000"/>
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textview_payment_cancel"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="3dp"-->
+                    <!--android:text="@string/cancel2"-->
+                    <!--android:textColor="#FF0000"-->
+                    <!--android:textSize="10sp"/>-->
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!--배송정보-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/e2200_delivery"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/project_delivery"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_address_pri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ready"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/textview_address_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/change"
+                    android:textColor="#FF0000"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="10dp"
+        android:layout_below="@id/layout_payment"
+        android:background="#eceeee"/>
+</RelativeLayout>

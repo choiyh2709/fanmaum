@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a1100_5_delivery_background_top"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_benefit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="16.7sp"/>
+
+            <TextView
+                android:id="@+id/textView_benefit1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/textView_benefit1"
+                android:layout_toRightOf="@id/textView_benefit1"
+                android:textColor="#a5a5a5"
+                />
+
+            <TextView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="20.5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/a1100_3_product_finish"
+                android:gravity="center"
+                android:text="@string/sold_out"
+                android:textColor="#FF0000"
+                android:visibility="gone"/>
+
+            <CheckBox
+                android:id="@+id/icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_goods_detail_select"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView_benefit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a1100_2_benefit_background_bottom_normal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_benefit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15.3sp"/>
+
+        <TextView
+            android:id="@+id/textView_benefit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#a5a5a5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_payment_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a2000_product_bottom2"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <!--구매수량-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/goods_total"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView_amount_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/a2000_product_number_top_normal"
+                android:gravity="left|center_vertical"
+                android:hint="0"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!--배송 정보-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/goods_delivery_address"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView_delivery_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/a2000_product_address_top_normal"
+                android:gravity="left|center_vertical"
+                android:hint="@string/project_delivery_hint"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <!--추가 배송비-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/goods_delivery_cost"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/textView_add_deilvey_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/a2000_product_add_fee"
+                android:gravity="left|center_vertical"
+                android:hint="@string/product_add_delivery_cose"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11.1dp"/>
+
+</LinearLayout>

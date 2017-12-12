@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/right_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right_celeb_top"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/my_celeb"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/right_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/right_celeb_mid"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/bookmark"
+                android:textColor="#e62844"
+                android:textSize="14dp" />
+
+            <ListView
+                android:id="@+id/celeb_book_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="0dp"
+                android:divider="#ffffff"
+                android:background="@null"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false">
+            </ListView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/right_celeb_mid"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/rightstar02"
+                android:textColor="#e62844"
+                android:textSize="14dp" />
+
+            <ListView
+                android:id="@+id/celeb_book_list_all"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="0dp"
+                android:divider="#ffffff"
+                android:background="@null"
+                android:layout_marginBottom="35dp"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false">
+            </ListView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editText_channel_name"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/right_fan_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/channel_name_search"
+        android:textColorHint="#e0e0e0"
+        android:paddingLeft="40dp"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:singleLine="true"
+        />
+
+</RelativeLayout>

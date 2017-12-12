@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/newfeed_width"
+    android:layout_height="match_parent"
+    android:background="#eceeee">
+
+    <RelativeLayout
+        android:id="@+id/spinner_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null">
+
+        <Button
+            android:id="@+id/button_sub_popula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_project_sorting_left"
+            android:text="@string/new_sort"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/button_sub_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/button_sub_popula"
+            android:background="@drawable/all_project_sorting_right"
+            android:paddingRight="30dp"
+            android:text="@string/starlist01"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/newfeed_width"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner_group"
+        android:layout_gravity="center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+
+        >
+
+       <!-- <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:text="@string/popular2"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <specup.fanmind.common.Util.HorizontalListView
+                    android:id="@+id/hScrollview_popular_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gridview_project"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="@dimen/gridview_item_width"
+            android:scrollbars="vertical"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:numColumns="2"
+            android:scrollingCache="true"
+            android:layout_marginLeft="10dp"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="7.5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/newsfeed_write"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/spinner_group"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/spinner_group"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/btn_newsfeed" />
+
+</RelativeLayout>

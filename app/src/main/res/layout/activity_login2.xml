@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context="specup.fanmind.main.login.LoginActivity2"
+              android:background="#FFFFFF"
+    >
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/start04"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/radioGroup_1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/radioButton_login"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_2_sub"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="#FF0000"
+
+            />
+
+        <Button
+            android:id="@+id/radioButton_memberReg"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_2_sub"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/member_register"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/page_margin"
+
+        />
+</LinearLayout>

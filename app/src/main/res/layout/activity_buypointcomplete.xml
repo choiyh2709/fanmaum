@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kg_complete_poup" >
+
+    <TextView
+        android:id="@+id/payaccount_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="163dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="4dp"
+        android:text="@string/buypointcomplete01"
+        android:textColor="#494949"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/payaccount_tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payaccount_tv01"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/buypointcomplete02"
+        android:textColor="#494949"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:id="@+id/layout_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="21.5dp"
+        android:background="@drawable/kg_bank_popup_btn" >
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/back_page"
+        android:textColor="#e82b47"
+        android:textSize="14dp"
+        android:typeface="sans" />
+        
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_above="@id/layout_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/kg_bank_popup_btn"
+        android:onClick="onClick">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/buypointcomplete03"
+            android:textColor="#e82b47"
+            android:textSize="14dp"
+            android:typeface="sans"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

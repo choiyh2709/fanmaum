@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/q1000_list">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+            
+        <TextView android:layout_width="320dp" android:layout_height="wrap_content"
+            android:text="123123123123" android:layout_marginLeft="16dp"
+            android:textColor="#000000" android:textSize="13dp"
+            android:typeface="sans" android:singleLine="true"
+            android:id="@+id/listmore_tv01"/>
+        
+           <TextView android:layout_width="320dp" android:layout_height="wrap_content"
+            android:text="@string/notice" android:layout_below="@id/listmore_tv01"
+            android:textColor="#adadad" android:textSize="11dp"
+            android:layout_marginTop="3dp" android:singleLine="true"
+            android:typeface="sans"  android:layout_marginLeft="16dp"
+            android:id="@+id/listmore_tv02"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+
+</RelativeLayout>

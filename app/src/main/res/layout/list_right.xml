@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp"
+        android:id="@+id/listright_layout01"
+        android:background="@drawable/r_top_list">
+        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:scaleType="fitXY"
+            android:id="@+id/listright_img01" 
+            android:layout_centerVertical="true" />
+        
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/listright_img01">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="123123123123"
+            android:textColor="#000000" android:textSize="15dp"
+              android:typeface="sans"
+            android:id="@+id/listright_tv01"/>
+        
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_below="@id/listright_tv01">
+         <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/listright_img02" android:background="@drawable/icon_people"
+            android:layout_centerVertical="true" />
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="123123123123"
+              android:layout_toRightOf="@id/listright_img02"
+              android:textColor="#e82b47" android:textSize="13dp"
+              android:typeface="sans" android:layout_marginLeft="3dp"
+            android:id="@+id/listright_tv02"/>
+        </RelativeLayout>
+        </RelativeLayout>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/listright_btn01" android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp" android:visibility="gone"
+            android:background="@drawable/r_delete" 
+            android:layout_centerVertical="true"
+            android:focusable="false" android:focusableInTouchMode="false"/>
+        
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:background="@drawable/r_plus" android:visibility="gone"
+            android:id="@+id/listright_img03"/>
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

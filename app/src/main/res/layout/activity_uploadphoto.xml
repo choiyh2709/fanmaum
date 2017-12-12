@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/upload_layout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/join_navigation" >
+
+        <TextView
+            android:id="@+id/upload_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/upload01"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload_layout01"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/join_bg" >
+
+            <RelativeLayout
+                android:id="@+id/upload_layout02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" >
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn01"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_one"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                    <ImageView
+                        android:id="@+id/upload_oneline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                    
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn02"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_toRightOf="@id/upload_btn01"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_two"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                    <ImageView
+                        android:id="@+id/upload_twoline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                    
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn03"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_toRightOf="@id/upload_btn02"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_three"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                     <ImageView
+                        android:id="@+id/upload_threeline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                     
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/upload_layout03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_layout02"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7.5dp" >
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn04"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_four"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                    <ImageView
+                        android:id="@+id/upload_fourline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                    
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn05"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_toRightOf="@id/upload_btn04"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_five"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                     <ImageView
+                        android:id="@+id/upload_fiveline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                     
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/upload_btn06"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_toRightOf="@id/upload_btn05"
+                    android:background="@drawable/newsfeed_img_plus" >
+
+                    <ImageView
+                        android:id="@+id/upload_six"
+                        android:layout_width="104dp"
+                        android:layout_height="104dp"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/upload_close06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/image_delete" />
+                    
+                      <ImageView
+                        android:id="@+id/upload_sixline"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/newsfeed_img_on"
+                        android:visibility="gone" />
+                      
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/upload_img01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_layout03"
+                android:layout_marginTop="22.5dp"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:id="@+id/upload_layout04"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/upload_img01" >
+
+                <TextView
+                    android:id="@+id/upload_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/upload02"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+
+                <Button
+                    android:id="@+id/upload_btn07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/swich_no"
+                    android:onClick="onClick" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/upload_img02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_layout04"
+                android:background="@drawable/line" />
+
+            <RelativeLayout
+                android:id="@+id/upload_layout05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_img02"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp" >
+
+                <TextView
+                    android:id="@+id/upload_tv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="해당 사진의 활동 시기를 설정해주세요."
+                    android:textColor="#1e1e1e"
+                    android:textSize="16dp"
+                    android:typeface="sans" />
+
+                <RelativeLayout
+                    android:id="@+id/upload_layout06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="108dp"
+                    android:layout_below="@id/upload_tv03"
+                    android:layout_marginTop="23dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/upload_layout07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="108dp"
+                        android:background="@drawable/data_year" >
+
+                        <ImageButton
+                            android:id="@+id/upload_btn08"
+                            android:layout_width="95dp"
+                            android:layout_height="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="#00000000"
+                            android:onClick="onClick"
+                            android:src="@drawable/data_up" />
+
+                        <TextView
+                            android:id="@+id/starterm_tv01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="2014"
+                            android:textColor="#1e1e1e"
+                            android:textSize="18dp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:id="@+id/upload_btn09"
+                            android:layout_width="95dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="5dp"
+                            android:background="#00000000"
+                            android:onClick="onClick"
+                            android:src="@drawable/data_down" />
+
+                        <Button
+                            android:id="@+id/upload_btnyear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="108dp"
+                            android:background="@drawable/data_year_off" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/upload_tv04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@id/upload_layout07"
+                        android:text="년"
+                        android:textColor="#1e1e1e"
+                        android:textSize="25dp"
+                        android:typeface="sans" />
+
+                    <RelativeLayout
+                        android:id="@+id/upload_layout08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="108dp"
+                        android:layout_marginLeft="38dp"
+                        android:layout_toRightOf="@id/upload_tv04"
+                        android:background="@drawable/data_month" >
+
+                        <ImageButton
+                            android:id="@+id/upload_btn10"
+                            android:layout_width="65dp"
+                            android:layout_height="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="#00000000"
+                            android:onClick="onClick"
+                            android:src="@drawable/data_up" />
+
+                        <TextView
+                            android:id="@+id/starterm_tv03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="7"
+                            android:textColor="#1e1e1e"
+                            android:textSize="18dp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:id="@+id/upload_btn11"
+                            android:layout_width="65dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="5dp"
+                            android:background="#00000000"
+                            android:onClick="onClick"
+                            android:src="@drawable/data_down" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/upload_tv05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toRightOf="@id/upload_layout08"
+                        android:text="월"
+                        android:textColor="#1e1e1e"
+                        android:textSize="25dp"
+                        android:typeface="sans" />
+
+                    <Button
+                        android:id="@+id/upload_btnmonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="108dp"
+                        android:layout_marginLeft="38dp"
+                        android:layout_toRightOf="@id/upload_tv04"
+                        android:background="@drawable/data_month_off" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/upload_btn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_layout05"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="21.5dp"
+                android:background="@drawable/btn_detailmainbtn01"
+                android:onClick="onClick"
+                android:text="업로드"
+                android:textColor="#e82b47"
+                android:textSize="16dp"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <!--
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/upload01" android:id="@+id/upload_tv01"/>
+    
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/upload_layout01" android:orientation="horizontal"
+        android:layout_below="@id/upload_tv01">
+        
+        <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img01"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn01"/>
+        </RelativeLayout>
+        
+         <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitStart" android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img02"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn02"/>
+        </RelativeLayout>
+        
+          <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitStart" android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img03"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn03"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/upload_layout02" android:orientation="horizontal"
+        android:layout_below="@id/upload_layout01">
+        
+         <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img04"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn04"/>
+        </RelativeLayout>
+        
+           <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img05"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn05"/>
+        </RelativeLayout>
+        
+             <RelativeLayout android:layout_width="100dp" android:layout_height="100dp">
+        <ImageView android:layout_width="100dp" android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/ic_launcher"
+            android:id="@+id/upload_img06"/>
+        
+        <Button android:layout_width="20dp" android:layout_height="20dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" android:visibility="gone"
+            android:id="@+id/upload_btn06"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/upload_layout03"
+        android:layout_below="@id/upload_layout02">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/upload02"
+            android:id="@+id/upload_tv02"/>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+            android:id="@+id/upload_btn07"
+            android:text="NO"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/upload_layout04"
+        android:layout_below="@id/upload_layout03">
+        
+       <EditText android:layout_width="200dp" android:layout_height="wrap_content" 
+           android:visibility="invisible"
+        android:id="@+id/upload_et01"/>
+       
+    </RelativeLayout>
+    
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="업로드" android:layout_below="@id/upload_layout04"
+        android:id="@+id/upload_btn08"/>
+    -->
+
+</RelativeLayout>

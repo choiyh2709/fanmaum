@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lockscreen_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/adlockscreen_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+    
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="41dp" android:textColor="#ffffff"
+              android:shadowColor="#800b1e36"
+              android:shadowRadius="9.0"
+              android:shadowDx="3.0" android:shadowDy="3.0"
+              android:id="@+id/lockscreen_tv01" android:layout_marginTop="7dp"
+              android:typeface="sans" android:layout_marginLeft="12dp"/>
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="23dp" android:textColor="#ffffff"
+              android:layout_toRightOf="@id/lockscreen_tv01"
+              android:id="@+id/lockscreen_tv02"   android:layout_marginTop="26dp"
+              android:shadowRadius="9.0"  android:shadowColor="#800b1e36"
+              android:shadowDx="3.0" android:shadowDy="3.0"
+              android:typeface="sans" android:layout_marginLeft="6dp"/>
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="23dp" android:textColor="#ffffff" 
+              android:layout_marginTop="26dp" 
+              android:id="@+id/lockscreen_tv03" android:layout_alignParentRight="true"
+              android:shadowRadius="9.0"  android:shadowColor="#800b1e36"
+              android:shadowDx="3.0" android:shadowDy="3.0"
+              android:typeface="sans" android:layout_marginRight="22.5dp"/>
+    
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="23dp" android:textColor="#ffffff" 
+              android:layout_marginTop="26dp" android:layout_toLeftOf="@id/lockscreen_tv03"
+              android:id="@+id/lockscreen_tv05" 
+              android:shadowRadius="9.0"  android:shadowColor="#800b1e36"
+              android:shadowDx="3.0" android:shadowDy="3.0"
+              android:typeface="sans" android:layout_marginRight="10dp"/>
+    
+    
+    <ImageView android:layout_width="90dp" android:layout_height="90dp"
+            android:id="@+id/lock_center" android:visibility="gone"
+            android:scaleType="fitXY"
+            android:background="@drawable/lock_btn04"/>
+    
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_above="@id/lock_center" android:visibility="gone"
+        android:layout_centerHorizontal="true" android:id="@+id/lock_layout02"
+        android:paddingLeft="10dp"  android:paddingRight="10dp" 
+        android:paddingBottom="13.5dp" android:paddingTop="7.5dp">
+        
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textSize="15.5dp" android:textColor="#000000" android:text="안녕하세용~!ㅋㅋㅋ"
+              android:visibility="gone"
+              android:id="@+id/lockscreen_tv04" 
+              android:typeface="sans"/>
+        
+    </RelativeLayout>
+    
+    
+   <!--   <ImageView android:visibility="gone" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:src="@drawable/lock_btn04"
+        android:id="@+id/lock_realcenter"/> -->
+        
+      
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/lock_bg" android:visibility="gone"
+        android:id="@+id/lock_layout01">
+        
+          <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="34dp" android:layout_marginLeft="21dp"
+            android:id="@+id/lock_btn01" android:visibility="visible"
+            android:background="@drawable/lock_btn03"
+            android:layout_alignParentBottom="true"/>
+          
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp" android:layout_marginLeft="9dp"
+            android:id="@+id/lock_btn01_on" android:visibility="gone"
+            android:background="@drawable/lock_btn03_on" 
+            android:layout_alignParentBottom="true"/>
+
+            
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="86dp" android:layout_marginBottom="147dp"
+            android:id="@+id/lock_btn02" android:visibility="visible"
+            android:background="@drawable/lock_btn01" 
+            android:layout_alignParentBottom="true"/>
+             
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="74dp" android:layout_marginBottom="135dp" 
+            android:id="@+id/lock_btn02_on" android:visibility="gone"
+            android:background="@drawable/lock_btn01_on" 
+            android:layout_alignParentBottom="true"/> 
+            
+        
+         <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="147dp"
+            android:layout_alignParentRight="true" android:layout_marginRight="86dp"
+            android:id="@+id/lock_btn03" android:visibility="visible"
+            android:background="@drawable/lock_btn02" 
+            android:layout_alignParentBottom="true"/>
+             
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginRight="74dp" android:layout_marginBottom="135dp" 
+            android:id="@+id/lock_btn03_on" android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/lock_btn02_on" 
+            android:layout_alignParentBottom="true"/> 
+            
+        
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="34dp" android:layout_marginRight="21dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/lock_btn04" android:visibility="visible"
+            android:background="@drawable/lock_btn05"
+            android:layout_alignParentBottom="true"/>
+          
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp" android:layout_marginRight="9dp"
+             android:layout_alignParentRight="true"
+            android:id="@+id/lock_btn04_on" android:visibility="gone"
+            android:background="@drawable/lock_btn05_on" 
+            android:layout_alignParentBottom="true"/>
+             
+             
+           <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/lock_realcenter" 
+            android:visibility="visible"
+            android:background="@drawable/lock_mainbtn_on"/>
+           
+    </RelativeLayout> 
+   
+     
+    
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/lockscreen_help01" android:clickable="true"
+        android:visibility="gone" 
+        android:id="@+id/lock_help_layout">
+          <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/lock_help_btn"  android:visibility="gone"
+            android:background="@drawable/lock_mainbtn_on"/>
+          
+          <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginTop="20dp" android:onClick="onHelp"
+              android:layout_marginRight="20dp" android:background="@drawable/lockscreen_close"
+              android:layout_alignParentRight="true"/>
+          
+     </RelativeLayout>
+     
+   <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@drawable/lockscreen_help02" android:clickable="true"
+        android:visibility="gone" 
+        android:id="@+id/lock_help_layout02">
+          
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginTop="20dp" android:onClick="onHelpAd"
+              android:layout_marginRight="20dp" android:background="@drawable/lockscreen_close"
+              android:layout_alignParentRight="true"/>
+        
+       
+     </RelativeLayout>
+     
+     
+   
+  		 <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+              android:visibility="gone"  android:id="@+id/lock_not_network" android:background="#00ff00"/>
+   
+          <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+              android:visibility="gone"
+            android:id="@+id/lock_white" android:background="#ffffff"/>
+     
+    
+    
+</RelativeLayout>

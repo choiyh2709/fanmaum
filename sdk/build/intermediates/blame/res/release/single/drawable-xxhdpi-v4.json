@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaostory_icon.png",
+        "source": "C:\\3.2.1fanmain\\sdk\\res\\drawable-xxhdpi\\kakaostory_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaostory_icon.png",
+        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaostory_icon.png"
+    },
+    {
+        "merged": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaotalk_icon.png",
+        "source": "C:\\3.2.1fanmain\\sdk\\res\\drawable-xxhdpi\\kakaotalk_icon.png"
+    },
+    {
+        "merged": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaoaccount_icon.png",
+        "source": "C:\\3.2.1fanmain\\sdk\\res\\drawable-xxhdpi\\kakaoaccount_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaotalk_icon.png",
+        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaotalk_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaotalk_icon.png",
+        "source": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaotalk_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaostory_icon.png",
+        "source": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaostory_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaoaccount_icon.png",
+        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaoaccount_icon.png"
+    },
+    {
+        "merged": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\kakaoaccount_icon.png",
+        "source": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\drawable-xxhdpi\\kakaoaccount_icon.png"
+    }
+]

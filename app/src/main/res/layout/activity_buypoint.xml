@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/savemind"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buypoint_btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navi"
+        android:background="@drawable/buy_list_01"
+        android:onClick="onSave"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_btn01"
+        android:background="@drawable/buy_list_03"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv02_2500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem01"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv02_01_2500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22.5dp"
+            android:layout_toRightOf="@id/buy_tv02_2500"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv02_02_2500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice01"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_2500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_1000"
+        android:background="@drawable/buy_list_03"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem02"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv02_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22.5dp"
+            android:layout_toRightOf="@id/buy_tv02"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv02_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice02"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_5000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_2500"
+        android:background="@drawable/buy_list_03"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem03"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv03_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/buy_tv03"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv03_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice03"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_10000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_5000"
+        android:background="@drawable/buy_list_03"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem04"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv04_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/buy_tv04"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv04_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice04"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_25000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_10000"
+        android:background="@drawable/buy_list_03"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem05"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv05_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/buy_tv05"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv05_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice05"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout_50000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_25000"
+        android:background="@drawable/buy_list_04"
+        android:onClick="onBuy">
+
+        <TextView
+            android:id="@+id/buy_tv06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:text="@string/buyitem06"
+            android:textColor="#e82b47"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv06_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/buy_tv06"
+            android:textColor="#595959"
+            android:textSize="11dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_tv06_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="@string/buyprice06"
+            android:textColor="#686868"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buypoint_layout_50000"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/wait_pay_account"
+        android:onClick="onSeePay"
+        android:visibility="gone">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buypoint_layout08"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/buy_info01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/buypoint15"
+            android:textColor="#5c5b5b"
+            android:textSize="10dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_info02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/buy_info01"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            android:text="@string/buypoint14"
+            android:textColor="#5c5b5b"
+            android:textSize="10dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/buy_info03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/buy_info02"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="7dp"
+            android:text="@string/buypoint13"
+            android:textColor="#5c5b5b"
+            android:textSize="10dp"
+            android:typeface="sans"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/coupon_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <Button
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:id="@+id/navi_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/lockscreen01"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/lockscreenimage_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navi"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/content_bar">
+
+        <TextView
+            android:id="@+id/lockscreenimage_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/locksetting01"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <Button
+            android:id="@+id/lockscreenimage_btn01"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/o1110_btn02"/>
+
+        <Button
+            android:id="@+id/lockscreenimage_btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/o1110_btn04"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lockscreenimage_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lockscreenimage_layout01"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/lockscreenimage_btn03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_detailmainbtn01"
+            android:text="@string/lockscreenimage01"
+            android:textColor="#e82b47"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:visibility="gone"/>
+
+
+        <GridView
+            android:id="@+id/lockscreenimage_grid"
+            android:layout_width="340dp"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/lockscreenimage_btn03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:columnWidth="106dp"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:scrollingCache="false"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="7.5dp">
+        </GridView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

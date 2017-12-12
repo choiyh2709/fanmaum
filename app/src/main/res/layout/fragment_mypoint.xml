@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#eceeee"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/navi"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/mypoint_tv04"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/g1100_box">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:text="@string/mypoint_tv01"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/mypoint_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:text="@string/support_tv02"
+            android:textColor="#4f4f4f"
+            android:textSize="13dp"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/mypoint_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@id/mypoint_tv01"
+            android:text="600"
+            android:textColor="#e62744"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:typeface="sans"/>
+
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/mypoint_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:divider="@null"
+        android:listSelector="#00000000"/>
+
+</LinearLayout>

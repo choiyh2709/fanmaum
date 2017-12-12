@@ -1,0 +1,26 @@
+<LinearLayout
+    android:id="@+id/cal_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#eceeee"
+    >
+
+    <LinearLayout
+        android:id="@+id/linear_selectBox"
+        android:layout_width="41.5dp"
+        android:layout_height="41.5dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eceeee"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager_mainProject"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home_viewpager_height"
+
+            />
+
+        <specup.fanmind.common.Util.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/project_type"
+                android:textColor="#FF0000"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.5dp"
+                android:text="@string/project_hot"
+                android:textColor="#818282"
+                android:textSize="15sp"/>
+
+            <specup.fanmind.common.Util.HorizontalListView
+                android:id="@+id/listView_hotProject"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/project_new"
+                android:textColor="#FF0000"
+                android:textSize="17sp"/>
+
+            <specup.fanmind.common.Util.HorizontalListView
+                android:id="@+id/listView_newProject"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/how_this_project"
+                android:textColor="#FF0000"
+                android:textSize="17sp"/>
+
+
+            <specup.fanmind.common.Util.HorizontalListView
+                android:id="@+id/listView_recommendProject"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            ></View>
+    </LinearLayout>
+</ScrollView>

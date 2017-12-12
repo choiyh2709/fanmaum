@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alert_dialog_staradd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    tools:context="specup.fanmind.left.AlertDialogStaradd">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/request_add_star"
+        android:textColor="#ff0000"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:background="@drawable/new_celeb_header"/>
+
+    <RelativeLayout
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="@drawable/new_celeb_middle">
+
+        <EditText
+            android:id="@+id/tv_name"
+            android:focusable="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/new_celeb_name"
+            android:hint="@string/requesthint"
+            android:textColorHint="#808080"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/name"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="@string/cancel"
+            android:textSize="12dp"
+            android:textColor="#000000"
+            android:background="@drawable/new_celeb_cancel"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/cancel"
+            android:layout_below="@+id/name"
+            android:text="요청하기"
+            android:textSize="12dp"
+            android:textColor="#000000"
+            android:background="@drawable/new_celeb_yes"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

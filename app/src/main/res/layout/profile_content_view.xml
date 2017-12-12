@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:background="#FFFFFF"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+    <!-- 닉네임 -->
+    <RelativeLayout
+        android:id="@+id/layout_nickName"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/e2100_nickname"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/nickName"
+            android:layout_width="88.5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/nick"
+            android:textColor="#e62844"/>
+
+
+        <EditText
+            android:id="@+id/edittext_nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/nickName"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+    <!-- 사는곳 -->
+    <RelativeLayout
+        android:id="@+id/layout_address"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/e2100_address"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="88.5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/country"
+            android:textColor="#e62844"/>
+
+
+        <TextView
+            android:id="@+id/textview_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/address"
+            android:hint="@string/blank13"
+            android:textColor="#000000"
+            android:textColorHint="#000000"/>
+
+    </RelativeLayout>
+
+    <!--&lt;!&ndash; 전화번호 &ndash;&gt;-->
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/layout_phoneNumber"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/e2100_phone_number"-->
+    <!--android:clickable="true">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/phoneNumber"-->
+    <!--android:layout_width="88.5dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text="@string/change_phoneNume"-->
+    <!--android:textColor="#e62844"-->
+    <!--/>-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textview_phoneNumber"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_toRightOf="@id/phoneNumber"-->
+    <!--android:textColor="#000000"-->
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!-- 비밀번호 변경 -->
+    <RelativeLayout
+        android:id="@+id/layout_password"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/e2100_password"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="88.5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/profile03"
+            android:textColor="#e62844"/>
+
+
+        <TextView
+            android:id="@+id/textview_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/password"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+    <!-- 비밀번호 변경 -->
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:background="@drawable/e2100_phone_number"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="88.5dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/connect_sns"
+            android:textColor="#e62844"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_facebook"
+        android:text="@string/conenect_facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/textview_defalt_string"/>
+
+    <Button
+        android:id="@+id/button_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6.67dp"
+        android:background="@drawable/btn_twitter"
+        android:text="@string/conenect_twitter"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/textview_defalt_string"
+        />
+
+    <Button
+        android:id="@+id/button_naver"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6.67dp"
+        android:background="@drawable/btn_naver"
+        android:text="@string/conenect_naver"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/textview_defalt_string"/>
+
+    <Button
+        android:id="@+id/button_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="6.67dp"
+        android:background="@drawable/btn_sub_btn03"
+        android:text="@string/modification_completed"
+        android:textColor="@color/red_button"
+        android:textSize="@dimen/textview_defalt_string"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/a1100_3_line"/>
+
+
+</LinearLayout>

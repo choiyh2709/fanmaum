@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/profile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_l_top01">
+
+                <TextView
+                    android:id="@+id/left_tv01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="118dp"
+                    android:text="기달려봐"
+                    android:textColor="#000000"
+                    android:textSize="18dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/left_downlayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="63.5dp"
+                android:layout_below="@id/profile"
+                android:background="@drawable/btn_l_top02">
+
+                <TextView
+                    android:id="@+id/left_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="118dp"
+                    android:text="18487"
+                    android:textColor="#ff5670"
+                    android:textSize="17dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/left_tv02"
+                    android:background="@drawable/icon_like"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#eceeee"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp">
+
+                <ImageView
+                    android:id="@+id/left_profile"
+                    android:layout_width="94dp"
+                    android:layout_height="94dp"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/l_top_profile"/>
+
+                <Button
+                    android:id="@+id/left_btn01"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/l_top_set"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/l_middle_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/freeMaumCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/l_btn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/left10"
+                android:textColor="#e62844"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

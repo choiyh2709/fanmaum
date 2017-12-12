@@ -1,0 +1,1558 @@
+<resources>
+
+    <string name="korean">한국어</string>
+    <string name="buypoint13">(주)스펙업애드 | 대표이사: 김영곤</string>
+    <string name="buypoint14">TEL:070-4365-4386 | 사업자등록번호 : 105-87-57696</string>
+    <string name="buypoint15">서울특별시 강남구 역삼동 830-9 영광빌딩 4층</string>
+    <string name="notipush">팬마음</string>
+    <string name="china">中文</string>
+    <string name="bank01">기업은행</string>
+    <string name="bank02">국민은행</string>
+    <string name="bank03">우리은행</string>
+    <string name="bank04">신한은행</string>
+    <string name="bank05">하나은행</string>
+    <string name="bank06">농협</string>
+    <string name="bank07">우체국</string>
+    <string name="payaccount02">입금 대기</string>
+    <string name="payaccount03">{ID}님!\n 전용 가상계좌가 개설되었습니다.</string>
+    <string name="payaccount04">입금 완료 후 마음이 자동 적립됩니다!</string>
+    <string name="payaccount05">주문내역 보러가기</string>
+    <string name="buypointcomplete01">{ID}님!\n 마음을 구매해주셔서 감사합니다.</string>
+    <string name="buypointcomplete02">"최초의 연예인 서포트 앱"\n 팬마음과 함께 스타에게 가장 특별한 선물을 해보세요!</string>
+    <string name="buypointcomplete03">마음 구매내역 보러가기</string>
+    <string name="changephone"><![CDATA[※]]> 핸드폰 번호 변경을 위해 핸드폰 인증을 실시합니다.</string>
+    <string name="notok01"> These passwords do not match. Try again?</string>
+    <string name="notrecommend">同じ電話番号で再加入された場合推薦人にこころは支給されません。</string>
+    <string name="inapperror">決済エラーが出ました。contact@fanmaumへお問い合わせください。</string>
+    <string name="starlist01">芸能人選択</string>
+    <string name="starlist02">該当する芸能人がいません。</string>
+    <string name="paysave">{POINT}心を購買しました.</string>
+    <string name="mypoint_tv08">{YEAR}年 {MONTH}月 {DAY}日</string>
+    <string name="inapplogin">Googleのアカウントにサインインしてください。</string>
+    <string name="login_tv01">ID</string>
+    <string name="login_tv02">パスワード</string>
+    <string name="app_name">ファンのこころ</string>
+    <string name="facebookapp_id">1483959088551747</string>
+    <string name="left_and_right">LeftRight</string>
+    <string name="companyname">広告また提携問い合わせ</string>
+    <string name="fanclubcover">サポートを提案する</string>
+    <string name="mainsupport01">実行中</string>
+    <string name="mainsupport02">伝達予定</string>
+    <string name="mainsupport03">ヒストリー</string>
+    <string name="supportall00">実行中のサポート確認</string>
+    <string name="supportall01">最新順</string>
+    <string name="supportall02">締切日順</string>
+    <string name="supportall03">名前順</string>
+    <string name="supportreadyall00">伝達予定の サポート確認</string>
+    <string name="supportreadyall01">伝達予定日順</string>
+    <string name="supportreadyall02">こころ順</string>
+    <string name="supportreadyall03">名前順</string>
+    <string name="historyall00">ヒストリー確認</string>
+    <string name="historyall01">最新順</string>
+    <string name="historyall02">投稿日順</string>
+    <string name="historyall03">名前順</string>
+    <string name="locktime01">日</string>
+    <string name="locktime02">月</string>
+    <string name="locktime03">火</string>
+    <string name="locktime04">水</string>
+    <string name="locktime05">木</string>
+    <string name="locktime06">金</string>
+    <string name="locktime07">土</string>
+    <string name="locktime08">午前</string>
+    <string name="locktime09">午後</string>
+    <string name="savemind"> こころを積み立てする</string>
+    <string name="start01">ファンのこころを もっと楽しみたいなら？</string>
+    <string name="start02">今 ファンのこころに入会して\nみなさんのファンのこころを見せてください!</string>
+    <string name="start03">次へ..</string>
+    <string name="start04">ログイン</string>
+    <string name="theme01">ごはんたべた？</string>
+    <string name="theme00">アイユ</string>
+    <string name="theme02">なにしてる~~？</string>
+    <string name="theme03">ニックネーム入力</string>
+    <string name="report01">誹謗中傷を書いた場合申告します。虚偽の申告を\nした場合, 不利益を被る場合があります。</string>
+    <string name="alram01">この文は通知されません。通知をオンにしますか？</string>
+    <string name="alram02">この文は通知されます。通知をオフにしますか？ </string>
+    <string name="review01">ファンのこころに 評価を付けてください!</string>
+    <string name="review02">Google Playストアで ファンのこころの 評価とレビューを付けてください! </string>
+    <string name="review03">評価をつける。</string>
+    <string name="daily1_title">ファンのこころ出席チェック！</string>
+    <string name="daily1_content">毎日出席チェックをしてこころをもらおう！
+ 連続でファンのこころにログインすると特別な特典が待っています。</string>
+    <string name="daily3_title">３日連続出席チェック！</string>
+    <string name="daily3_content">すごい！３日連続で出席チェックをした記念に１０こころをプレゼント！</string>
+    <string name="daily5_title">５日連続出席チェック！</string>
+    <string name="daily5_content">５日連続で出席チェック！ファンのこころを利用してくれていますね！２５こころをプレゼント！ </string>
+    <string name="daily10_title">10日連続で出席チェック！</string>
+    <string name="daily10_content">うわ！１０日連続でファンのこころにログインしてくれましたㅠㅠ.. 感謝の心で５０こころをプレゼント♡
+</string>
+    <string name="daily13_title">13日連続で出席チェック！</string>
+    <string name="daily13_content">出席チェックがもう半分うまりました！記念に３０こころをプレゼント！これからもがんばってください！
+</string>
+    <string name="daily15_title">15日連続で出席チェック！</string>
+    <string name="daily15_content">１５日間１日も欠かさずログインしてくれるなんて！ファンのこころを大切にしてくれてありがとう。１００こころをプレゼント！サポートに心を表現してください！
+</string>
+    <string name="daily20_title">20日連続で出席チェック！</string>
+    <string name="daily20_content">２０日毎日ログインしてくれた記念に２００こころをプレゼント♡ 
+出席チェックが全部うまるまであと残り５日！がんばって！！
+</string>
+    <string name="daily23_title">23日連続で出席チェック！</string>
+    <string name="daily23_content">すごい！あと２日ファンのこころにログインしたら４００心もらえます！
+</string>
+    <string name="daily25_title">あなたは 出席王!</string>
+    <string name="daily25_content">25間毎日ファンのこころにログインしてくれてありがとうございます！ㅠㅠ
+..
+続けてファンのこころを利用してくれますよね？４００こころをプレゼント！</string>
+    <string name="pop00">メッセージ形式を変える </string>
+    <string name="pop01">ファンのこころテーマ</string>
+    <string name="pop02">カカオトークテーマ</string>
+    <string name="pop03">ラインテーマ</string>
+    <string name="pop04">Facebookテーマ</string>
+    <string name="notimage">申し訳ございません. イメージを表示できません。</string>
+    <string name="left01">スケジュール</string>
+    <string name="left02">動画</string>
+    <string name="left03">イベント</string>
+    <string name="left04"> My芸能人登録 </string>
+    <string name="left05">캐쉬아웃</string>
+    <string name="left06">お知らせ</string>
+    <string name="left07">ファンのこころをシェア</string>
+    <string name="left08">設定</string>
+    <string name="left09">クーポン</string>
+    <string name="left10">こころ積み立て</string>
+    <string name="left11">積み立て内容</string>
+    <string name="left12">Myクーポン</string>
+    <string name="lock02">ロック画面を設定してみよう!</string>
+    <string name="lock03">今ロック画面をスターの写真に変えてロック画面でスターに会おう</string>
+    <string name="lock04">設定</string>
+    <string name="tab01">サポート</string>
+    <string name="tab02">タイムライン</string>
+    <string name="tab03">ニュースフィード</string>
+    <string name="setting00">アカウント設定</string>
+    <string name="setting01">ロック画面設定</string>
+    <string name="setting01_1">イメージ、ロック画面解除など設定</string>
+    <string name="setting02">잠금대화 설정</string>
+    <string name="setting03">その他設定</string>
+    <string name="setting03_1">アラームなど設定</string>
+    <string name="setting08">質問が登録されました。確認後お知らせいたします。</string>
+    <string name="setting04">ファンのこころ紹介、 提携コンテンツ</string>
+    <string name="setting05">運営ポリシー</string>
+    <string name="setting04_1">ファンペイジの運営者にたくさんの参加を願います。</string>
+    <string name="setting04_2">サポートを提案する</string>
+    <string name="setting05_1">サービスの品質を維持また利用者の権利保護のための運営ポリシー </string>
+    <string name="setting06">提携のお問い合わせ</string>
+    <string name="setting07">バージョン</string>
+    <string name="setting09">出席チェック.</string>
+    <string name="account01">使用可能なE-メールです。 </string>
+    <string name="account02">すでに入会されたE-メールです。 </string>
+    <string name="account03">使用可能なニックネームです。</string>
+    <string name="account04">すでに使用されているニックネームです。 </string>
+    <string name="account05">英語/数字を組み合わせて６文字以上でなければなりません。 </string>
+    <string name="account06">使用可能なパスワードです。</string>
+    <string name="account07">パスワードが一致しません。 </string>
+    <string name="account08">パスワードが一致しました。 </string>
+    <string name="account09">英語/数字を組み合わせて６ 以上</string>
+    <string name="account10">もう一度入力してください。</string>
+    <string name="account11">携帯番号を確認することができません。contact@fanmaum.comにお気軽にお問い合わせください。</string>
+    <string name="history01">サポート日 : {DATE}</string>
+    <string name="lockscreen00">ファンのこころロック画面 </string>
+    <string name="lockscreen01">ロック画面のイメージに設定 </string>
+    <string name="lockscreen02">イメージ順序をランダムにする</string>
+    <string name="lockscreen03">画面ボタン設定</string>
+    <string name="lockscreen04">ロック画面メッセージ</string>
+    <string name="lockscreen05">削除するイメージがありません。 </string>
+    <string name="lock01">{MONTH}月 {DAY}日</string>
+    <string name="locksetting02">プロフィールイメージ設定 </string>
+    <string name="locksetting">プロフィールイメージ</string>
+    <string name="profilesetting">プロフィールイメージ設定 </string>
+    <string name="locksetting01">ロック画面イメージ </string>
+    <string name="welcome01">歓迎します~!</string>
+    <string name="welcome02">ファンのこころと一緒にプレゼントをする準備はできましたか？</string>
+    <string name="timelineupload01">{YEAR}年 {MONTH} 写真をアップロード</string>
+    <string name="timelineupload02">いつ撮った写真かわかりません.</string>
+    <string name="timelineupload03">未分類写真を アップロード</string>
+    <string name="newsfeed_write">文字数制限を超えました。最大1000文字まで作成できます。</string>
+    <string name="newsfeed_writelength">{LENGTH}/1000</string>
+    <string name="update01">ファンのこころがアップデートされました~!</string>
+    <string name="update02">今Google Playでファンのこころをアップデートして利用してください!</string>
+    <string name="update03">次へ...</string>
+    <string name="update04">アップデートする</string>
+    <string name="timelineok">日時が情報提供されました。ありがとうございます。</string>
+    <string name="timelinealbum">未分類アルバム</string>
+    <string name="exit01">ファンのこころ終了</string>
+    <string name="exit02">ファンのこころを終了しますか？</string>
+    <string name="likenumber">{NUMBER} 人がいいです。</string>
+    <string name="inputwindow">コメントを入力してください...</string>
+    <!-- <string name="okreply">コメントが入力されました。</string> -->
+    <string name="notokreply">削除されたイメージです。</string>
+    <string name="requesthint">芸能人の名前を入力してください..</string>
+    <string name="wherelive01"> 国名</string>
+    <string name="wherelive02">市/町/村</string>
+    <string name="server">現在サーバーの操作中です。すこし後に再試行してください。</string>
+    <string name="rightstar01">お気に入り</string>
+    <string name="rightstar02">全体を見る </string>
+    <string name="rightstar03">検索結果</string>
+    <string name="rightstar04">お気に入りに追加しました</string>
+    <string name="rightstar05">お気に入りが解除されました。 </string>
+    <string name="firststar01">新しい芸能人をリクエストする。 </string>
+    <string name="notexceednick">ニックネームは8文字以内です。 </string>
+    <string name="startlist03">芸能人を入力してください..</string>
+    <string name="overmind">すでにこころ募金が完了しました。</string>
+    <string name="timelineerror">イメージをダウンロードできません。すこし後、再試行してください。</string>
+    <string name="newsfeeddel">投稿が削除されました。</string>
+    <string name="newsfeeddel02">すでに削除された投稿です。</string>
+    <string name="timelinedel01">すでに削除された写真です。</string>
+    <string name="timelinedel02">イメージが削除されました。 </string>
+    <string name="supportdel01">すでに終了したサポートです。 </string>
+    <string name="eventdel01">すでに終了したイベントです。 </string>
+    <string name="notmorenews">お知らせはありません。</string>
+    <string name="notoveryear">デビュー以前の写真を投稿することはできません。 </string>
+    <string name="notenoughmind">これ以上こころを送ることが出来ません。</string>
+    <string name="profileok">プロフィールイメージが設定されました。 </string>
+    <string name="upload01">写真を投稿する</string>
+    <string name="upload02">写真の活動時期は分かりますか？</string>
+    <string name="upload03">選択された写真がありません。確認してください。</string>
+    <string name="upload04">イメージがアップロードされました。ありがとうございます。</string>
+    <string name="upload05">各イメージファイルの大きさは2MBまでです。</string>
+    <string name="upload06">投稿が登録されました。ありがとうございます。</string>
+    <string name="upload07">投稿が修正されました。ありがとうございます。</string>
+    <string name="notnickname">入力された推薦人が存在しません。もう一度確認してください。</string>
+    <string name="startlist">最大5人まで選択可能です。</string>
+    <string name="startlist02">{NUMBER}/5</string>
+    <string name="notdel">最低芸能人1人は選択しなければなりません。</string>
+    <string name="rightstartlist1">１人だけ選択可能です。</string>
+    <string name="rightstartlist2">選択後、確認を押してください。</string>
+    <string name="rightmenu01">芸能人が変わりました。</string>
+    <string name="nodatadel">削除する内容がありません。確認してください。 </string>
+    <string name="locktalk01">ロック画面メッセージ</string>
+    <string name="locktalk02">メッセージ形式変更</string>
+    <string name="locktalk03">画面ボタン設定</string>
+    <string name="locktalk04">イメージがロック画面に追加されました。</string>
+    <string name="talk01">ロック画面メッセージ</string>
+    <string name="talk02">メッセージ形式変更</string>
+    <string name="talk03">画面ボタン設定</string>
+    <string name="etc01">Mｙニュース通知</string>
+    <string name="etc02">ファンのこころ通知</string>
+    <string name="etc03">積み立て通知</string>
+    <string name="law01">サービス利用規約</string>
+    <string name="law02">個人情報の取り扱い</string>
+    <string name="company01">タイトル</string>
+    <string name="company02">会社名</string>
+    <string name="company03">担当者</string>
+    <string name="company04">連絡先</string>
+    <string name="company05">内容</string>
+    <string name="company06">お問い合わせを入力してください。</string>
+    <string name="company11">タイトルを入力してください。</string>
+    <string name="company12">会社名を入力してください。</string>
+    <string name="company13">担当者を入力してください。</string>
+    <string name="company14">連絡先を入力してください。</string>
+    <string name="company15">内容を入力してください。</string>
+    <string name="company21">芸能人名を入力してください。</string>
+    <string name="company22">ファンクラブ名を入力してください。 </string>
+    <string name="profile01">E-メール : {EMAIL}</string>
+    <string name="profile02">ニックネーム : {NICKNAME}</string>
+    <string name="profile03">パスワード変更</string>
+    <string name="profile04">パスワードを探す </string>
+    <string name="profile05">携帯番号変更</string>
+    <string name="profile06">ログアウト</string>
+    <string name="changepwd01">現在のパスワード</string>
+    <string name="changepwd02">パスワード(英数字を組み合わせて6文字以上)</string>
+    <string name="changepwd03">新しいパスワード</string>
+    <string name="changepwd03_1">新しいパスワード確認 </string>
+    <string name="changepwd04">新しいパスワード(英数字を組み合わせて6文字以上)</string>
+    <string name="changepwd05">パスワード確認</string>
+    <string name="changepwd06">パスワード変更が失敗</string>
+    <string name="changepwd1">現在のパスワードを入力してくださ。</string>
+    <string name="changepwd2">新しいパスワードを入力してください。</string>
+    <string name="changepwd3">パスワードを6文字以上入力してください。</string>
+    <string name="changepwd4">パスワードを 英数字を組み合わせて 入力してください。</string>
+    <string name="changepwd5">正常にパスワードが変更されました。</string>
+    <string name="changepwd6">現在のパスワードが違います。確認してください。</string>
+    <string name="changephone01"><![CDATA[※]]> 携帯番号の変更のため携帯認証を実施します。</string>
+    <string name="changephone02">携帯番号が変更されました。ありがとうございます。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirmation">確認</string>
+    <string name="next">次へ</string>
+    <string name="findpwd01">パスワードを初期化して入会時登録されたE-メールに仮パスワードを送信します。</string>
+    <string name="findpwd02">E-メールを入力してください。</string>
+    <string name="logout">ログアウトしますか？</string>
+    <string name="logout02">芸能人を１人選択するとログアウトできます。</string>
+    <string name="listsupport01">{ENTRY}こころ</string>
+    <string name="listsupport02">現在までに</string>
+    <string name="listsupport03">心が募金されました。</string>
+    <string name="listsupport04">D - {DAY}</string>
+    <string name="listsupport10">{NUMBER}%</string>
+    <string name="notmind">Myこころが不足しています。</string>
+    <!-- <string name="notlike">自分の投稿にいいね！をすることはできません。</string> -->
+    <string name="listsupport05">目標にする</string>
+    <string name="listsupport06">こころが達成されました。</string>
+    <string name="listsupport07">伝達予定</string>
+    <string name="listsupport08">開始日: {SDATE}  /  終了日 : {DDATE}</string>
+    <string name="listsupport09">こころを送りました。ありがとうございます。</string>
+    <string name="endevent01">イベントが</string>
+    <string name="endevent02">しました。</string>
+    <string name="event01">イベント</string>
+    <string name="event02">結果発表</string>
+    <string name="event03">実行中</string>
+    <string name="event04">終了</string>
+    <string name="event05"> イベント終了日 :</string>
+    <string name="event06">こころを応募</string>
+    <string name="listsupportdetail01">開始日: {RDATE}     /    終了日 : {DDATE}</string>
+    <string name="listsupportdetail02">{PEOPLE}人</string>
+    <string name="listsupportdetail03">伝達 予定日 <font color="#ff0000">{DATE}</font></string>
+    <string name="listsupportdetail04">参加したファン数</string>
+    <string name="listsupportdetail05">必要なこころ</string>
+    <string name="listsupportdetail06">自分が応募したこころ</string>
+    <string name="listsupportdetail07">募金進行状況</string>
+    <string name="supportdetail01">送るこころを入力してください。</string>
+    <string name="supportdetail02">こころは最少で１００から送ることが出来ます。</string>
+    <string name="listsupporthide">伝達予定日</string>
+    <string name="daily">出席チェックが完了しました。</string>
+    <string name="listevent01">イベント商品 {EVENT}</string>
+    <string name="listevent02">登録日の日付 {DATE}</string>
+    <string name="listevent03">イベント期間 {TERM}</string>
+    <string name="register">登録</string>
+    <string name="like01">いいね！</string>
+    <string name="like02">いいね！キャンセル</string>
+    <string name="report"><u>申告</u></string>
+    <string name="report00">申告する</string>
+    <string name="del"><u>消去</u></string>
+    <string name="alram">通知</string>
+    <string name="reportok">申告が受付されました。ありがとうございます。</string>
+    <string name="delok">コメントが削除されました。</string>
+    <string name="alramoffok">通知がオフになりました。ありがとうございます。</string>
+    <string name="alramonok">通知がオンになりました。ありがとうございます。</string>
+    <string name="networkerror">申し訳ありません。少し経ってから再始動してください。</string>
+    <string name="blank01">E-メールを入力してください。</string>
+    <string name="blank02">パスワードを入力してください。</string>
+    <string name="blank03">パスワード確認欄を入力してください。</string>
+    <string name="blank04">携帯番号を確認してください。</string>
+    <string name="blank05">認証番号を入力してください。</string>
+    <string name="blank06">ニックネームを入力してください。</string>
+    <string name="blank07">出生年度を入力してください。</string>
+    <string name="blank08">芸能人を最少で1人選択してください。</string>
+    <string name="blank09">住んでいる場所を選択してください。</string>
+    <string name="blank10">携帯番号を入力してください。</string>
+    <string name="blank11">E-メールを確認してください。</string>
+    <string name="blank12">推薦人を入力してください。</string>
+    <string name="blank13">住んでいる場所を入力してください。</string>
+    <string name="blank14">携帯番号を入力してください。</string>
+    <string name="notok02">認証番号が違います。確認後、再試行してください。</string>
+    <string name="notok03">認証した番号と現在の携帯番号が違います。確認してください。</string>
+    <string name="notok04">E-メールの形式が違います。確認してください。</string>
+    <string name="notok05">認証番号を確認しました。ありがとうございます。</string>
+    <string name="notok06">携帯番号の形式が違います。確認後、再試行してください。</string>
+    <string name="notok07">すでに使われているニックネームです。もう一度入力してください。</string>
+    <string name="notok08">ニックネームを入力してください。</string>
+    <string name="againlogin">パスワードが変更されました。もう一度ログインしてください。</string>
+    <string name="login01">ログインしました。</string>
+    <string name="login02">IDが存在しないかパスワードが一致しません。</string>
+    <string name="login03">携帯番号にIDが送信されました。</string>
+    <string name="login04">入会されていない携帯番号です。</string>
+    <string name="login05">E-メールで仮のパスワードが送信されました。</string>
+    <string name="login06">入会されていないE-メールです。</string>
+    <string name="login07">携帯番号を入力してください。</string>
+    <string name="login08">パスワードを初期化して入会時登録されたE-メールに仮パスワードを送信します。</string>
+    <string name="certi01">認証番号が送信されました。</string>
+    <string name="certi02">認証番号の送信に失敗しました。すこし後、再試行してください。</string>
+    <string name="certi03">この携帯番号で加入されたidがあります。</string>
+    <string name="certi04">すでに加入されたidがあります。</string>
+    <string name="companyok">提携のお問い合わせを受け付けました。ありがとうございます。</string>
+    <string name="request01">{NUMBER}위</string>
+    <string name="request03">{NUMBER}/{GOAL}</string>
+    <string name="request04">人のこころがもっと必要です。</string>
+    <string name="request05">新しい芸能人を追加しました。管理者確認後、適用されます。</string>
+    <string name="request06">芸能人に投票しました。</string>
+    <string name="request07">芸能人の投票をキャンセルしました。</string>
+    <string name="request08">すでにリクエストされた芸能人です。</string>
+    <string name="request09">芸能人の追加リクエストが完了しました。</string>
+    <string name="entry01">入会と同時に</string>
+    <string name="entry02"><u>利用規約</u></string>
+    <string name="entry03">に同意したものとされます</string>
+    <string name="term01">ファンのこころ利用規約</string>
+    <string name="term02">サービス利用規約</string>
+    <string name="term03"> 第1条 (目的)</string>
+    <string name="term04">個人情報の取り扱い方針</string>
+    <string name="term05">情報提供することが出来ない日付です。もう一度確認してください。</string>
+    <string name="makeaccount01">基本情報入力</string>
+    <string name="makeaccount02">追加情報入力</string>
+    <string name="add">追加</string>
+    <string name="sch">日程{NUM}個</string>
+    <string name="step01">認証番号が送信されませんでしたか？</string>
+    <string name="step02">3分経っても認証番号が届かない場合、</string>
+    <string name="step03">認証番号再送信を </string>
+    <string name="step04">押してください</string>
+    <string name="step05"><![CDATA[※]]>携帯番号は本人確認また不正使用防止のためのみに使用され、利用者には公開されません。</string>
+    <string name="step06">出生年度</string>
+    <string name="step07">国名</string>
+    <string name="step08">市/町/村</string>
+    <string name="step09">項目を選択してください。</string>
+    <string name="step10">推薦人のニックネームを入力</string>
+    <string name="step11">選択してください。</string>
+    <string name="step12">番号を入力してください。</string>
+    <string name="step13">認証番号を入力してください。</string>
+    <string name="notice">{KIND} | {ID} | {TIME}</string>
+    <string name="choice01">最低 1枚以上の写真を選択しなければなりません。</string>
+    <string name="choice02">選択した写真が削除されました。</string>
+    <string name="choice03">選択した芸能人が変更されました。</string>
+    <string name="choice04">My芸能人追加</string>
+    <string name="choice05">芸能人１人を選択してください。</string>
+    <string name="timeline00">投稿削除</string>
+    <string name="timeline02">この写真の通知をオンにする。 </string>
+    <string name="timeline03">この写真の通知をオフにする。 </string>
+    <string name="timeline04">投稿を申告</string>
+    <string name="close01">ロック画面を閉じますか？</string>
+    <string name="close02">ロック画面は、ファンのこころ > 設定 > ロック画面設定でまた設定することが出来ます。</string>
+    <string name="close03">ロック画面を閉じる。</string>
+    <string name="newfeed00">投稿の設定</string>
+    <string name="newfeed01">この文の通知をオフにする。 </string>
+    <string name="newfeed02">この文の通知をオンにする。 </string>
+    <string name="newfeed03">申告する。 </string>
+    <string name="newfeed04">投稿を修正する。 </string>
+    <string name="newfeed05">削除する。 </string>
+    <string name="newfeed06">投稿を申告 </string>
+    <string name="newfeeddel">投稿を削除するとコメントも削除されます。削除しますか？</string>
+    <string name="replydel">コメントを削除しますか？消去しますか？</string>
+    <string name="stardel01">My芸能人を削除する。 </string>
+    <string name="stardel02">この芸能人をＭｙリストから削除すると、関連するサービスも利用することが出来ません。 \n 本当に削除しますか？</string>
+    <string name="imagedel01">イメージを削除する。</string>
+    <string name="imagedel02">選択したイメージを削除しますか？</string>
+    <string name="imagebtn01">プロフィール写真を選択</string>
+    <string name="imagebtn02">選択したイメージをプロフィール写真にしますか？</string>
+    <string name="image01">ロック画面に追加する。</string>
+    <string name="image02">選択したイメージをロック画面に設定します。追加しますか？</string>
+    <string name="failimage01">現在のパスワードが一致しません。\n確認後、再試行してください。</string>
+    <string name="failimage02">新しいパスワードが一致しません。\n確認後、再試行してください。</string>
+    <string name="fanclub01">芸能人名</string>
+    <string name="fanclub02">ファンクラブ </string>
+    <string name="timeline01">{MONTH}月 アルバム</string>
+    <string name="schadd01">スケジュールを情報提供していただきありがとうございます。</string>
+    <string name="guest01">ゲスト</string>
+    <string name="guest02">0</string>
+    <string name="okdownload">写真がギャラリーに保存されました。</string>
+    <string name="notification">通知</string>
+    <string name="notify01">カカオトーク</string>
+    <string name="notify02">ＬＩＮＥ</string>
+    <string name="notify03">カカオストーリー</string>
+    <string name="notify04">Facebook</string>
+    <string name="navi_tv01"> 利用規約と個人情報取り扱い</string>
+    <string name="navi_tv02">広告また提携問い合わせ</string>
+    <string name="navi_tv03">サポートに参加する</string>
+    <string name="navi_tv04">アカウント設定</string>
+    <string name="navi_tv05">注意事項</string>
+    <string name="support_tv01">こころを送る</string>
+    <string name="support_tv02">こころ</string>
+    <string name="support_tv03">保有こころ</string>
+    <string name="support_tv04">送るこころ</string>
+    <string name="support_tv05">サポート実行中</string>
+    <string name="support_tv06">サポート伝達予定</string>
+    <string name="support_tv07">ヒストリー</string>
+    <string name="support_tv08">保有こころ</string>
+    <string name="timeline_tv01">未分類アルバム</string>
+    <string name="timeline_tv02">月</string>
+    <string name="newsfeed_tv01">最新順</string>
+    <string name="newsfeed_tv02">いいね順</string>
+    <string name="newsfeed_tv03">自分のコメント</string>
+    <string name="newsfeed_tv04">コメントを書く</string>
+    <string name="newsfeed_tv05">掲示コメントを入力してください。</string>
+    <string name="mynews01">ニュース</string>
+    <string name="mynews02">リスト</string>
+    <string name="right_tv01">My芸能人の目録</string>
+    <string name="right_tv02"> 芸能人の名前を入力してください。</string>
+    <string name="mypoint_tv01">応援可能なこころ</string>
+    <string name="mypoint_tv02">こころの使用内訳</string>
+    <string name="mypoint_tv03">こころの購買内訳</string>
+    <string name="mypoint_tv04">こころ内訳</string>
+    <string name="start00">開始</string>
+    <string name="starthint">検索してください。</string>
+    <string name="entryemail"> E-メールで登録</string>
+    <string name="findid01">国番号となしで入力してください ex)01012345678</string>
+    <string name="findid02">IDを探す</string>
+    <string name="findid03">ファンのこころIDはs {ID}です。</string>
+    <string name="find">検索</string>
+    <string name="email">E-メール</string>
+    <string name="pwd01">パスワード</string>
+    <string name="pwd02">パスワード確認</string>
+    <string name="phone">携帯番号</string>
+    <string name="countryphone">-国番号なしで携帯番号を入力してください</string>
+    <string name="nick">ニックネーム</string>
+    <string name="birth">出生年度</string>
+    <string name="sex">性別</string>
+    <string name="marry">結婚</string>
+    <string name="celeb">芸能人</string>
+    <string name="country">國名</string>
+    <string name="recommend">推薦人</string>
+    <string name="recommendcomment">ファンのこころをお勧めしたユーザーのニックネームを書いてください</string>
+    <string name="sign">登録</string>
+    <string name="dailysave">{POINT}こころが積立されました。</string>
+    <string name="min">分前</string>
+    <string name="hour">時間前</string>
+    <string name="starterm01">日程情報提供</string>
+    <string name="starterm02">この写真の活動期間を設定してください。</string>
+    <string name="starterm03"> 情報提供をする</string>
+    <string name="starterm04">年</string>
+    <string name="starterm05">月</string>
+    <string name="newsfeedtitle">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ニュースフィード</string>
+    <string name="upload">アップロード</string>
+    <string name="lockscreenimage01">イメージを削除する。</string>
+    <string name="schtitle">Title</string>
+    <string name="begin">開始</string>
+    <string name="end">終了</string>
+    <string name="contents">内容</string>
+    <string name="schsend"> 日程を提供するならココをクリックしてください</string>
+    <string name="starrequest01">My芸能人登録</string>
+    <string name="starrequest02"> 友達に手助けをうける</string>
+    <string name="starrequest03">My芸能人登録</string>
+    <string name="lockscreendel01">消去</string>
+    <string name="lockscreendel02">すべて選択</string>
+    <string name="lockscreenlock01">ロック画面を</string>
+    <string name="lockscreenlock02">閉じる</string>
+    <string name="lockscreenlock03">イメージに設定</string>
+    <string name="buypoint01">こころを購入する</string>
+    <string name="buypoint02">결제를 기다리고 있는 마음이 있어요!</string>
+    <string name="buyitem01">600</string>
+    <string name="buyitem02">1,500</string>
+    <string name="buyitem03">3,500</string>
+    <string name="buyitem04">7,000</string>
+    <string name="buyitem05">17,000</string>
+    <string name="buyitem06">35,000</string>
+    <string name="buyprice01">￥119</string>
+    <string name="buyprice02">￥299</string>
+    <string name="buyprice03">￥599</string>
+    <string name="buyprice04">￥1,199</string>
+    <string name="buyprice05">￥3,015</string>
+    <string name="buyprice06">￥5,965</string>
+    <string name="buypoint201">こころを購入する</string>
+    <string name="buypoint202">가상계좌</string>
+    <string name="buypoint203">휴대폰 결제</string>
+    <string name="buypoint204">신용카드</string>
+    <string name="buypoint205">アプリ内決済</string>
+    <string name="likeok">いいね！を押しました</string>
+    <string name="likecancel">いいね！をキャンセルしました</string>
+    <string name="kakao01">お金の心配をせずに私たちのスターに \n無料でプレゼントができるアプリが出来たのを知ってる？\nすぐにダウンロードして一緒にやろう!\n\n推薦人: {NICK}</string>
+    <string name="kakao02">ファンのこころにスターを推薦して\n一緒に追っかけしよう ~!\n\nスターをファンのこころで見たかったら \nここをクリック~！\n\n推薦人: {NICK}</string>
+    <string name="kakao03">元祖！芸能人無料サポートアプリ! \n\nファンのこころと一緒にスターを無料でサポートしよう! \n\n推薦人: {NICK}</string>
+    <string name="line01">お金の心配をせずに私たちのスターに 無料でプレゼントができるアプリが出来たのを知ってる？ すぐにダウンロードして一緒にやろう ! 推薦人: {NICK}</string>
+    <string name="line02">ファンのこころにスターを推薦して一緒に追っかけしようスターをファンのこころで見たかったらここをクリック~！推薦人: {NICK}</string>
+    <string name="line03"> 元祖！芸能人無料サポートアプリ! ファンのこころと一緒にスターを無料でサポートしよう! 推薦人: {NICK}</string>
+    <string name="termcontent01">"1. 総則
+
+    www.fanmaum.comサービスを提供する(株)Fanmaum(以下’当社’)はサービス利用のため会員か提供された個人情報を非常に重要に考え個人情報保護方針を樹立してこれを厳しく遵守しています。当社の個人情報保護方針は関連法令および韓国の情報通信部が制定した個人情報保護指針を遵守しており個人情報が流出されて被害を受けないように個人情報保護に最善をつくすつもりです。
+
+    会員の皆さんはいつでもこの個人情報保護方針を閲覧して確認することができます。個人情報保護方針は法令また、政府の指針の変更やよりよいサービスの提供のためその内容が変更される場合があります。
+
+
+
+
+    2. 個人情報利用目的の特定
+
+    当社が会員から個人情報を収集する理由と個人情報の利用目的は当社が運営するサイト(www.fanmaum.com)を通して会員に最適のサービスを提供するための目的で必要とする個人情報を収集しています。会員が提供した個人情報に有用な情報の提供や会員が要請したさまざまな意見に対する答えの提供などで使われています。
+
+
+
+
+    3. 個人情報の収集範囲または収集方法
+
+    1. 収集の範囲
+
+    1) 当社は適法かつ公正な手続きと利用者の同意を受けた個人情報を収集します。そのため個人情報保護方針または利用規約の内容に対して「同意」をクリックできる手続きを用意して「同意」のボタンをクリックすると個人情報の収集について同意したと見なします。
+
+    2) 当社が収集する個人情報項目
+
+    a. 会員登録の時、貰う情報:メールアドレス、パスワード、ニックネームなど。
+
+    b. ファンディング参与時、取り扱う情報:メールアドレス、住所、電話番号。
+
+    2. 収集の方法: ホームページを通じた会員登録また、変更、問い合わせメール、電話相談など。
+
+
+
+
+    4. 個人情報の利用及び提供
+
+    1. 当社では収集した個人情報を次の目的のため利用することができます。
+
+    1) ホームページの会員管理：会員制サービスの利用などによる本人確認、個人識別、不良会員の否定、利用防止、使用防止、加入意思の確認、加入、加入回数の制限、告知事項の伝達、問い合わせの処理など。
+
+    2) アンケートやイベントのための利用。
+
+    3) コンテンツまた会員のニーズに合わせたサービスを提供、サービスの購買または決済、金融取引の本人認証また金融サービス、商品の注文による配送サービス。
+
+    4) 新規サービス（コンテンツ）の開発または特化、イベントなど広告情報の伝達、通計によるサービスの提供また広告の掲載、アクセス頻度の把握、会員のサービス利用に対する通計。
+
+    2. 会員が提供した個人情報は本人の同意なしでは会社が告知した目的の範囲以外で利用したり第３者に提供することはできません。但し、次の場合には例外とします。
+
+    1) 捜査を目的として法令に定められた手続きと方法によって、捜査機関などの要求がある場合。
+
+    2) 韓国の金融実名取引及び秘密保障に関する法律、信用情報の利用及び保護に関する法律、電気通信基本法、電気通信事業法、地方税法、消費者保護法、韓国銀行法、刑事訴訟法など法令に特別な規定がある場合。
+
+    3) 韓国の法令の規定に基づき、統計目的、学術研究、市場調査などに特定の個人を識別できない形で個人情報を提供する場合。
+
+    3. 会員の同意を貰う場合にも会社は次の事項を事前に明示するか告知するべきであり、会員はこれについて断る権利を持ちます。また、いつでも同意を撤回することができます。
+
+    1) 個人情報管理の責任者の身元（所属、名前、電話番号）
+
+    2) 個人情報の収集目的また、利用目的
+
+    3) 収集しようとする個人情報の項目
+
+    4) 収集しようとする個人情報の保有期間また利用期間
+
+    5) 第３者に対する情報提供の関連事項
+
+    6) 会員の同意撤回権や自分の情報に対する閲覧、訂正要求権またその行使方法
+
+    7) 他に韓国の 情報通信網利用促進に関する法律など関係法令が定めた事項
+
+    4. メールアドレスなど個人情報が非正確でサービスの品質に支障を来たす場合にはホームページの運営者が該当の情報を削除するか修正することができます。
+
+    5. 会員がオンライン上で自発的に提供する個人情報は第３者が収集して使用できますしその責任は会員が負います。
+
+    6. また、業務遂行のため、個人情報を確認することはアクセス権限がある業務担当者(個人情報取扱者)に限定されています。
+
+
+
+
+    5. 個人情報の第3者提供
+
+    1. 当社は会員の個人情報を「4.個人情報の利用及び提供」で告知した範囲内で使用し、 会員の事前同意なしに「4.個人情報の利用及び提供」範囲を超えて利用したり原則的に利用者の個人情報を第3者に提供しません。 但し、下記の場合は例外とします。
+
+    1) 利用者が事前に公開、または第3者提供に同意した場合。
+
+    2) 法令の規定に基づいたり捜査、調査の目的として法令に定められた手続きと方法によって捜査機関や監督当局の要求がある場合。
+
+    3) 料金の精算をするため必要な場合。
+
+    2. そのほか個人情報の第3者提供が必要な場合には利用者の同意を得る法な手続きを通じて第3者に個人情報を提供することができます。 当社は利用者たちの取引の履行のために必要な場合利用者の同意を得るなど適法な手続きを通じて、次のように個人情報を提供することができます。
+
+    1) 個人情報 第3者 提供
+
+    2) 共有される者 : プロジェクト開設者
+
+    3) 共有する項目 : 名前、ID、携帯番号、メールアドレス、住所、電話番号
+
+    4) 共有する項目 : 名前、ID、携帯番号、メールアドレス、住所、電話番号
+
+    5) 保有及び利用期間 : 配送完了後1ヶ月
+
+
+
+
+    6. プライバシーポリシーに対する会員の権利または行使方法
+
+    1. 当社は会員の個人情報に対する権利を最大に尊重します。
+
+    2. 会員の訪問、電子署名または会員IDなどを利用して当社が持っている自分の個人情報に対する閲覧また誤りを訂正を要求するかすでに同意してことを撤退することは出来ます。当社はか会員確認をした上に必要な措置をとります。
+
+    3. 会員は誤りの訂正を要求した場合に当社はその誤りを訂正するまで個人情報を利用せず、訂正措置を行った場合には、その事実を遅滞なく会員に通知します。
+
+    4. 会員IDで個人情報を閲覧および訂正を希望する場合は、登録されたIDや暗証番号を使用し、ログイン(log-in)された状態で顧客センターの個人情報管理メニューを通じて、いつでも個人情報を閲覧・確認し訂正することができます。
+
+
+
+
+    7. 個人情報の保有また、利用期間
+
+    原則的に個人情報収集及び利用目的が達成された後、(会員脱退、並びに電子メールサービスの解約)には、該当情報を遅滞なく破棄します。 但し、次の事由については会社および関連法令に明示されている期間の間に保有します。
+
+    1. 当社の内部の方針による情報保有事由
+
+    1) メールアドレス
+
+      a. 保存理由 : 不良会員の不正利用防止と用途以外の使用防止及びサービス利用の混乱防止
+
+      b. 保存期間 : 1年
+
+    2. 関係法令による情報保有事由
+
+    1) ウェブサイトのアクセス記録
+
+      a. 保存理由 : 韓国通信秘密保護法
+
+      b. 保存期間 : 3ヶ月
+
+    2) 本人確認に関する記録
+
+      a. 保存理由 : 韓国情報通信網利用促進及び情報保護に関する法律
+
+      b. 保存期間 : 6ヶ月
+
+    3) 表示・広告に関する記録
+
+      a. 保存理由 : 韓国電子商取引などでの消費者保護に関する法律
+
+      b. 保存期間 : 6ヶ月
+
+    4) 契約又は契約取り消しなどに関する記録
+
+      a. 保存理由 : 韓国電子商取引などでの消費者保護に関する法律
+
+      b. 保存期間 : 5年
+
+    5) 代金決済や物などの供給に関する記録
+
+      a. 保存理由 : 韓国電子商取引などでの消費者保護に関する法律
+
+      b. 保存期間 : 5年
+
+    6) 消費者の苦情又は紛争処理に関する記録
+
+      a. 保存理由 : 韓国電子商取引などでの消費者保護に関する法律
+
+      b. 保存期間 : 3年
+
+
+
+
+    8. 個人情報の保護に対する技術的管理対策
+
+    1. 当社は個人情報が流出されないように技術的、管理的な対策を講じるため最善を尽くします。
+
+    2. 当社は、利用者の個人情報を取り扱うことにおいて、個人情報が紛失、盗難、流出、変調または毀損されないよう安定性確保のために最善を尽くしています。 このためパスワードなどを利用したセキュリティ装置、ワクチンプログラムを利用したコンピュータウイルス防止装置、暗号アルゴリズムなどを利用してネットワーク上に個人情報を安全に転送できる保安システム、侵入遮断システムなどを利用した接近統制装置、その他の安全性確保のために必要な技術的装置を確保するなどの技術的対策を講じています。
+
+    3. 当社は個人情報のアクセスが可能な職員を最小限に制限して、本政策の遵守および個人情報保護のため持続的な教育を実施しています。 また、個人情報接近のための運営者パスワードを定期的に更新し、不法な情報流出を防ぐために最善を尽くしています。
+
+
+
+
+    9. 個人情報の管理義務、責任者
+
+    当社は、個人情報に対する意見収集および苦情処理を担当する個人情報管理担当者を指定しています。個人情報管理責任者は次のようです。
+
+    [個人情報管理責任者]
+
+    姓名: Kim Sunpyo
+
+    電話番号 : 070-4365-4386
+
+    E-MAIL : contact@fanmaum.com
+"
+</string>
+    <string name="termcontent02">" 第1章総則
+
+    第1条 [目的]
+
+    本利用規約は株式会社Fanmaumが運営するwww.fanmaum.comを通じて提供されるインターネット関連サービスを利用することによって会社と利用者の権利と義務、責任事項また会員のサービス利用に関する注意事項やガイドラインを定めるものです。
+
+
+
+
+    2条 [定義]
+
+    本利用規約において使用する用語の定義は以下のようです。
+
+    1. 本サービス: PC，TV，携帯電話など(各種の有無線装置を含める)と関係なく利用できる‘Fanmaum‘が提供するサービスのことを言います。
+
+    2. サイト: 当社が運営するクラウドファンディングサイトwww.fanmaum.comのことを言います。
+
+    3. 開設者: ‘当社‘が提供するサービスを通じてプロジェクトを開設する‘会員’のことを言います。
+
+    4. 会員: 当社のサービスに接続してこの利用規約によって会社と利用契約を締結して会社が提供するサービスを利用する個人または法人顧客のことを言います。
+
+    5. 後援者: ’当社’が提供するサービスを通じて開設されてある‘プロジェクト‘と金額を決めてプロジェクト実行者に後援する‘会員‘のことを言います。
+
+    6. プロジェクト: プロジェクト実行者が他の会員から後援を受けるため当社が提供する空間に開設したサービスのことを言います。
+
+    7. こころ: 当社が定めた規定に基づいて募金との提携コンテンツの購入に利用可能なポイントをいい、1こころ:はKRW1の価値を持ちます。
+
+    8. リターン: 開設者がプロジェクトを完了した後、後援者に提供することを約束した‘物‘のことを意味します。
+
+    9. この利用規約で使用する用語の定義は上記の内容で決めたことを除いては取引慣行および関連法令に従います。
+
+
+
+
+    第3条 [利用規約のお知らせと改正]
+
+    1. ‘当社‘はこの利用規約の内容を利用者が簡単に確認できるようにサイトに掲示します。
+
+    2. ‘当社‘は資本市長と金融投資に関する法律、電子商取引で電子署名法、情報通信法の利用促進に関する法律、訪問販売などに関する法律、消費者保護法など関連した法を違反しない範囲でこの利用規約を改正することができます。
+
+    3. ‘当社‘は利用規約を改正する場合改正された利用規約の内容と実行日を決めて実行日から最初7日前から改正内容をサイトに通知します。また、既存の会員にはサイトに告知すること以外に会員が入力したメールアドレスにメールを送ります。
+
+    4. ‘当社‘が第3項によって利用者に通知し公知・告知日から改正利用規約の施行日7日後まで拒否の意思を表してない場合、変更された利用規約を承認したと見なします。
+
+    5. 会員は、改正した利用規約に同意しない場合、会社に脱退申請をすることができます。
+
+
+
+
+    第4条 [サービスの性質と目的]
+
+    1. ‘当社‘が提供するサービスは‘会員‘と‘会員‘相互の取引が円滑に行えるよう支援するオンラインプラットフォームとして’当社’は’会員’から資金を貸したり、貸してもらえません。
+
+    2. ‘会員‘の間で成立された取引に対する関連責任は取引当事者である会員自ら取らなければなりません。 ただし、’会社’は会員の間で発生した問題解決のため必要書類などを関係法令が認める範囲内で提供することができます。
+
+
+
+
+
+
+
+    第2章 会員登録
+
+    第5条 [会員登録]
+
+    1. 利用契約は‘会員’になろうとする者(以下’加入申請者’)が利用規約の内容について同意をした後に入会の申し込みをし当社が申請に対する承諾をすることによって締結されます。
+
+    2. ‘加入申請者’がこの利用規約または会社の個人情報取扱方針を読んで’同意’ボタンを押すか’確認’などにチェックするとこで利用規約に同意したものと見なします。
+
+    3. 他人の名義で会員登録した人は会員としての権利を一切主張できません。 他人の名義を利用して会員加入した人のアカウントは削除され関係法令によって処罰を受けることができます。
+
+    4. 一人当り一つのアカウントを持つことを原則とし一つ以上のアカウントを持った’会員’のアカウントは削除されます。（該当’会員’を脱退や再加入を禁止させることができます。）また、一つ以上のアカウントを持った’会員’はアカウントに対してどんな権利主張することもできません。
+
+
+
+
+    第6条 [利用申請の承諾と制限]
+
+    1. ‘当社’は加入申請者の申請に対して特別な事情がない限りサービス利用を承諾します。ただし、当社は次の各号に該当する申請に対しては承諾しなかったり承諾した後にも任意に脱退させることができます。
+
+    1) 実名ではない場合、他人の名義を利用して申請する場合。
+
+    2) 加入申請者が利用規約によって以前、会員資格を喪失したことがある場合。‘会社‘から再加入の承認を貰う場合は例外。
+
+    3) 虚偽情報を記載したり会社が要求する内容を記載していない場合。
+
+    4) 当社の秩序や公序良俗を阻害する目的で申請した場合。
+
+    5) 不正な用途で本サービスを利用しようとする場合。
+
+    6) 他人のサービス利用を妨害するかその情報を盗用するなど電子商取引の秩序を脅威する場合。
+
+    7) 利用規約または会社の規定を違反して申請する場合。
+
+    8) 本サービスと競争関係である利用者が申請する場合。
+
+    9) 利用者の帰責事由によって承認が不可能な場合。
+
+    10) 14歳未満の児童が法廷代理人(両親など)の同意を貰っていない場合。
+
+    2. ‘当社‘は次の各号の内容に該当する場合に利用申請に対する承諾を制限したり留保することができます。
+
+    1)　‘当社’のサービス関連設備に余裕がない場合。
+
+    2) サービスの提供に技術上の問題がある場合。
+
+    3) 未成年者の場合。
+
+    4)他にA、B、Cに準する事由がある場合。
+
+    3. 当社は本サービスを利用する会員を等級別に区分して利用時間、利用回数、サービス内容などを細分化し等級別に利用の差をおくことができます。
+
+
+
+
+    第7条 [個人情報の保護義務]
+
+    ’当社’は情報通信網法など関係法令が定めるところにより’会員’の個人情報を保護するために努力します。 個人情報の保護および利用については関連法および会社の個人情報取扱方針が適用されます。 但し、会社の公式サイト以外にリンクされたサイトでは会社の個人情報取扱方針が適用されません。
+
+
+
+
+    第8条 [‘会員’のアカウント、パスワード管理]
+
+    1. ‘会員’のアカウントとパスワードに関する管理責任は’会員’本人にありこれを第3者が利用するようにしてはいけません。
+
+    2. 会員’は’会社’から付与されたアカウントを変更することはできません。一つ以上のアカウントを持つこともできません。 やむを得ない事由で‘変更したい場合には、’会員’脱退後、再加入しなければなりません。
+
+    3. ‘会社’は’会員’のアカウントが次の各号に該当する場合’会員’にアカウントの変更を要請することができます。この場合、会員は会員脱退した後、再加入の手続きを踏まなければなりません。
+
+    1)　アカウントが利用者の電話番号などで登録されてプライバシーの侵害が懸念される場合。
+
+    2) 他人に嫌悪感を与えたり公序良俗に反する場合。
+
+    4. ‘会社’は’会員’のアカウントが個人情報流出の恐れがある場合、’当社’及び’当社の運営者’と勘違いする恐れがある場合には該当アカウントの利用を制限することができます。
+
+    5. ‘会員’はアカウント及びパスワードが盗用されたり第3者が使用していることを認知した場合は直ち’当社’に通知して会社の案内に従わなければなりません。
+
+    6. 第5項の場合に該当’会員’が当社へその事実を通知しない場合、通知した場合にも’当社’の案内に従わない場合に発生する不利益について’当社’は責任を負いません。
+
+    7. ‘当社’が提供するサービスのアカウントは会員本人の同意のもとに’当社’が運営する外部サイトのアカウントと連結されることがあります。
+
+    8. その他、会員の個人情報の管理および変更に関する事項はサービス別の案内によります。
+
+
+
+
+    第9条 [会員情報の変更]
+
+    1. ‘会員’は個人情報管理画面を通じていつでも本人の個人情報を閲覧、修正することができます。 但し、サービス管理のため必要な実名、アカウント、生年月日などは修正できません。
+
+    2. ‘会員’は会員入会の申し込みの際、記載した事項が変更された場合はオンラインで修正することができます。また、電子メールか他の方法で’会社’にその変更の内容を知らせなければなりません。
+
+    3. 第2項の変更事項を会社に知らせなかった場合に発生する不利益に対して当社は責任を負いません。
+
+
+
+
+    第10条 [サイトの脱退など]
+
+    1. ‘会員’はいつでもサイト内の脱会メニューを通じて脱退や利用契約の解約申請をすることができます。会社は関連法によってすぐ処理しなければなりません。
+
+    2. ‘会員’の脱退または利用契約を解約をする場合、個人情報取引方針によって’当社’が’会員情報’を保有する場合を除き全てのデータを削除します。
+
+
+
+
+
+
+
+    第3章 義務と責任
+
+    第11条 [当社の義務]
+
+    1. ’当社’は関連の法令や利用規約が禁じる行為または公序良俗に反する行為をしないで安定的なサービスを提供するため努力します。
+
+    2. ‘当社’は’会員’が安全にサービスを利用できるように’会員‘の個人情報の保安システムを構築し個人情報取引方針をお知らせします。
+
+    3. ‘当社’は利用者が利用した電子金融取引にミスが発生する場合を備えそれを確認できる記録を作成/保存しなければなりません。
+
+    4. ‘当社’は電子金融取引サービスを提供することによって取得した個人情報また資料を法的に使用するかまたは利用者の同意を得ずに第3者に提供、業務上の目的以外に使用しません。
+
+    5. ‘当社’はサービスを利用する会員が提起する意見や不満事項が正当だと認められれば、即刻処理します。 但し、即時処理が不可能な場合には会員にその事由及び処理に要する期間を通知します。
+
+    6. ‘当社’は’会員’が受信に同意をしなかった場合、営利目的の広告性電子メールを送信しません。
+
+    7. ‘会員’の脱退申請がある場合、会社は本人の確認後、即刻脱退の処理をします。
+
+
+
+
+    第12条 [当社の責任]
+
+    1. ‘当社’は、アクセス媒体の偽造や変造で発生した事故(但し、当社がアクセス媒体の発給主体であったり使用、管理主体である場合)によって利用者に損害が発生した場合にはその損害を賠償する責任を負います。
+
+    2. ‘当社’は前項の場合にもかかわらず次の場合、利用者に対する損害賠償の責任を負いません。
+
+    1) ’当社’がアクセス媒体の発給主体では場合、アクセス媒体の偽造や変造で発生した事故によって利用者に損害が発生した場合。
+
+    2) ‘利用者’がアクセス媒体を第3者に貸与したり使用を委任したり譲渡又は担保の目的で提供したり第3者が権限なく利用者のアクセス媒体を利用して電子金融取引ができることを知っていたり知ることができたにもかかわらず利用者が自分のアクセス媒体を漏洩したり露出したり放置した場合。
+
+    3) ‘利用者’に損害が発生した場合、会社’が事故を防止するためにセキュリティを徹底的に遵守するなど十分な注意義務を果たした場合。
+
+    4) ‘当社’の管理領域ではなく公共の通信線路の障害によるサービスの利用が不可能な場合。
+
+    5) 他、‘当社‘の帰責事由がない通信サービスなどの障害による場合。
+
+    3. ‘当社’は、利用者からの取引があるにもかかわらず天災地変や当社の帰責事由がない停電、火災、通信障害、その他の不可抗力的な事由で処理が不可能だったり遅延された場合には利用者に処理不可能または延期の理由を通知した場合(金融機関又は決済手段の発行会社や通信販売業者が通知した場合を含める)には利用者に対する責任を負いません。
+
+    4. ‘当社’はパソコンなど情報通信設備のメンテナンスが発生しサービスの提供を一時的に中止する場合には会社のホームページを通じて利用者に中止日程および中断の事由を事前にお知らせします。
+
+
+
+
+    第13条 [’会員‘の義務]
+
+    1. ‘会員’は次のような行為をしてはならないです。
+
+    1) 会員登録の申請または変更の時、虚偽内容を登録する行為。
+
+    2) 他の会員のアカウント、パスワードなどを盗用する行為。
+
+    3) アカウントを他人と取引する場合。
+
+    4) ‘当社’の管理者、職人または関係者を詐称する行為。
+
+    5) ‘当社’から特別な権利を付与されていなくて当社のクライアントプログラムを変更したり当社のサーバーをハッキングしたりウェブサイトまたは掲示された情報の一部・全部を任意で変更する行為。
+
+    6) 本サービスに危害を加えたり、故意に妨害する行為。
+
+    7) 本サービスを通じて得た情報を会社の事前承諾なくサービスの利用目的以外に任意加工、販売、複製、送信、配布したりこれを出版および放送などに使用したり第3者に提供する行為。
+
+    8) 公共秩序や公序良俗に反する卑属な内容の情報や文章、図形、音響、動画などを伝送、掲示、電子メールまたはその他の方法で他人に流布する行為。
+
+    9) 侮辱的な内容、個人的な内容として他人の名誉やプライバシーを侵害する内容を伝送、掲示、電子メールまたはその他の方法で他人に流布する行為。
+
+    10) 他の会員を威嚇したり、特定の利用者に嫌がらせを与える行為。
+
+    11) ‘当社’の承認を受けず、ほかの会員の個人情報を収集または保存する行為。
+
+    12) 犯罪と結びついたと客観的に判断される行為。
+
+    13) ‘当社’の業務に妨害される行為および会社の名誉に傷つける行為。
+
+    14) ‘当社’の同意なしでサービスの利用権限や利用契約上の権利を他人に譲渡、贈与、担保で提供する行為。
+
+    15) この利用規約を含めてその他の当社が定める諸規定または利用条件を違反する行為。
+
+    16) 他、法令に反する行為。
+
+    2. ‘会員’は関係している法令、この利用規約、その他‘会社’が定めた規定、サービス利用案内など‘当社’が通知する事項を守ります。
+
+    3. ‘会員’は事前に’当社‘の承諾なくサービスを利用して営業活動をすることはできません。’会員’の間または‘会員’と第3者の間でサービスを媒介にして成した取引は‘当社’は無官であり’当社‘はこれに対するどんな責任も負いません。
+
+    4. ‘会員が第3項を違反して’当社’に損害を起こした場合’会員’は’会社’にその損害を賠償しなければなりません。
+
+
+
+
+    第14条 [’会員‘に対する通知]
+
+    1. ’当社’が会員に通知をする場合、この利用規約に別の規定がない限りメールアドレスなどで通知することができます。
+
+    2. ‘当社’は会員が電子メール受信を拒否した場合は関連法令や本利用規約で定めた通知義務を果たすため必要な場合は電子メールを送信することができます。
+
+    3. 当社は会員の全体に通知をする場合、7日以上会社の掲示板に掲示することにより、第1項の通知と同じことと見なします‘。
+
+
+
+
+
+
+
+    第4章 サービスの利用
+
+    第15条 [サービスの提供と変更]
+
+    1. ‘当社’は’会員’にファンクラウドファンディングサービスなどを提供することができます。サービスに関しては資本市長と金融投資業に関する法律などに遵守します。
+
+    2. ‘当社’は’当社’が提供するコンテンツと進行しているイベントなど全てのサービスを’会員’に提供します。但し、第6条の3項によって会員の等級別に提供されるサービスに差等を付けます。
+
+    3. ‘当社’はサービス変更の場合、変更されるサービスの内容また提供される日付を第15条によって会員に通知します。
+
+
+
+
+    第16条 [掲示物の管理]
+
+    1. ‘当社’は’会員’が登録した掲示物また資料が変調、毀損、削除されないように努力します。
+
+    2. ‘当社’は次の各号に該当する内容が含まれた掲示物や資料について会員の登録を拒否したり事前通知なく削除、移動、変更することができます。
+
+    1) 他の’会員’または第3者にひどい侮辱を与えたり名誉を損傷させる内容。
+
+    2) 公共秩序や公序良俗に反する内容とそのような内容を含めているサイトにアクセスできるようにリンクさせた内容。
+
+    3) わいせつ物を掲示したりわいせつ物を紹介しているサイトに接続できるようにリンクさせた場合。
+
+    4) 不法コピーまたはハッキングを助長する内容。
+
+    5) 営利を目的とする広告や迷惑性の掲示物の場合。
+
+    6) 犯罪に関連されてると客観的に認められる内容。
+
+    7) ‘当社’他の会員’第3者’の著作権の権利を侵害する内容。
+
+    8) 登録しようとする掲示板の性格に合致しない場合。
+
+    9) 常用ソフトウェアやクラックファイルを載せた場合。
+
+    10) 同一な内容を重複して掲示するなど掲示の目的と違う場合。
+
+    11) その他の当社の諸般規定や関係法令に反する内容。
+
+    3. ‘当社’は個別サービス別に掲示物に係る詳細利用の指針を別途に決めて施行することができ’会員’はその指針によって掲示物(会員間の伝達を含む)を掲載しなければなりません。
+
+    4. ’当社’は’会員’が登録した掲示物がサービスの方向と違う場合削除することができます。
+
+
+
+
+    第17条 [掲示物に関する権利の帰属]
+
+    1. ‘当社’が作成した著作物に対する著作権また知的財産権は’会社’に帰属されます。
+
+    2. ‘会員’がサービスの画面内に掲示した掲示物の著作権は掲示した’会員’に帰属されます。
+
+    3. ‘会員’が著作権を持つ掲示物に対して’会社’はこれを利用することができ営利の目的とは無官に’当社’が運営するサイト内でご自由に利用できます。’会員’が本利用規約に同意する場合上記の内容と同じ利用に必要な著作権などを’会員’が’当社’に与えることだと考えられます。これは’会員‘が脱退した後にも有効とされます。
+
+    4. ‘当社’は’会員’が著作権を持つ掲示物に対して第3項で決めた方法以外の方法で営利の目的で利用しようとする電話、FAX, 電子メールなどの方法と通じて事前に’会員’の同意を得なければなりません。
+
+
+
+
+    第18条 [広告の掲載]
+
+    1. ’当社’はサービスの運営に関してサービス画面、ホームページに掲載したりメール、SMSなどを通じて送信することができます。 但し、’当社’は’会員’にメール、SMSなどの発送をする場合は受信同意を必ず確認し受信に同意した会員に限って送信します。
+
+    2. 利用者がサービス上に掲載されている広告を利用したりサービスを通じた広告主の販促活動に参加するなどの方法で交信または取引をするのは全面的に利用者と広告主間の問題です。 もし利用者と広告主の間に問題が発生する場合には利用者と広告主が直接解決しなければならずこれと関連して会社はいかなる責任も負いませ
+
+
+
+
+    第19条 [サービスの利用時間]
+
+    1. 当社は会員の利用申請を承諾した時からサービスを開始します。 但し、一部のサービスの場合には指定された日からサービスを開始します。
+
+    2. 当社はサービスを一定の範囲に分割して各範囲別に利用可能時間を別に指定することができます。 この場合その内容を会員に通知します。
+
+    3. 本サービスを1日24時間、年中無休で提供します。 但し、会社は、業務又は技術上の障害、技術的補完およびサイトの改善を理由とする場合などにはサービスが一時停止されることもあります。 このような場合、当社は事前または事後にこれを告知します。
+
+
+
+
+    第20条 [サービスの利用制限、中止、’会員’の脱退]
+
+    ‘当社’は次の各号に該当する事由が発生する場合、’会員’のサービス利用を制限または中止させたり会員を脱退させることができます。
+
+    1. ’会員’が’当社’のサービス運営を故意に妨害する。
+
+    2. ‘会員’が第13条で規定した’会員’の義務を違反した場合。
+
+    3. 一人の会員が一つ以上のアカウントを持つ場合。
+
+    4. 情報通信設備またはシステムの定期点検、増設および交代、保守点検、故障など工事によって仕方ない場合。
+
+    5. 電気通信事業法に規定された期間通信事業者が電気通信サービスを中断した場合。
+
+    6. 国家の非常事態、サービス設備の障害、サービス利用の輻輳などでサービス利用に支障がある場合。
+
+    7. 公序良俗を阻害する低俗なアカウントまたはニックネームを使用した場合。
+
+    8. 関連行政官庁又は公共機関の是正要求などがある場合。
+
+    9. 3ヵ月以上サービスを利用しない場合。
+
+    10. 掲示板にインデックスファイルなしで資料だけ載せるなど、掲示板をファイル資料室として利用する場合。
+
+    11. 第15条第2項で規定する掲示物や資料を掲示、登録した場合。
+
+    12. 他人の決済情報などを盗用したり、不正な行為で取引をする場合。
+
+
+
+
+    第21条 [プロジェクトの申請]
+
+    1. プロジェクトを開設しようとする’会員’は’会社’で提供する様式と手続きによって、プロジェクトの開設を申請することができます。
+
+    2. 申請されたプロジェクトは’会社’が定めた次の基準と運営方向に合致するかどうかを審査した後、承認されたプロジェクトをサイト上に掲示されます。
+
+    1) ‘当社’のプロジェクトの開設による規定と手続き遵守しているのか。
+
+    2) ‘当社’が提供したプロジェクトの開設様式によって記載しているのか。
+
+    3) ‘当社’が要求したプロジェクト関連ファイル(イメージ、動画、音声ファイル等)を提供しているのか。
+
+    4) 関係法令に違反されたり公共秩序や公序良俗を阻害してはないのか。
+
+    5) 他人の名誉を損傷させたり不利益を与える目的ではないのか。
+
+    6) 当社が定めた各種のプロジェクト審査条件に合致しているのか。
+
+    7) その他のプロジェクトの開設のため必要とする要請に応じたのか。
+
+    3. ’会員’が登録を申請したプロジェクトの内容に虚偽、記載漏れ、誤記があってはなりません。’会員’はこれを遵守せず發生した不利益については’会員’がすべての責任を負担しなければなりません。
+
+    4. ’会員’が作成および提供したプロジェクトの内容やファイルに対するすべての権利および責任は当該’会員’が取ります。’当社’は’会員’が登録したプロジェクトの内容が次の各号に該当すると判断される場合、事前通知なしに削除することができます。これに対して’会社’はいかなる責任も負いません。また、事案によってプロジェクトを登録した’会員’に釈明を要請することができます。
+
+    1)　‘会員’が提供した会員情報またはプロジェクトの情報が虚偽であることが判明された場合。
+
+    2) 第3者の知的財産権及びその他の権利を侵害する内容である場合。
+
+    3) ‘当社’から事前承認されていない内容を掲示した場合。
+
+    4) ‘会員’が’当社’のサイトや掲示板にわいせつ、誹謗、中傷、名誉毀損、個人情報の無断公開などそれに準ずる掲示物を掲載したり関連サイトをリンクする場合る。
+
+    5) ‘会員’がプロジェクト情報を不法で変更または操作した場合。
+
+    6) その他関係法令に違反すると判断される場合。
+
+    5. 登録が認めたプロジェクトは募集期限が終わった後、サイトまたはサービスに関連したウェブサイトに掲示される場合もあります。
+
+
+
+
+    第22条 [プロジェクトの修正]
+
+    1. ‘当社’がプロジェクトを承認する前には修正事項を’当社’に要請した後、会社が承認した範囲内だけで修正することができます。
+
+    2. プロジェクトが承認された後、プロジェクトのページの一部項目を変更するかキャンセルまたは削除することができません。 変更が禁止された事項をプロジェクト申請’会員’が任意に修正、変更、削除した場合、プロジェクトを後援した会員が損害賠償請求など法的対応をすることができ、これによる不利益について’当社’は責任を負いません。
+
+
+
+
+    第23条 [プロジェクトのキャンセル]
+
+    1. プロジェクトが承認される前にご自由にプロジェクトをキャンセルすることができます。キャンセルは’当社’に要請することによって成り立ちます。但し、プロジェクトをキャンセルする前まで使用した費用は’会社’にお支払いしなければなりません。
+
+    2. プロジェクトが承認された後、締め切りされる前までは開設者がご自由にプロジェクト開設申請をキャンセルすることはできません。
+
+    3. プロジェクトが成功で終わった場合には取り消しすることは不可です。
+
+    4. プロジェクトの修正された内容はアップデートを通じて告知されます。会員はいつでも確認することが可能です。
+
+
+
+
+    第24条 [決済の手段]
+
+    会員は当社が定めた方法(クレジットカード、リアルタイム口座振替、仮想口座など)を通じてサイト内で決済が可能であり正確で安全な決済処理のため関係法令に基づいて消費者情報を決済代行社に提供します。
+
+
+
+
+    第25条 [決済のキャンセル、払い戻し]
+
+    1. 決済のキャンセル及び払い戻し規定は電子商取引などでの消費者保護に関する法律などの関連法令を順守します。
+
+    2. 後援のキャンセルは電子商取引などでの消費者保護に関する法律及び同法施行令に基づいてプロジェクトの後援の締め切り期限以内に可能であり締め切り期限が過ぎれば後援をキャンセルすることができません。
+
+    3. 個別サービスの性格によって会社は利用規約と利用条件に従ったキャンセルと払戻し規制を定めることができます。この場合、個別の利用規約と利用条件上のキャンセルと払い戻し規定が優先されます。
+
+    4. その他、本利用規約とサイトの利用案内に規定されていないキャンセルや払い戻しに関する事項については、消費者被害補償規定に定められたところによります。
+
+
+
+
+    第26条 [キャンセル、払い戻しの手数料]
+
+    1. 会員の単純な心変わりによるキャンセルの場合、払い戻し処理に発生する手数料は会員が負担します。
+
+    2. キャンセルや払い戻しの手数料は決済手段によって異なります。キャンセ、払い戻しの手数料の賦課方法は別の決済のキャンセルや払い戻し規定に従います。
+
+
+
+
+    第27条 [後援成功]
+
+    1. プロジェクトの最終の後援金には後援期限が終わる前のキャンセル及び変更申請が反映されることがあります。
+
+    2. プロジェクトの後援金募集が失敗した場合、その間募集された金額についてプロジェクトの開設者は何らかの権利主張することもできず、会社は事前に告知した手続きによって後援者から決済された後援金額すべてを一括キャンセルします。
+
+
+
+
+    第28条 [後援金の伝達]
+
+    募集された後援金額は開設者の要求に応じて「会社」が支出し、開設者個人に直接後援金を渡さないことを原則とします。
+
+
+
+
+    第29条 [後援金の使用]
+
+    プロジェクトの開設者は、後援金額募集成功により受領した金額を開設者が約束したプロジェクトのため使用します。また約束したリターン(商品)の準備やそれの配送の経費などで使用します。これを履行しないため発生する不利益に対してすべての責任を負担しなければなりません。
+
+
+
+
+    第30条 [リターンの提供]
+
+    1. プロジェクト開設者はプロジェクトの登録によって発生する’会員’と他の’会員’、’会員’と第3者間の約束、リターン(商品)オプション提供等に関して履行の義務があります。これを履行しないため発生する不利益に対する責任は当該’プロジェクト開設者’にあります。
+
+    2. プロジェクトの開設者は、プロジェクト登録の際、後援者に提供する商品の内容、数量、提供の日程をサイトに掲示して、商品金額の募集成功する時に、掲示した内容によって履行する義務があります。 これを履行しなかったり故意に掲示した内容と異なる場合、あるいは一部だけを履行する場合には当該‘プロジェクト開設者’は会社による後援金額の回収や後援者による損害賠償請求などすべての法的な責任を負います。
+
+    3. プロジェクトの開設者は、プロジェクトの後援者に提供するリターンに関して後援者からの問い合わせがある場合誠実に答える義務があります。
+
+
+
+
+    第31条 [手数料]
+
+    1. ‘会員’のサイトへの加入やサービスを通じたプロジェクトの開設や後援は無料です。
+
+    目標金額の達成時のみ資金を受ける方式のプロジェクトといくらが集まっても集まっただけに資
+
+    2. その他のサービスにおいて’当社’がサービス利用による手数料を賦課しようとする場合には賦課基準及びその他詳細な内容を施行7日前にサイトに告知します。
+
+
+
+
+
+
+
+    第5章 その他
+
+    第32条 [責任制限]
+
+    1. ‘当社‘が第16条第2項、第20条第1項で規定した事由によってサービス提供を制限または中止させたり’会員’を脱退させた場合、’当社’はこれによって発生した’会員’の損害を賠償する責任がありません。
+
+    2. ‘当社’は’会員’のメールアドレスなど個人情報を間違って記載したり第9条2項による個人情報変更の義務を果たさない場合に発生した損害に対して賠償する責任がありません。
+
+    3. ‘会員’がサイトに掲載した情報、資料、事実などの真実性、正確性、信頼性は’当社’が保障しません。 会員が掲示した資料の活用可否は会員各自の責任と判断に委ねられており彼によってもたらされる結果について会社は一切の責任を負いません。
+
+    4. ‘当社’は’会員’間及び’会員’と第3者間にサービスを媒介に発生した紛争に対して介入する義務がありません。当社はサービスの利用と関連して’会員’の故意あるいは過失により’会員’または第3者に発生した損害に対して責任を負担しません。ただ、関連法令で特に規定している事項があれば彼に従います。
+
+
+
+
+    第33条 [損害賠償]
+
+    利用者が本利用規約の上、義務を違反することによって会社に損害が発生した場合、利用者は会社にその損害を賠償しなければなりません。
+
+
+
+
+    第34条 [準拠法と管轄裁判所]
+
+    1. ’当社’と’会員’はサービスに関して発生した紛争を円満に解決するために必要な努力をします。
+
+    2. 前項の場合にもかかわらず紛争による訴訟が提起された場合、会社の所在地の裁判所を管轄裁判所として解決するようにします。
+
+    3. 当社と利用者間に発生した紛争に関しては大韓民国法を準拠法とします。
+
+
+
+
+
+
+
+    付則
+
+    この利用規約は2016年4月30日から効力を発生します。
+    \n
+"</string>
+
+    <string name="alert_replay">また実行してください。</string>
+    <string name="goToEvent">サポートに移動</string>
+    <string name="goToSupport">イベントに移動</string>
+
+
+    <string name="agree"> 下のボタンを押して<b>利用規約</b>に同意します。</string>
+    <string name="nickNameShort">The Nick field must be at least 2 characters in length.</string>
+    <string name="facebook_app_id">857872690951419</string>
+    <string name="fanmaum_ranking">ファンのこころランキング</string>
+    <string name="start_project">プロジェクトを開設</string>
+
+    <string name="sort_type">Sort by</string>
+    <string name="all">すべて見る</string>
+    <string name="support">서포트</string>
+    <string name="make_goods">굿즈 제작</string>
+    <string name="popular">人気順</string>
+    <string name="new_sort">最新順</string>
+    <string name="deadline">締切間近</string>
+    <string name="top_members">最多参加者</string>
+    <string name="no_email">ログインに失敗しました。\n(電子メール情報が必要になります。\nFacebookのログイン画面でメールアドレスを必ず提供してください。</string>
+    <string name="pwd01_1">パスワード (オプション)</string>
+    <string name="pwd02_1">パスワードの確認 (オプション)</string>
+    <string name="connection_error">サーバーに接続できません。インターネット接続の状態を確認し、再試行してください。</string>
+    <string name="project_type">進行中のプロジェクト</string>
+    <string name="project_hot">現在一番HOTなサポート</string>
+    <string name="how_this_project">このようなプロジェクトどうですか？</string>
+    <string name="project_recommand">ファンのこころが推薦するプロジェクトコレクション</string>
+    <string name="project_new">新しく登録されたプロジェクト</string>
+    <string name="project_detail">プロジェクト進行中</string>
+    <string name="project_time">募金期間\n{SDATE} ~ {DDATE}</string>
+    <string name="project_delivery_time">実行予定日\n{DATE}</string>
+    <string name="project_like">関心持つキャンセル</string>
+    <string name="project_ongoing">プロジェクト進行中</string>
+    <string name="maum_value">集めたこころ\n{VALUE} こころ</string>
+    <string name="joinFan_value">参加\n{VALUE}人</string>
+    <string name="joinFan">参加</string>
+    <string name="deadline_value">締切まで\n{VALUE}日</string>
+    <string name="delivery_imfomation">配送情報</string>
+    <string name="delivery_rule">交換/返金</string>
+    <string name="following">フォロー</string>
+    <string name="total_following">{TOTAL}</string>
+    <string name="together">一緒に人々</string>
+    <string name="sns_sharing_10maum">このプロジェクトをSNSで共有して<font color="#ff0000">10こころ</font>を無料でゲット！</string>
+    <string name="how_is_this_project">こんなプロジェクトはどうですか？</string>
+    <string name="sns_aleady_update">既に共有をしました。</string>
+    <string name="international_delivery">海外送料</string>
+    <string name="default_delivery">基本配送費</string>
+    <string name="jeju_delivery">北海道・沖縄・離島</string>
+    <string name="over_cost_delivery">{TOTAL}個以上購入時、</string>
+    <string name="ems_total">数量</string>
+    <string name="ems_delivery_cost">EMS 送料</string>
+    <string name="kg">{INT}KG</string>
+    <string name="delivery_rule_description2">すべての商品は交換、返金、キャンセルはできません。</string>
+    <string name="delivery_rule_description">交換/返金はプロジェクト進行者様が直接設定したものでご不明な点がございましたら、1：1お問い合わせをご利用してください。</string>
+    <string name="sold_out">SOLD OUT</string>
+    <string name="goods_amount">{NOW}人参加</string>
+    <string name="title_benefit">期間特典</string>
+    <string name="title_goods">商品構成</string>
+
+
+    <string name="change_phoneNume">電話番号の変更</string>
+    <string name="connect_sns">SNS連動する</string>
+    <string name="connect_completed">連動しました。</string>
+    <string name="modification_completed">修正完了</string>
+    <string name="recommend_user">オススメ登録</string>
+    <string name="recommend_content">{NICK}さんにファンのこころをお勧めした方いますか？\n 推薦人のニックネームを少なく100こころを獲得してください！</string>
+    <string name="no_recommend">推薦人はいません 。</string>
+    <string name="registration">登録する</string>
+    <string name="no_data">情報がありません。</string>
+    <string name="attend_1">참여 순</string>
+    <string name="attend_2">누적 순</string>
+    <string name="maum_num">{VALUE}こころ</string>
+    <string name="sns_share">友人にもこのプロジェクトを紹介してください！</string>
+    <string name="clipboard_insert">クリップボードに保存されます。</string>
+    <string name="comment">コメント</string>
+    <string name="comment_share">友人と共有する</string>
+    <string name="my_comment">私のコメント</string>
+    <string name="like_list">{수}人が好きです。</string>
+    <string name="comment_reply">返信</string>
+    <string name="comment_reply_all">{수}つのコメントをすべて表示</string>
+    <string name="unlike_fail">いいねキャンセルを失敗しました。</string>
+    <string name="like_fail">いいねに失敗しました。</string>
+    <string name="comment_reply_title">返信</string>
+    <string name="liker">フォロワー</string>
+    <string name="total_following2">フォロワー</string>
+    <string name="following_user">フォロー</string>
+    <string name="chatting">会話</string>
+    <string name="request_update">情報を更新してください。</string>
+    <string name="attended_project">私のプロジェクトへの参加状況を見る</string>
+    <string name="hosted_project">開設したプロジェクト</string>
+    <string name="feeded_project">興味のあるプロジェクト</string>
+    <string name="ready">準備中です。</string>
+    <string name="bookmark_channel"><![CDATA[<font color="#ff0000">{VALUE}つ</font> のチャンネルをおフォローします。]]></string>
+    <string name="channel_plus">チャンネル詳細をみる</string>
+    <string name="channel_bookmark_title">チャンネルフォロー</string>
+    <string name="channel_name_search">チャンネル名を検索してください。</string>
+    <string name="channel_bookmark_sub_title">チャンネルをフォローしてください。</string>
+    <string name="bookmark">フォロー</string>
+    <string name="bookmark_off">キャンセル</string>
+    <string name="review_detail">後期を見に行く</string>
+    <string name="review_title">後期の詳細を見る</string>
+    <string name="review_project_type">プロジェクトの種類\n{TYPE}</string>
+    <string name="project_payment1">特典を選択する</string>
+    <string name="project_payment2">参加する</string>
+    <string name="title_goods2">特典構成</string>
+    <string name="total">合計</string>
+    <string name="goods_total">数量</string>
+    <string name="goods_delivery_address">配送情報</string>
+    <string name="goods_delivery_cost">追加送料</string>
+    <string name="alert_address_search_title">アドレス検索</string>
+    <string name="alert_address_search_ex1">道路名、ビル名、地番住所を入力してください。</string>
+    <string name="alert_address_search_ex2">例示）三成洞25</string>
+    <string name="alert_zipcode">郵便番号</string>
+    <string name="alert_address">アドレス</string>
+    <string name="search">検索</string>
+    <string name="new_address">道路名</string>
+    <string name="old_address">地番</string>
+    <string name="project">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;サポート</string>
+    <string name="popular2">人気</string>
+    <string name="newsfeed_all">全芸能人</string>
+    <string name="newsfeed_favorites">私のお気に入りな芸能人</string>
+    <string name="newsfeed_popularity">人気順</string>
+    <string name="newsfeed_Newest">日付順</string>
+    <string name="newsfeed_dead_line">締切間近</string>
+    <string name="newsfeed_max_member">最多参加者</string>
+    <string name="newsfeed_top_cost">最高金額</string>
+    <string name="project_cost">決済金額</string>
+    <string name="project_state">決済状況</string>
+    <string name="project_delivery">配送情報</string>
+    <string name="project_delivery_hint">配送情報を選択してください。</string>
+    <string name="product_term_text">特典内容が変更されることがあり、後日発表いたします。</string>
+    <string name="product_add_delivery_cose">追加送料をご記入ください。</string>
+    <string name="please_select_goods">特典を選択してください。</string>
+    <string name="not_enough_title">保有こころが不足</string>
+    <string name="not_enough_content">現在保有しているこころが不足しています。\n今のこころを購入しますか？</string>
+    <string name="not_enough_comform">購入</string>
+    <string name="confirm_goods">選択した特典を確認してください。</string>
+    <string name="goods_total_value">総商品金額</string>
+    <string name="attend_imformation">参加者情報</string>
+    <string name="delivery_value">配送費</string>
+    <string name="sum_maum">必要なこころ</string>
+    <string name="goods_total_value_text">{value}つ</string>
+    <string name="name">名前</string>
+    <string name="phonenumber">電話番号</string>
+    <string name="etc">備考</string>
+    <string name="input_name">名前を入力してください。</string>
+    <string name="input_address">残りのアドレスを入力してください。</string>
+    <string name="input_etc">商品や配送に関する要請事項を入力</string>
+    <string name="input_address_search">道路名、ビル名、地番住所検索</string>
+    <string name="input_payment_title">決済手段</string>
+    <string name="input_payment_charge">決済手数料</string>
+    <string name="input_payment_next">購入する</string>
+    <string name="maum">こころ</string>
+    <string name="my_maum">所有しているこころ</string>
+    <string name="my_maum2">所有しているこころ</string>
+    <string name="goods_maum">必要なこころ</string>
+    <string name="used_maum">こころを使用</string>
+    <string name="allin">情報使用</string>
+    <string name="final_payment">最終決済金額</string>
+    <string name="please_input_data">入力してください。</string>
+    <string name="completed_payment">参加完了</string>
+    <string name="completed_payment_message">参加完了!\n\nプロジェクトに参加していただきありがとうございます！\n{HOST_NAME}が継続してプロジェクトに関連して\n公知くれるよ！</string>
+    <string name="recommend_sns">友人にもこのプロジェクトを紹介してください！</string>
+    <string name="input_zipcode">郵便番号を入力してください。</string>
+    <string name="input_etc1">備考事項を記入してください。</string>
+    <string name="input_etc2">備考事項を記入してください。</string>
+    <string name="project_ranking">プロジェクトランキング</string>
+    <string name="user_ranking">ユーザーランキング</string>
+    <string name="search_nickname">닉네임 검색을 통해 순위를 확인하세요</string>
+    <string name="liker2">{NICKNAME}さんのフォロワー</string>
+    <string name="qna"><![CDATA[Q&A]]></string>
+    <string name="cancel2">[キャンセル]</string>
+    <string name="change">[変更]</string>
+    <string name="change_delivery_info">配送情報を修正する</string>
+    <string name="completed_change">修正完了</string>
+    <string name="payment_cancel">支払いキャンセル</string>
+    <string name="payment_cancel_content">ご注文のキャンセル時の返金はキャンセルした後、5日以内に行われます。\nキャンセルしますか？</string>
+    <string name="payment_cancel_ok">キャンセル</string>
+    <string name="free_support">後援する</string>
+    <string name="free_support_comment">100こころから</string>
+    <string name="free_support2">後援する</string>
+    <string name="post">포스트</string>
+    <string name="collection">컬렉션</string>
+    <string name="remainded_maum">使用後に残ったこころ</string>
+    <string name="join_comment"><![CDATA[上記のすべての送料とお支払い情報を確認し、<br>支払いを行うことによって<font color="#ff0000">利用規約</font>および<font color="#ff0000">課金社</font>情報提供に同意します。]]> </string>
+    <string name="all_project">プロジェクト全体を見る</string>
+    <string name="my_project">自分の参加現状を見る</string>
+    <string name="sort_recommend">カ肥イ懍</string>
+
+    <string name="title_home">ホーム</string>
+    <string name="all_view">すべて表示</string>
+    <string name="login">ログイン</string>
+    <string name="member_register">会員登録</string>
+    <string name="error_invalid_email">メールが間違っています。</string>
+    <string name="error_incorrect_password">パスワードが間違っています。</string>
+    <string name="error_field_required">メールアドレスを入力してください。</string>
+    <string name="or">または</string>
+    <string name="sort_comment">コメント</string>
+    <string name="sort_like">いいね</string>
+    <string name="deadline2">締め切り</string>
+    <string name="ongoing_events">進行中のイベント</string>
+    <string name="maum_value2"><![CDATA[集めたこころ <br><big><big>{VALUE}</big></big>こころ]]></string>
+    <string name="percent2"><![CDATA[<big><big>{NUMBER}</big></big>%]]></string>
+    <string name="joinFan_value2"><![CDATA[参加<br><big><big>{VALUE}</big></big> 人]]></string>
+    <string name="deadline_value2"><![CDATA[締切まで<br><big><big>{VALUE}</big></big> 日]]></string>
+
+    <string name="interest_success">フォローします。</string>
+    <string name="interest_cancel">アンフォローします。</string>
+    <string name="secret">秘密コメントです。</string>
+    <string name="secret_name">秘密コメント</string>
+    <string name="attends_nickname">推薦人 [ {nickname} ]</string>
+    <string name="select_star">芸能人の選択後文を作成してください。</string>
+    <string name="bookmark_one">1人以上のフォローしてください。</string>
+    <string name="share_success">共有しました。</string>
+    <string name="share_fail">共有をしていませんでした。</string>
+    <string name="sns_please_connect">SNSのアカウントと連動した場合にのみ、共有が可能です。</string>
+    <string name="view_project">プロジェクトを見る</string>
+    <string name="go_project">プロジェクトに移動</string>
+    <string name="before_review">まだレビューがありません。</string>
+    <string name="share">共有</string>
+    <string name="result_view">結果を見る</string>
+    <string name="event_result">イベントの結果</string>
+    <string name="my_maum3"><![CDATA[<font color="#ff0000">{MAUM}</font>]]>たくわえこころ</string>
+    <string name="charge_maum">こころの充電</string>
+    <string name="signout">脱退</string>
+    <string name="signout_message">脱退しますか？</string>
+    <string name="projecst_result">仕上げされた\nプロジェクト</string>
+    <string name="project_result2">仕上げされたプロジェクト</string>
+    <string name="reply_all">すべてのコメント</string>
+    <string name="reply_my">私のコメント</string>
+    <string name="before_review2">イベントの結果が発表されていません。</string>
+    <string name="back_page">前のページに移動</string>
+
+    <string name="facebook_sign_up_">Facebook 会員登録</string>
+    <string name="facebook_sign_in">Facebook ログイン</string>
+    <string name="naver_sign_up_">Naver 会員登録</string>
+    <string name="naver_sign_in">Naver ログイン</string>
+    <string name="twitter_sign_up_">Twitter 会員登録</string>
+    <string name="twitter_sign_in">Twitter ログイン</string>
+
+    <string name="point_min">最小心より不足します</string>
+
+    <string name="request_add_star">芸能人の追加要求</string>
+    <string name="share_fanmaum">共有する</string>
+    <string name="my_page">マイページ</string>
+    <string name="request_permission">ユーザー権限が必要です。\n[承認]してください。</string>
+    <string name="member_check">出席チェックする</string>
+    <string name="project_join">参加する</string>
+    <string name="over_cost_delivery_value">{PRICE}円ずつ追加</string>
+    <string name="share_facebook">facebookに共有する</string>
+    <string name="share_twitter">twitterに共有する</string>
+    <string name="sns_sharing_total">共有した回数 </string>
+    <string name="attended_project_title">自分の参加現状を見る</string>
+
+    <string name="conenect_facebook">facebook 連動する</string>
+    <string name="conenect_twitter">twitter 連動する</string>
+    <string name="conenect_naver">naver 連動する</string>
+
+    <string name="my_celeb">芸能人リスト</string>
+    <string name="my_info">私の情報</string>
+    <string name="profile_setting">プロフィール設定</string>
+    <string name="no_support"><![CDATA[まだcelebのサポートがありません！<br><font color="#e62844"> まず最初にサポートを開設して <br>celebの応援を始めて</font>ください!]]></string>
+</resources>

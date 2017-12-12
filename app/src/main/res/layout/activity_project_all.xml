@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_project_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceeee">
+    <RelativeLayout
+        android:id="@+id/all_support_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/all_project"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinner_group"
+        android:layout_below="@+id/all_support_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_sub_popula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_project_sorting_left"
+            android:text="@string/popular"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            />
+
+        <Button
+            android:id="@+id/button_sub_all"
+            android:layout_toRightOf="@+id/button_sub_popula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_project_sorting_right"
+            android:text="@string/all"
+            android:paddingRight="30dp"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@+id/spinner_group"
+        android:layout_width="@dimen/userPage_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:divider="@null"
+        android:dividerHeight="10dp" />
+
+</RelativeLayout>

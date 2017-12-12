@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView android:layout_width="310dp" android:layout_height="wrap_content"
+        android:id="@+id/findid_tv01" android:layout_centerHorizontal="true"
+        android:textSize="11dp" android:textColor="#000000"
+        android:typeface="sans"
+        android:text="@string/login07"/>
+    
+    <EditText  android:id="@+id/findid_et01"
+         android:layout_below="@id/findid_tv01"
+         android:background="@drawable/login_textarea"
+         android:layout_width="310dp" android:layout_height="wrap_content"
+         android:textColorHint="#aaaaaa" android:textColor="#333333"
+         android:hint="@string/findid01" 
+         android:paddingLeft="10dp" android:paddingRight="10dp"
+         android:singleLine="true" android:inputType="phone"
+         android:typeface="sans"
+         android:layout_marginTop="15dp" android:layout_centerHorizontal="true"
+        android:textSize="13dp" />
+    
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:onClick="onClick" android:text="@string/find" android:layout_below="@id/findid_et01"
+        android:layout_marginTop="15dp" android:textSize="16dp" android:layout_centerHorizontal="true"
+        android:textColor="#e82b47"
+        android:typeface="sans"
+        android:background="@drawable/btn_sub_btn01"
+        android:id="@+id/findid_btn01"/>
+			
+</RelativeLayout>

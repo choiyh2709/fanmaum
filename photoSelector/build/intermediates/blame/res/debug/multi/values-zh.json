@@ -1,0 +1,473 @@
+[
+    {
+        "outputFile": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 35,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 61,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 61,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 47,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 38,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 38,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 46,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 143,
+                        "endColumn": 46,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 46,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 46,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 35,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 35,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 370,
+                    "endColumn": 48,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 309,
+                        "endColumn": 48,
+                        "endOffset": 353
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 35,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 61,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 61,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 47,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 38,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 38,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 46,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 143,
+                        "endColumn": 46,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 46,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 46,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 35,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 35,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 370,
+                    "endColumn": 48,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 309,
+                        "endColumn": 48,
+                        "endOffset": 353
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 35,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 61,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 358,
+                        "endColumn": 61,
+                        "endOffset": 415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 47,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 38,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 38,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 46,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 143,
+                        "endColumn": 46,
+                        "endOffset": 185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 287,
+                    "endColumn": 46,
+                    "endOffset": 329
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endColumn": 46,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 334,
+                    "endColumn": 35,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 190,
+                        "endColumn": 35,
+                        "endOffset": 221
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 370,
+                    "endColumn": 48,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\photoSelector\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 309,
+                        "endColumn": 48,
+                        "endOffset": 353
+                    }
+                }
+            }
+        ]
+    }
+]

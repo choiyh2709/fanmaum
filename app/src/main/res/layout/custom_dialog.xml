@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/pop_layoutbasic">
+    
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/pop_layout01" 
+               android:background="@drawable/pop_top">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="15dp"
+            android:typeface="sans"
+            android:textSize="16dp" android:textColor="#e62844" android:id="@+id/pop_tv01"
+            android:text="@string/start01"/>
+    </RelativeLayout>
+    
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_below="@id/pop_layout01" android:id="@+id/pop_layout02"
+        android:background="@drawable/pop_content">
+        <TextView android:layout_width="280dp" android:layout_height="wrap_content"
+            android:layout_centerVertical="true" android:layout_marginLeft="20dp"
+            android:typeface="sans" android:lineSpacingExtra="3dp"
+            android:textSize="15dp" android:textColor="#464646" android:id="@+id/pop_tv02"
+            android:text="@string/start02"/>
+    </RelativeLayout>
+    
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_below="@id/pop_layout02" android:id="@+id/pop_layout03"
+         android:background="@drawable/pop_bt01">
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:typeface="sans" android:layout_centerHorizontal="true" 
+            android:layout_marginTop="11dp"
+            android:textSize="15dp" android:textColor="#e62844" android:id="@+id/pop_tv03"/>
+     </RelativeLayout>
+     
+     
+     <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_below="@id/pop_layout02" android:id="@+id/pop_layout04"
+         android:layout_toRightOf="@id/pop_layout03"
+         android:background="@drawable/pop_bt02">
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:typeface="sans" android:layout_centerHorizontal="true" 
+            android:layout_marginTop="11dp"
+            android:textSize="15dp" android:textColor="#e62844" android:id="@+id/pop_tv04"/>
+     </RelativeLayout>
+     
+    </RelativeLayout>
+    
+</RelativeLayout>

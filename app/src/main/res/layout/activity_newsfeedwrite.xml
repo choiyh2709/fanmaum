@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:id="@+id/write_layout01"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/join_navigation">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/newsfeed_tv04"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:typeface="sans"/>
+
+                <TextView
+                    android:id="@+id/write_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="0/1000"
+                    android:textColor="#000000"
+                    android:textSize="12dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/write_layout01"
+                android:background="@drawable/join_bg">
+
+                <specup.fanmind.common.Util.CustomEditText
+                    android:id="@+id/write_et01"
+                    android:layout_width="340dp"
+                    android:layout_height="230dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#00000000"
+                    android:gravity="left|top"
+                    android:hint="@string/newsfeed_tv05"
+                    android:maxLength="1000"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#888888"
+                    android:textSize="15dp"
+                    android:typeface="sans"/>
+
+                <ImageView
+                    android:id="@+id/write_img01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/write_et01"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/line"/>
+
+                <RelativeLayout
+                    android:id="@+id/write_layout02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/write_img01"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn01"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_one"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_one1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn02"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_toRightOf="@id/write_btn01"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_two"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_two1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close02"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn03"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_toRightOf="@id/write_btn02"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_three"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_three1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close03"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/write_layout03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/write_layout02"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn04"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_four"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_four1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close04"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn05"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_toRightOf="@id/write_btn04"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_five"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_five1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close05"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/write_btn06"
+                        android:layout_width="105dp"
+                        android:layout_height="105dp"
+                        android:layout_marginLeft="7.5dp"
+                        android:layout_toRightOf="@id/write_btn05"
+                        android:background="@drawable/newsfeed_img_plus"
+                        android:onClick="onClick">
+
+                        <ImageView
+                            android:id="@+id/write_six"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"/>
+
+                        <Button
+                            android:id="@+id/write_six1"
+                            android:layout_width="104dp"
+                            android:layout_height="104dp"
+                            android:layout_centerInParent="true"
+                            android:background="#00000000"
+                            android:scaleType="centerCrop"
+                            android:visibility="gone"/>
+
+                        <Button
+                            android:id="@+id/write_close06"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/image_delete"
+                            android:onClick="onClick"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/write_upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/write_layout03"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_detailmainbtn01"
+                    android:onClick="onClick"
+                    android:text="@string/upload"
+                    android:textColor="#e82b47"
+                    android:textSize="16dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

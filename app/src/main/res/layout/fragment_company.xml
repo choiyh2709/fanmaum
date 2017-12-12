@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/navigation_bar"
+        >
+
+        <ImageView
+            android:id="@+id/backKey"
+            android:layout_width="32.5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/a1100_1_top_back_normal"
+            android:onClick="onBack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/backKey"
+            android:gravity="center"
+            android:onClick="onBack"
+            android:text="@string/navi_tv02"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textview_titilebar_height"
+            android:typeface="sans"/>
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7.5dp">
+
+                <ImageView
+                    android:id="@+id/bl_img01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list"/>
+
+                <TextView
+                    android:id="@+id/company_tv01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/bl_img01"
+                    android:text="@string/company01"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+
+                <EditText
+                    android:id="@+id/company_et01"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/o1600_textarea01"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp">
+
+                <ImageView
+                    android:id="@+id/bl_img02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list"/>
+
+                <TextView
+                    android:id="@+id/company_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/bl_img02"
+                    android:text="@string/company02"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+
+                <EditText
+                    android:id="@+id/company_et02"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/o1600_textarea01"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp">
+
+                <ImageView
+                    android:id="@+id/bl_img03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list"/>
+
+                <TextView
+                    android:id="@+id/company_tv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/bl_img03"
+                    android:text="@string/company03"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+
+                <EditText
+                    android:id="@+id/company_et03"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/o1600_textarea01"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp">
+
+                <ImageView
+                    android:id="@+id/bl_img04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bl_list"/>
+
+                <TextView
+                    android:id="@+id/company_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toRightOf="@id/bl_img04"
+                    android:text="@string/company04"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+
+                <EditText
+                    android:id="@+id/company_et04"
+                    android:layout_width="255dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/o1600_textarea01"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#333333"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <ImageView
+                        android:id="@+id/bl_img05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/bl_list"/>
+
+                    <TextView
+                        android:id="@+id/company_tv05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_toRightOf="@id/bl_img05"
+                        android:text="@string/company05"
+                        android:textColor="#000000"
+                        android:textSize="13dp"
+                        android:typeface="sans"/>
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/company_et05"
+                    android:layout_width="255dp"
+                    android:layout_height="310dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/o1600_textarea02"
+                    android:gravity="left|top"
+                    android:padding="10dp"
+                    android:textColor="#333333"
+                    android:textSize="13dp"
+                    android:typeface="sans"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/company_btn01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn_detailmainbtn01"
+                android:text="등록"
+                android:textColor="#e82b47"
+                android:textSize="16dp"
+                android:typeface="sans"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

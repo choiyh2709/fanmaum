@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="projectType">
+        <item>모두보기</item>
+        <item>서포트</item>
+        <item>굿즈제작</item>
+    </string-array>
+    <string-array name="sortType">
+          <item>인기순</item>
+          <item>최신순</item>
+          <item>마감임박</item>
+          <item>최다 참여자</item>
+      </string-array>
+
+</resources>

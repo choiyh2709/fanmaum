@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:id="@+id/schadd_layout01"
+        android:background="@drawable/join_navigation">
+        
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="2013.10.07" android:typeface="sans"
+        android:textSize="18dp" android:textColor="#000000"
+        android:layout_centerInParent="true"
+        android:id="@+id/schadd_tv01"/>    
+        
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:id="@+id/schadd_layout02" android:layout_below="@id/schadd_layout01"
+        android:background="@drawable/join_bg">
+    
+            
+         <RelativeLayout android:layout_width="fill_parent" android:layout_height="62dp"
+             android:id="@+id/schadd_layout03">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/schtitle" android:layout_centerVertical="true"
+                android:typeface="sans" android:layout_marginLeft="15dp"
+        		android:textSize="18dp" android:textColor="#000000"
+                android:id="@+id/schadd_tv02"/>
+            
+            <EditText android:layout_width="270dp" android:layout_height="wrap_content"
+                android:layout_centerVertical="true" android:layout_alignParentRight="true"
+                android:background="@drawable/h1200_textarea01"
+                android:layout_marginRight="15dp" android:typeface="sans"
+                android:singleLine="true" android:textColor="#555555"
+                android:textSize="15dp" android:inputType="text"
+                android:maxLines="100"
+                android:paddingLeft="15dp" android:paddingRight="15dp"
+                android:id="@+id/schadd_et01"/>
+            </RelativeLayout>
+            
+      <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/schdetail_img01"
+            android:layout_below="@id/schadd_layout03"
+            android:background="@drawable/line"/>
+     
+      
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="140dp"
+            android:layout_below="@id/schdetail_img01"
+             android:id="@+id/schadd_layout04">
+            
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/begin" android:layout_marginTop="16dp"
+                android:typeface="sans" android:layout_marginLeft="15dp"
+        		android:textSize="18dp" android:textColor="#000000"
+                android:id="@+id/schadd_tv03"/>
+            
+            
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/schadd_layout05" android:layout_marginLeft="75dp"
+               android:layout_marginTop="16dp"
+               android:background="@drawable/data_time">
+               
+               <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/schadd_btn01"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_plus"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/schadd_tv04" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:typeface="sans"
+                   android:text="6"/>
+               
+                  <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/schadd_btn02"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_minus"/>
+               
+          	 </RelativeLayout>
+          	 
+            
+             <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/schadd_layout06" android:layout_marginLeft="20dp"
+               android:layout_marginTop="16dp" android:layout_toRightOf="@id/schadd_layout05"
+               android:background="@drawable/data_time">
+               
+               <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/schadd_btn03"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_plus"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/schadd_tv05" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:typeface="sans"
+                   android:text="32"/>
+               
+                  <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/schadd_btn04"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_minus"/>
+               
+          	 </RelativeLayout>
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/schadd_btn05" android:background="@drawable/h1200_am"
+              android:onClick="onClick" android:layout_centerVertical="true"
+              android:layout_marginRight="23dp"
+              android:layout_alignParentRight="true"/>
+           
+            </RelativeLayout>
+            
+        
+         <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/schdetail_img02"
+            android:layout_below="@id/schadd_layout04"
+            android:background="@drawable/line"/>
+         
+         <RelativeLayout android:layout_width="fill_parent" android:layout_height="140dp"
+            android:layout_below="@id/schdetail_img02"
+             android:id="@+id/schadd_layout07">
+            
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/end" android:layout_marginTop="16dp"
+                android:typeface="sans" android:layout_marginLeft="15dp"
+        		android:textSize="18dp" android:textColor="#000000"
+                android:id="@+id/schadd_tv06"/>
+            
+            
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/schadd_layout08" android:layout_marginLeft="75dp"
+               android:layout_marginTop="16dp"
+               android:background="@drawable/data_time">
+               
+               <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/schadd_btn06"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_plus"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/schadd_tv07" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:typeface="sans"
+                   android:text="6"/>
+               
+                  <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/schadd_btn07"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_minus"/>
+               
+          	 </RelativeLayout>
+          	 
+            
+             <RelativeLayout android:layout_width="wrap_content" android:layout_height="108dp"
+               android:id="@+id/schadd_layout09" android:layout_marginLeft="20dp"
+               android:layout_marginTop="16dp" android:layout_toRightOf="@id/schadd_layout08"
+               android:background="@drawable/data_time">
+               
+               <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginTop="5dp" android:id="@+id/schadd_btn08"
+                   android:onClick="onClick"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_plus"/>
+               
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/schadd_tv08" android:layout_centerInParent="true"
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:typeface="sans"
+                   android:text="32"/>
+               
+                  <ImageButton android:layout_width="75dp" android:layout_height="20dp"
+                   android:layout_marginBottom="5dp" android:id="@+id/schadd_btn09"
+                   android:onClick="onClick" android:layout_alignParentBottom="true"
+                   android:background="#00000000" android:layout_centerHorizontal="true"
+                   android:src="@drawable/data_minus"/>
+               
+          	 </RelativeLayout>
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/schadd_btn10" android:background="@drawable/h1200_am"
+              android:onClick="onClick" android:layout_centerVertical="true"
+              android:layout_marginRight="23dp"
+              android:layout_alignParentRight="true"/>
+           
+            </RelativeLayout>
+         
+           
+         <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/schdetail_img03"
+            android:layout_below="@id/schadd_layout07"
+            android:background="@drawable/line"/>
+         
+         
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:id="@+id/schadd_tv09"  android:layout_below="@id/schdetail_img03"
+                   android:textSize="18dp" android:textColor="#000000"
+                   android:layout_marginLeft="15dp" android:layout_marginTop="16dp"
+                   android:typeface="sans"
+                   android:text="@string/contents"/>
+          
+             <EditText android:layout_width="270dp" android:layout_height="132dp"
+                android:layout_centerVertical="true" android:layout_marginLeft="75dp"
+                android:background="@drawable/h1200_textarea02"
+                android:layout_below="@id/schdetail_img03"
+                android:gravity="top|left"
+                 android:maxLines="200"
+                android:padding="15dp" android:layout_marginTop="16dp"
+                android:typeface="sans" android:textColor="#555555"
+                android:textSize="15dp" android:inputType="text"
+                android:id="@+id/schadd_et02"/>
+            
+             
+             
+         <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/schadd_btn11" android:layout_below="@id/schadd_et02" 
+        android:layout_centerHorizontal="true" android:layout_marginTop="16dp"
+        android:typeface="sans" android:onClick="onClick"
+        android:textSize="16dp" android:textColor="#e82b47"
+        android:background="@drawable/btn_detailmainbtn01"
+        android:text="@string/confirmation"/>
+              
+              
+     	</RelativeLayout>
+     </RelativeLayout>
+            </ScrollView>
+    
+    
+      <!--   <RelativeLayout android:layout_width="fill_parent" android:layout_height="360dp">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp"
+                android:id="@+id/schadd_layout01">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="2013.10.07" android:layout_centerInParent="true"
+                android:id="@+id/schadd_tv01"/>
+            </RelativeLayout>
+            
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:id="@+id/schadd_layout02" android:layout_below="@id/schadd_layout01"
+                android:orientation="vertical">
+             <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="제목" android:layout_centerVertical="true"
+                android:id="@+id/schadd_tv02"/>
+            
+            <EditText android:layout_width="150dp" android:layout_height="wrap_content"
+                android:layout_centerVertical="true" android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:id="@+id/schadd_et01"/>
+            </RelativeLayout>
+            
+             
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="시작" android:layout_centerVertical="true"
+                android:id="@+id/schadd_tv03"/>
+            
+            </RelativeLayout>
+            
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="종료" android:layout_centerVertical="true"
+                android:id="@+id/schadd_tv04"/>
+            
+            </RelativeLayout>
+            
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="내용" android:layout_centerVertical="true"
+                android:id="@+id/schadd_tv05"/>
+            
+             <EditText android:layout_width="150dp" android:layout_height="wrap_content"
+                android:layout_centerVertical="true" android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp" 
+                android:id="@+id/schadd_et02"/>
+            
+            </RelativeLayout>
+            
+            </LinearLayout>
+            
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" android:layout_alignParentBottom="true"
+                android:text="확인" android:id="@+id/schadd_btn01"/>
+            
+        </RelativeLayout> -->
+			
+</RelativeLayout>

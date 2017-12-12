@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#f7f7f7"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/eventdetail_layout01" android:padding="0dp"
+            android:background="@drawable/detail02_basic">
+            
+        <TextView android:layout_width="330dp" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:maxLines="2"
+        android:ellipsize="end"
+        android:text="태연의 26번째 생일!" android:layout_marginTop="20dp"
+        android:textSize="16dp" android:textColor="#000000" android:typeface="sans"
+        android:id="@+id/eventdetail_tv01"/>
+            
+            
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@id/eventdetail_tv01"
+        android:text="@string/listsupport08" android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp" android:textStyle="bold"
+        android:textSize="11dp" android:textColor="#787878" android:typeface="sans"
+        android:id="@+id/eventdetail_tv02"/>
+        
+         <ImageView android:layout_width="wrap_content" android:layout_height="20dp"
+         android:layout_below="@id/eventdetail_tv02"/>
+             
+        </RelativeLayout>   
+           
+      <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+         android:layout_below="@id/eventdetail_layout01" android:layout_centerHorizontal="true"
+         android:background="@drawable/detail02_basic" android:padding="0dip"
+         android:id="@+id/eventdetail_layout02">
+		      
+		            
+		       <LinearLayout android:layout_width="330dp" android:layout_height="200dp"
+		           android:orientation="vertical" android:layout_marginTop="20dp"
+		           android:layout_centerHorizontal="true"
+		           android:id="@+id/eventdetail_imageLayout">
+		       </LinearLayout>
+		       
+		        <TextView android:layout_width="330dp" android:layout_height="wrap_content"
+		        android:text="소원여러분 우리 태연느님" android:layout_marginTop="14dp"
+		        android:layout_centerHorizontal="true" android:textSize="13dp"
+		         android:layout_below="@id/eventdetail_imageLayout"
+		         android:layout_marginBottom="10dp"
+		         android:autoLink="web" android:lineSpacingExtra="5dp"
+		        android:textColor="#000000" android:typeface="sans"
+		        android:id="@+id/eventdetail_tv03"/>
+		        
+		        <ImageView android:layout_width="wrap_content" android:layout_height="10dp"
+		            android:layout_below="@id/eventdetail_tv03"/>
+		        
+       </RelativeLayout>
+      
+         <RelativeLayout
+             android:id="@+id/eventdetail_layout05"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/eventdetail_layout02"
+             android:layout_centerHorizontal="true" >
+
+           <RelativeLayout android:layout_width="wrap_content" android:layout_height="119dp"
+               android:id="@+id/eventdetail_small01"
+               android:background="@drawable/detail_btn01">
+               
+		        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		     	 android:textColor="#e82b47" android:typeface="sans"
+		     	 android:layout_alignParentBottom="true" android:layout_marginBottom="7dp"
+		     	 android:layout_centerHorizontal="true"
+		     	 android:textStyle="bold"  android:text="@string/listsupportdetail02" android:textSize="16dp"
+		     	 android:layout_marginLeft="2dp"
+		     	 android:id="@+id/eventdetail_tv09"/>
+               	
+               
+		        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		     	 android:textSize="14dp" android:layout_centerHorizontal="true"
+		     	 android:textColor="#000000" android:typeface="sans"
+		     	 android:layout_marginBottom="3dp"
+		     	 android:text="@string/listsupportdetail04" 
+		     	 android:layout_above="@id/eventdetail_tv09"
+		     	 android:id="@+id/eventdetail_tv10"/>
+		        
+           </RelativeLayout>
+           
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="119dp"
+              android:id="@+id/eventdetail_small02" android:layout_toRightOf="@id/eventdetail_small01"
+              android:background="@drawable/detail_btn02">
+               
+                
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		     	 android:textColor="#e82b47" android:typeface="sans"
+		     	 android:layout_alignParentBottom="true" android:layout_marginBottom="7dp"
+		     	 android:layout_centerHorizontal="true"
+		     	 android:textStyle="bold"  android:text="@string/listsupport01" android:textSize="16dp"
+		     	 android:layout_marginLeft="2dp"
+		     	 android:id="@+id/eventdetail_tv11"/>
+               
+		        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		     	 android:textSize="14dp" android:layout_centerHorizontal="true"
+		     	 android:textColor="#000000" android:typeface="sans"
+		     	 android:layout_marginBottom="3dp"
+		     	 android:text="@string/listsupportdetail06" 
+		     	 android:layout_above="@id/eventdetail_tv11"
+		     	 android:id="@+id/eventdetail_tv12"/>
+           </RelativeLayout>
+       </RelativeLayout>
+       
+         
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+         android:background="@drawable/detail02_basic" android:padding="0dip" 
+         android:layout_below="@id/eventdetail_layout05" android:layout_centerHorizontal="true"
+         android:id="@+id/eventdetail_layout06">
+            
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:visibility="gone"
+               android:id="@+id/eventdetail_hidelayout01">
+              <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		     	 android:textSize="16dp" android:layout_marginLeft="15dp"
+		     	 android:textColor="#000000" android:typeface="sans"
+		     	 android:text="@string/support_tv01" android:layout_marginTop="15.5dp"
+		     	 android:id="@+id/eventdetail_tv13"/>
+                
+              <ImageView android:layout_width="330dp" android:layout_height="wrap_content"
+                  android:layout_below="@id/eventdetail_tv13" android:id="@+id/eventdetail_img01"
+                  android:layout_centerHorizontal="true" android:layout_marginTop="9dp"
+                  android:background="@drawable/a1100_line"/>
+              
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="25dp"
+                    android:layout_below="@id/eventdetail_img01" android:layout_marginTop="10dp"
+                    android:id="@+id/eventdetail_hidelayout02">
+                    
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp" android:id="@+id/eventdetail_img02"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bl_list"/>
+                    
+                      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" android:layout_marginLeft="2dp"
+				     	 android:textColor="#000000" android:typeface="sans"
+				     	 android:layout_toRightOf="@id/eventdetail_img02"
+				     	 android:text="@string/support_tv08"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv14"/>
+                      
+                       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" 
+				     	 android:textColor="#4f4f4f" android:typeface="sans"
+				     	 android:layout_alignParentRight="true" android:layout_marginRight="25dp"
+				     	 android:text="@string/support_tv02"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv15"/>
+                      
+                       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" 
+				     	 android:textColor="#000000" android:typeface="sans"
+				     	 android:layout_toLeftOf="@id/eventdetail_tv15"
+				     	 android:layout_marginRight="2dp"
+				     	 android:text="@string/support_tv02"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv16"/>
+                </RelativeLayout>
+                
+               <RelativeLayout android:layout_width="fill_parent" android:layout_height="25dp"
+                    android:layout_below="@id/eventdetail_hidelayout02"
+                    android:id="@+id/eventdetail_hidelayout03">
+                       
+                      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp" android:id="@+id/eventdetail_img03"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bl_list"/>
+                    
+                      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" android:layout_marginLeft="2dp"
+				     	 android:textColor="#000000" android:typeface="sans"
+				     	 android:layout_toRightOf="@id/eventdetail_img03"
+				     	 android:text="@string/support_tv04"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv17"/>
+                      
+                       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" 
+				     	 android:textColor="#4f4f4f" android:typeface="sans"
+				     	 android:layout_alignParentRight="true" android:layout_marginRight="25dp"
+				     	 android:text="@string/support_tv02"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv18"/>
+                       
+                       <EditText android:layout_width="175dp" android:layout_height="wrap_content"
+                           android:id="@+id/eventdetail_et02" android:layout_toLeftOf="@id/eventdetail_tv18"
+                           android:layout_marginRight="2dp" android:typeface="sans" android:textSize="16dp"
+                           android:textColor="#e82b47" android:singleLine="true" android:inputType="number"
+                           android:gravity="right" android:paddingLeft="5dp" android:paddingRight="5dp"
+                           android:background="@drawable/a1100_textarea"/>
+                       
+                </RelativeLayout>
+                
+               <ImageView android:layout_width="330dp" android:layout_height="wrap_content"
+                  android:layout_below="@id/eventdetail_hidelayout03" android:id="@+id/eventdetail_img04"
+                  android:layout_centerHorizontal="true" android:layout_marginTop="9dp"
+                  android:background="@drawable/a1100_line"/>
+               
+                  <RelativeLayout android:layout_width="fill_parent" android:layout_height="25dp"
+                    android:layout_below="@id/eventdetail_img04" android:layout_marginTop="10dp"
+                    android:id="@+id/eventdetail_hidelayout04">
+                    
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp" android:id="@+id/eventdetail_img05"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/bl_list"/>
+                    
+                      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" android:layout_marginLeft="2dp"
+				     	 android:textColor="#000000" android:typeface="sans"
+				     	 android:layout_toRightOf="@id/eventdetail_img05"
+				     	 android:text="@string/support_tv03"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv19"/>
+                      
+                       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" 
+				     	 android:textColor="#4f4f4f" android:typeface="sans"
+				     	 android:layout_alignParentRight="true" android:layout_marginRight="25dp"
+				     	 android:text="@string/support_tv02"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv20"/>
+                      
+                       <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				     	 android:textSize="13dp" 
+				     	 android:textColor="#000000" android:typeface="sans"
+				     	 android:layout_toLeftOf="@id/eventdetail_tv20"
+				     	 android:layout_marginRight="2dp"
+				     	 android:text="@string/support_tv02"   android:layout_centerVertical="true"
+				     	 android:id="@+id/eventdetail_tv21"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" android:id="@+id/eventdetail_btn01"
+                android:text="@string/event06" android:textSize="16dp" android:typeface="sans"
+                android:textColor="#e82b47"  android:onClick="onClick"
+                android:layout_marginTop="7.5dp" android:layout_below="@id/eventdetail_hidelayout01"
+                android:background="@drawable/detail_mainbtn01"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="7.5dp"
+                android:layout_below="@id/eventdetail_btn01"/>
+        </RelativeLayout>
+        
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+         android:layout_below="@id/eventdetail_layout06" android:layout_centerHorizontal="true"
+         android:background="@drawable/detail02_basic" android:padding="0dip" 
+         android:id="@+id/eventdetail_layout07">
+          
+            	<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            	    android:layout_alignParentRight="true" android:background="@drawable/r_more"
+            	    android:layout_marginRight="15dp" android:layout_marginTop="5dp"
+            	    android:onClick="onMore"
+            	    android:id="@+id/eventdetail_btn22"/>
+            
+               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				   android:textSize="14dp" 
+				   android:textColor="#000000" android:typeface="sans"
+				   android:layout_marginRight="2dp" android:layout_marginTop="5dp"
+				   android:text="@string/navi_tv05"  android:layout_marginLeft="15dp"
+				   android:id="@+id/eventdetail_tv22"/>
+               
+                <TextView android:layout_width="330dp" android:layout_height="wrap_content"
+				   android:textSize="14dp" android:layout_below="@id/eventdetail_tv22"
+				   android:textColor="#000000" android:typeface="sans"
+				   android:singleLine="true" android:layout_centerHorizontal="true"
+				   android:layout_marginRight="2dp" android:layout_marginTop="5dp"
+				   android:text="주의사항"  
+				   android:id="@+id/eventdetail_tv22_01"/>
+               
+                <ImageView android:layout_width="wrap_content" android:layout_height="7dp"
+                   android:layout_below="@id/eventdetail_tv22_01"
+				   android:id="@+id/eventdetail_warningimg"/>
+        
+        </RelativeLayout>
+        
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+         android:layout_below="@id/eventdetail_layout07" android:layout_centerHorizontal="true"
+         android:id="@+id/eventdetail_layout08">
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/eventdetail_btn03" android:onClick="onLike"
+                android:layout_weight="1"
+                android:background="@drawable/detail_btn06"/>
+            
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/eventdetail_btn04" android:layout_toRightOf="@id/eventdetail_btn03"
+                android:onClick="onReply" android:layout_weight="1"
+                android:background="@drawable/detail_btn04"/>
+         </LinearLayout>
+         
+         <RelativeLayout
+            android:id="@+id/eventdetail_layout09"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventdetail_layout08"
+            android:background="@drawable/detail02_basic"
+            android:padding="0dp"
+            android:layout_centerHorizontal="true" >
+            
+                 <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/likenumber"  android:textSize="14dp" android:layout_marginLeft="15dp"
+		        android:textColor="#000000" android:typeface="sans" android:layout_centerVertical="true"
+		        android:id="@+id/eventdetail_tv06"/>
+               
+               </RelativeLayout>
+               
+          </RelativeLayout>
+       
+    
+</RelativeLayout>

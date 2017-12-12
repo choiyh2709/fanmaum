@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/userPage_width"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textView_slogun"
+    android:layout_centerHorizontal="true"
+    android:background="@null">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iamge_main"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_viewpager_height"
+        android:background="@null"
+        android:scaleType="fitXY"
+        fresco:roundedCornerRadius="5dp" />
+
+
+    <TextView
+        android:id="@+id/textView_projectTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iamge_main"
+        android:layout_toLeftOf="@+id/textview_percent"
+        android:layout_toStartOf="@+id/textview_percent"
+        android:background="#ffffff"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="12dp"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <!--% -->
+    <TextView
+        android:id="@+id/textview_percent"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekbar_projectDetail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/iamge_main"
+        android:background="#ffffff"
+        android:gravity="center_vertical|right"
+        android:paddingRight="5dp"
+        android:paddingLeft="10dp"
+        android:text="@string/listsupport10"
+        android:textColor="#FF0000"
+        android:textSize="12dp"></TextView>
+
+
+    <SeekBar
+        android:id="@+id/seekbar_projectDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/textView_projectTitle"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"
+        android:background="@null"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/styled_progress"
+        android:secondaryProgress="100"
+        android:thumb="@null" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar_projectDetail"
+        android:background="@drawable/a1000_support_card_view_all"
+        android:weightSum="3"
+        android:gravity="center"
+        android:minHeight="59.5dp"
+        android:orientation="horizontal">
+
+        <!--모인마음-->
+        <TextView
+            android:id="@+id/textview_Heart_now"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxWidth="130dp"
+            android:text="@string/maum_value"
+            android:textColor="#000000"
+            android:textSize="12dp"></TextView>
+
+        <!--마감까지-->
+        <!--참여한팬-->
+        <TextView
+            android:id="@+id/textview_Total_attends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="@string/joinFan_value"
+            android:textColor="#000000"
+            android:textSize="12dp"></TextView>
+
+        <TextView
+            android:id="@+id/textView_deadline_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/deadline_value"
+            android:textColor="#000000"
+            android:textSize="12dp"></TextView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

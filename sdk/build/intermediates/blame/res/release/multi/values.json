@@ -1,0 +1,1448 @@
+[
+    {
+        "outputFile": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 69,
+                    "endOffset": 360
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 69,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 365,
+                    "endColumn": 49,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 67,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 67,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 61,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 61,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 68,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 68,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 48,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 48,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 64,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 62,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 62,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endColumn": 59,
+                    "endOffset": 846
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 993,
+                        "endColumn": 59,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 851,
+                    "endColumn": 115,
+                    "endOffset": 962
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 115,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 967,
+                    "endColumn": 119,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 119,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endColumn": 58,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 58,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 91,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 91,
+                        "endOffset": 369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 90,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 90,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 72,
+                    "endOffset": 1397
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 72,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1402,
+                    "endColumn": 70,
+                    "endOffset": 1468
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 70,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1473,
+                    "endColumn": 75,
+                    "endOffset": 1544
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 75,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1549,
+                    "endColumn": 59,
+                    "endOffset": 1604
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 59,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1609,
+                    "endColumn": 50,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endColumn": 50,
+                        "endOffset": 420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 82,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 82,
+                        "endOffset": 988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 63,
+                    "endOffset": 1802
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 63,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1807,
+                    "endColumn": 66,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 66,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1874,
+                    "endColumn": 58,
+                    "endOffset": 1928
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 58,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endColumn": 63,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "C:\\3.2.1fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 69,
+                    "endOffset": 360
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 69,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 365,
+                    "endColumn": 49,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 67,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 67,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 61,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 61,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 68,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 68,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 48,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 48,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 64,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 62,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 62,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endColumn": 59,
+                    "endOffset": 846
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 993,
+                        "endColumn": 59,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 851,
+                    "endColumn": 115,
+                    "endOffset": 962
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 115,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 967,
+                    "endColumn": 119,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 119,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endColumn": 58,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 58,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 91,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 91,
+                        "endOffset": 369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 90,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 90,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 72,
+                    "endOffset": 1397
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 72,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1402,
+                    "endColumn": 70,
+                    "endOffset": 1468
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 70,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1473,
+                    "endColumn": 75,
+                    "endOffset": 1544
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 75,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1549,
+                    "endColumn": 59,
+                    "endOffset": 1604
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 59,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1609,
+                    "endColumn": 50,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endColumn": 50,
+                        "endOffset": 420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 82,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 82,
+                        "endOffset": 988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 63,
+                    "endOffset": 1802
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 63,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1807,
+                    "endColumn": 66,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 66,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1874,
+                    "endColumn": 58,
+                    "endOffset": 1928
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 58,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endColumn": 63,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endLine": 23,
+                        "endColumn": 19,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 295,
+                    "endColumn": 69,
+                    "endOffset": 360
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 164,
+                        "endColumn": 69,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 365,
+                    "endColumn": 49,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 67,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 303,
+                        "endColumn": 67,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 61,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 61,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endColumn": 68,
+                    "endOffset": 609
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 68,
+                        "endOffset": 298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 614,
+                    "endColumn": 48,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 48,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 64,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 64,
+                        "endOffset": 115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 62,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 120,
+                        "endColumn": 62,
+                        "endOffset": 178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endColumn": 59,
+                    "endOffset": 846
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 993,
+                        "endColumn": 59,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 851,
+                    "endColumn": 115,
+                    "endOffset": 962
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 82,
+                        "endColumn": 115,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 967,
+                    "endColumn": 119,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakaolink_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 119,
+                        "endOffset": 313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endColumn": 58,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 58,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 91,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 91,
+                        "endOffset": 369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 90,
+                    "endOffset": 1324
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 90,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1329,
+                    "endColumn": 72,
+                    "endOffset": 1397
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 837,
+                        "endColumn": 72,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1402,
+                    "endColumn": 70,
+                    "endOffset": 1468
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 766,
+                        "endColumn": 70,
+                        "endOffset": 832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1473,
+                    "endColumn": 75,
+                    "endOffset": 1544
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 75,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1549,
+                    "endColumn": 59,
+                    "endOffset": 1604
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 59,
+                        "endOffset": 277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1609,
+                    "endColumn": 50,
+                    "endOffset": 1655
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endColumn": 50,
+                        "endOffset": 420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1660,
+                    "endColumn": 82,
+                    "endOffset": 1738
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 82,
+                        "endOffset": 988
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1743,
+                    "endColumn": 63,
+                    "endOffset": 1802
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 634,
+                        "endColumn": 63,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1807,
+                    "endColumn": 66,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 66,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1874,
+                    "endColumn": 58,
+                    "endOffset": 1928
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 58,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endColumn": 63,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\values\\kakao_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            }
+        ]
+    }
+]

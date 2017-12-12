@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:id="@+id/menu_layout">
+    
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:id="@+id/menu_layout01" android:onClick="onClick"
+            android:background="@drawable/menupop_top">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv01"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="타임라인" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:id="@+id/menu_layout02" android:onClick="onClick" 
+            android:background="@drawable/menupop_middle">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv02"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="뉴스피드" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:id="@+id/menu_layout03" android:onClick="onClick" 
+            android:background="@drawable/menupop_middle">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv03"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="스케쥴" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:id="@+id/menu_layout04" android:onClick="onClick" 
+            android:background="@drawable/menupop_middle">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv04"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="동영상" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+          <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:id="@+id/menu_layout05" android:onClick="onClick" 
+            android:background="@drawable/menupop_middle">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv05"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="이벤트" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+          <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:id="@+id/menu_layout06" android:onClick="onClick" 
+            android:background="@drawable/menupop_bottom">
+             <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/menu_tv06"  android:layout_centerVertical="true"
+            android:typeface="sans" android:text="잠금화면 설정" android:layout_centerInParent="true"
+            android:textSize="15dp" android:textColor="#000000"/>
+        </RelativeLayout>
+        
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>
