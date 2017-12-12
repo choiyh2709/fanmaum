@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="specup.fanmind"
-    android:installLocation="auto">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="specup.fanmind"
+          android:installLocation="auto">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
-    <uses-permission android:name="com.android.vending.billing" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="com.android.vending.billing"/>
 
-    <uses-library android:name="com.google.android.maps" />
+    <uses-library android:name="com.google.android.maps"/>
     <!-- GCM 관련 퍼미션 -->
     <permission
         android:name="specup.fanmind.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
+        android:protectionLevel="signature"/>
 
-    <uses-permission android:name="specup.fanmind.permission.C2D_MESSAGE" />
+    <uses-permission android:name="specup.fanmind.permission.C2D_MESSAGE"/>
     <!-- GCM 받기 -->
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     `
     <!-- GCM을 받으려면 구글 계정 필요 -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <!-- 메시지 받을 때 wake up 하기 위해 -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <!-- 네트워크 접속 권한 -->
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.GET_TASKS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_PROFILE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:name=".common.Util.FanMindApplication"
@@ -50,45 +50,45 @@
             android:configChanges="orientation|keyboard"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.VIEW"/>
 
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
                     android:host="@string/kakaolink_host"
-                    android:scheme="@string/kakao_scheme" />
+                    android:scheme="@string/kakao_scheme"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.VIEW"/>
 
                 <data
                     android:host="fanmaumRun.com"
-                    android:scheme="fanmaumRun" />
+                    android:scheme="fanmaumRun"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
 
         <!-- 로그인 -->
         <activity
             android:name=".main.login.LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <!-- 트위터 용 이메일 받기 화면 -->
         <activity
             android:name=".main.login.IdResistrationEmailNickName"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".StartActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
         <!-- 프로필 보여주기 -->
         <activity
@@ -96,14 +96,14 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="com.fanmaum" />
+                <action android:name="com.fanmaum"/>
 
                 <data
                     android:host="twitterresult.com"
-                    android:scheme="fanmaum3" />
+                    android:scheme="fanmaum3"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
 
@@ -111,7 +111,7 @@
         <activity
             android:name=".left.EventActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"/>
 
         <!-- 이벤트 상세보기 -->
         <activity
@@ -120,14 +120,14 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="com.fanmaum" />
+                <action android:name="com.fanmaum"/>
 
                 <data
                     android:host="twitterresult.com"
-                    android:scheme="fanmaum1" />
+                    android:scheme="fanmaum1"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
         <activity
@@ -135,28 +135,28 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
         <!-- 연예인 추가 -->
         <activity
             android:name=".left.RequestMyFanActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"/>
         <!-- 설정 보기 -->
         <activity
             android:name=".left.SettingActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- &lt;!&ndash; 공지사항 보기 &ndash;&gt; -->
         <activity
             android:name=".left.NoticeActivity2"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".left.NoticeActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".left.NoticeActivityDetail"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 팬마음 알리기 -->
         <activity
@@ -164,87 +164,87 @@
             android:screenOrientation="portrait"
             android:theme="@style/Dialog2">
             <intent-filter tools:ignore="GoogleAppIndexingUrlError">
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.VIEW"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
 
         <!-- 포인트 적립페이지 -->
         <activity
             android:name=".left.BuyPointActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 포인트 구매페이지 -->
         <activity
             android:name=".left.BuyPointActivity2"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".left.BuyPointWeViewActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <!-- 마음적립하러가기 -->
         <activity
             android:name=".left.SaveMindActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 적립내역 상세보기 -->
         <activity
             android:name=".left.MyPointActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 프로필 사진 -->
         <activity
             android:name=".main.setting.lockscreen.LockScreenButtonImageActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <!-- 프로필 사진 -->
         <activity
             android:name=".left.ProjectRegister"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 첫번째 시작시 선택 연예인 팝업 -->
         <activity
             android:name=".FirstStarListActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Dialog2" />
+            android:theme="@style/Dialog2"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 결제웹뷰 -->
         <activity
             android:name=".left.WebViewActivity"
             android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.VIEW"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
 
-                <data android:scheme="fanmaum" />
+                <data android:scheme="fanmaum"/>
             </intent-filter>
         </activity>
         <!-- 가상계좌확인 페이지 -->
         <activity
             android:name=".left.PayAccountCheckActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 웹뷰 끝나고 가상계좌확인 페이지 -->
         <activity
             android:name=".left.PayAccountOneActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 웹뷰 끝나고 가상계좌확인 팝업 -->
         <activity
             android:name=".left.PayAccountCompleteActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 웹뷰 끝나고 휴대폰, 카드 결제완료페이지 -->
         <activity
             android:name=".left.BuyPointCompleteActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- adpopcorn -->
         <activity
@@ -253,25 +253,25 @@
             android:excludeFromRecents="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
         <!-- 플러스락 서비스 추가 -->
         <service
             android:name="com.igaworks.adpopcorn.pluslock.IgawPlusLockService"
             android:label="PlusLock"
-            android:process="com.igaworks.pluslock" />
+            android:process="com.igaworks.pluslock"/>
 
         <receiver android:name="com.igaworks.adpopcorn.pluslock.IgawPlusLockReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_ADDED" />
-                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
 
-                <data android:scheme="package" />
+                <data android:scheme="package"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.USER_PRESENT"/>
             </intent-filter>
         </receiver>
 
@@ -279,61 +279,61 @@
             android:name="com.igaworks.adpopcorn.activity.ApVideoAdActivity"
             android:hardwareAccelerated="true"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
         <activity
             android:name="com.igaworks.adpopcorn.activity.ApOfferWallActivity_NT"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name="com.igaworks.adpopcorn.activity.ApCSActivity_NT"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
 
         <!-- 애드팝콘 설정 -->
         <meta-data
             android:name="igaworks_app_key"
-            android:value="823412307" />
+            android:value="823412307"/>
         <meta-data
             android:name="igaworks_hash_key"
-            android:value="b2091f6f0af64216" />
+            android:value="b2091f6f0af64216"/>
         <meta-data
             android:name="igaworks_market_info"
-            android:value="google" />
+            android:value="google"/>
         <meta-data
             android:name="igaworks_reward_server_type"
-            android:value="server" />
+            android:value="server"/>
 
         <receiver
             android:name="com.igaworks.IgawReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.android.vending.INSTALL_REFERRER" />
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
 
-                <category android:name="specup.fanmind" />
+                <category android:name="specup.fanmind"/>
             </intent-filter>
         </receiver>
 
         <!-- GCM 리시버에서 돌리는 서비스 -->
-        <service android:name=".GCMIntentService" />
+        <service android:name=".GCMIntentService"/>
         <!-- 서비스명 변경하면 안됨 -->
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="@string/kakao_app_key" />
+            android:value="@string/kakao_app_key"/>
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version"/>
         <meta-data
             android:name="com.google.android.gms.analytics.globalConfigResource"
-            android:resource="@xml/global_tracker" />
+            android:resource="@xml/global_tracker"/>
 
         <activity
             android:name=".main.login.LoginActivity2"
@@ -343,14 +343,14 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
-                <action android:name="com.fanmaum" />
+                <action android:name="com.fanmaum"/>
 
                 <data
                     android:host="twitterresult.com"
-                    android:scheme="fanmaum2" />
+                    android:scheme="fanmaum2"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
         <activity
@@ -358,21 +358,21 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectDetailActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="com.fanmaum" />
+                <action android:name="com.fanmaum"/>
 
                 <data
                     android:host="twitterresult.com"
-                    android:scheme="fanmaum" />
+                    android:scheme="fanmaum"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
         <activity
@@ -380,185 +380,185 @@
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectDetailDeliveryImformation"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectDetailDeliveryRule"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectDetailAssistUser"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectDetailAttendFan"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab4.UserPageMyAttendedActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
         <!-- 비번 변경하기 -->
         <activity
             android:name=".left.profile.ChangePwdActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 개인페이지 타유저 -->
         <activity
             android:name=".main.tab4.UserPageActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
         <!-- 개인페이지 본인 -->
         <activity
             android:name=".main.tab4.UserPageActivity2"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 개인페이지 좋아하는 친구 -->
         <activity
             android:name=".main.tab4.UserPageLikeUserActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 연예인 즐겨찾기 -->
         <activity
             android:name=".main.tab3_.ChannelBookmarkActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 연예인 정보 -->
         <activity
             android:name=".main.tab3_.ChannelBookStarInfomation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 프로젝트 후기 리스트 -->
         <activity
             android:name=".main.tab1.ProjectHistoryActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <!-- 프로젝트 결제 -->
         <activity
             android:name=".main.tab0.ProjectPayment"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name=".main.tab0.ProjectPayment2"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".main.tab0.ProjectPayment3"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".left.RankingActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
         <!-- 뉴스피드 디테일 페이지 -->
         <activity
             android:name=".main.tab2_.NewsFeedDetailActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"/>
 
         <!-- 뉴스피드 글쓰기/수정 -->
         <activity
             android:name=".main.tab2_.NewsFeedWriteActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.photoselector.ui.PhotoSelectorActivity"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
         <activity
             android:name="com.photoselector.ui.PhotoPreviewActivity"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
 
         <!-- 뉴스피드 신고,알림 팝업 -->
         <activity
             android:name=".main.tab2_.NewsFeedPopupActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Dialog2" />
+            android:theme="@style/Dialog2"/>
         <activity
             android:name=".main.setting.extra.FanClubActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.extra.CompanyActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <!-- 뉴스피드 수정하기 페이지 -->
         <activity
             android:name=".main.tab2_.NewsFeedWriteInsertActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- 네이버 아이디로 로그인에서 사용하는 액티비티를 등록 -->
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity
             android:name="com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity"
             android:label="OAuth2.0 In-app"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.lockscreen.LockScreenSettingActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.extra.EtcActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.extra.CompanyCoverActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.extra.FanClubCoverActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.setting.extra.LawActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.tab2_.NewsFeedImageActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.tab4.UserPageMyLikeUserActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.tab4.ChangeDeliveryInfomation"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".main.tab1.SelectStarListActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Dialog2" />
+            android:theme="@style/Dialog2"/>
         <!-- 출석체크 팝업 -->
         <activity
             android:name=".DailyActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Dialog2" />
+            android:theme="@style/Dialog2"/>
         <!-- 잠금화면 메뉴 팝업 -->
 
         <activity
             android:name=".lockscreen.LockScreenActivity2"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <!-- facebook -->
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+            android:value="@string/facebook_app_id"/>
 
         <!-- 트위터 패드릭 -->
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="9a7f35443690eaaeeae8a7ee9a72c1e13c4f2328" />
+            android:value="9a7f35443690eaaeeae8a7ee9a72c1e13c4f2328"/>
 
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider1234"
-            android:exported="false" />
+            android:exported="false"/>
 
         <!-- &lt;!&ndash; twitter &ndash;&gt; -->
 
@@ -594,13 +594,16 @@
         <service
             android:name="com.igaworks.adpopcorn.pluslock.IgawPlusLockRestartService"
             android:label="PlusLock"
-            android:process="com.igaworks.pluslock" />
+            android:process="com.igaworks.pluslock"/>
 
-        <activity android:name=".main.tab1.ProjectAllActivity"
+        <activity
+            android:name=".main.tab1.ProjectAllActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".left.AlertDialogStaradd" />
-        <activity android:name=".RightMenuFragment" />
-        <activity android:name=".main.tab0.AlertAddressWebView"></activity>
+        <activity android:name=".left.AlertDialogStaradd"/>
+        <activity android:name=".RightMenuFragment"/>
+        <activity android:name=".main.tab0.AlertAddressWebView"/>
+        <activity android:name=".PermissionCheckActivity">
+        </activity>
     </application>
 
 </manifest>

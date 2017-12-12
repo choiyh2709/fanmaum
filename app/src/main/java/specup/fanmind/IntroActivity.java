@@ -1,5 +1,6 @@
 package specup.fanmind;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -170,7 +171,8 @@ public class IntroActivity extends AppCompatActivity implements OnTask {
 
     private void notGrade() {
         if (FanMindSetting.getAPP_FIRST(IntroActivity.this)) {
-            sendStart();
+            Intent intent = new Intent(IntroActivity.this,PermissionCheckActivity.class);
+            startActivityForResult(intent,100);
         } else {
             if (FanMindSetting.getLOGIN_OK(this)) {
                 mParams = new ArrayList<NameValuePair>();
@@ -183,6 +185,15 @@ public class IntroActivity extends AppCompatActivity implements OnTask {
         }
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == 100){
+            if(resultCode == Activity.RESULT_OK){
+                sendStart();
+            }
+        }
+    }
 
     private void sendStart() {
         new Handler().postDelayed(new Runnable() {

@@ -41,7 +41,6 @@ import specup.fanmind.common.http.OnTask;
 import specup.fanmind.common.http.URLAddress;
 import specup.fanmind.fanmindsetting.FanMindSetting;
 import specup.fanmind.left.profile.ProfileActivity;
-import specup.fanmind.main.login.LoginActivity2;
 import specup.fanmind.main.setting.extra.CompanyCoverActivity;
 import specup.fanmind.main.setting.extra.EtcActivity;
 import specup.fanmind.main.setting.extra.FanClubCoverActivity;
