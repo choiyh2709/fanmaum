@@ -1574,14 +1574,14 @@
     <string name="my_info">My Info</string>
     <string name="profile_setting">Profile Setting</string>
     <string name="no_support"><![CDATA[We have no Support Project for celeb!<br><font color="#e62844">Create a support project first<br>and start supporting celeb</font>!]]></string>
-    <string name="no_support_btn">서포트 개설하기</string>
+    <string name="no_support_btn">Open a Support Project</string>
 
-    <string name="fanmaum_permission_check">팬마음 권한 체크</string>
-    <string name="fanmaum_permission_text">※ 원할한 서비스 이용을 위해 권한을 허용해주세요!</string>
-    <string name="permission_storage">저장공간</string>
-    <string name="permission_call">전화</string>
-    <string name="permission_contacts">주소록</string>
-    <string name="permission_storage_text">사진을 다운받을 때 필요합니다</string>
-    <string name="permission_call_text">포인트 적립에 필요합니다</string>
-    <string name="permission_contacts_text">서포트를 공유할 때 필요합니다</string>
+    <string name="fanmaum_permission_check">Asking for Permission</string>
+    <string name="fanmaum_permission_text">※ Please allow Fanmaum to access below</string>
+    <string name="permission_storage">Memory</string>
+    <string name="permission_call">Phone</string>
+    <string name="permission_contacts">Contact</string>
+    <string name="permission_storage_text">need in saving images</string>
+    <string name="permission_call_text">need in earning points</string>
+    <string name="permission_contacts_text">need in sharing support projects</string>
 </resources>

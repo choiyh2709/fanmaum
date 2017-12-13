@@ -1575,5 +1575,15 @@
     <string name="my_info">내 정보 보기</string>
     <string name="profile_setting">프로필 설정</string>
     <string name="no_support"><![CDATA[아직 celeb의 서포트가 없어요!<br><font color="#e62844">제일 먼저 서포트를 개설하고<br>celeb의 응원을 시작</font>하세요!]]></string>
+    <string name="no_support_btn">서포트 개설하기</string>
+
+    <string name="fanmaum_permission_check">팬마음 권한 체크</string>
+    <string name="fanmaum_permission_text">※ 원할한 서비스 이용을 위해 권한을 허용해주세요!</string>
+    <string name="permission_storage">저장공간</string>
+    <string name="permission_call">전화</string>
+    <string name="permission_contacts">주소록</string>
+    <string name="permission_storage_text">사진을 다운받을 때 필요합니다</string>
+    <string name="permission_call_text">포인트 적립에 필요합니다</string>
+    <string name="permission_contacts_text">서포트를 공유할 때 필요합니다</string>
 
 </resources>

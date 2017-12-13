@@ -1532,4 +1532,14 @@
     <string name="my_info">查看我的信息</string>
     <string name="profile_setting">个人设定</string>
     <string name="no_support"><![CDATA[目前没有[celeb]的应援活动！<br><font color="#e62844">第一时间发起活动]<br>，就支持[</font>你喜欢的偶像吧!]]></string>
+    <string name="no_support_btn">发起应援活动</string>
+
+    <string name="fanmaum_permission_check">查看粉丝爱权限</string>
+    <string name="fanmaum_permission_text">※ 为了更方便的利用服务请同意该权限</string>
+    <string name="permission_storage">存储空间</string>
+    <string name="permission_call">电话</string>
+    <string name="permission_contacts">目录</string>
+    <string name="permission_storage_text">下载图片时需要</string>
+    <string name="permission_call_text">累积积分需要</string>
+    <string name="permission_contacts_text">分享应援活动需要</string>
 </resources>
