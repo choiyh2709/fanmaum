@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
@@ -171,8 +173,12 @@ public class IntroActivity extends AppCompatActivity implements OnTask {
 
     private void notGrade() {
         if (FanMindSetting.getAPP_FIRST(IntroActivity.this)) {
-            Intent intent = new Intent(IntroActivity.this,PermissionCheckActivity.class);
-            startActivityForResult(intent,100);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && ContextCompat.checkSelfPermission(IntroActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                Intent intent = new Intent(IntroActivity.this, PermissionCheckActivity.class);
+                startActivityForResult(intent, 100);
+            }else {
+                sendStart();
+            }
         } else {
             if (FanMindSetting.getLOGIN_OK(this)) {
                 mParams = new ArrayList<NameValuePair>();

@@ -14,10 +14,8 @@ import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
 import android.telephony.TelephonyManager;
@@ -35,10 +33,6 @@ import android.widget.Toast;
 import com.facebook.CallbackManager;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
-import com.igaworks.IgawCommon;
-import com.igaworks.adpopcorn.pluslock.IgawPlusLock;
-import com.igaworks.adpopcorn.pluslock.model.ResultModel;
-import com.igaworks.adpopcorn.pluslock.net.IPlusLockResultCallback;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -321,17 +315,6 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
 //                Utils.setSnackBar(getActivity(),getString());
             }
 
-        }  //허용의 경우
-        else if (requestCode == REQUEST_READ_CONTACTS2 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(getActivity());
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(getActivity(), true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(getActivity(), false, iplusLockResultCallback);
-            }
-        } else {
-            // 실행 할 코드
-            Utils.setToast(getActivity(), getString(R.string.request_permission));
         }
     }
 
@@ -459,7 +442,6 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
 
 
     private void setFanMindSetting(String result) {
-        checkPermission();
         FanMindSetting.setLOGIN_OK(getActivity(), true);
         FanMindSetting.setAPP_FIRST(getActivity(), false);
         FanMindSetting.setSESSION_KEY(getActivity(), getJsonData1(result));
@@ -854,53 +836,4 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
             }.start();
         }
     }
-
-    /***********************************************
-     * pluslock
-     ************************************************/
-    private static final int REQUEST_READ_CONTACTS2 = 1;
-    boolean isActivePlusLockScreen;
-
-    IPlusLockResultCallback iplusLockResultCallback = new IPlusLockResultCallback() {
-        @Override
-        public void onResult(ResultModel rm) {
-
-            if (rm != null && rm.isResult()) { //서버에 요청한 결과가 true인 경우에 결과 처리
-                if (isActivePlusLockScreen) {// On 시도가 성공한 경우, 서비스 시작.
-                    IgawPlusLock.startLockScreenService(getActivity());
-                    IgawPlusLock.setFlagDismissKeyguard(getActivity(), false);
-                } else { // OFF 시도가 성공한 경우, 서비스 종료.
-                    IgawPlusLock.stopLockScreenService(getActivity());
-                    IgawPlusLock.setFlagDismissKeyguard(getActivity(), true);
-                }
-            } else {
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(getActivity(), true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(getActivity(), false, iplusLockResultCallback);
-                }
-            }
-        }
-    };
-
-
-    public void checkPermission() {
-        FanMindSetting.setLOCKSCREEN(getActivity(), true);
-        IgawCommon.setUserId(FanMindSetting.getSESSION_KEY(getActivity()));
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
-                ContextCompat.checkSelfPermission(getActivity(), android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(getActivity(), new String[]{android.Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_READ_CONTACTS2);
-
-        } else {
-
-            isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(getActivity());
-
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(getActivity(), true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(getActivity(), false, iplusLockResultCallback);
-            }
-        }
-    }
-
 }

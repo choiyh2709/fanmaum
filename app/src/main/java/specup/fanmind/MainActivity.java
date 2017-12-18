@@ -1,18 +1,12 @@
 package specup.fanmind;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Process;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -35,9 +29,6 @@ import com.facebook.common.memory.MemoryTrimmableRegistry;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.facebook.imagepipeline.core.ImagePipelineConfig;
 import com.igaworks.IgawCommon;
-import com.igaworks.adpopcorn.pluslock.IgawPlusLock;
-import com.igaworks.adpopcorn.pluslock.model.ResultModel;
-import com.igaworks.adpopcorn.pluslock.net.IPlusLockResultCallback;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
@@ -50,8 +41,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import specup.fanmind.adapter.ProjectListAdapter;
-import specup.fanmind.common.Util.ActivityManager;
 import specup.fanmind.common.Util.Utils;
 import specup.fanmind.common.http.HttpRequest;
 import specup.fanmind.common.http.OnTask;
@@ -78,7 +67,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static MainActivity mMainActivity;
     private Toolbar toolbar;
     public static TextView mtitle_main;
-    private static final int REQUEST_READ_CONTACTS = 0;
     ActionBarDrawerToggle toggle;
     DrawerLayout drawer;
     protected List<Fragment> fragments;
@@ -87,7 +75,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onResume() {
         getNetwork();
         IgawCommon.startSession(MainActivity.this);
-        checkPermission();
         getCheckMemberAttend();
         super.onResume();
     }
@@ -121,38 +108,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         app_firstcheck(); // 최초 실행시 연예인 선택
     }
 
-    boolean isActivePlusLockScreen;
-
-    public void checkPermission() {
-        if (FanMindSetting.getLOGIN_OK(MainActivity.this)) {//로그인 완료 일 경우만 작동
-            if (!FanMindSetting.getLOGIN_FIRST(MainActivity.this)) {//첫로그인
-                FanMindSetting.setLOGIN_FIRST(MainActivity.this, true);
-                FanMindSetting.setLOCKSCREEN(MainActivity.this, true);
-                IgawCommon.setUserId(FanMindSetting.getSESSION_KEY(MainActivity.this));
-            }
-
-        } else {
-            FanMindSetting.setLOCKSCREEN(MainActivity.this, false);
-        }
-
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
-                ContextCompat.checkSelfPermission(MainActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.READ_PHONE_STATE, android.Manifest.permission.READ_EXTERNAL_STORAGE}, REQUEST_READ_CONTACTS);
-        } else {
-
-            isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(MainActivity.this);
-
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(MainActivity.this, true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(MainActivity.this, false, iplusLockResultCallback);
-            }
-        }
-
-    }
-
-
     public void app_firstcheck() {
 
         if (IntroActivity.app_first.equals("Y")) {
@@ -161,46 +116,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             IntroActivity.app_first = "N";
         }else {
             setMainViewPager();
-        }
-    }
-
-    IPlusLockResultCallback iplusLockResultCallback = new IPlusLockResultCallback() {
-        @Override
-        public void onResult(ResultModel rm) {
-
-            if (rm != null && rm.isResult()) { //서버에 요청한 결과가 true인 경우에 결과 처리
-                if (isActivePlusLockScreen) {// On 시도가 성공한 경우, 서비스 시작.
-                    IgawPlusLock.startLockScreenService(MainActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(MainActivity.this, false);
-                } else { // OFF 시도가 성공한 경우, 서비스 종료.
-                    IgawPlusLock.stopLockScreenService(MainActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(MainActivity.this, true);
-                }
-            } else {
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(MainActivity.this, true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(MainActivity.this, false, iplusLockResultCallback);
-                }
-            }
-        }
-    };
-
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
-                                           @NonNull int[] grantResults) {
-        //허용의 경우
-        if (requestCode == REQUEST_READ_CONTACTS && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(MainActivity.this);
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(MainActivity.this, true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(MainActivity.this, false, iplusLockResultCallback);
-            }
-        } else {
-            // 실행 할 코드
-            Utils.setToast(MainActivity.this, getString(R.string.request_permission));
         }
     }
 

@@ -29,7 +29,6 @@
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.GET_TASKS"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
@@ -41,7 +40,6 @@
         android:icon="@drawable/ic_fanmind"
         android:killAfterRestore="true"
         android:label="@string/app_name"
-        android:largeHeap="true"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -246,35 +244,6 @@
             android:name=".left.BuyPointCompleteActivity"
             android:screenOrientation="portrait"/>
 
-        <!-- adpopcorn -->
-        <activity
-            android:name="com.igaworks.adpopcorn.pluslock.activity.PlusLockActivity"
-            android:configChanges="orientation|screenSize"
-            android:excludeFromRecents="true"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar"/>
-        <!-- 플러스락 서비스 추가 -->
-        <service
-            android:name="com.igaworks.adpopcorn.pluslock.IgawPlusLockService"
-            android:label="PlusLock"
-            android:process="com.igaworks.pluslock"/>
-
-        <receiver android:name="com.igaworks.adpopcorn.pluslock.IgawPlusLockReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.PACKAGE_ADDED"/>
-                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
-
-                <data android:scheme="package"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.USER_PRESENT"/>
-            </intent-filter>
-        </receiver>
-
         <activity
             android:name="com.igaworks.adpopcorn.activity.ApVideoAdActivity"
             android:hardwareAccelerated="true"
@@ -284,10 +253,6 @@
             android:name="com.igaworks.adpopcorn.activity.ApOfferWallActivity_NT"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <activity
-            android:name="com.igaworks.adpopcorn.activity.ApCSActivity_NT"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar"/>
 
         <!-- 애드팝콘 설정 -->
         <meta-data

@@ -138,6 +138,7 @@
 
                 <!--잠금화면 설정-->
                 <RelativeLayout
+                    android:visibility="gone"
                     android:id="@+id/setting_layout02"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

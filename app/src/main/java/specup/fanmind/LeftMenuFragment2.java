@@ -23,9 +23,6 @@ import android.widget.TextView;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
-import com.igaworks.adpopcorn.pluslock.IgawPlusLock;
-import com.igaworks.adpopcorn.pluslock.model.ResultModel;
-import com.igaworks.adpopcorn.pluslock.net.IPlusLockResultCallback;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import org.apache.http.NameValuePair;
@@ -392,12 +389,6 @@ public class LeftMenuFragment2 extends Fragment implements OnTask {
             } else {
 
                 isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(getActivity());
-
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(getActivity(), true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(getActivity(), false, iplusLockResultCallback);
-                }
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -443,28 +434,6 @@ public class LeftMenuFragment2 extends Fragment implements OnTask {
 
         );
     }
-
-    IPlusLockResultCallback iplusLockResultCallback = new IPlusLockResultCallback() {
-        @Override
-        public void onResult(ResultModel rm) {
-
-            if (rm != null && rm.isResult()) { //서버에 요청한 결과가 true인 경우에 결과 처리
-                if (isActivePlusLockScreen) {// On 시도가 성공한 경우, 서비스 시작.
-                    IgawPlusLock.startLockScreenService(getActivity());
-                    IgawPlusLock.setFlagDismissKeyguard(getActivity(), false);
-                } else { // OFF 시도가 성공한 경우, 서비스 종료.
-                    IgawPlusLock.stopLockScreenService(getActivity());
-                    IgawPlusLock.setFlagDismissKeyguard(getActivity(), true);
-                }
-            } else {
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(getActivity(), true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(getActivity(), false, iplusLockResultCallback);
-                }
-            }
-        }
-    };
 
     private void checkSskey() {
         if (FanMindSetting.getLOGIN_OK(getActivity())) {

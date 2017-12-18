@@ -10,9 +10,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 
 import com.igaworks.IgawCommon;
-import com.igaworks.adpopcorn.pluslock.IgawPlusLock;
-import com.igaworks.adpopcorn.pluslock.model.ResultModel;
-import com.igaworks.adpopcorn.pluslock.net.IPlusLockResultCallback;
 
 import specup.fanmind.R;
 import specup.fanmind.common.Util.ActivityManager;
@@ -76,31 +73,6 @@ public class LockScreenSettingActivity extends Activity {
 //		mBtn[2].setOnClickListener(mClick);
     }
 
-    /***********************************************
-     * pluslock
-     ************************************************/
-    IPlusLockResultCallback iplusLockResultCallback = new IPlusLockResultCallback() {
-        @Override
-        public void onResult(ResultModel rm) {
-
-            if (rm != null && rm.isResult()) { //서버에 요청한 결과가 true인 경우에 결과 처리
-                if (isActivePlusLockScreen) {// On 시도가 성공한 경우, 서비스 시작.
-                    IgawPlusLock.startLockScreenService(LockScreenSettingActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(LockScreenSettingActivity.this, false);
-                } else { // OFF 시도가 성공한 경우, 서비스 종료.
-                    IgawPlusLock.stopLockScreenService(LockScreenSettingActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(LockScreenSettingActivity.this, true);
-                }
-            } else {
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(LockScreenSettingActivity.this, true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(LockScreenSettingActivity.this, false, iplusLockResultCallback);
-                }
-            }
-        }
-    };
-
     OnClickListener mClick = new OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -111,11 +83,6 @@ public class LockScreenSettingActivity extends Activity {
                         isActivePlusLockScreen = !isActivePlusLockScreen;
                         setLockScreen(mBtn[0], isActivePlusLockScreen);
                         FanMindSetting.setLOCKSCREEN(LockScreenSettingActivity.this, isActivePlusLockScreen);
-                        if (isActivePlusLockScreen) {
-                            IgawPlusLock.activateLockScreen(LockScreenSettingActivity.this, true, iplusLockResultCallback);
-                        } else {
-                            IgawPlusLock.activateLockScreen(LockScreenSettingActivity.this, false, iplusLockResultCallback);
-                        }
                     } else {
                         Utils.showDialog(LockScreenSettingActivity.this);
                     }

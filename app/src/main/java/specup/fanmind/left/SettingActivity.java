@@ -17,9 +17,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.igaworks.IgawCommon;
-import com.igaworks.adpopcorn.pluslock.IgawPlusLock;
-import com.igaworks.adpopcorn.pluslock.model.ResultModel;
-import com.igaworks.adpopcorn.pluslock.net.IPlusLockResultCallback;
 
 import org.apache.http.NameValuePair;
 import org.json.JSONException;
@@ -309,39 +306,11 @@ public class SettingActivity extends Activity implements OnTask {
                                            @NonNull int[] grantResults) {
         if (requestCode == REQUEST_READ_CONTACTS && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(SettingActivity.this);
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(SettingActivity.this, true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(SettingActivity.this, false, iplusLockResultCallback);
-            }
         } else {
             // 실행 할 코드
             Utils.setToast(SettingActivity.this, getString(R.string.request_permission));
         }
     }
-
-
-    IPlusLockResultCallback iplusLockResultCallback = new IPlusLockResultCallback() {
-        @Override
-        public void onResult(ResultModel rm) {
-
-            if (rm != null && rm.isResult()) { //서버에 요청한 결과가 true인 경우에 결과 처리
-                if (isActivePlusLockScreen) {// On 시도가 성공한 경우, 서비스 시작.
-                    IgawPlusLock.startLockScreenService(SettingActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(SettingActivity.this, false);
-                } else { // OFF 시도가 성공한 경우, 서비스 종료.
-                    IgawPlusLock.stopLockScreenService(SettingActivity.this);
-                    IgawPlusLock.setFlagDismissKeyguard(SettingActivity.this, true);
-                }
-            } else {
-                if (isActivePlusLockScreen) {
-                    IgawPlusLock.activateLockScreen(SettingActivity.this, true, iplusLockResultCallback);
-                } else {
-                    IgawPlusLock.activateLockScreen(SettingActivity.this, false, iplusLockResultCallback);
-                }
-            }
-        }
-    };
 
 
     public void checkPermission() {
@@ -354,11 +323,6 @@ public class SettingActivity extends Activity implements OnTask {
 
             isActivePlusLockScreen = FanMindSetting.getLOCKSCREEN(SettingActivity.this);
 
-            if (isActivePlusLockScreen) {
-                IgawPlusLock.activateLockScreen(SettingActivity.this, true, iplusLockResultCallback);
-            } else {
-                IgawPlusLock.activateLockScreen(SettingActivity.this, false, iplusLockResultCallback);
-            }
         }
     }
 
