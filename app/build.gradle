@@ -15,8 +15,8 @@ android {
         applicationId "specup.fanmind"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 582
-        versionName "3.2.6"
+        versionCode 583
+        versionName "3.2.7"
         multiDexEnabled true
     }
     packagingOptions {
