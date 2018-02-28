@@ -10,10 +10,8 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.widget.AdapterView;
 import android.widget.Button;
 
@@ -28,13 +26,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import specup.fanmind.MainActivity;
 import specup.fanmind.R;
 import specup.fanmind.adapter.MyRecyclerAdapter;
 import specup.fanmind.adapter.Newsfeed_AllAdapter;
-import specup.fanmind.adapter.Newsfeed_top10Adapter;
 import specup.fanmind.common.Util.EndlessRecyclerOnScrollListener;
-import specup.fanmind.common.Util.HorizontalListView;
 import specup.fanmind.common.Util.RecycleUtils;
 import specup.fanmind.common.Util.RecyclerItemClickListener;
 import specup.fanmind.common.Util.ResultInterface;
@@ -162,7 +157,9 @@ public class NewsFeedFragment extends Fragment {
         page = 0;
         //beforeScrollBottom = 0;
         if (myRecyclerAdapter != null) {
-            newsfeedList.clear();
+            if(newsfeedList != null) {
+                newsfeedList.clear();
+            }
             myRecyclerAdapter.notifyDataSetChanged();
             myRecyclerAdapter = null;
         }
