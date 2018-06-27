@@ -1,26 +1,34 @@
 [
     {
-        "merged": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
-        "source": "C:\\3.2.1fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/sdk/build/intermediates/res/merged/debug/layout/kakao_internal_login_activity.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/sdk/res/layout/kakao_internal_login_activity.xml"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\sdk\\res\\layout\\kakao_login_layout.xml"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
-        "source": "C:\\3.2.1fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/sdk/build/intermediates/res/merged/debug/layout/kakao_login_layout.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/sdk/res/layout/kakao_login_layout.xml"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\sdk\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\sdk\\res\\layout\\kakao_internal_login_activity.xml"
     }
 ]

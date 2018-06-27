@@ -28,6 +28,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.CallbackManager;
@@ -54,6 +55,8 @@ import specup.fanmind.common.http.OnTask;
 import specup.fanmind.common.http.URLAddress;
 import specup.fanmind.fanmindsetting.FanMindSetting;
 import specup.fanmind.fanmindsetting.StarSetting;
+import specup.fanmind.left.SettingActivity;
+import specup.fanmind.main.setting.extra.LawActivity;
 import twitter4j.auth.AccessToken;
 
 import static android.Manifest.permission.READ_CONTACTS;
@@ -83,6 +86,7 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
     private EditText mNickName, mPasswordView, mPasswordComform;
     private Button mEmailSignInButton;
 
+    private TextView mCopyright;
 
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -209,6 +213,9 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
         if (!Utils.getLanquageLocal(getActivity()).equals("ko_KR")) {
             mButton_login_naver.setVisibility(View.GONE);
         }
+
+        mCopyright = (TextView) view.findViewById(R.id.tv_copyright_going);
+        mCopyright.setOnClickListener(onClick);
     }
 
 
@@ -781,6 +788,14 @@ public class IdResistrationFragment extends Fragment implements LoaderManager.Lo
                  */
                 case R.id.button_twitter: {
                     OAuthID.twitter_login(getActivity(), OAuthID.LOGIN_PAGE);
+                }
+                break;
+
+                /**
+                 * 운영정책 보기
+                 */
+                case R.id.tv_copyright_going: {
+                    startActivity(new Intent(getActivity(), LawActivity.class));
                 }
                 break;
             }

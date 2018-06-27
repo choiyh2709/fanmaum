@@ -1536,9 +1536,9 @@
 
     <string name="fanmaum_permission_check">查看粉丝爱权限</string>
     <string name="fanmaum_permission_text">※ 为了更方便的利用服务请同意该权限</string>
-    <string name="permission_storage">存储空间</string>
-    <string name="permission_call">电话</string>
-    <string name="permission_contacts">目录</string>
+    <string name="permission_storage">(必須)存储空间</string>
+    <string name="permission_call">(必須)电话</string>
+    <string name="permission_contacts">(必須)目录</string>
     <string name="permission_storage_text">下载图片时需要</string>
     <string name="permission_call_text">累积积分需要</string>
     <string name="permission_contacts_text">分享应援活动需要</string>

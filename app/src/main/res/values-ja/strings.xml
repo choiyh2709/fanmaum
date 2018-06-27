@@ -1559,9 +1559,9 @@
 
     <string name="fanmaum_permission_check">ファンの心の権限チェック</string>
     <string name="fanmaum_permission_text">※円滑なサービス利用のための権限を許可してください！</string>
-    <string name="permission_storage">ストレージ</string>
-    <string name="permission_call">電話</string>
-    <string name="permission_contacts">アドレス帳</string>
+    <string name="permission_storage">(必須)ストレージ</string>
+    <string name="permission_call">(必須)電話</string>
+    <string name="permission_contacts">(必須)アドレス帳</string>
     <string name="permission_storage_text">写真をダウンロードすることに必要です</string>
     <string name="permission_call_text">ポイント獲得に必要になります</string>
     <string name="permission_contacts_text">サポートを共有するときに必要になります</string>

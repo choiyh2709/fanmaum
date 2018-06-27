@@ -1,242 +1,322 @@
 [
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_title_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_title_pressed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_album_border.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_album_border.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_title_btn_back.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_title_btn_back.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_dark.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_title_btn_back.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_title_btn_back.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_back_arrow_white_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_back_arrow_white_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_dark_translucent.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_dark_translucent.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_spinner_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_spinner_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_title.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_title.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_picture_loading.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_picture_loading.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_pressed.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_back_arrow_white_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_title_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_title_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_camera_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_camera_pressed.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_picture_loadfailed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_picture_loadfailed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_normal.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_checkbox_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_checkbox_pressed.png"
     },
     {
-        "merged": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
-        "source": "C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_loading_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_loading_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
-        "source": "C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_loading_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_loading_white.png"
     },
     {
-        "merged": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
-        "source": "C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loadfailed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loadfailed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_grey_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_grey_dark.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_camera_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_camera_normal.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_spinner_white.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_spinner_white.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_normal.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_back_arrow_white_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_back_arrow_white_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bg_grey_dark.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bg_grey_dark.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_choice_green.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_choice_green.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_checkbox_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_checkbox_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_checkbox_normal.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/photoSelector/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_checkbox_normal.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_choice_green.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_choice_green.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_dark_translucent.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_dark_translucent.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_picture_loading.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_picture_loading.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_camera_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\3.2.1fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_camera_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_title_pressed.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_title_pressed.png"
+    },
+    {
+        "merged": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bg_album_border.png",
+        "source": "/Users/younghwa/StudioProjects/fanmaum/C:\\fanmaum-mobile-android-master\\fanmaum-mobile-android-master\\fanmain\\photoSelector\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bg_album_border.png"
     }
 ]

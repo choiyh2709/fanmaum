@@ -1578,9 +1578,9 @@
 
     <string name="fanmaum_permission_check">Asking for Permission</string>
     <string name="fanmaum_permission_text">※ Please allow Fanmaum to access below</string>
-    <string name="permission_storage">Memory</string>
-    <string name="permission_call">Phone</string>
-    <string name="permission_contacts">Contact</string>
+    <string name="permission_storage">(Necessary)Memory</string>
+    <string name="permission_call">(Necessary)Phone</string>
+    <string name="permission_contacts">(Necessary)Contact</string>
     <string name="permission_storage_text">need in saving images</string>
     <string name="permission_call_text">need in earning points</string>
     <string name="permission_contacts_text">need in sharing support projects</string>
